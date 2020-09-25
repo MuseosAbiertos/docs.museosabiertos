@@ -1,5 +1,6 @@
 ---
 title: 'Datos Vinculados para Bibliotecas, Archivos y Museos [en Español]'
+menu: ' Datos Vinculados'
 ---
 
 ## Como limpiar, vincular y publicar tus metadatos
