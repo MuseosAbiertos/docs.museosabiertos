@@ -1,7 +1,8 @@
 ---
-title: 'OCR + traducción'
+title: 'OCR + Traducción'
 taxonomy:
-    category: docs
+    category:
+        - docs
 textsize:
     scale: ''
     modifier: '1'
