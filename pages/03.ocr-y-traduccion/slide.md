@@ -1,5 +1,14 @@
 ---
 title: 'OCR + traducción'
+style:
+    justify-content: ''
+    align-items: ''
+class: ''
+footer: ''
+presentation:
+    content: ''
+    parser: ''
+    styles: ''
 ---
 
 #### Tips para escanear o fotografiar
