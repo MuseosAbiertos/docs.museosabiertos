@@ -56,6 +56,7 @@ Para obtener un buen resultado con Scan Tailor y minimizar los errores en el pro
 * Si no puedes usar TIFF, escanea a PNG; se garantiza el uso de algoritmos de compresión sin pérdida o, en casos extremos, a BMP (el tamaño del archivo no estará comprimido y, por lo tanto, será enorme, y preferiblemente debe convertirse a un formato que use compresión sin pérdida).
 * Evita el modo de escaneo "Documento" y, en general, intenta desactivar todas las opciones para mejorar los escaneos.
 * Siempre haz una prueba con un grupo de imágenes, de modo de poder optimizar el flujo al resultado final. Por ejemplo, Escanea/fotografía con diferentes calidades y busca aquella que sea la mínima calidad aceptable para Scan Tailor, de modo de no tener que procesar imágenes muy grandes, innecesariamente.
+
 ===
 
 ## Otros Manuales
