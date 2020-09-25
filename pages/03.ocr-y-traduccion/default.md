@@ -2,11 +2,6 @@
 title: 'OCR y traducción'
 ---
 
----
-title: 'Otro manual de “Cómo escanear y traducir un libro” con el terminal'
-menu: 'OCR + Translate'
----
-
 #### Tips para escanear o fotografiar
 
 Para obtener un buen resultado con Scan Tailor y minimizar los errores en el procesamiento automático, siga estas reglas al escanear:
