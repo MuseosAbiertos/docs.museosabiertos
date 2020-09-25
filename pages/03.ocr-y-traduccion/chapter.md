@@ -1,6 +1,17 @@
 ---
 title: 'OCR + traducción'
+textsize:
+    scale: ''
+    modifier: '1'
 style:
+    header-font-family: ''
+    header-color: ''
+    block-font-family: ''
+    block-color: ''
+    background-color: ''
+    background-image: ''
+    background-size: ''
+    background-repeat: ''
     justify-content: ''
     align-items: ''
 class: ''
