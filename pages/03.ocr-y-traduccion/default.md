@@ -1,5 +1,5 @@
 ---
-title: 'OCR y traducción'
+title: 'OCR + traducción'
 ---
 
 #### Tips para escanear o fotografiar
