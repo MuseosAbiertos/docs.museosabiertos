@@ -1,5 +1,5 @@
 ---
-title: 'Datos Vinculados para Bibliotecas, Archivos y Museos [en Español]'
+title: 'Datos Vinculados para Archivos, Bibliotecas y Museos'
 menu: ' Datos Vinculados'
 ---
 
