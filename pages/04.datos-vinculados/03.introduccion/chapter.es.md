@@ -6,6 +6,7 @@ taxonomy:
 
 # Introducción
 
+
 ### Metadatos en la encrucijada
 ### Definición y alcance de los conceptos clave
 ### Posición y originalidad del manual
