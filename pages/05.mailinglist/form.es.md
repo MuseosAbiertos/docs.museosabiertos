@@ -2,6 +2,7 @@
 title: Mailinglist
 jscomments:
     provider: disqus
+twig_first: true
 ---
 
 form:
@@ -55,6 +56,7 @@ form:
             body: "{% include 'forms/data.html.twig' %}"
         message: Thank you for getting in touch!
         display: thankyou
+        
 ---
 
 # Contact form
