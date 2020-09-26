@@ -4,8 +4,4 @@ taxonomy:
     category: docs
 ---
 
-### Chapter Number
-
-# Chapter Title
-
-Chapter description.
+Ponte en contacto
