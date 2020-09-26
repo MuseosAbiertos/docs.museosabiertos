@@ -2,9 +2,6 @@
 title: Mailinglist
 ---
 
----
-title: Contact Form
-
 form:
     name: contact
 
