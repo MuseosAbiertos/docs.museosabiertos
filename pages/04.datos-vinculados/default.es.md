@@ -13,7 +13,7 @@ menu: ' Datos Vinculados'
     3. Posición y originalidad del manual
     4. Estructura y objetivos de estudio
     5. Ponte en contacto
-    6. Nota
+    6. Notas
     7. Referencias
 2. Modelado
     1. Introducción
