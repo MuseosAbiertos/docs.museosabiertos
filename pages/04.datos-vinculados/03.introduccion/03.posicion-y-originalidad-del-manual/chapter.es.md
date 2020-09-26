@@ -1,8 +1,7 @@
 ---
 title: 'Posición y originalidad del manual'
 taxonomy:
-    category:
-        - docs
+    category: docs
 ---
 
 Posición y originalidad del manual
