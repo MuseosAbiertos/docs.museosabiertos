@@ -1,11 +1,8 @@
 ---
 title: 'Posición y originalidad del manual'
 taxonomy:
-    category: docs
+    category:
+        - docs
 ---
 
-### Chapter Number
-
-# Chapter Title
-
-Chapter description.
+Posición y originalidad del manual
