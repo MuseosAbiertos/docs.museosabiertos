@@ -7,10 +7,12 @@ taxonomy:
 # Introducción
 
 
-### Metadatos en la encrucijada
-### Definición y alcance de los conceptos clave
-### Posición y originalidad del manual
-### Estructura y objetivos de estudio
-### Ponte en contacto
-### Notas
-### Referencias
+## Los metadatos en la encrucijada
+
+## Definición y alcance de los conceptos clave
+
+## Posición y originalidad del manual
+
+## Estructura y objetivos de aprendizaje
+
+## Póngase en contacto!
