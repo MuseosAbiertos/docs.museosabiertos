@@ -1,5 +1,7 @@
 ---
 title: 'Datos Vinculados para Archivos, Bibliotecas y Museos'
+taxonomy:
+    category: docs
 menu: ' Datos Vinculados'
 ---
 
