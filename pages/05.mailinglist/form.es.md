@@ -5,6 +5,9 @@ jscomments:
 twig_first: true
 ---
 
+---
+title: Contact Form
+
 form:
     name: contact
 
@@ -56,7 +59,6 @@ form:
             body: "{% include 'forms/data.html.twig' %}"
         message: Thank you for getting in touch!
         display: thankyou
-        
 ---
 
 # Contact form
