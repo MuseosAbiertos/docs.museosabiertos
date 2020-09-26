@@ -1,7 +1,8 @@
 ---
 title: 'Metadatos en la encrucijada'
 taxonomy:
-    category: docs
+    category:
+        - docs
 ---
 
 ## 1 Metadatos en la encrucijada
