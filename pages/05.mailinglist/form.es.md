@@ -3,8 +3,8 @@ title: Mailinglist
 jscomments:
     provider: disqus
 process:
+    markdown: true
     twig: true
-    markdown: false
 twig_first: true
 ---
 
