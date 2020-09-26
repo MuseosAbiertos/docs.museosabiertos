@@ -1,5 +1,8 @@
 ---
 title: Mailinglist
+taxonomy:
+    category:
+        - docs
 jscomments:
     provider: disqus
 process:
