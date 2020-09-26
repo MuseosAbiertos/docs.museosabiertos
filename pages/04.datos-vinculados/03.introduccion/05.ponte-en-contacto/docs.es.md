@@ -1,7 +1,8 @@
 ---
 title: 'Ponte en contacto'
 taxonomy:
-    category: docs
+    category:
+        - docs
 ---
 
 Ponte en contacto
