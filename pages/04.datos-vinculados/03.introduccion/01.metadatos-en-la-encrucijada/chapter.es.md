@@ -4,7 +4,7 @@ taxonomy:
     category: docs
 ---
 
-1 Metadatos en la encrucijada
+## 1 Metadatos en la encrucijada
 
 Mientras trabajamos con profesionales y estudiantes de metadatos en los últimos años, a menudo sintió una frustración. Los datos enlazados tienen la promesa de crear enlaces entre objetos de colecciones dispares, pero la implementación real tiende a ser bastante complejo. Según académicos y consultores, RDF triple las tiendas y los puntos finales SPARQL deberían traernos un mundo nuevo y feliz en el que todo está conectado de manera significativa. Desafortunadamente, la realidad demuestra ser bastante complejo e incluso completamente desordenado. La búsqueda del Santo Grial de la integración de datos puede convertirse en una pesadilla, en un mundo donde cualquiera puede decir algo sobre cualquier cosa. Datos vinculados: el reino de los datos estructurados para ¿Ven o una palabra de moda irritante que todos habremos olvidado en unos años?
 
