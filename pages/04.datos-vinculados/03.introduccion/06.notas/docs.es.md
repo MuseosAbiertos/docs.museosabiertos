@@ -1,7 +1,8 @@
 ---
 title: Notas
 taxonomy:
-    category: docs
+    category:
+        - docs
 ---
 
 Notas
