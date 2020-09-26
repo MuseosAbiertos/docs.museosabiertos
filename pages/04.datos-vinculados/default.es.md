@@ -1,13 +1,17 @@
 ---
 title: 'Datos Vinculados para Archivos, Bibliotecas y Museos'
 taxonomy:
-    category: docs
+    category:
+        - docs
 menu: ' Datos Vinculados'
 ---
 
 ## Como limpiar, vincular y publicar tus metadatos
 
-!!! Manual 'refurbished' del imperdible libro de **Seth van Hooland** y **Ruben Verborgh**, publicado por **Facet Publishing**
+!!! Manual 'refurbished' del extraordinario libro **Linked Data for Libraries, Archives and Museums** de **Seth van Hooland** y **Ruben Verborgh**, publicado por **Facet Publishing**
+
+
+## Indice
 
 1. Introducción
     1. Metadatos en la encrucijada
