@@ -1,7 +1,8 @@
 ---
 title: Referencias
 taxonomy:
-    category: docs
+    category:
+        - docs
 ---
 
 Referencias
