@@ -2,11 +2,11 @@
 title: Mailinglist
 jscomments:
     provider: disqus
+process:
+    twig: true
+    markdown: false
 twig_first: true
 ---
-
----
-title: Contact Form
 
 form:
     name: contact
