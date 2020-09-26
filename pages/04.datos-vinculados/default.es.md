@@ -3,7 +3,7 @@ title: 'Datos Vinculados para Archivos, Bibliotecas y Museos'
 taxonomy:
     category:
         - docs
-menu: ' Datos Vinculados'
+menu: ' Datos Vinculados GLAM'
 ---
 
 ## Como limpiar, vincular y publicar tus metadatos
