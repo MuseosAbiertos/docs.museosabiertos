@@ -1,6 +1,7 @@
 ---
 title: 'Docs !'
 body_classes: 'title-center title-h1h2'
+menu: Inicio
 ---
 
 Bienvenido al sito de documentación de [Museos Abiertos](https://museosabiertos.org)
