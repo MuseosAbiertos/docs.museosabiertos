@@ -1,5 +1,5 @@
 ---
-title: 'docs museosabiertos.org'
+title: Documentos
 body_classes: 'title-center title-h1h2'
 ---
 
