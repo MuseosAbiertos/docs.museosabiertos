@@ -25,7 +25,7 @@ presentation:
     styles: ''
 ---
 
-## OCR y traducción con [Imagemagick](https://www.imagemagick.org/) + [Scan Tailor](https://scantailor.org/) + [Tesseract](https://github.com/tesseract-ocr/) + [Translate Shell](https://www.soimort.org/translate-shell/)
+## OCR y traducción con [Scan Tailor](https://scantailor.org/) + [Tesseract](https://github.com/tesseract-ocr/) + [Translate Shell](https://www.soimort.org/translate-shell/)
 
 
 #### Cómo recuperar textos de imágenes y traducirlos a tu idioma en 3 pasos
