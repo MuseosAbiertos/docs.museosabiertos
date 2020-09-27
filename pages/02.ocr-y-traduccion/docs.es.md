@@ -36,7 +36,7 @@ presentation:
 
 0. Escanea o fotografía tu documento (asegúrate de obtener un mínimo de 300 dpi)
 1. Importa la imagen con Scan Tailor
-		1. [tutorial](https://youtu.be/qLUgMQkkhtA)
+		1. [Video tutorial](https://youtu.be/qLUgMQkkhtA)
 2. `tesseract -l eng entrada.tif salida.txt`
 		1. el parámetro [eng] se refiere al idioma de entrada (opcional)
 3. `trans :es file://salida.txt -o traducido.txt` _(el sufijo '.txt' es opcional)_
