@@ -28,27 +28,32 @@ presentation:
 ## OCR y traducción con [Imagemagick](https://www.imagemagick.org/) + [Scan Tailor](https://scantailor.org/) + [Tesseract](https://github.com/tesseract-ocr/) + [Translate Shell](https://www.soimort.org/translate-shell/)
 
 
-#### Cómo recuperar textos de imágenes y traducirlos a tu idioma
+#### Cómo recuperar textos de imágenes y traducirlos a tu idioma en 3 pasos
 
 > Este es un breve 'manual' está creado con la intención de poder ejecutar las tareas en Linux, OS X o Windows y con la línea de commandos, a fin de no tener que recurrir a multiples soluciones y reducir significativamente el tiempo que requieren estas tareas.
 
+! Requisitos: Debes tener instaladas, previamente, las cuatro aplicaciones
 
-
-1. Escanea o fotografía tu documento (asegúrate de obtener un mínimo de 300 dpi)
-2. Crop (si es necesario, recorta la imagen por fuera de la hoja fotografiada o escaneada)
-		1. Dejar mínimamente unos @20 px por fuera del borde de la hoja escaneada/fotografiada
-2. `mogrify -resize 3000x3000 -path 3000px *.tif`
-		1. solo necesario si precisas achicarla
-		2. previamente crear la carpeta [3000px], para no sobreescribir el original (opcional)
-3. Scan Tailor
-		1. Tutorial: https://youtu.be/qLUgMQkkhtA 
-4. `tesseract -l eng entrada.tif salida`
+0. Escanea o fotografía tu documento (asegúrate de obtener un mínimo de 300 dpi)
+1. Importa la imagen con Scan Tailor
+		1. tutorial: https://youtu.be/qLUgMQkkhtA 
+2. `tesseract -l eng entrada.tif salida.txt`
 		1. el parámetro [eng] se refiere al idioma de entrada (opcional)
-5. `trans :es file://salida.txt -o traducido.txt`
+3. `trans :es file://salida.txt -o traducido.txt` _(el sufijo '.txt' es opcional)_
 		1. el parámetro [:es] se refiere al idioma al que debe ser traducido
 
+
+#### Opcional
+Puedes reducir el tamaño de tus imágenes al mínimo requerido y así para optimizar espacio en disco y procesamiento
+		1. Crea una carpeta [3000px], para no sobreescribir el original (opcional)
+		2. En la línea de commandos, dentro de la carpeta de la imágen, ejecuta la suguiente línea
+		3. `mogrify -resize 3000x3000 -path 3000px *.tif`
+
+
 ## Ejemplo Bash
-`# tesseract -l eng IMG_20200911.tif IMG_20200911; trans :es file://IMG_20200911.txt -o IMG_20200911_ES.txt`
+Esta línea obtiene el texto de la imagen, la graba en un archivo y luego la traduce
+
+`tesseract -l eng IMG_20200911.tif IMG_20200911; trans :es file://IMG_20200911.txt -o IMG_20200911_ES.txt`
 
 #### Tips para escanear o fotografiar
 
