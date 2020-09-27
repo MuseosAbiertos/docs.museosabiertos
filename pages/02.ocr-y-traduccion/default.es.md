@@ -30,7 +30,7 @@ presentation:
 
 #### Cómo recuperar textos de imágenes y traducirlos a tu idioma en 3 pasos
 
-> Este es un breve 'manual' está creado con la intención de poder ejecutar las tareas en Linux, OS X o Windows y con la línea de commandos, a fin de no tener que recurrir a multiples soluciones y reducir significativamente el tiempo que requieren estas tareas.
+> Este breve 'manual' está creado con la intención de poder ejecutar las tareas en Linux, OS X o Windows y con la línea de commandos, a fin de reducir significativamente el tiempo que requieren estas tareas.
 
 ! Requisitos: Debes tener instaladas, previamente, las cuatro aplicaciones
 
