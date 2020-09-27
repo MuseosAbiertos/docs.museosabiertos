@@ -27,8 +27,15 @@ presentation:
 
 ## OCR y traducción con [Imagemagick](https://www.imagemagick.org/) + [Scan Tailor](https://scantailor.org/) + [Tesseract](https://github.com/tesseract-ocr/) + [Translate Shell](https://www.soimort.org/translate-shell/)
 
-1. Escanea o fotografía tu documento
-2. Crop?
+
+#### Cómo recuperar textos de imágenes y traducirlos a tu idioma
+
+> Este es un breve 'manual' está creado con la intención de poder ejecutar las tareas en Linux, OS X o Windows y con la línea de commandos, a fin de no tener que recurrir a multiples soluciones y reducir significativamente el tiempo que requieren estas tareas.
+
+
+
+1. Escanea o fotografía tu documento (asegúrate de obtener un mínimo de 300 dpi)
+2. Crop (si es necesario, recorta la imagen por fuera de la hoja fotografiada o escaneada)
 		1. Dejar mínimamente unos @20 px por fuera del borde de la hoja escaneada/fotografiada
 2. `mogrify -resize 3000x3000 -path 3000px *.tif`
 		1. solo necesario si precisas achicarla
