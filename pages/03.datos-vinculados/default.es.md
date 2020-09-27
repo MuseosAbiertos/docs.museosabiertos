@@ -8,8 +8,7 @@ menu: ' Datos Vinculados GLAM'
 
 ## Como limpiar, vincular y publicar tus metadatos ES !
 
-
-## Indice
+### Indice
 
 1. Introducción
     1. Metadatos en la encrucijada
