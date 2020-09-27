@@ -76,4 +76,4 @@ menu: ' Datos Vinculados GLAM'
 
 
 
-!!! Edición 'refurbished' (en español), del imprescindible libro **[Linked Data for Libraries, Archives and Museums](https://book.freeyourmetadata.org/)** de **Seth van Hooland** y **Ruben Verborgh**, publicado por **[Facet Publishing](http://facetpublishing.co.uk/)**
+!!! Esta edición 'refurbished' (en español), toma como guía el libro **[Linked Data for Libraries, Archives and Museums](https://book.freeyourmetadata.org/)** de **Seth van Hooland** y **Ruben Verborgh**, publicado por **[Facet Publishing](http://facetpublishing.co.uk/)**
