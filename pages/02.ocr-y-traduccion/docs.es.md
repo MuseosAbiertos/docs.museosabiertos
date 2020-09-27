@@ -54,7 +54,7 @@ Puedes reducir el tamaño de tus imágenes al mínimo requerido y así para opti
 ! Tip: OS X puedes usar [sips](https://bhrigu.me/blog/2020/04/12/mac-os-x-command-line-tools-to-edit-media/). Ejemplo: `sips -z [height] [width] file.png`
 
 #### Ejemplo Bash
-Esta línea obtiene el texto de la imagen, la graba en un archivo y luego la traduce
+Esta línea obtiene el texto de la imagen, la graba en un archivo, la traduce y la escribe en otro archivo de texto.
 
 `tesseract -l eng IMG_20200911.tif IMG_20200911; trans :es file://IMG_20200911.txt -o IMG_20200911_ES.txt`
 
