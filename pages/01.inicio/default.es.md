@@ -1,9 +1,7 @@
 ---
-title: Home
+title: 'docs museosabiertos.org'
 body_classes: 'title-center title-h1h2'
 ---
-
-# docs.museosabiertos.org
 
 Bienvenido al sito de documentación de [Museos Abiertos](https://museosabiertos.org)
 
