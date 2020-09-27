@@ -5,7 +5,7 @@ body_classes: 'title-center title-h1h2'
 
 # docs.museosabiertos.org
 
-Bienvenido al sito de documentación de [Museos Abiertos](museosabiertos.org)
+Bienvenido al sito de documentación de [Museos Abiertos](https://museosabiertos.org)
 
 En este sitio encontrarás documentación, proyectos, manuales y software, principalmente relacionados con Museos, Archivos y Bibliotecas.
 
