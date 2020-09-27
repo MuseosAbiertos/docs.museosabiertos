@@ -49,13 +49,17 @@ Puedes reducir el tamaño de tus imágenes al mínimo requerido y así para opti
 		2. En la línea de commandos, dentro de la carpeta de la imágen, ejecuta la suguiente línea
 		3. `mogrify -resize 3000x3000 -path 3000px *.tif`
 
+! Debes tener instalado [Imagemagick](https://www.imagemagick.org/)
 
-## Ejemplo Bash
+! Tip: OS X puedes usar [sips](https://bhrigu.me/blog/2020/04/12/mac-os-x-command-line-tools-to-edit-media/). Ejemplo: `sips -z [height] [width] file.png`
+
+#### Ejemplo Bash
 Esta línea obtiene el texto de la imagen, la graba en un archivo y luego la traduce
 
 `tesseract -l eng IMG_20200911.tif IMG_20200911; trans :es file://IMG_20200911.txt -o IMG_20200911_ES.txt`
 
-#### Tips para escanear o fotografiar
+
+### Tips para escanear o fotografiar
 
 Para obtener un buen resultado con Scan Tailor y minimizar los errores en el procesamiento automático, siga estas reglas al escanear:
 
