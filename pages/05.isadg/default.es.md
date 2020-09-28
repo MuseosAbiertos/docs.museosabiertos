@@ -2,6 +2,13 @@
 title: 'ISAD-G XMP'
 ---
 
+<html>
+  <head>
+    <style type="text/css">
+#blanco {
+  color: white;}
+</style></head>
+  <body>
     <table class="table table-bordered table-hover table-condensed">
       <thead>
         <tr>
@@ -13,7 +20,7 @@ title: 'ISAD-G XMP'
       </thead>
       <tbody>
         <tr style="background-color: #7eafff;">
-          <td>3.1 IDENTITY STATEMENT AREA</td>
+          <td id="blanco">3.1 IDENTITY STATEMENT AREA</td>
           <td> <br>
           </td>
           <td> <br>
@@ -22,7 +29,7 @@ title: 'ISAD-G XMP'
           </td>
         </tr>
         <tr>
-          <td style="background-color: #7eafff;">3.1.1 Reference code(s)</td>
+          <td>3.1.1 Reference code(s)</td>
           <td>Identity Reference</td>
           <td>xmp-isadg:IdentityReference</td>
           <td>CA OONAD R610-0-3-E</td>
@@ -269,3 +276,5 @@ title: 'ISAD-G XMP'
         </tr>
       </tbody>
     </table>
+  </body>
+</html>
