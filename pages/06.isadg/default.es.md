@@ -15,4 +15,4 @@ Val1,Val2,Val3
 Val4,Val5,Val6
 Val7,Val8,Val9
 
-[ti file=table.csv enclosure=']
+[ti file=table.csv enclosure="]
