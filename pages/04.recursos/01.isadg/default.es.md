@@ -175,4 +175,8 @@ title: 'ISAD-G & XMP'
 </tbody></table>
 
 
-Fuente: [https://www.ica.org/sites/default/files/CBPS_2000_Guidelines_ISAD%28G%29_Second-edition_EN.pdf](https://www.ica.org/sites/default/files/CBPS_2000_Guidelines_ISAD%28G%29_Second-edition_EN.pdf)
+!!! Fuente: [https://www.ica.org/sites/default/files/CBPS_2000_Guidelines_ISAD%28G%29_Second-edition_EN.pdf](https://www.ica.org/sites/default/files/CBPS_2000_Guidelines_ISAD%28G%29_Second-edition_EN.pdf)
+
+
+!!! Artículo: 
+!!! [EAD y EAC: Aplicación de metadatos en la descripción de colecciones archivísticas](https://www.researchgate.net/publication/322869915_EAD_y_EAC_Aplicacion_de_metadatos_en_la_descripcion_de_colecciones_archivisticas)
