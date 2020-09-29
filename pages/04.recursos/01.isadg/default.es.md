@@ -173,3 +173,6 @@ title: 'ISAD-G & XMP'
 <td>Series registered, 24 September 1987. Description updated, 10 November 1999. (Series) National Archives of Australia</td>
 </tr>
 </tbody></table>
+
+
+Fuente: [https://www.ica.org/sites/default/files/CBPS_2000_Guidelines_ISAD%28G%29_Second-edition_EN.pdf](https://www.ica.org/sites/default/files/CBPS_2000_Guidelines_ISAD%28G%29_Second-edition_EN.pdf)
