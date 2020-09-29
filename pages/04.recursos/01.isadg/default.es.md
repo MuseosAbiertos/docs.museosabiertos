@@ -7,7 +7,7 @@ title: 'ISAD-G & XMP'
 <th title="Field #2">Etiquetas de metadatos</th>
 <th title="Field #3">Ejemplo</th>
 </tr></thead>
-<tbody><tr style="background-color: #7eafff;">
+<tbody><tr>
 <td><strong>3.1 IDENTITY STATEMENT AREA</strong></td>
 <td> </td>
 <td> </td>
@@ -37,7 +37,7 @@ title: 'ISAD-G & XMP'
 <td>xmp-isadg:IdentityExtent</td>
 <td>326.18 m of textual records. – ca. 8,500 photographs. – 1000 maps. – 58 technical drawings.</td>
 </tr>
-<tr style="background-color: #7eafff;">
+<tr>
 <td><strong>3.2 CONTEXT AREA</strong></td>
 <td> </td>
 <td> </td>
@@ -62,7 +62,7 @@ title: 'ISAD-G & XMP'
 <td>xmp-isadg:ContextAcqinfo</td>
 <td>Gift of Herbert Whittaker on 22 April 1994. (Fonds) Canada, York University Archives</td>
 </tr>
-<tr style="background-color: #7eafff;">
+<tr>
 <td><strong>3.3 CONTENT AND STRUCTURE AREA</strong></td>
 <td> </td>
 <td> </td>
@@ -87,7 +87,7 @@ title: 'ISAD-G & XMP'
 <td>xmp-isadg:ContentstructureArrangement</td>
 <td>The fonds is arranged into nine series: Railway Branch, Canal Branch, Legal records, Rideau Canal, Trent Canal, St. Peter&#39;s Canal, St. Lawrence Canals, Welland Canal, and Comptroller&#39;s Branch</td>
 </tr>
-<tr style="background-color: #7eafff;">
+<tr>
 <td><strong>3.4 CONDITIONS OF ACCESS AND USE AREA</strong></td>
 <td> </td>
 <td> </td>
@@ -117,7 +117,7 @@ title: 'ISAD-G & XMP'
 <td>xmp-isadg:ConditionsaccessuseFindingaids</td>
 <td>Series level descriptions available with associated box lists (Fonds) Canada, York University Archives</td>
 </tr>
-<tr style="background-color: #7eafff;">
+<tr>
 <td><strong>3.5 ALLIED MATERIALS AREA</strong></td>
 <td> </td>
 <td> </td>
@@ -142,7 +142,7 @@ title: 'ISAD-G & XMP'
 <td>xmp-isadg:AlliedmaterialsPublication</td>
 <td>The entire calendar has been published in 12 volumes from the set of cards held by the University of Illinois. The Mereness Calendar: Federal Documents of the Upper Mississippi Valley 1780-1890 (Boston: G. K. Hall and Co., 1971). (Fonds) U.S., Minnesota Historical Society</td>
 </tr>
-<tr style="background-color: #7eafff;">
+<tr>
 <td><strong>3.6 NOTES AREA</strong></td>
 <td> </td>
 <td> </td>
@@ -152,7 +152,7 @@ title: 'ISAD-G & XMP'
 <td>xmp-isadg:NotesNote</td>
 <td>Title is based on the name of the department in its enabling legislation (42 Vict., c. 7, s. 4-5).</td>
 </tr>
-<tr style="background-color: #7eafff;">
+<tr>
 <td><strong>3.7 DESCRIPTION CONTROL AREA</strong></td>
 <td> </td>
 <td> </td>
