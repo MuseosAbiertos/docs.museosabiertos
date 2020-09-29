@@ -1,5 +1,5 @@
 ---
-title: 'ISAD-G XMP'
+title: 'ISAD-G & XMP'
 ---
 
 <table class="table table-bordered table-hover table-condensed">
