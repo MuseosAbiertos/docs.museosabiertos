@@ -5,7 +5,7 @@ title: 'ISAD-G & XMP'
 <table class="table table-bordered table-hover table-condensed">
 <thead><tr><th title="Field #1">ISAD-G 2000</th>
 <th title="Field #2">Etiquetas de metadatos</th>
-<th title="Field #3">Ejemplo</th>
+<th title="Field #3">XMP</th>
 </tr></thead>
 <tbody><tr>
 <td><strong>3.1 IDENTITY STATEMENT AREA</strong></td>
