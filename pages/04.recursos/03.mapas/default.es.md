@@ -14,4 +14,4 @@ También es la base para el desarrollo de metadatos patrimoniales de las Obras d
 
 !!! Specific page: [https://mapas.museosabiertos.org/proyecto.html](https://mapas.museosabiertos.org/proyecto.html)
 
-!!! Puedes obtener el fuente de la aplicación en: [https://github.com/mrtngrsbch/Leaflet-museums-OpenStreetMap](https://github.com/mrtngrsbch/Leaflet-museums-OpenStreetMap)
+!!! GitHub: [https://github.com/mrtngrsbch/Leaflet-museums-OpenStreetMap](https://github.com/mrtngrsbch/Leaflet-museums-OpenStreetMap)
