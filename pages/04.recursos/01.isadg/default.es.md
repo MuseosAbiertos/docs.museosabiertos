@@ -20,22 +20,22 @@ title: 'ISAD-G & XMP'
 <tr>
 <td>3.1.2 Title</td>
 <td>xmp-isadg:IdentityTitle</td>
-<td>Department of Railways and Canals fonds [multiple media]</td>
+<td>Canadian Northern Railway Co. - Route Map - Sudbury to Port Arthur [cartographic material]</td>
 </tr>
 <tr>
 <td>3.1.3 Date(s)</td>
 <td>xmp-isadg:IdentityDate</td>
-<td>1791-1964, predominant 1879-1936</td>
+<td>1875, 1906-1914</td>
 </tr>
 <tr>
 <td>3.1.4 Level of description</td>
 <td>xmp-isadg:IdentityDescriptionLevel</td>
-<td>1980 (Item) Canada, York University Archives</td>
+<td>File</td>
 </tr>
 <tr>
 <td>3.1.5 Extent and medium of the unit of description (quantity, bulk, or size)</td>
 <td>xmp-isadg:IdentityExtent</td>
-<td>326.18 m of textual records. – ca. 8,500 photographs. – 1000 maps. – 58 technical drawings.</td>
+<td>46 maps</td>
 </tr>
 <tr>
 <td><strong>3.2 CONTEXT AREA</strong></td>
