@@ -8,7 +8,7 @@ title: 'ISAD-G XMP'
 <th title="Field #3">Ejemplo</th>
 </tr></thead>
 <tbody><tr style="background-color: #7eafff;">
-<td>3.1 IDENTITY STATEMENT AREA</td>
+<td>**3.1 IDENTITY STATEMENT AREA**</td>
 <td> </td>
 <td> </td>
 </tr>
