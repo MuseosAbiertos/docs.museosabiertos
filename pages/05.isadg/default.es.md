@@ -8,7 +8,7 @@ title: 'ISAD-G XMP'
 <th title="Field #3">Ejemplo</th>
 </tr></thead>
 <tbody><tr style="background-color: #7eafff;">
-<td><strong> 3.1 IDENTITY STATEMENT AREA </strong></td>
+<td><strong>3.1 IDENTITY STATEMENT AREA</strong></td>
 <td> </td>
 <td> </td>
 </tr>
@@ -37,8 +37,8 @@ title: 'ISAD-G XMP'
 <td>xmp-isadg:IdentityExtent</td>
 <td>326.18 m of textual records. – ca. 8,500 photographs. – 1000 maps. – 58 technical drawings.</td>
 </tr>
-<tr>
-<td>3.2 CONTEXT AREA</td>
+<tr style="background-color: #7eafff;">
+<td><strong>3.2 CONTEXT AREA</strong></td>
 <td> </td>
 <td> </td>
 </tr>
@@ -50,7 +50,7 @@ title: 'ISAD-G XMP'
 <tr>
 <td>3.2.2 Administrative history</td>
 <td>xmp-isadg:ContextAdminbiohistory</td>
-<td>The Department of Railways and Canals existed from 1879 to 1936. It was established on May 15, 1879 (42 Vict. c. 7, s. 4-5), when it assumed responsibilities formerly under the direction of the Department of Public Works. It was dissolved on November 2, 1936 (1 Edw. VIII, c. 34), when its functions were incorporated in the newly created Department of Transport to group together all the federal government’s transport related activities. A Minister of the crown headed the Department, with a Deputy Minister as the chief administrative officer. Initially, it had two branches, the Railway Branch and the Canal Branch, each directed by a Chief Engineer, with the assistance of an accountant and a secretary responsible for record keeping, contracts, and reports. The Railway Branch was responsible for the construction, operation, and maintenance of governmentowned railways and telegraph networks such as the Intercolonial Railway, and the Prince Edward Island Railway and with railway companies with which it had major contracts such as the Canadian Pacific Railway Company. The Canal Branch was responsible for construction, operation, and maintenance of canals and navigation systems on the Great Lakes and along the St. Lawrence, Ottawa, Trent, and Richelieu Rivers, as well as for the St. Peter’s and Rideau Canals. In addition to its central offices in Ottawa, the Department had a large field service to operate railways and canals. In 1906, a Statistical Branch, which reported to the Comptroller, was created to gather and compile data on canals and railways. Three years later, the department reorganized into five branches, the Secretary’s, Legal, Statistical, Accountant’s, and two Chief Engineers Branches. In 1912, the Office of the Assistant Deputy Minister was created to oversee general administration.</td>
+<td>The Department of Railways and Canals existed from 1879 to 1936. It was established on May 15, 1879 (42 Vict. c. 7, s. 4-5), when it assumed responsibilities formerly under the direction of the Department of Public Works. It was dissolved on November 2, 1936 (1 Edw. VIII, c. 34), when its functions were incorporated in the newly created Department of Transport to group together all the federal government’s transport related activities[...]</td>
 </tr>
 <tr>
 <td>3.2.3 Archival history</td>
@@ -62,8 +62,8 @@ title: 'ISAD-G XMP'
 <td>xmp-isadg:ContextAcqinfo</td>
 <td>Gift of Herbert Whittaker on 22 April 1994. (Fonds) Canada, York University Archives</td>
 </tr>
-<tr>
-<td>3.3 CONTENT AND STRUCTURE AREA</td>
+<tr style="background-color: #7eafff;">
+<td><strong>3.3 CONTENT AND STRUCTURE AREA</strong></td>
 <td> </td>
 <td> </td>
 </tr>
@@ -87,8 +87,8 @@ title: 'ISAD-G XMP'
 <td>xmp-isadg:ContentstructureArrangement</td>
 <td>The fonds is arranged into nine series: Railway Branch, Canal Branch, Legal records, Rideau Canal, Trent Canal, St. Peter&#39;s Canal, St. Lawrence Canals, Welland Canal, and Comptroller&#39;s Branch</td>
 </tr>
-<tr>
-<td>3.4 CONDITIONS OF ACCESS AND USE AREA</td>
+<tr style="background-color: #7eafff;">
+<td><strong>3.4 CONDITIONS OF ACCESS AND USE AREA</strong></td>
 <td> </td>
 <td> </td>
 </tr>
@@ -117,8 +117,8 @@ title: 'ISAD-G XMP'
 <td>xmp-isadg:ConditionsaccessuseFindingaids</td>
 <td>Series level descriptions available with associated box lists (Fonds) Canada, York University Archives</td>
 </tr>
-<tr>
-<td>3.5 ALLIED MATERIALS AREA</td>
+<tr style="background-color: #7eafff;">
+<td><strong>3.5 ALLIED MATERIALS AREA</strong></td>
 <td> </td>
 <td> </td>
 </tr>
@@ -142,8 +142,8 @@ title: 'ISAD-G XMP'
 <td>xmp-isadg:AlliedmaterialsPublication</td>
 <td>The entire calendar has been published in 12 volumes from the set of cards held by the University of Illinois. The Mereness Calendar: Federal Documents of the Upper Mississippi Valley 1780-1890 (Boston: G. K. Hall and Co., 1971). (Fonds) U.S., Minnesota Historical Society</td>
 </tr>
-<tr>
-<td>3.6 NOTES AREA</td>
+<tr style="background-color: #7eafff;">
+<td><strong>3.6 NOTES AREA</strong></td>
 <td> </td>
 <td> </td>
 </tr>
@@ -152,8 +152,8 @@ title: 'ISAD-G XMP'
 <td>xmp-isadg:NotesNote</td>
 <td>Title is based on the name of the department in its enabling legislation (42 Vict., c. 7, s. 4-5).</td>
 </tr>
-<tr>
-<td>3.7 DESCRIPTION CONTROL AREA</td>
+<tr style="background-color: #7eafff;">
+<td><strong>3.7 DESCRIPTION CONTROL AREA</strong></td>
 <td> </td>
 <td> </td>
 </tr>
