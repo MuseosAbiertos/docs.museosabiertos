@@ -8,7 +8,7 @@ permissions:
 access:
     admin: true
     admin.super: true
-    admin.users.list: true
+    admin.login: true
 ---
 
 {% if grav.user.authenticated %}
