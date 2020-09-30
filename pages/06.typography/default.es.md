@@ -5,8 +5,6 @@ permissions:
     authors:
         - marting
         - ''
-access:
-    admin-addon-user-manager.groups: true
 ---
 
 {% if grav.user.authenticated %}
