@@ -15,7 +15,7 @@ permissions:
 content for registered users goes here
 {% endif %}
 
-{% comment%} 
+{% comment %} 
 Todo esto se ignora 
 {% endcomment%} 
 
