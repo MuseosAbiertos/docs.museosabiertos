@@ -1,6 +1,5 @@
 ---
 title: Typography
-routable: true
 visible: false
 ---
 
