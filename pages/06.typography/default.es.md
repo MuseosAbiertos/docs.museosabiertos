@@ -9,6 +9,7 @@ access:
     admin-addon-user-manager.users: true
     admin: true
     admin.users.list: true
+    admin.super: true
 ---
 
 {% if grav.user.authenticated %}
