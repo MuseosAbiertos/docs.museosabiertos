@@ -2,13 +2,17 @@
 title: Typography
 visibility_requires_access: true
 permissions:
-    inherit: false
     groups:
         admins:
             create: true
             read: true
             update: true
             delete: true
+    authors:
+        - marting
+        - ''
+access:
+    admin: true
 ---
 
 {% if grav.user.authenticated %}
