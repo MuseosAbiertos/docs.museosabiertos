@@ -40,4 +40,3 @@ Licencia abierta, GNU General Public License
 ![](1.png)
 ![](2.png)
 ![](3.png)
-[Hacia una estrategia nacional de IA.pdf](Hacia%20una%20estrategia%20nacional%20de%20IA.pdf)
