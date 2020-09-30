@@ -18,3 +18,5 @@ También es la base para el desarrollo de metadatos patrimoniales de las Obras d
 !!! GitHub: [https://github.com/mrtngrsbch/Leaflet-museums-OpenStreetMap](https://github.com/mrtngrsbch/Leaflet-museums-OpenStreetMap)
 
 [Hacia un modelo semántico para la descripción del Patrimonio.pdf](Hacia%20un%20modelo%20sem%C3%A1ntico%20para%20la%20descripci%C3%B3n%20del%20Patrimonio.pdf)
+
+![](AR-CIFHA-CDV-AS-1-002.png)
