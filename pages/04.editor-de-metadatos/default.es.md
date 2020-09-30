@@ -34,3 +34,7 @@ Esta herramienta busca ayudar, tanto al archivista iniciado como al experimentad
 Aplicación Java/Swing que funciona como frontend gráfico (GUI) para ExifTool. La UI está diseñada con GUI Designer from IntelliJ IDEA. 
 
 Licencia abierta, GNU General Public License
+
+![](1.png)
+![](2.png)
+![](3.png)
