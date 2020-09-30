@@ -1,6 +1,6 @@
 ---
 title: Typography
-visibility_requires_access: false
+visibility_requires_access: true
 permissions:
     inherit: false
     groups:
