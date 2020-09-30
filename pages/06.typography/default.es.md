@@ -5,6 +5,7 @@ permissions:
     authors:
         - marting
         - ''
+    groups: {  }
 access:
     admin: true
     admin.super: true
