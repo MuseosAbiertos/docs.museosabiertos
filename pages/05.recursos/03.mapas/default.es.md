@@ -1,6 +1,6 @@
 ---
 title: 'Mapas museos'
-media_order: 'Hacia un modelo semántico para la descripción del Patrimonio.pdf,AR-CIFHA-CDV-AS-1-002.png'
+media_order: 'Hacia un modelo semántico para la descripción del Patrimonio.pdf,AR-CIFHA-CDV-AS-1-002.png,copia.png'
 ---
 
 Este proyecto abierto, propone desarrollar los metadatos del dominio patrimonial y tiene como objeto inicial el patrimonio cultural de la Ciudad de Buenos Aires y Argentina, para el cual convenimos comenzar el desarrollo sobre un mapa, donde en su primera fase se procederá a ubicar espacialmente los museos en OpenStreetMap, con vinculaciones a Wikidata y Wikipedia. Este proyecto es el primero en su tipo dado que propone una edición comunitaria con una licencia abierta de Creative Commons, permitiendo así su libre uso y modificación. También es, al día de la fecha, el que tiene todos los datos actualizados y validados.
