@@ -35,6 +35,8 @@ Aplicación Java/Swing que funciona como frontend gráfico (GUI) para ExifTool. 
 
 Licencia abierta, GNU General Public License
 
+## Mockups
+
 ![](1.png)
 ![](2.png)
 ![](3.png)
