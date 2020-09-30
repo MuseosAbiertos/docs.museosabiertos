@@ -15,9 +15,6 @@ permissions:
 content for registered users goes here
 {% endif %}
 
-{% comment %} 
-Todo esto se ignora 
-{% endcomment%} 
 
 ! Details on the full capabilities of Spectre.css can be found in the [Official Spectre Documentation](https://picturepan2.github.io/spectre/elements.html)
 
