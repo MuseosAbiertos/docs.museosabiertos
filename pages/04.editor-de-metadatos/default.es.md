@@ -1,7 +1,7 @@
 ---
 title: 'Editor de metadatos para la descripción archivística'
 menu: 'Editor de metadatos'
-media_order: '1.png,2.png,3.png,ScreenShot 2019-04-18 a la(s) 19.13.37.jpg'
+media_order: '1.png,2.png,3.png,Hacia una estrategia nacional de IA.pdf'
 ---
 
 Este editor multiplataforma es una herramienta gráfica para la edición de metadatos de registros de colecciones con las normas [Dublin Core](https://dublincore.org/specifications/dublin-core/), [ISAD(G) 2000](https://www.ica.org/sites/default/files/CBPS_2000_Guidelines_ISAD%28G%29_Second-edition_EN.pdf), [EAD 2002](https://www.loc.gov/ead/index.html)
@@ -40,3 +40,4 @@ Licencia abierta, GNU General Public License
 ![](1.png)
 ![](2.png)
 ![](3.png)
+[Hacia una estrategia nacional de IA.pdf](Hacia%20una%20estrategia%20nacional%20de%20IA.pdf)
