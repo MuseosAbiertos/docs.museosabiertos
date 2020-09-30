@@ -10,7 +10,7 @@ access:
     admin: true
     admin.super: true
     admin.login: true
-routable: false
+visible: true
 ---
 
 {% if grav.user.authenticated %}
