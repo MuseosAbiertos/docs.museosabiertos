@@ -1,6 +1,6 @@
 ---
 title: 'ISAD-G & XMP'
-media_order: 'AR-CIFHA-CDV-AS-1-002.jpg,DSC_4411.jpg'
+media_order: 'AR-CIFHA-CDV-AS-1-002.jpg,DSC_4411.jpg,quinquela16.jpg'
 ---
 
 <table class="table table-bordered table-hover table-condensed">
