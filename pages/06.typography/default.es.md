@@ -12,7 +12,7 @@ permissions:
         - marting
         - ''
 access:
-    admin: true
+    admin-addon-user-manager.users: true
 ---
 
 {% if grav.user.authenticated %}
