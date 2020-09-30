@@ -7,3 +7,4 @@ En este trabajo se muestra una red de ontologías para describir la semántica d
 
 Ver paper en Revista Eletrônica Argentina-Brasil de Tecnologias da Informação e da Comunicação (REABTIC): [https://revistas.setrem.com.br/index.php/reabtic/article/view/336](https://revistas.setrem.com.br/index.php/reabtic/article/view/336)
 
+[Hacia un modelo semántico para la descripción del Patrimonio.pdf](Hacia%20un%20modelo%20sema%CC%81ntico%20para%20la%20descripcio%CC%81n%20del%20Patrimonio.pdf)
