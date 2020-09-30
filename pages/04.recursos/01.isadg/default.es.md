@@ -1,5 +1,6 @@
 ---
 title: 'ISAD-G & XMP'
+media_order: AR-CIFHA-CDV-AS-1-002.jpg
 ---
 
 <table class="table table-bordered table-hover table-condensed">
@@ -180,3 +181,5 @@ title: 'ISAD-G & XMP'
 
 !!! Artículo: 
 !!! [EAD y EAC: Aplicación de metadatos en la descripción de colecciones archivísticas](https://www.researchgate.net/publication/322869915_EAD_y_EAC_Aplicacion_de_metadatos_en_la_descripcion_de_colecciones_archivisticas)
+
+
