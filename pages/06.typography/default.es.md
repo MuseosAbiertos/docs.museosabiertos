@@ -2,17 +2,11 @@
 title: Typography
 visibility_requires_access: true
 permissions:
-    groups:
-        admins:
-            create: true
-            read: true
-            update: true
-            delete: true
     authors:
         - marting
         - ''
 access:
-    admin-addon-user-manager.users: true
+    admin-addon-user-manager.groups: true
 ---
 
 {% if grav.user.authenticated %}
