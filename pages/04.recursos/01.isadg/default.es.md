@@ -1,5 +1,5 @@
 ---
-title: 'ISAD-G & XMP'
+title: 'ISAD-G > XMP'
 media_order: AR-CIFHA-CDV-AS-1-002.jpg
 ---
 
