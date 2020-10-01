@@ -5,4 +5,4 @@ taxonomy:
         - docs
 ---
 
-### Capítulo de datos y herramientas de uso común
+### Datos y herramientas de uso común
