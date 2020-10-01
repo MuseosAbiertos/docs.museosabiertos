@@ -1,7 +1,8 @@
 ---
 title: Recursos
 taxonomy:
-    category: docs
+    category:
+        - docs
 ---
 
 ### Datos y herramientas de uso común
