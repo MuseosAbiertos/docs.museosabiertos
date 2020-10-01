@@ -78,5 +78,5 @@ Para obtener un buen resultado con Scan Tailor y minimizar los errores en el pro
 ## Otros Manuales
 
 * [OCR with Tesseract and ScanTailor](https://programminghistorian.org/en/lessons/retired/OCR-with-Tesseract-and-ScanTailor)
-
+* [http://bibliohack.org/](http://bibliohack.org/)
 
