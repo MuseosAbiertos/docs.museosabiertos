@@ -1,6 +1,6 @@
 ---
 title: 'Editor de metadatos para la descripción archivística'
-menu: 'Editor de metadatos'
+menu: 'Editor de metadatos GLAM'
 media_order: '1.png,2.png,3.png'
 ---
 
