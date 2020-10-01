@@ -1,5 +1,5 @@
 ---
-title: 'Mapas museos'
+title: 'Mapas de Museos'
 permissions: {  }
 ---
 
