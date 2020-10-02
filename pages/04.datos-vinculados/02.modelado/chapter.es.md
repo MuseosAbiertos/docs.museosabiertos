@@ -1,8 +1,8 @@
 ---
-title: Modelado
+title: Glosario
 taxonomy:
     category: docs
-published: false
+published: true
 ---
 
 Modelado
