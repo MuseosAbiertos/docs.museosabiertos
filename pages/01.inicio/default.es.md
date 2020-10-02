@@ -12,4 +12,4 @@ En este sitio encontrarás documentación, proyectos, manuales y software, princ
 <br/><br/><br/><br/>
 
 
-!!! Este sitio fué creado en Septiembre del 2020 y se irá actualizando periódicamente. 
+!!! Este sitio fué creado en Septiembre del 2020 y se actualiza periódicamente. 
