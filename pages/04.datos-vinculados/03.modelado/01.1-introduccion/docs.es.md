@@ -5,8 +5,6 @@ taxonomy:
         - docs
 ---
 
-## 1. Introducción
-
 Los administradores de metadatos y el software que utilizan a menudo parecen tener un parecido sorprendente con las parejas atrapadas en una relación infeliz. 
 Durante las pausas para el café en conferencias y talleres sobre metadatos dentro del dominio de la ciencia de la información y la biblioteca, no tardará en detectar un círculo de personas que participan en lo que parece ser alguna forma de terapia de grupo.
 No tengas miedo. Adelante, acércate un poco más. 
