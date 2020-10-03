@@ -7,7 +7,6 @@ published: true
 
 ## Glosario
 
-|       |                                                                                |
 |-------|--------------------------------------------------------------------------------|
 |AI     |Artificial Intelligence                                                         |
 |ANSI   |American National Standards Institute                                           |
