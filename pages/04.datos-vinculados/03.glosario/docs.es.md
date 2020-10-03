@@ -1,7 +1,8 @@
 ---
 title: Glosario
 taxonomy:
-    category: docs
+    category:
+        - docs
 published: true
 ---
 
