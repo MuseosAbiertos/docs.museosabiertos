@@ -40,3 +40,8 @@ Licencia abierta, GNU General Public License
 ![](1.png)
 ![](2.png)
 ![](3.png)
+
+## Integración del workflow con Drupal
+
+* [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3964704/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3964704/)
+* [https://www.drupal.org/project/exif](https://www.drupal.org/project/exif)
