@@ -3,7 +3,6 @@ title: '1.3 La introducción más corta del mundo al modelado de datos'
 taxonomy:
     category:
         - docs
-media_order: t2-1.jpg
 ---
 
 Por lo tanto, en este capítulo, alejémonos de la visión meramente impulsada por la sobreexpectación de los datos vinculados eligiendo un enfoque más conceptual e histórico. Para aprovechar el potencial, pero también los límites, de los datos vinculados, necesitamos una mejor comprensión de los diferentes modelos de datos que se han utilizado durante las últimas décadas para administrar metadatos. Las ventajas de RDF, el modelo de datos subyacente a la visión de datos vinculados, sólo pueden entenderse completamente en el contexto de modelos de datos anteriores. Al final de este capítulo comprenderá que los diferentes modelos de datos presentados no se suplantan entre sí, sino que continúan coexistiendo.
@@ -21,7 +20,7 @@ La figura 2.1 compara los diferentes modelos desde una perspectiva de alto nivel
 
 
 
-![](t2-1.jpg)
+![](t2-1.png)
 
 Tabular Data
 Each data item is structured as a line of field values. Fields are the same for all items; a header line can indicate their name.
