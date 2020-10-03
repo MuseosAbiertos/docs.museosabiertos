@@ -6,7 +6,9 @@ taxonomy:
 menu: ' Datos Vinculados GLAM'
 ---
 
-### Como limpiar, vincular y publicar tus metadatos
+### [Como limpiar, vincular y publicar tus metadatos]
+
+===
 
 ## Prólogo
 
