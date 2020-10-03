@@ -22,15 +22,15 @@ La figura 2.1 compara los diferentes modelos desde una perspectiva de alto nivel
 
 ![](t2-1.png)
 
-Tabular Data
-Each data item is structured as a line of field values. Fields are the same for all items; a header line can indicate their name.
+Datos tabulados
+Cada elemento de datos está estructurado como una línea de valores de campo. Los campos son los mismos para todos los elementos; una línea de encabezado puede indicar su nombre.
 
 
-Relational Model
-Data are structured as tables, each of which has its own set of attributes. Records in one table can relate to others by referencing their key column.
+Modelo relacional
+Los datos están estructurados como tablas, cada una de las cuales tiene su propio conjunto de atributos. Los registros de una tabla pueden relacionarse con otros haciendo referencia a su columna clave.
 
-Meta-markup languages
-XML documents have a hierarchical structure, which gives them a tree like appearance. Each element can have one or more children; there is exactly one root element.
+Lenguajes de metamarcado
+Los documentos XML tienen una estructura jerárquica, lo que les da una apariencia de árbol. Cada elemento puede tener uno o más hijos; hay exactamente un elemento raíz.
 
 RDF
-Each fact about a data item is expressed as a triple, which connects a subject to an object through a precise relationship. This leads to graph structured data that can take any shape.
+Cada hecho sobre un elemento de datos se expresa como un triple, que conecta a un sujeto con un objeto a través de una relación precisa. Esto conduce a datos estructurados en gráficos que pueden tomar cualquier forma.
