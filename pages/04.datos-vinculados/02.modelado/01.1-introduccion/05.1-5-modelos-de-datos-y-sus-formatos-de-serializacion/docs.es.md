@@ -12,3 +12,23 @@ La diferencia entre un modelo y una serialización se puede comparar con un plat
  
 Tabla 2.1 Modelos de datos y sus formatos de serialización
 ![](tabla_2-1.png)
+
+Table 2.1 Data models and their serialization formats
+
+data model
+
+tabular data
+
+relational model meta-markup languages
+
+RDF
+
+2 Tabular data
+
+serialization formats
+
+CSV, TSV
+
+proprietary binary files XML SGML
+
+Turtle, N-Triples,
