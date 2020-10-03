@@ -2,7 +2,7 @@
 taxonomy:
     category:
         - docs
-title: '1.2-alejarse de una vision de la tecnología impulsada por las exageraciones'
+title: '1.2- Saliendo del ''ciclo de sobreexpectación'' de la tecnología'
 ---
 
 La adopción de una nueva tecnología a menudo se ilustra en la forma del famoso ‘[ciclo de sobreexpectación](https://en.wikipedia.org/wiki/Hype_cycle)’ de Gartner (Lynden y Fenn, 2003). La representación gráfica del auge y declive de la popularidad de una nueva tecnología llama la atención sobre las expectativas exageradas que a menudo acompañan a su introducción. Después del llamado pico de expectativas infladas, una tecnología tiende a perder la mayor parte de su atractivo en el mercado un par de años después de su introducción. Solo después de un período extenso la tecnología alcanza un nivel estable de adopción, basado en su genuino valor agregado en un entorno de producción. Uno de los objetivos de este libro es enseñarle cómo alejarse de una visión de la tecnología impulsada por las exageraciones, ayudándole a comprender no solo el valor agregado exacto de los datos vinculados, sino también sus puntos débiles.
