@@ -1,0 +1,6 @@
+---
+taxonomy:
+    category:
+        - docs
+---
+
