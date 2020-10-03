@@ -1,5 +1,5 @@
 ---
-title: '2 Datos Tabulados'
+title: '2. Datos Tabulados'
 taxonomy:
     category:
         - docs
