@@ -1,8 +1,7 @@
 ---
 title: Modelado
 taxonomy:
-    category:
-        - docs
+    category: docs
 ---
 
 ## Resultados de aprendizaje de este capítulo
