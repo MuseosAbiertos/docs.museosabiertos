@@ -1,7 +1,8 @@
 ---
 title: Modelado
 taxonomy:
-    category: docs
+    category:
+        - docs
 ---
 
 ## Resultados de aprendizaje de este capítulo
@@ -17,6 +18,7 @@ Los administradores de metadatos y el software que utilizan a menudo parecen ten
 No tengas miedo. Adelante, acércate un poco más. Probablemente escuche frases típicas como "¡Hemos estado luchando para crear nuevos campos de metadatos durante años!" O "¡Mi exportación XML es terrible!". Al enfrentarse a estos lamentos, los miembros del grupo asentirán con comprensión y expresarán su simpatía.
 Quejarse del software de uno es un punto de discusión popular en todo el mundo cuando los propietarios de colecciones se reúnen para discutir los metadatos. Irónicamente, al igual que las parejas de ancianos que piensan dos veces antes del divorcio debido a las importantes consecuencias emocionales y económicas, los administradores de metadatos a menudo persisten durante años en la relación abusiva con su software.
 Por lo general, prefieren no cambiar a otra solución de software.
+
 ¡Qué diferente es el ambiente en las humanidades digitales! En lugar de quejarse de las dificultades encontradas con su base de datos, las personas activas en las humanidades digitales a menudo se sienten muy orgullosas del sistema de información que construyeron para administrar un tipo específico de recurso o colección.
 Susan Hockey incluso acuñó la expresión "documentos de mi base de datos y yo". Cualquiera que ya haya asistido a una conferencia de DH está familiarizado con el fenómeno: un investigador que presenta, con tedioso detalle, cómo se desarrolló una base de datos para acomodar cada característica peculiar de una colección. Estos oradores tienden a estar muy orgullosos de la bolsa de datos, la construyeron e irradian amor y pasión por ella.
 
