@@ -1,7 +1,8 @@
 ---
 title: 'Artículos, manuales y recursos'
 taxonomy:
-    category: docs
+    category:
+        - docs
 textsize:
     modifier: 1
 ---
