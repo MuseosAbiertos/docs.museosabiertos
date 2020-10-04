@@ -10,25 +10,34 @@ Antes de pasar a la descripción general del modelado de datos, es importante di
 
 La diferencia entre un modelo y una serialización se puede comparar con un plato y su receta. El modelo en memoria es la cosa en sí y es accesible para su manipulación, o está inmediatamente listo para ser comido, como un plato preparado. Una serialización contiene todos los elementos necesarios para construir el madel en memoria, al igual que una receta contiene toda la información que necesita para preparar el plato. La Tabla 2.1 ofrece una descripción general de los diferentes modelos de datos y sus formatos de serialización que se discutirán en las siguientes secciones.
  
+<table>
+<thead>
+  <tr>
+    <th colspan="4">Tabla 2.1 Los modelos de datos y sus formatos de serialización</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td><strong>modelo de datos</strong></td>
+    <td><strong>formatos de serialización</strong></td>
+  </tr>
+  <tr>
+    <td>datos tabulares</td>
+    <td>CSV, TSV</td>
+  </tr>
+  <tr>
+    <td>modelo relacional</td>
+    <td>archivos binarios patentados</td>
+  </tr>
+  <tr>
+    <td>lenguajes de metamarcado</td>
+    <td>XML SGML</td>
+  </tr>
+  <tr>
+    <td>RDF</td>
+    <td>Turtle, N-Triples, RDF-XML</td>
+  </tr>
+</tbody>
+</table>
+
 Tabla 2.1 Modelos de datos y sus formatos de serialización
-![](tabla_2-1.png)
-
-Table 2.1 Data models and their serialization formats
-
-data model
-
-tabular data
-
-relational model meta-markup languages
-
-RDF
-
-2 Tabular data
-
-serialization formats
-
-CSV, TSV
-
-proprietary binary files XML SGML
-
-Turtle, N-Triples,
