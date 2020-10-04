@@ -1,5 +1,5 @@
 ---
-title: 'Artículos, manuales y recursos'
+title: 'Artículos, manuales y otras yerbas'
 taxonomy:
     category:
         - docs
