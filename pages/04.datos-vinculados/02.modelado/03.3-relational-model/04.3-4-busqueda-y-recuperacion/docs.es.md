@@ -5,18 +5,16 @@ taxonomy:
         - docs
 ---
 
-After several records have been inserted, we can retrieve them with SELECT
-queries. For instance:
+Después de que se hayan insertado varios registros, podemos recuperarlos con consultas `SELECT`. Por ejemplo:
+
 ```
 SELECT * FROM Work;
 ```
-will select all records in the Work table. If we only want the titles of works by
-Picasso (assuming he has identifier 43 in the Creator table), we can do:
+seleccionará todos los registros en la tabla de trabajo. Si solo queremos los títulos de las obras de Picasso (suponiendo que tenga el identificador 43 en la tabla `Creator`), podemos hacer:
+
 ```
 SELECT title FROM Work WHERE creator=43:
 ```
-This is only a basic introduction to SQL, as end-users are only confronted with
-predefined SQL queries accessible through a graphical interface of a collection
-management system. However, it is important to understand through the
-example the logic behind the SQL query language. Section 5 will build further
-on this example to illustrate how the SPARQL query language works.
+Esta es solo una introducción básica a SQL, ya que los usuarios finales solo se enfrentan a consultas SQL predefinidas accesibles a través de una interfaz gráfica de un sistema de gestión de colecciones. Sin embargo, es importante comprender a través del ejemplo la lógica detrás del lenguaje de consulta SQL. 
+
+La sección 5 se basará más en este ejemplo para ilustrar cómo funciona el lenguaje de consulta SPARQL.
