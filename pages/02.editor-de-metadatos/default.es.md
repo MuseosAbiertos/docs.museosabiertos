@@ -23,7 +23,7 @@ Esta herramienta busca ayudar, tanto al archivista iniciado como al experimentad
 * Adaptado a un flujo de trabajo para auditoría de datos con [Open Refine](https://openrefine.org/)
 * Puede generar un archivo XML para la exportación de metadatos a otras plataformas, como [AtoM](https://accesstomemory.org/), [Archivematica](https://www.archivematica.org/), [DSpace](https://duraspace.org/dspace/), [Fedora Commons](https://duraspace.org/fedora/) o [RODA](https://roda-community.org/).
 
-### Características extendidas
+### Roadmap
 * Importa un CSV o XML y guarda los metadatos en archivos (ej.: jpg, tif, pdf)
 * Lectura/escritura de metadatos en un archivo XML externo (sidecar)
 * Guarda un histórico de ediciones
