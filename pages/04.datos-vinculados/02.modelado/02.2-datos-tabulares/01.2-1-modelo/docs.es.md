@@ -3,12 +3,10 @@ title: '2.1 Modelo'
 taxonomy:
     category:
         - docs
-media_order: tabla_2-2.png
 ---
 
 Conceptualmente, la visión del mundo que crea con datos tabulares se compone de columnas y filas. La intersección de una columna con una fila da significado a los datos contenidos en la celda en particular. La figura 2.1 ilustra este modelo de datos en un nivel abstracto. Solo hay una dimensión de modelado, que consta de los campos de la primera fila de encabezado. Cada fila contiene datos de diferentes entidades semánticas, a las que también podemos referirnos como registros. Esta es la razón por la que los datos tabulares se denominan a menudo archivos planos. Volviendo a nuestro ejemplo concreto, es un acto intuitivo utilizar este modelo y elaborar una lista como se presenta en la Tabla 2.2, que ilustra cómo puede desarrollar una descripción tabular de sus recursos.
 
-![](tabla_2-2.png)
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;}
@@ -23,7 +21,7 @@ Conceptualmente, la visión del mundo que crea con datos tabulares se compone de
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-0pky" colspan="4">Table 2.2  sdfdsgf dag daf gdsfg gsdfg dfsag</th>
+    <th class="tg-0pky" colspan="4">Tabla 2.2  Ejemplo de metadatos codificados como datos tabulares</th>
   </tr>
 </thead>
 <tbody>
