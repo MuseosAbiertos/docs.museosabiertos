@@ -1,7 +1,7 @@
 ---
 title: 'Editor de metadatos para la descripción archivística'
 menu: 'Editor de metadatos GLAM'
-media_order: '1.png,2.png,3.png'
+media_order: '1.png,2.png,3.png,DemoImage_ISADG-XMP-Metadata.png'
 ---
 
 Este editor multiplataforma es una herramienta gráfica para la edición de metadatos de registros de colecciones con las normas [Dublin Core](https://dublincore.org/specifications/dublin-core/), [ISAD(G) 2000](https://www.ica.org/sites/default/files/CBPS_2000_Guidelines_ISAD%28G%29_Second-edition_EN.pdf), [EAD 2002](https://www.loc.gov/ead/index.html)
@@ -50,7 +50,10 @@ Este desarrollo se apoya en estándares y software de código abierto de tercera
 ### Archivo de ejemplo
 
 [![](DemoImage_ISADG-XMP-Metadata.png)](https://docs.museosabiertos.org/editor-de-metadatos/DemoImage_ISADG-XMP-Metadata.png)
+[https://docs.museosabiertos.org/editor-de-metadatos/DemoImage_ISADG-XMP-Metadata.png](https://docs.museosabiertos.org/editor-de-metadatos/DemoImage_ISADG-XMP-Metadata.png)
 
+Descarga el archivo, abre una ventana de terminal en su carpeta y ejecuta:
+<code>exiftool -xmp-isadg:all DemoImage_ISADG-XMP-Metadata.png</code>
 
 ## Mockups
 
