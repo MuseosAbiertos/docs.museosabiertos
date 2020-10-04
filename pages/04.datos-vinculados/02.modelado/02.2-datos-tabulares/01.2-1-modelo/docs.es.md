@@ -10,6 +10,49 @@ Conceptualmente, la visión del mundo que crea con datos tabulares se compone de
 
 ![](tabla_2-2.png)
 
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0pky" colspan="4">Table 2.2  sdfdsgf dag daf gdsfg gsdfg dfsag</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky"><strong>title</strong></td>
+    <td class="tg-0pky"><strong>creator</strong></td>
+    <td class="tg-0pky"><strong>date</strong></td>
+    <td class="tg-0pky"><strong>collection</strong></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Guernica</td>
+    <td class="tg-0pky">Pablo Picasso</td>
+    <td class="tg-0pky">1937</td>
+    <td class="tg-0pky">Museo Reina Sofía</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">First Communion</td>
+    <td class="tg-0pky">Picasso</td>
+    <td class="tg-0pky">1895</td>
+    <td class="tg-0pky">Museo Picasso</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Puppy</td>
+    <td class="tg-0lax">Koons, Jeff</td>
+    <td class="tg-0lax">1992</td>
+    <td class="tg-0lax">Guggenheim</td>
+  </tr>
+</tbody>
+</table>
+
 Durante siglos, los catálogos e índices se codificaron en esta forma tabulada.
 La lista, como la mayoría de la gente llamaría datos tabulares, probablemente pueda considerarse como la tecnología de la información más antigua. La elaboración de listas organizadas en columnas sigue siendo a menudo el primer paso que se da cuando se hace una lluvia de ideas y se desarrollan ideas sobre qué elementos de metadatos deben utilizarse para documentar un recurso. ¿Por qué es este un modelo de datos tan intuitivo? Los datos tabulares ofrecen la gran ventaja de que casi se explican por sí mismos. Al leer un catálogo o un índice en este formato,
 tiene una tendencia natural a leer de forma horizontal centrándose en una línea del catálogo y leyendo de izquierda a derecha la información recopilada en los diferentes "recuadros". Esto le permite obtener una descripción general inmediata de todos los diferentes elementos de metadatos (en nuestra tabla: título, creador y fecha) relacionados con un objeto específico. Los semiólogos o lingüistas se referirían a la importancia de las relaciones sintagmáticas. Mediante la combinación de diferentes elementos, se crea significado en el sentido de que entendemos qué es un objeto, cuándo fue creado y por quién. Una lectura vertical, mirando hacia arriba y hacia abajo de las columnas, le permite tener una idea de los diferentes valores de un elemento de metadatos específico. En este nivel operan las llamadas relaciones paradigmáticas. Estas relaciones agrupan a miembros de la misma categoría.
