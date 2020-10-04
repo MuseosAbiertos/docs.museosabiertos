@@ -147,6 +147,43 @@ Text<sub>Subscripted</sub> `<sub>`
 | Se7en                       | Crime, Drama, Mystery         | 22 September 1995    |
 ```
 
+#### Tabla HTML
+<table>
+<thead>
+  <tr>
+    <th colspan="4"></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</tbody>
+</table>
+
+https://www.tablesgenerator.com/html_tables#
+
 ### Notices
 
 The notices styles are actually provided by the `markdown-notices` plugin but are useful enough to include here:
