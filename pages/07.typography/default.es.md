@@ -148,6 +148,7 @@ Text<sub>Subscripted</sub> `<sub>`
 ```
 
 #### Tabla HTML
+````
 <table>
 <thead>
   <tr>
@@ -181,7 +182,7 @@ Text<sub>Subscripted</sub> `<sub>`
   </tr>
 </tbody>
 </table>
-
+```
 https://www.tablesgenerator.com/html_tables#
 
 ### Notices
