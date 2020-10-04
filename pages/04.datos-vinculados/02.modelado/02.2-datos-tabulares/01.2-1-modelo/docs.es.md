@@ -7,38 +7,36 @@ taxonomy:
 
 Conceptualmente, la visión del mundo que crea con datos tabulares se compone de columnas y filas. La intersección de una columna con una fila da significado a los datos contenidos en la celda en particular. La figura 2.1 ilustra este modelo de datos en un nivel abstracto. Solo hay una dimensión de modelado, que consta de los campos de la primera fila de encabezado. Cada fila contiene datos de diferentes entidades semánticas, a las que también podemos referirnos como registros. Esta es la razón por la que los datos tabulares se denominan a menudo archivos planos. Volviendo a nuestro ejemplo concreto, es un acto intuitivo utilizar este modelo y elaborar una lista como se presenta en la Tabla 2.2, que ilustra cómo puede desarrollar una descripción tabular de sus recursos.
 
-
-
-<table class="tg">
+<table>
 <thead>
   <tr>
-    <th class="tg-0pky" colspan="4">Tabla 2.2  Ejemplo de metadatos codificados como datos tabulares</th>
+    <th colspan="4">Tabla 2.2  Ejemplo de metadatos codificados como datos tabulares</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0pky"><strong>title</strong></td>
-    <td class="tg-0pky"><strong>creator</strong></td>
-    <td class="tg-0pky"><strong>date</strong></td>
-    <td class="tg-0pky"><strong>collection</strong></td>
+    <td><strong>title</strong></td>
+    <td><strong>creator</strong></td>
+    <td><strong>date</strong></td>
+    <td><strong>collection</strong></td>
   </tr>
   <tr>
-    <td class="tg-0pky">Guernica</td>
-    <td class="tg-0pky">Pablo Picasso</td>
-    <td class="tg-0pky">1937</td>
-    <td class="tg-0pky">Museo Reina Sofía</td>
+    <td>Guernica</td>
+    <td>Pablo Picasso</td>
+    <td>1937</td>
+    <td>Museo Reina Sofía</td>
   </tr>
   <tr>
-    <td class="tg-0pky">First Communion</td>
-    <td class="tg-0pky">Picasso</td>
-    <td class="tg-0pky">1895</td>
-    <td class="tg-0pky">Museo Picasso</td>
+    <td>First Communion</td>
+    <td>Picasso</td>
+    <td>1895</td>
+    <td>Museo Picasso</td>
   </tr>
   <tr>
-    <td class="tg-0lax">Puppy</td>
-    <td class="tg-0lax">Koons, Jeff</td>
-    <td class="tg-0lax">1992</td>
-    <td class="tg-0lax">Guggenheim</td>
+    <td>Puppy</td>
+    <td>Koons, Jeff</td>
+    <td>1992</td>
+    <td>Guggenheim</td>
   </tr>
 </tbody>
 </table>
