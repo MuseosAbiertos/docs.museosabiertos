@@ -3,6 +3,7 @@ title: '3.2 Metodología de diseño'
 taxonomy:
     category:
         - docs
+media_order: fig_2-2.png
 ---
 
 Building a relational model is a difficult task that requires a lot of experience.
@@ -28,9 +29,10 @@ This is well illustrated by the option of whether to allow multiple creators for
 Let us come back to our example. In order to have a sufficiently complex scheme, extra attributes, such as style, were added, as in Figure 2.2. 
 It should be clear that there is no such thing as one unique and perfectly adequate model, as the same reality can be interpreted in multiple ways.
 
+![](fig_2-2.png)
 
-TABLA 
- 
+Figure 2.2 An example entity relation model with the relationships highlighted
+
 - Creator __a
 _| first name surname birth year | death year
 Pablo Picasso 1881 | +973
@@ -45,9 +47,6 @@ ID/ | _ name address
 18 Guagenheim Bilbac
 20 | Museo Reina Sofia | Madrid
 (22) Museo Picasso Barcelona
-
-Figure 2.2 An example entity relation model with the relationships highlighted
-
 
 Depending on the importance you give to an aspect of the reality you are modelling, you either decide to consider it as an entity or as an attribute. Despite the simplicity of the scheme in Figure 2.2, many readers of this book probably would come up with different versions of the scheme. For example, one could decide to reduce the entity Collection to an attribute of the entity Work, if you do not consider the address as an independent aspect that needs to be documented. The process of placing separate entities in separate tables is called normalization. Unfortunately, the more tables that need to be accessed to
 reconstruct the related metadata of an item, the slower operations will become. Therefore, a meaningful balance should be found between what data will be stored in a single table and what data is stored as a relationship.
