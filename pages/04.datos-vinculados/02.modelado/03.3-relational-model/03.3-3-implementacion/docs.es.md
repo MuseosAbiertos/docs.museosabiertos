@@ -20,12 +20,14 @@ CREATE TABLE Work (
    Style VARCHAR(40)
 );
 ```
-Esto crea una nueva tabla llamada `Work` con una columna de `ID` de número entero `(INT)`, una columna de título textual (`VARCHAR (100)` , que significa una cadena de caracteres con longitud variable, máximo 100) y un número entero de `creator` y las columnas `collection` una columna `year` de 4 caracteres y una columna `estilo` de 4 caracteres. La columna `id` es especial, ya que debería proporcionar un identificador único para cada registro. Por lo tanto, tiene las etiquetas `AUTO_INCREMENT` (por lo que los nuevos números se asignan automáticamente) y `PRIMARY KEY` (para que la base de datos sepa que este es un campo único).
+Esto crea una nueva tabla llamada `Work` con una columna de `ID` de número entero `(INT)`, una columna de título textual (`VARCHAR (100)`, que significa una cadena de caracteres con longitud variable, máximo 100) y un número entero de `creator` y las columnas `collection` una columna `year` de 4 caracteres y una columna `Style` de 4 caracteres. La columna `id` es especial, ya que debería proporcionar un identificador único para cada registro. Por lo tanto, tiene las etiquetas `AUTO_INCREMENT` (por lo que los nuevos números se asignan automáticamente) y `PRIMARY KEY` (para que la base de datos sepa que este es un campo único).
 
-To insert data in this table, we can use:
+Para insertar datos en esta tabla, podemos usar:
 
 ```
 INSERT INTO Work (title, creator, collection, year, style)
    VALUES (‘Guernica’, 43, 20, 1937, ‘Cubism’);
 ```
-We supply the table name, followed by the names of the fields and then the values for these fields. Strings are surrounded by single quotes (and single quotes within strings are escaped by a backslash}. Note how we did not supply a value for the id field, as this value is automatically generated (and will default to 1, 2, 3, ... on an empty table).
+We supply the table name, followed by the names of the fields and then the values for these fields. Strings are surrounded by single quotes (and single quotes within strings are escaped by a backslash). Note how we did not supply a value for the id field, as this value is automatically generated (and will default to 1, 2, 3, ... on an empty table).
+
+Proporcionamos el nombre de la tabla, seguido de los nombres de los campos y luego los valores de estos campos. Las cadenas están rodeadas por comillas simples (y las comillas simples dentro de las cadenas se escapan con una barra invertida). Tenga en cuenta que no proporcionamos un valor para el campo `id`, ya que este valor se genera automáticamente (y por defecto será 1, 2, 3, ... en una tabla vacía).
