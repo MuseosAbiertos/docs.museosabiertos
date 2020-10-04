@@ -8,16 +8,7 @@ taxonomy:
 Conceptualmente, la visión del mundo que crea con datos tabulares se compone de columnas y filas. La intersección de una columna con una fila da significado a los datos contenidos en la celda en particular. La figura 2.1 ilustra este modelo de datos en un nivel abstracto. Solo hay una dimensión de modelado, que consta de los campos de la primera fila de encabezado. Cada fila contiene datos de diferentes entidades semánticas, a las que también podemos referirnos como registros. Esta es la razón por la que los datos tabulares se denominan a menudo archivos planos. Volviendo a nuestro ejemplo concreto, es un acto intuitivo utilizar este modelo y elaborar una lista como se presenta en la Tabla 2.2, que ilustra cómo puede desarrollar una descripción tabular de sus recursos.
 
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;}
-.tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
-  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{background-color:#f0f0f0;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
-  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-qgz6{border-color:inherit;font-family:"Muli, Times New Roman", Times, serif !important;;text-align:left;vertical-align:top}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
+
 <table class="tg">
 <thead>
   <tr>
