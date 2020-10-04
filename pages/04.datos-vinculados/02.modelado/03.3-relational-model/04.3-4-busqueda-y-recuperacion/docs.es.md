@@ -5,12 +5,12 @@ taxonomy:
         - docs
 ---
 
-Después de que se hayan insertado varios registros, podemos recuperarlos con consultas `SELECT`. Por ejemplo:
+Después de que se hayan insertado varios registros, podemos recuperarlos con consultas _SELECT_. Por ejemplo:
 
 ```
 SELECT * FROM Work;
 ```
-seleccionará todos los registros en la tabla de trabajo. Si solo queremos los títulos de las obras de Picasso (suponiendo que tenga el identificador 43 en la tabla `Creator`), podemos hacer:
+seleccionará todos los registros en la tabla de trabajo. Si solo queremos los títulos de las obras de Picasso (suponiendo que tenga el identificador 43 en la tabla _Creator_), podemos hacer:
 
 ```
 SELECT title FROM Work WHERE creator=43:
