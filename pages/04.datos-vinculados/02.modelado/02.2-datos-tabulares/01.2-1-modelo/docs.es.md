@@ -54,6 +54,9 @@ Conceptualmente, la visión del mundo que crea con datos tabulares se compone de
 </tbody>
 </table>
 
+<!-- https://www.tablesgenerator.com/html_tables# -->
+
+
 Durante siglos, los catálogos e índices se codificaron en esta forma tabulada.
 La lista, como la mayoría de la gente llamaría datos tabulares, probablemente pueda considerarse como la tecnología de la información más antigua. La elaboración de listas organizadas en columnas sigue siendo a menudo el primer paso que se da cuando se hace una lluvia de ideas y se desarrollan ideas sobre qué elementos de metadatos deben utilizarse para documentar un recurso. ¿Por qué es este un modelo de datos tan intuitivo? Los datos tabulares ofrecen la gran ventaja de que casi se explican por sí mismos. Al leer un catálogo o un índice en este formato,
 tiene una tendencia natural a leer de forma horizontal centrándose en una línea del catálogo y leyendo de izquierda a derecha la información recopilada en los diferentes "recuadros". Esto le permite obtener una descripción general inmediata de todos los diferentes elementos de metadatos (en nuestra tabla: título, creador y fecha) relacionados con un objeto específico. Los semiólogos o lingüistas se referirían a la importancia de las relaciones sintagmáticas. Mediante la combinación de diferentes elementos, se crea significado en el sentido de que entendemos qué es un objeto, cuándo fue creado y por quién. Una lectura vertical, mirando hacia arriba y hacia abajo de las columnas, le permite tener una idea de los diferentes valores de un elemento de metadatos específico. En este nivel operan las llamadas relaciones paradigmáticas. Estas relaciones agrupan a miembros de la misma categoría.
