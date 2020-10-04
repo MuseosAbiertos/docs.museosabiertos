@@ -1,5 +1,5 @@
 ---
-title: 'Manuales y Recursos'
+title: 'Artículos, manuales y recursos'
 taxonomy:
     category:
         - docs
