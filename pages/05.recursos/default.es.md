@@ -8,6 +8,6 @@ textsize:
 media_order: nathalia-rosa--cU_AOPa9ew-unsplash.png
 ---
 
-### Quizá encuentres aquí podrás encontrar algún material que te interese ;-)
+### Quizá encuentres aquí algún material que te interese ;-)
 
 ![](nathalia-rosa--cU_AOPa9ew-unsplash.png)
