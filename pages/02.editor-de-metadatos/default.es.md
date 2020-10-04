@@ -14,7 +14,6 @@ Esta herramienta busca ayudar, tanto al archivista iniciado como al experimentad
 
 * Gran parte de los archivos y museos usan planillas de cálculo para guardar los metadatos (ISAD-G, EAD, DC, METS...) de los documentos digitales
 
-
 ## Características
 * Software multiplataforma (puede ser ejecutado en Windows, OS X y Linux)
 * Edita los metadatos y los 'guarda' dentro de un archivo (ej.: JPG, TIF, PDF) conservando su contexto al viajar a través de software, dispositivos y bases de datos.
@@ -59,7 +58,10 @@ Este desarrollo se apoya en estándares y software de código abierto de tercera
 ![](2.png)
 ![](3.png)
 
+<note>
 ## Integración del workflow con Drupal
 
 * [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3964704/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3964704/)
 * [https://www.drupal.org/project/exif](https://www.drupal.org/project/exif)
+
+</note>
