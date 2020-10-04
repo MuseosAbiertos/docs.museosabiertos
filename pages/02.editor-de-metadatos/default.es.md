@@ -39,8 +39,7 @@ Este desarrollo se apoya en estándares y software de código abierto de tercera
 * [EXIF](https://docs.fileformat.com/image/exif/) es un estándar creado en el año 1995 para las especificaciones de formatos de imagen y sonido utilizados principalmente por cámaras digitales y escáneres, creado por la [_Asociación de la industria de cámaras de Japón_](https://en.wikipedia.org/wiki/Japan_Electronic_Industries_Development_Association) y hoy cuenta con una total aceptación y soporte.
 * Viendo las limitaciones de EXIF, en el año 2001 Abobe System creó [XMP](https://es.wikipedia.org/wiki/XMP), un modelo de datos extensibles, con el fin de poder registrar metadatos, como [Dublin Core](https://es.wikipedia.org/wiki/Dublin_Core), pero con el objetivo de aplicarlo a loas archivos PDF. Hoy en día puede ser utilizado en prácticamente cualquier formato gráfico y es un framework extensible a otras aplicaciones.
 * [ExifTool by Phil Harvey](https://exiftool.org/) es una biblioteca de Perl (independiente de la plataforma) más una aplicación de línea de comandos para leer, escribir y editar metainformación en una amplia variedad de archivos, que es usada por muchas aplicaciones de código abierto que deban escribir metadatos.
-* [ISAD(G) XML Schema](https://gist.github.com/anarchivist/826364)
-* 
+* [ISAD(G) XML Schema](https://gist.github.com/anarchivist/826364)* 
 
 ### Dependencias
 * [JRE (Java Runtime Environment)](https://adoptopenjdk.net/releases.html)
