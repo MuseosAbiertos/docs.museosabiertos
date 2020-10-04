@@ -4,6 +4,7 @@ taxonomy:
     category:
         - docs
 menu: ' Datos Vinculados GLAM'
+child_type: docs
 ---
 
 ### [Como limpiar, vincular y publicar tus metadatos]
