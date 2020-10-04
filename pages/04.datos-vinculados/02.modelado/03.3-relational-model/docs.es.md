@@ -1,5 +1,5 @@
 ---
-title: '3 Relational model'
+title: '3. Relational model'
 taxonomy:
     category:
         - docs
