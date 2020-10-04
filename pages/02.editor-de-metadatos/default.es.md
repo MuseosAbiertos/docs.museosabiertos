@@ -12,35 +12,46 @@ La Secretaría de Cultura de la Nación (Argentina), en su resolución 1070, [ht
 ## Objetivos
 Esta herramienta busca ayudar, tanto al archivista iniciado como al experimentado, a implementar las normas en una única interfase, evitando la dispersión de soluciones y colaborando con la estandarización de los procesos y la aplicación de las normas.
 
+* Gran parte de los archivos y museos usan planillas de cálculo para guardar los metadatos (ISAD-G, EAD, DC, METS...) de los documentos digitales
+
+
 ## Características
+* Software multiplataforma (puede ser ejecutado en Windows, OS X y Linux)
+* Edita los metadatos y los 'guarda' dentro de un archivo (ej.: JPG, TIF, PDF) conservando su contexto al viajar a través de software, dispositivos y bases de datos.
 * Edita metadatos según las normas internacionales Dublin Core, ISAD(G) 2000, EAD 2002
-* Edita metadatos según la adaptación local de la norma ISAD(G)
-* Edita los metadatos y los 'guarda' dentro del archivo (ej.: jpg, tif, pdf) conservando su contexto al viajar a través de software, dispositivos y bases de datos.
-* Aunque lo permite, hace obsoleto el uso de hojas de cálculo independientes para el registros de colecciones
-* Exporta los metadatos a un archivo tabulado (CSV) o un XML
 * No es destructivo (no altera las imágenes)
 * Reduce significativamente las tareas de registro
+* Hace obsoleto el uso de hojas de cálculo independientes para el registros de colecciones
 * Adaptado a un flujo de trabajo para auditoría de datos con [Open Refine](https://openrefine.org/)
-* Puede generar un archivo XML para la exportación de metadatos a otras plataformas, como [AtoM](https://accesstomemory.org/), [Archivematica](https://www.archivematica.org/), [DSpace](https://duraspace.org/dspace/), [Fedora Commons](https://duraspace.org/fedora/) o [RODA](https://roda-community.org/).
+* Exporta los metadatos a un archivo tabulado CSV
+* Exporta los metadatos a un archivo XML para la ingestión en plataformas, como [AtoM](https://accesstomemory.org/), [Archivematica](https://www.archivematica.org/), [DSpace](https://duraspace.org/dspace/), [Fedora Commons](https://duraspace.org/fedora/) o [RODA](https://roda-community.org/).
 
-### Roadmap
-* Importa un CSV o XML y guarda los metadatos en archivos (ej.: jpg, tif, pdf)
+## Roadmap
+* Importa un CSV o XML y guarda los metadatos en archivos (ej.: JPG, TIF, PDF) 
 * Lectura/escritura de metadatos en un archivo XML externo (sidecar)
 * Guarda un histórico de ediciones
-* Soporte para EAD3(2015)
+* Soporte para EAD3 (2015)
 
 ## Software
-Aplicación Java/Swing que funciona como frontend gráfico (GUI) para ExifTool. La UI está diseñada con GUI Designer from IntelliJ IDEA. 
-Licencia abierta, GNU General Public License
+Aplicación Java/Swing que funciona como frontend gráfico (GUI) para ExifTool. La UI está diseñada con GUI Designer from IntelliJ IDEA. Licencia abierta, GNU General Public License.
 
-## Estrategía DevOps
-### Visto y considerando que
+Este desarrollo se apoya en estándares y software de código abierto de terceras partes
 
-* [**EXIF**](https://docs.fileformat.com/image/exif/) es un estándar creado en el año 1995 para las especificaciones de formatos de imagen y sonido utilizados principalmente por cámaras digitales y escáneres, creado por la [_Asociación de la industria de cámaras de Japón_](https://en.wikipedia.org/wiki/Japan_Electronic_Industries_Development_Association) y hoy cuenta con una total aceptación.
-* Viendo las limitaciones de EXIF, Abobe System creó [XMP](https://es.wikipedia.org/wiki/XMP), un modelo de datos extensibles, con el fin de poder registrar aquellos metadatos que EXIF no soportaba, como [Dublin Core](https://es.wikipedia.org/wiki/Dublin_Core), pero con el objetivo de aplicarlo a loas archivos PDF. Hoy en día puede ser utilizado en prácticamente cualquier formato gráfico.
+* [EXIF](https://docs.fileformat.com/image/exif/) es un estándar creado en el año 1995 para las especificaciones de formatos de imagen y sonido utilizados principalmente por cámaras digitales y escáneres, creado por la [_Asociación de la industria de cámaras de Japón_](https://en.wikipedia.org/wiki/Japan_Electronic_Industries_Development_Association) y hoy cuenta con una total aceptación y soporte.
+* Viendo las limitaciones de EXIF, en el año 2001 Abobe System creó [XMP](https://es.wikipedia.org/wiki/XMP), un modelo de datos extensibles, con el fin de poder registrar metadatos, como [Dublin Core](https://es.wikipedia.org/wiki/Dublin_Core), pero con el objetivo de aplicarlo a loas archivos PDF. Hoy en día puede ser utilizado en prácticamente cualquier formato gráfico y es un framework extensible a otras aplicaciones.
 * [ExifTool by Phil Harvey](https://exiftool.org/) es una biblioteca de Perl (independiente de la plataforma) más una aplicación de línea de comandos para leer, escribir y editar metainformación en una amplia variedad de archivos, que es usada por muchas aplicaciones de código abierto que deban escribir metadatos.
-* Gran parte de los archivos y museos usan planillas de cálculo para guardar los metadatos (ISAD-G, EAD, DC, METS...) de los documentos digitales
- 
+* [ISAD(G) XML Schema](https://gist.github.com/anarchivist/826364)
+* 
+
+### Dependencias
+* [JRE (Java Runtime Environment)](https://adoptopenjdk.net/releases.html)
+* [ExifTool by Phil Harvey](https://exiftool.org/) 
+
+### Archivo de ejemplo
+
+![](DemoImage_ISADG-XMP-Metadata.jpg)
+
+
 ## Mockups
 
 ![](1.png)
