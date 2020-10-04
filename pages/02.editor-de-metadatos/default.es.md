@@ -58,10 +58,12 @@ Este desarrollo se apoya en estándares y software de código abierto de tercera
 ![](2.png)
 ![](3.png)
 
-<note>
+{% if grav.user.authenticated %}
+
 ## Integración del workflow con Drupal
 
 * [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3964704/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3964704/)
 * [https://www.drupal.org/project/exif](https://www.drupal.org/project/exif)
 
-</note>
+
+{% endif %}
