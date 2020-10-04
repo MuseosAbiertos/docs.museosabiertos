@@ -9,7 +9,7 @@ Los administradores de metadatos y el software que utilizan a menudo parecen ten
 Durante las pausas para el café en conferencias y talleres sobre metadatos dentro, del dominio de la ciencia de la información y la biblioteca, no tardarás en detectar un círculo de personas que participan en lo que parece ser alguna forma de terapia de grupo.
 No tengas miedo. Adelante, acércate a la charla. 
 
-Probablemente escuches frases típicas como "¡Estivimos luchando para crear nuevos campos de metadatos durante años!" o "¡Mi exportación XML es horrible!". Al enfrentarse a estos lamentos, los miembros del grupo asentirán con comprensión y expresarán su simpatía.
+Probablemente escuches frases típicas como "¡Estuvimos luchando para crear nuevos campos de metadatos durante años!" o "¡Mi exportación XML es horrible!". Al enfrentarse a estos lamentos, los miembros del grupo asentirán con comprensión y expresarán su simpatía.
 
 Quejarse del software de uno es un punto de discusión popular en todo el mundo cuando los propietarios de colecciones se reúnen para discutir los metadatos. Irónicamente, al igual que las parejas de ancianos que piensan dos veces antes del divorcio debido a las importantes consecuencias emocionales y económicas, los administradores de metadatos a menudo persisten durante años en la relación abusiva con su software. Y, por lo general, prefieren no cambiar a otra solución.
 
