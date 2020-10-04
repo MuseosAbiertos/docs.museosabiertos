@@ -49,7 +49,7 @@ Este desarrollo se apoya en estándares y software de código abierto de tercera
 
 ### Archivo de ejemplo
 
-![](DemoImage_ISADG-XMP-Metadata.jpg)
+![](DemoImage_ISADG-XMP-Metadata.png)
 
 
 ## Mockups
