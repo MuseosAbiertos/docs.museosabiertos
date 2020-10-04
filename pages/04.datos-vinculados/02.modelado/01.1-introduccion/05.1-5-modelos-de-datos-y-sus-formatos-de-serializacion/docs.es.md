@@ -3,7 +3,6 @@ title: '1.5 Modelos de datos y sus formatos de serialización'
 taxonomy:
     category:
         - docs
-media_order: tabla_2-1.png
 ---
 
 Antes de pasar a la descripción general del modelado de datos, es importante distinguir claramente cada modelo conceptualmente de los formatos que se han desarrollado para serializar el modelo de datos. El proceso de serialización convierte las estructuras de datos en un formato. El formato permite la traducción de la información que está representando en un flujo de bits que puede manipularse por software, comunicarse a través de una red, etc. El formato permite una conversión del nivel de bits a los datos originales.
