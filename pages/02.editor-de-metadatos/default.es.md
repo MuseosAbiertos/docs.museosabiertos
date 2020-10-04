@@ -33,10 +33,13 @@ Esta herramienta busca ayudar, tanto al archivista iniciado como al experimentad
 Aplicación Java/Swing que funciona como frontend gráfico (GUI) para ExifTool. La UI está diseñada con GUI Designer from IntelliJ IDEA. 
 Licencia abierta, GNU General Public License
 
-## Estrategía del Software 
+## Estrategía DevOps
+### Visto y considerando que
 
 * [**EXIF**](https://docs.fileformat.com/image/exif/) es un estándar creado en el año 1995 para las especificaciones de formatos de imagen y sonido utilizados principalmente por cámaras digitales y escáneres, creado por la [_Asociación de la industria de cámaras de Japón_](https://en.wikipedia.org/wiki/Japan_Electronic_Industries_Development_Association) y hoy cuenta con una total aceptación.
 * Viendo las limitaciones de EXIF, Abobe System creó [XMP](https://es.wikipedia.org/wiki/XMP), un modelo de datos extensibles, con el fin de poder registrar aquellos metadatos que EXIF no soportaba, como [Dublin Core](https://es.wikipedia.org/wiki/Dublin_Core), pero con el objetivo de aplicarlo a loas archivos PDF. Hoy en día puede ser utilizado en prácticamente cualquier formato gráfico.
+* [ExifTool by Phil Harvey](https://exiftool.org/) es una biblioteca de Perl (independiente de la plataforma) más una aplicación de línea de comandos para leer, escribir y editar metainformación en una amplia variedad de archivos, que es usada por muchas aplicaciones de código abierto que deban escribir metadatos.
+* Gran parte de los archivos y museos usan planillas de cálculo para guardar los metadatos (ISAD-G, EAD, DC, METS...) de los documentos digitales
  
 ## Mockups
 
