@@ -21,10 +21,10 @@ Volviendo a nuestro ejemplo concreto, es un acto intuitivo utilizar este modelo 
 </thead>
 <tbody>
   <tr>
-    <td><strong>title</strong></td>
-    <td><strong>creator</strong></td>
-    <td><strong>date</strong></td>
-    <td><strong>collection</strong></td>
+    <td><strong>titulo</strong></td>
+    <td><strong>creador</strong></td>
+    <td><strong>fecha</strong></td>
+    <td><strong>coleccion</strong></td>
   </tr>
   <tr>
     <td>Guernica</td>
@@ -54,7 +54,7 @@ Volviendo a nuestro ejemplo concreto, es un acto intuitivo utilizar este modelo 
 La lista, como la mayoría de la gente llamaría datos tabulares, probablemente pueda considerarse como la tecnología de la información más antigua. La elaboración de listas organizadas en columnas sigue siendo a menudo el primer paso que se da cuando se hace una lluvia de ideas y se desarrollan ideas sobre qué elementos de metadatos deben utilizarse para documentar un recurso.
 
 ¿Por qué es este un modelo de datos tan intuitivo? <mark>Los datos tabulares ofrecen la gran ventaja de que casi se explican por sí mismos.</mark> Al leer un catálogo o un índice en este formato, tiene una tendencia natural a leer de forma horizontal centrándose en una línea del catálogo y leyendo de izquierda a derecha la información recopilada en los diferentes "recuadros". 
-Esto le permite obtener una descripción general inmediata de todos los diferentes elementos de metadatos (en nuestra tabla: _título_, _creador_ y _fecha_) relacionados con un objeto específico. 
+Esto le permite obtener una descripción general inmediata de todos los diferentes elementos de metadatos (en nuestra tabla: _título_, _creador_ , _fecha_ y _coleccion_) relacionados con un objeto específico. 
 
 Los semiólogos o lingüistas se referirían a la importancia de las relaciones sintagmáticas. Mediante la combinación de diferentes elementos, se crea significado en el sentido de que entendemos qué es un objeto, cuándo fue creado y por quién. Una lectura vertical, mirando hacia arriba y hacia abajo de las columnas, le permite tener una idea de los diferentes valores de un elemento de metadatos específico. <mark>En este nivel operan las llamadas relaciones paradigmáticas.</mark> Estas relaciones agrupan a miembros de la misma categoría.
 
