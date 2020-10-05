@@ -9,7 +9,7 @@ taxonomy:
 
 La forma más común son las aplicaciones de hojas de cálculo como Microsoft Excel o Libre Office, que en esencia ofrecen una tabla gigante que se puede modificar. Todo software de hoja de cálculo ofrece la posibilidad de exportar a TSV o CSV, aunque por supuesto con la pérdida de fórmulas (celdas que se calculan en base a otras celdas), formato (como color y bordes) y funcionalidades como macros, que mencionamos anteriormente. Los tipos de datos también se pierden: todo el contenido de la celda se almacena como texto.
 
-<mark>Incluso con el modelo de datos más simple, muchas cosas pueden salir mal en la práctica.<mark> Varios elementos son dignos de mención aquí:
+<mark>Incluso con el modelo de datos más simple, muchas cosas pueden salir mal en la práctica.</mark> Varios elementos son dignos de mención aquí:
 
 * Los datos se pueden separar con una coma, pero dependiendo de la configuración local del sistema, ¡esto podría ser un punto y coma! Por ejemplo, en muchos idiomas europeos, se utiliza una coma en lugar de un punto como separador decimal en los números (por lo que 1,5 es en realidad 1 1/2). En estos sistemas, por lo tanto, no sería práctico usar una coma como separador de columnas, por lo que la elección de un punto y coma ~ para que CSV no siempre sea fiel a su nombre. En la práctica, CSV ha llegado a representar cualquier tipo delimitado por separadores, que confusamente también incluye TSV.
 
