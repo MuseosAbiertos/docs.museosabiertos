@@ -6,7 +6,15 @@ taxonomy:
 published: true
 ---
 
+!!! **awesome GLAM semweb Awesome**
+!!! 
+!!! Una lista seleccionada de varios recursos de datos enlazados y web semántica para profesionales del patrimonio, las humanidades y la historia del arte.
+!!! La lista es una extensión de la lista impresionante de la web semántica dirigida específicamente a GLAM (galerías, bibliotecas, archivos, museos)
+!!! [https://github.com/ncarboni/awesome-GLAM-semweb#rdf](https://github.com/ncarboni/awesome-GLAM-semweb#rdf)
+
+
 ## Glosario
+
 
 |       |                                                                                |
 |-------|--------------------------------------------------------------------------------|
