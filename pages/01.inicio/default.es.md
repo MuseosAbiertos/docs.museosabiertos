@@ -5,7 +5,7 @@ menu: Inicio
 visible: false
 ---
 
-Bienvenido al sito de documentación de [Museos Abiertos](https://museosabiertos.org)
+BBienvenido al sito de documentación de [Museos Abiertos](https://museosabiertos.org)
 
 En este sitio encontrarás documentación, proyectos, manuales y software, principalmente relacionados con Museos, Archivos y Bibliotecas.
 
