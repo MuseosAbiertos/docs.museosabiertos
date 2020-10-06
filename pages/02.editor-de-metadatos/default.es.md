@@ -57,6 +57,10 @@ Este desarrollo se apoya en estándares y software de código abierto de tercera
 ![](2.png)
 ![](3.png)
 
+## Otros proyectos
+* [Tropy](https://tropy.org/)
+* 
+
 {% if grav.user.authenticated %}
 
 ## Integración del workflow con Drupal
