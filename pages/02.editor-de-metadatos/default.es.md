@@ -63,6 +63,10 @@ Este desarrollo se apoya en estándares y software de código abierto de tercera
 
 * [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3964704/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3964704/)
 * [https://www.drupal.org/project/exif](https://www.drupal.org/project/exif)
+* [https://www.drupal.org/project/file_mdm](https://www.drupal.org/project/file_mdm)
+* [https://www.drupal.org/project/file_mdm](https://www.drupal.org/project/file_mdm)
+* [https://www.drupal.org/project/search_file_attachments](https://www.drupal.org/project/search_file_attachments)
+* [https://tika.apache.org/](https://tika.apache.org/)
 
 
 {% endif %}
