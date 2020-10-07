@@ -72,5 +72,11 @@ Este desarrollo se apoya en estándares y software de código abierto de tercera
 * [https://www.drupal.org/project/search_file_attachments](https://www.drupal.org/project/search_file_attachments)
 * [https://tika.apache.org/](https://tika.apache.org/)
 
+## LOD
+
+* [Gestión de fondos de archivos con datos enlazados y consultas federadas](http://redc.revistas.csic.es/index.php/redc/article/view/949)
+* [Linked Archival Metadata: A Guidebook](http://infomotions.com/sandbox/liam/tmp/guidebook.pdf)
+* [Successfully Managin Archives in Museums](https://www.aim-museums.co.uk/wp-content/uploads/2017/03/Successfully-Managing-Archives-in-Museums-Basic-Interventive-Conservation-2017.pdf)
+* [The semantic mapping of archival metadata to the CIDOC CRM ontology](https://www.researchgate.net/publication/232955302_The_semantic_mapping_of_archival_metadata_to_the_CIDOC_CRM_ontology)
 
 {% endif %}
