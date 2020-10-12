@@ -1,6 +1,8 @@
 ---
 title: 'ISAD-G > XMP'
 media_order: AR-CIFHA-CDV-AS-1-002.jpg
+sitemap:
+    ignore: false
 ---
 
 <table class="table table-bordered table-hover table-condensed">
