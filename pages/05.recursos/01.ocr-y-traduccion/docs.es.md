@@ -23,6 +23,8 @@ presentation:
     content: ''
     parser: ''
     styles: ''
+sitemap:
+    ignore: false
 ---
 
 ## OCR y traducción con [Scan Tailor](https://scantailor.org/) + [Tesseract](https://github.com/tesseract-ocr/) + [Translate Shell](https://www.soimort.org/translate-shell/)
