@@ -54,6 +54,8 @@ form:
             body: '{% include ''forms/data.html.twig'' %}'
         message: 'Thank you for getting in touch!'
         display: thankyou
+sitemap:
+    ignore: true
 ---
 
 # Contact form
