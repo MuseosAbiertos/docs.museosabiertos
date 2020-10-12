@@ -3,6 +3,8 @@ title: 'Publica tu dataset en Google'
 taxonomy:
     category:
         - docs
+sitemap:
+    ignore: false
 ---
 
 [DRAFT]
