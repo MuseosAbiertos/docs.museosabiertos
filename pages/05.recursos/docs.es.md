@@ -6,6 +6,8 @@ taxonomy:
 textsize:
     modifier: 1
 media_order: nathalia-rosa--cU_AOPa9ew-unsplash.png
+sitemap:
+    ignore: false
 ---
 
 ### Quizá encuentres aquí algún material que te interese ;-)
