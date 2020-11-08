@@ -8,7 +8,7 @@ taxonomy:
     category:
         - docs
 page-toc:
-    active: false
+    active: true
 ---
 
 # jExifToolGUI: a cross-platform java Swing gui for ExifTool
