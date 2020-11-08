@@ -32,17 +32,17 @@ This tool is written on Linux, used on Linux and mostly tested on Linux. However
 
 **Note:** jExifToolGUI comes without exiftool which you need to download yourself from Phil Harvey's exiftool site if you want the latest version. On Linux you can also use the version belonging to your distribution.
 
-#### Universal jar
+### Universal jar
 * `jExifToolGUI.jar`: Just the bare jExifToolGUI.jar containing all dependencies. You need to have java version 8 (1.8) or newer installed on your system.
 Start from a terminal with java -jar jExifToolGUI.jar &. This version should run on any system that comes included with java 8 or newer, or where you can install java 8 or newer. (Windows/Linux/MacOS (BSD*unix)/Solaris/AIX/HP*UX etc.)
 
-#### Windows
+### Windows
 *     `jExifToolGUI-<version>-win-x86_64_with-jre.zip`: A windows 64-bit executable including java V11. Unzip with paths!
 *     `jExifToolGUI-<version>-win-x86_64.zip`: A windows 32/64 bit executable without java. You need java 8 (1.8) or newer installed on your system.
 
     Both versions do not come with installers. Simply unzip (with paths) to a folder of your liking and optionally create a shortcut on your desktop.
    
-#### MacOS
+### MacOS
 * `jExifToolGUI-x86_64-macos-<version>-with_jre.dmg.zip`: A MacOS bundle including java V11. Note: Apple is very unfriendly to non-Apple stuff like java/perl and other software. This bundle IS a working Apple bundle but not entirely according Apple standards.
 * `jExifToolGUI-x86_64-macos-<version>.dmg`: A MacOS bundle without java. You need java 8 (1.8) or newer installed on your system.
 
@@ -50,14 +50,14 @@ These are MacOS Application bundles. In case of the full version you first need 
 
 **Note:** MacOS (the Gatekeeper software) does normally not allow applications to be started that do not originate from the AppStore or come from an "unidentified" developer (me). You need to add jExifToolGUI to the "list of exceptions". That is actually very simple. See Apple support
 
-#### Linux 
+### Linux 
 * `jExifToolGUI-<version>.deb`: a Linux .deb package. For all Debian based systems (Debian/Ubuntu/Mint/MX Linux/Raspbian etc. etc.). This is a linux multi-architecture version as the relevant java V11 version for your system/architecture will be downloaded as dependency.
 Use `sudo dpkg -i jexiftoolgui-<version>.deb` to install. As of that moment it will also appear in your menu.
 * `jExifToolGUI-<version>-x86_64.AppImage`: Linux universal Appimage including java V11. Runs on every 64bit intel Linux system (and also inside Chromebook Linux beta).
 Simpy do a `chmod +x jExifToolGUI-<version>-x86_64.AppImage and start with ./jExifToolGUI-<version>-x86_64.AppImage &.`
 
 
-#### 2.1 Uninstall
+## 2.1 Uninstall
 
     If you use the deb package on any Debian/Ubuntu like Linux OS, you can use apt-get or dpkg to uninstall it.
 All other versions: be it the MacOS bundles, or windows .exes or linux appImage can simply be deleted.
@@ -223,12 +223,12 @@ The Preferences can be found under the menu "File -> Preferences"
 Currently the Preferences screen has 3 tabs: General (Linux LXDE), Language (Windows), System (MacOS). See below (reduced size) images.
 [![](https://hvdwolf.github.io/jExifToolGUI/manual/images/01-preferences-general-500.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/01-preferences-general-500.png)
 
-#### The "General" tab (left):
+### The "General" tab (left):
 
 * W.r.t. the "Raw Image viewer". jExiftoolGUI can show quite a lot of images like jpg/png/tif/bmp/pgm, but not Raw Images (it can convert some to jpg thumbnails for viewing in the left pane), and neither can most operating systems show Raw Images. So if you have Raw Images and you want to see them full screen, you need to install a Raw Image Viewer.
 * Values to always add to your images: These are 3 input fields writing to multiple metadata tags. The xmp and iptc tags are used by Google Photos and many professional photographers. The somewhat older exif tags are meant for the same purposes but slightly outdated.
 
-#### The "Language" tab (top right):
+### The "Language" tab (top right):
 
 * jExifToolGUI can be translated. jExifToolGUI will try to start in the operating system language, but only if that is available as translated "property language". It is currently translated in (American) English (default), Spanish, German and Dutch. On this tab you can select one of those languages if you prefer that over your system language, or in case your system language is not supported but your American English is not as good as your Spanish or German.
 * Many Exiftool users have helped to translate the desciption of metadata tags in Exiftool. (This has nothing to do with jExifToolGUI, but with ExifTool). You can select a number of languages and if the tag is translated you will see the tag in that language.
