@@ -82,3 +82,41 @@ The program consists of a left pane containing your photos, and a right pane whi
 Next to the tabs on the right, the program also has several menus which contain more functionalities. A number of buttons and functions will not work, and are disabled, until you have loaded at least one photo. Most actions on your images which you perform in the right tabs or in the menus, only work after having selected at least one, or more of the loaded photos in the left pane.
 
 [![](https://hvdwolf.github.io/jExifToolGUI/manual/images/mainscreen-quickstart-01.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/mainscreen-quickstart-01.png)
+
+### View data
+Select an image and click one of the radiobuttons and select the desired metadata category from the drop-down. The "Common Tags" is not the ExifTool category "common", but what the author considers are "commonly selected categories". The "user defined metadata tags combinations" (see here) are also added to this drop down. If you have multiple images selected, the metadata for the last selected image will be displayed.
+
+[![](https://hvdwolf.github.io/jExifToolGUI/manual/images/ViewData.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/ViewData.png)
+
+### Edit data
+Here as well: All actions in the right "Edit" tab only work after having selected one or more of the loaded photos.
+
+* You can select one image and modify the data for it.
+* You can select multiple images at once and modify the data for all these images at once.
+* You can select one image, copy data from it, then select multiple images, and paste the (copied) data to these multiple images at once.
+
+[![](https://hvdwolf.github.io/jExifToolGUI/manual/images/EditData.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/EditData.png)
+
+All Edit sub tabs do have a "bottom line" of buttons "copy from", "save to" and "Help"
+
+[![](https://hvdwolf.github.io/jExifToolGUI/manual/images/CopyFromSaveToHelp.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/CopyFromSaveToHelp.png)
+
+As mentioned in bullet #3: You can copy the relevant information from a selected image. Then you can write this info to many images.
+Note: Under (menu) "Metadata -> SideCar Exports" you can export metadata to a number of format. Especially MIE is an excellent format to export to. You can read the MIE format back in like an image and use it to "Copy from".
+
+Some of the sub tabs on the "Edit Data" tab will return in this manual for further explanation
+
+### Copy Data
+This options allows you to copy entire metadata categories from one image to multiple images.
+
+[![](https://hvdwolf.github.io/jExifToolGUI/manual/images/CopyData.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/CopyData.png)
+
+### Your Commands
+This program has quite a lot of functionality and flexibility in how you can read/write date from and to your images. In case that is not sufficient you can simply create your own command and run that on your images. Next to that you can also save your commands as "favorites" for later, repeated use.
+
+[![](https://hvdwolf.github.io/jExifToolGUI/manual/images/YourCommands.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/YourCommands.png)
+
+### ExifTool Database
+This tab does nothing with your images. It is simply a tool to query through all the metadata categories and tags that ExifTool supports. The number of tags is dependent on your ExifTool version. The tab mentions on which version the retrieved information is based (this doesn't have to be the version you have installed on your laptop/pc). Also here you can save your SQL queries as favorites.
+
+[![](https://hvdwolf.github.io/jExifToolGUI/manual/images/ExiftoolDatabase.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/ExiftoolDatabase.png)
