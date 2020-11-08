@@ -2,6 +2,11 @@
 title: jExifToolGUI
 external_links:
     no_follow: true
+metadata:
+    Keywords: jexiftoolgui
+taxonomy:
+    category:
+        - docs
 ---
 
 # jExifToolGUI: a cross-platform java Swing gui for ExifTool
