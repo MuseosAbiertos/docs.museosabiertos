@@ -4,19 +4,23 @@ title: jExifToolGUI
 
 jExifToolGUI: a cross-platform java Swing gui for ExifTool
 
+* valid bullet
+- valid bullet
++ valid bullet
+
 ### Table of Contents
 
 * 1 Overview
 * 2 Versions and "Installation"
-* * 2.1 Uninstall
+ * 2.1 Uninstall
 * 3 Quick Start
 * 4 Some Edit sub tabs further explained
-* * 4.1 Geotagging
-* * 4.2 Use Lenses and create lens templates for your lenses
-* * 4.3 Create and use user defined metadata tag combinations
+ * 4.1 Geotagging
+ * 4.2 Use Lenses and create lens templates for your lenses
+ * 4.3 Create and use user defined metadata tag combinations
 * 5 Several menu options
-* * 5.1 Rename photos
-* * 5.2 Sidecar exports
+ * 5.1 Rename photos
+ * 5.2 Sidecar exports
 * 6 Preferences
 * Appendix A GNU Free Documentation License 
 
