@@ -173,10 +173,8 @@ Currently three metadata sets are "pre-installed":
 
 Below the maintenance screen and edit screen.
 Click the images to see a full-size version in a separate tab.
-
 [![](https://hvdwolf.github.io/jExifToolGUI/manual/images/maintain_user_defined_metadata_combis.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/maintain_user_defined_metadata_combis.png)
 The maintenance and create screen	
-
 [![](https://hvdwolf.github.io/jExifToolGUI/manual/images/use_user_defined_metadata_combis.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/use_user_defined_metadata_combis.png)
 The Edit screen where you use your defined metadata sets to write those tags to your images.
 
