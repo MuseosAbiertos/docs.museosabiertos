@@ -1,12 +1,11 @@
 ---
 title: jExifToolGUI
+external_links:
+    no_follow: true
 ---
 
-jExifToolGUI: a cross-platform java Swing gui for ExifTool
+# jExifToolGUI: a cross-platform java Swing gui for ExifTool
 
-* valid bullet
-- valid bullet
-+ valid bullet
 
 ### Table of Contents
 
@@ -36,8 +35,7 @@ And when it comes to donation, the same is off course valid for ExifTool itself.
 This manual and the jExifToolGUI version might not always run synchronously. If new functionality is added to the program which requires a new chapter or paragraph, the manual will be updated for that new section. However, not all parts of the manual will/might be updated which might lead to older program screens in the manual that might slightly deviate from the program version you will be working with.
 Note also that you will see screen captures from several operating systems (Linux/Windows/MacOS) and/or window managers (on Linux).
 
-**This manual will be worked on and slowly expand. It currently is in its infancy.
-**
+**This manual will be worked on and slowly expand. It currently is in its infancy.**
 
 ## 2 Versions and "Installation"
 This tool is written on Linux, used on Linux and mostly tested on Linux. However, as it is a java Swing cross-platform program it should run fine on MacOS, Windows and theoretically on all platforms that support java.
@@ -54,7 +52,6 @@ Start from a terminal with java -jar jExifToolGUI.jar &. This version should run
 
     Both versions do not come with installers. Simply unzip (with paths) to a folder of your liking and optionally create a shortcut on your desktop.
    
-
 #### MacOS
 * `jExifToolGUI-x86_64-macos-<version>-with_jre.dmg.zip`: A MacOS bundle including java V11. Note: Apple is very unfriendly to non-Apple stuff like java/perl and other software. This bundle IS a working Apple bundle but not entirely according Apple standards.
 * `jExifToolGUI-x86_64-macos-<version>.dmg`: A MacOS bundle without java. You need java 8 (1.8) or newer installed on your system.
@@ -79,3 +76,9 @@ All other versions: be it the MacOS bundles, or windows .exes or linux appImage 
 * Logs:
 jar/Windows exe/appImage: In the same folder where your run the application you will find a folder logs. Simply delete that one.
 For the MacOS bundles and the jexiftoolgui.deb, the logs are written to folder logs inside your user/home folder. Simply delete the logs folder.
+
+## 3 Quick Start
+The program consists of a left pane containing your photos, and a right pane which consists of a set of tabs. One of these tabs ("Edit") contains a subset of tabs (Some of the sub tabs on the "Edit Data" tab will return in this manual for further explanation).
+Next to the tabs on the right, the program also has several menus which contain more functionalities. A number of buttons and functions will not work, and are disabled, until you have loaded at least one photo. Most actions on your images which you perform in the right tabs or in the menus, only work after having selected at least one, or more of the loaded photos in the left pane.
+
+[![](https://hvdwolf.github.io/jExifToolGUI/manual/images/mainscreen-quickstart-01.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/mainscreen-quickstart-01.png)
