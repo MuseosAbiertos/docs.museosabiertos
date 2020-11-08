@@ -120,3 +120,79 @@ This program has quite a lot of functionality and flexibility in how you can rea
 This tab does nothing with your images. It is simply a tool to query through all the metadata categories and tags that ExifTool supports. The number of tags is dependent on your ExifTool version. The tab mentions on which version the retrieved information is based (this doesn't have to be the version you have installed on your laptop/pc). Also here you can save your SQL queries as favorites.
 
 [![](https://hvdwolf.github.io/jExifToolGUI/manual/images/ExiftoolDatabase.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/ExiftoolDatabase.png)
+
+## 4 Some Edit sub tabs further explained
+In this chapter some of the edit tabs will be further explained. Others like Exif, XMP and GPS/locaion are too straight-forward to say something about them.
+
+### 4.1 Geotagging
+Geotagging adds GPS data to your images based on data from a GPS track log file.
+This GPS track file can be used from your phone, gps device, navigation device, or whatever you have providing such a GPS track.
+The GPS track log file is loaded, and linear interpolation is used to determine the GPS position at the time of the image, then the relevant tags are written to the image (if the corresponding information is available). It means that your camera needs to be set correctly with regard to the date/time of the location where you are.
+
+jExifToolGUI also supports the "Geosync" feature of ExifTool. The Geosync tag is only needed when the image timestamps are not properly synchronized with GPS time.
+For example, a value of "+1:20" specifies that 1 minute and 20 seconds is added to the Geotime value before checking with the GPS track file. This is for a camera running 1 minute 20 seconds slower than the GPS clock.
+The Geosync time is specified as "SS", "MM:SS", "HH:MM:SS" or "DD HH:MM:SS" (where SS=seconds, MM=minutes, HH=hours and DD=days), and a leading "+" or "-" may be added for positive or negative differences.
+**Note:** Do not use (double) quotes around the geosync time in jExifToolGUI. Simply use something like -25 or +1:20
+
+In jExifToolGUI you have 2 options:
+
+* Use (a selection of) the images you loaded in the left images pane.
+* Specify a folder containing a set of images to be tagged.
+
+In case of the first option you need to leave the folder empty. If the "Folder containing the images:" is not left empty, it will always use the second option being the folder.
+
+"The "Make backup of Originals" checkbox can make backups when selected. When selected new images will be created and the original images will get the extension ".original".
+**Note:** that jExifToolGUI will write both the EXIF GPS tags as well as the XMP GPS tags.
+
+[![](https://hvdwolf.github.io/jExifToolGUI/manual/images/geotaggingtab.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/geotaggingtab.png)
+
+### 4.2 Use Lenses and create lens templates for your lenses
+This screen has two purposes:
+
+* Add/remove lens data to your photos (first row of buttons)
+* Create/Modify a lens configuration (second row of buttons enclosed inside lined framework), and in this manual within the red frame.
+  
+Both options can be used to add lens data to your image if it is not complete.
+
+Next to that: Still some add-on lenses are not completely recognized by the camera and therefore the info is not added to the image. For these cases you can create lens configs and save and load them for your images taken with that specific lens.
+
+[![](https://hvdwolf.github.io/jExifToolGUI/manual/images/lenses.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/lenses.png)
+
+When you click the button "Save this lens configuration", the following popup will be displayed.
+[![](https://hvdwolf.github.io/jExifToolGUI/manual/images/createsavelens.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/createsavelens.png)
+The "Load a lens configuration" is almost identical.
+
+## 4.3 Create and use user defined metadata tag combinations
+Version 1.6 of jExifToolGUI gives you the option to define your own set of metadata tags that you want to add to your images. You can even define multiple metadata combination sets for different purposes: landscapes, sport, archiving, wildlife, family, etcetera. The Maintenance screen can be found in the menu "Tools -> User defined Metadata combis".
+The edit screen can be found under the "Edit Data" tab inside "User defined combinations".
+Currently three metadata sets are "pre-installed":
+
+* isadg: ISAD(G) data will be added to the XMP set as new category xmp-isadg. (ISAD(G) is General International Standard Archival Description)
+* gps_location: All gps and location tags in the 3 categories EXIF,XMP and IPTC.
+* Google Photos: All tags that Google Photos uses or recognizes.
+
+Below the maintenance screen and edit screen.
+Click the images to see a full-size version in a separate tab.
+
+[![](https://hvdwolf.github.io/jExifToolGUI/manual/images/maintain_user_defined_metadata_combis.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/maintain_user_defined_metadata_combis.png)
+The maintenance and create screen	
+
+[![](https://hvdwolf.github.io/jExifToolGUI/manual/images/use_user_defined_metadata_combis.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/use_user_defined_metadata_combis.png)
+The Edit screen where you use your defined metadata sets to write those tags to your images.
+
+The below video shows:
+
+* how to create combinations.
+* how to use this combination on your images.
+
+The created combinations in this movie are based om metadata tags already known to Exiftool. These are the standard Exif, XMP, IPTC, etcetera metadata tags. For 99% of the users this is all they will need.
+
+#### jExifToolGUI #01: Create and use User defined Combinations
+[plugin:youtube](https://youtu.be/FvTN-pMU7yM)
+**Note:** The video is displayed by default in 1024x576 in 480p, but the maximum resolution is 1920x1080. (When playing select the gear icon in the bottom bar to set to 1080P and click the bottom right icon to play fullscreen)
+
+This video shows the basis.
+The tag names will not be stored in alphabetical order but in the order you created/saved them.
+You can also cut/copy & paste tags: The second movie shows how to use Copy&Paste from (or to) other apps like spreadsheets (Excel, Google Spreadsheets, etc.) where you define your combinations.
+#### jExifToolGUI #02: user combis copy paste
+[plugin:youtube](https://youtu.be/8cXT2Aiy6bI)
