@@ -3,7 +3,7 @@ title: jExifToolGUI
 external_links:
     no_follow: true
 metadata:
-    Keywords: jexiftoolgui
+    Keywords: 'jexiftoolgui, exiftool'
 taxonomy:
     category:
         - docs
