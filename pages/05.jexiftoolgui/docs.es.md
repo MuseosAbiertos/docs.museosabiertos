@@ -20,54 +20,52 @@ jExifToolGUI: '**j**' por Java, ‘**GUI**' por interfaz gráfica de usuario de 
 
 jExifToolGUI es sólo una interfaz gráfica para la excelente aplicaciñon de línea de comandos de código abierto en Perl, ExifTool de Phil Harvey. ExifTool es el verdadero "motor", pero como es una herramienta de línea de comandos es para algunos usuarios menos amigable. jExifToolGUI está construido alrededor de ExifTool e intenta dar muchas funcionalidades y flexibilidad sin tener que recordar cada parámetro de la línea de comandos. jExifToolGUI sólo implementa parte de la funcionalidad de ExifTool. Definitivamente no es un GUI completo para ExifTool y ciertamente no puede reemplazarlo (ExifTool es el motor "bajo el capó").
 
-This program is Open Source and completely free and will always stay that way, but you can donate any amount to me to show your appreciation if you continue to use it (after all it took a lot of hours/days to write it). See the Help menu in the program or click here.
+Este programa es de código abierto y completamente gratuito y siempre se mantendrá así, pero puedes donarme cualquier cantidad para mostrar tu agradecimiento si continúas usándolo (después de todo, me llevó muchas horas/días escribirlo). Mira el menú de Ayuda en el programa o [haz clic aquí](https://hvdwolf.github.io/jExifToolGUI/donate.html).
+Y cuando se trata de la donación, lo mismo es válido, por supuesto, para la propia ExifTool. Para la donación a Exiftool (Phil Harvey), [ver aquí](https://exiftool.org/#donate).
 
-And when it comes to donation, the same is off course valid for ExifTool itself. For donation to exiftool (Phil Harvey), see here.
+Este manual y la versión de jExifToolGUI no siempre funcionan sincrónicamente. Si se añade una nueva funcionalidad al programa que requiera un nuevo capítulo o párrafo, el manual se actualizará para esa nueva sección. Sin embargo, no todas las partes del manual serán/podrán ser actualizadas, lo que podría llevar a pantallas de programas más antiguos en el manual que podrían desviarse ligeramente de la versión del programa con el que se está trabajando.
+Ten en cuenta también que verás capturas de pantalla de varios sistemas operativos (Linux/Windows/MacOS) y/o gestores de ventanas (en Linux).
 
-This manual and the jExifToolGUI version might not always run synchronously. If new functionality is added to the program which requires a new chapter or paragraph, the manual will be updated for that new section. However, not all parts of the manual will/might be updated which might lead to older program screens in the manual that might slightly deviate from the program version you will be working with.
-Note also that you will see screen captures from several operating systems (Linux/Windows/MacOS) and/or window managers (on Linux).
+! Este manual se trabajará y se ampliará lentamente. Actualmente se encuentra en su infancia.
 
-**This manual will be worked on and slowly expand. It currently is in its infancy.**
+## 2 Versiones e "Instalación"
+Esta herramienta está escrita en Linux, se usa en Linux y se prueba principalmente en Linux. Sin embargo, como es un programa multiplataforma de Java Swing debería funcionar bien en MacOS, Windows y teóricamente en todas las plataformas que soportan Java.
 
-## 2 Versions and "Installation"
-This tool is written on Linux, used on Linux and mostly tested on Linux. However, as it is a java Swing cross-platform program it should run fine on MacOS, Windows and theoretically on all platforms that support java.
-
-**Note:** jExifToolGUI comes without exiftool which you need to download yourself from Phil Harvey's exiftool site if you want the latest version. On Linux you can also use the version belonging to your distribution.
+**Nota:** jExifToolGUI viene sin ExifTool, el cual debes descargar tú mismo del [sitio de ExifTool de Phil Harvey](http://www.sno.phy.queensu.ca/~phil/exiftool/) si quieres la última versión. En Linux también puedes usar la versión perteneciente a tu distribución.
 
 ### Universal jar
-* `jExifToolGUI.jar`: Just the bare jExifToolGUI.jar containing all dependencies. You need to have java version 8 (1.8) or newer installed on your system.
-Start from a terminal with java -jar jExifToolGUI.jar &. This version should run on any system that comes included with java 8 or newer, or where you can install java 8 or newer. (Windows/Linux/MacOS (BSD*unix)/Solaris/AIX/HP*UX etc.)
+* `jExifToolGUI.jar`: Sólo el jExifToolGUI.jar desnudo, que contiene todas las dependencias. Necesitas tener la versión 8 (1.8) o más reciente de Java instalada en tu sistema.
+Empieza desde una terminal con `java -jar jExifToolGUI.jar &.` Esta versión debe funcionar en cualquier sistema que venga incluido con java 8 o más reciente, o donde puedas instalar java 8 o más reciente. (Windows/Linux/MacOS (BSD*unix)/Solaris/AIX/HP*UX etc.)
 
 ### Windows
-*     `jExifToolGUI-<version>-win-x86_64_with-jre.zip`: A windows 64-bit executable including java V11. Unzip with paths!
-*     `jExifToolGUI-<version>-win-x86_64.zip`: A windows 32/64 bit executable without java. You need java 8 (1.8) or newer installed on your system.
+* `jExifToolGUI-<version>-win-x86_64_with-jre.zip`: Un ejecutable de 64 bits de Windows, incluyendo el Java V11. Descomprimir con las rutas!
+* `jExifToolGUI-<version>-win-x86_64.zip`: Un ejecutable de 32/64 bits de Windows sin Java. Necesitas tener instalado en tu sistema el Java 8 (1.8) o uno más reciente.
 
-    Both versions do not come with installers. Simply unzip (with paths) to a folder of your liking and optionally create a shortcut on your desktop.
-   
+Ambas versiones no vienen con instaladores. Simplemente descomprime (con rutas) en una carpeta de tu agrado y opcionalmente crea un acceso directo en tu escritorio.
+
 ### MacOS
-* `jExifToolGUI-x86_64-macos-<version>-with_jre.dmg.zip`: A MacOS bundle including java V11. Note: Apple is very unfriendly to non-Apple stuff like java/perl and other software. This bundle IS a working Apple bundle but not entirely according Apple standards.
-* `jExifToolGUI-x86_64-macos-<version>.dmg`: A MacOS bundle without java. You need java 8 (1.8) or newer installed on your system.
+* `jExifToolGUI-x86_64-macos-<version>-with_jre.dmg.zip`: Un paquete MacOS que incluye el Java V11. Nota: Apple es muy poco amigable con las cosas que no son de Apple como Java/Perl y otros softwares. Este paquete ES un paquete de Apple que funciona, pero no cumple totalmente con los estándares de Apple.
+* `jExifToolGUI-x86_64-macos-<version>.dmg`: Un paquete de MacOS sin Java. Necesitas tener instalado en tu sistema el Java 8 (1.8) o uno más reciente.
 
-These are MacOS Application bundles. In case of the full version you first need to unzip it to get the dmg file. Open the dmg (by double-clicking it) and select it from the left navigation panel in your Finder where it will appear as a "virtual disk" (DMG Files are Mac-formatted Disk Image Files). Drag the "jExifToolGUI.app" bundle from the dmg into a folder of your liking where Applications is the most logical one.
+Estos son paquetes de aplicaciones MacOS. En el caso de la versión completa, primero tienes que descomprimirla para obtener el archivo dmg. Abre el dmg (haciendo doble clic en él) y selecciónalo en el panel de navegación izquierdo de tu Finder, donde aparecerá como "disco virtual" (Los archivos DMG son archivos de imagen de disco con formato Mac). Arrastra el paquete "jExifToolGUI.app" de la dmg a la carpeta Aplicaciones o alguna otra de tu gusto.
 
-**Note:** MacOS (the Gatekeeper software) does normally not allow applications to be started that do not originate from the AppStore or come from an "unidentified" developer (me). You need to add jExifToolGUI to the "list of exceptions". That is actually very simple. See Apple support
+**Note:** MacOS (el software Gatekeeper) normalmente no permite que se inicien aplicaciones que no se originen en la AppStore o que provengan de un desarrollador "no identificado" (yo). Necesitas añadir jExifToolGUI a la "lista de excepciones". Eso es en realidad muy simple. Ver soporte de Apple.
 
 ### Linux 
-* `jExifToolGUI-<version>.deb`: a Linux .deb package. For all Debian based systems (Debian/Ubuntu/Mint/MX Linux/Raspbian etc. etc.). This is a linux multi-architecture version as the relevant java V11 version for your system/architecture will be downloaded as dependency.
-Use `sudo dpkg -i jexiftoolgui-<version>.deb` to install. As of that moment it will also appear in your menu.
-* `jExifToolGUI-<version>-x86_64.AppImage`: Linux universal Appimage including java V11. Runs on every 64bit intel Linux system (and also inside Chromebook Linux beta).
-Simpy do a `chmod +x jExifToolGUI-<version>-x86_64.AppImage and start with ./jExifToolGUI-<version>-x86_64.AppImage &.`
+* `jExifToolGUI-<version>.deb`: Un paquete Linux.deb. para todos los sistemas basados en Debian (Debian/Ubuntu/Mint/MX Linux/Raspbian etc.). Esta es una versión multiarquitectura de Linux, ya que la versión relevante de Java V11 para su sistema/arquitectura será descargada como dependencia.
+Usa `sudo dpkg -i jexiftoolgui-<versión>.deb` para instalar. A partir de ese momento también aparecerá en tu menú.
+* `jExifToolGUI-<version>-x86_64.AppImage`: Linux universal Appimage incluyendo Java V11. Funciona en todos los sistemas Linux de 64 bits (y también dentro de la beta de Chromebook Linux).
+Simplemente haz un `chmod +x jExifToolGUI-<version>-x86_64.AppImage` y ejecuta `./jExifToolGUI-<version>-x86_64.AppImage &.`
 
 
 ## 2.1 Uninstall
 
-    If you use the deb package on any Debian/Ubuntu like Linux OS, you can use apt-get or dpkg to uninstall it.
-All other versions: be it the MacOS bundles, or windows .exes or linux appImage can simply be deleted.
+Si usas el paquete deb en cualquier sistema operativo Debian/Ubuntu como Linux, puedes usar apt-get o dpkg para desinstalarlo.
+**Nota**: Todas las demás versiones, ya sean los paquetes de MacOS, o los de Windows .exes o linux appImage pueden ser simplemente borrados.
 
-* User data and program data: In your home/user folder, you will find a folder jexiftoolgui_data. Simply remove that folder.
-* Logs:
-jar/Windows exe/appImage: In the same folder where your run the application you will find a folder logs. Simply delete that one.
-For the MacOS bundles and the jexiftoolgui.deb, the logs are written to folder logs inside your user/home folder. Simply delete the logs folder.
+* Datos de usuario y datos de programa: En tu carpeta de usuario, encontrará una carpeta _jexiftoolgui_data_. Simplemente elimina esa carpeta.
+* Logs: jar/Windows exe/appImage: En la misma carpeta donde se ejecuta la aplicación encontrarás una carpeta de registros. Simplemente borra esa.
+Para los paquetes de MacOS y el jexiftoolgui.deb, los registros se escriben en registros de carpeta dentro de su carpeta de usuario/hogar. Simplemente borra la carpeta de registros.
 
 ## 3 Quick Start
 The program consists of a left pane containing your photos, and a right pane which consists of a set of tabs. One of these tabs ("Edit") contains a subset of tabs (Some of the sub tabs on the "Edit Data" tab will return in this manual for further explanation).
@@ -240,8 +238,6 @@ Translating the application in your language is a volunteers/community effort. [
 * The "System" tab (bottom right): W.r.t. the log level: Do not set it too high. That will create huge files and slow down the application (due to all the logging). The author or someone else might ask you to put it to the highest level for trobleshooting.
 
 The "Check for new jExifToolGUI version on program start" is useful as you will automatically be informed of a new release on startup.
-
-! This manual will be worked on and slowly expand. It currently is in its infancy.
 
 ## Appendix A GNU Free Documentation License
 [https://www.gnu.org/licenses/old-licenses/fdl-1.2.html#]
