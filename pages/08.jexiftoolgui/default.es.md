@@ -3,21 +3,22 @@ title: jExifToolGUI
 ---
 
 jExifToolGUI: a cross-platform java Swing gui for ExifTool
-Table of Contents
-1 [Chapter 1](#chapter-3)
-2 Versions and "Installation"
-2.1 Uninstall
-3 Quick Start
-4 Some Edit sub tabs further explained
-4.1 Geotagging
-4.2 Use Lenses and create lens templates for your lenses
-4.3 Create and use user defined metadata tag combinations
-5 Several menu options
-5.1 Rename photos
-5.2 Sidecar exports
-6 Preferences
-Appendix A GNU Free Documentation License
 
+### Table of Contents
+
+* 1 Overview
+* 2 Versions and "Installation"
+* * 2.1 Uninstall
+* 3 Quick Start
+* 4 Some Edit sub tabs further explained
+* * 4.1 Geotagging
+* * 4.2 Use Lenses and create lens templates for your lenses
+* * 4.3 Create and use user defined metadata tag combinations
+* 5 Several menu options
+* * 5.1 Rename photos
+* * 5.2 Sidecar exports
+* 6 Preferences
+* Appendix A GNU Free Documentation License 
 
 # 1 Overview
 **jExifToolGUI** is a java Swing program that reads and writes metadata from files, predominantly image files. It has some preformatted screens for exif, gps/location, xmp, gpano (and a very limited set of IPTC) tags to write/read from/to image files using **ExifTool** and it also supports geotagging. Next to that you can define your own combination of metadata tags to write to your images. This gives you the option to use any tag that Exiftool supports. Next to that you can also define "brand new" non-existing tags that can be added to your files using a user-defined configuration file and user define tag combination. jExifToolGUI: j for java, GUI for Graphical User Interface to ExifTool.
