@@ -64,8 +64,8 @@ Si usas el paquete deb en cualquier sistema operativo Debian/Ubuntu como Linux, 
 **Nota**: Todas las demás versiones, ya sean los paquetes de MacOS, o los de Windows .exes o linux appImage pueden ser simplemente borrados.
 
 * Datos de usuario y datos de programa: En tu carpeta de usuario, encontrará una carpeta _jexiftoolgui_data_. Simplemente elimina esa carpeta.
-* Logs: jar/Windows exe/appImage: En la misma carpeta donde se ejecuta la aplicación encontrarás una carpeta de registros. Simplemente borra esa.
-Para los paquetes de MacOS y el jexiftoolgui.deb, los registros se escriben en registros de carpeta dentro de su carpeta de usuario/hogar. Simplemente borra la carpeta de registros.
+* Logs: jar/Windows exe/appImage: En la misma carpeta donde se ejecuta la aplicación encontrarás una carpeta de registros. Simplemente elimínala.
+Para los paquetes de MacOS y el jexiftoolgui.deb, los registros se escriben en registros de carpeta dentro de su carpeta de [/Users/mrtn_grsbch] Simplemente borra la carpeta de registros.
 
 ## 3 Quick Start
 The program consists of a left pane containing your photos, and a right pane which consists of a set of tabs. One of these tabs ("Edit") contains a subset of tabs (Some of the sub tabs on the "Edit Data" tab will return in this manual for further explanation).
