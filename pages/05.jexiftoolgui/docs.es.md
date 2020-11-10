@@ -65,39 +65,39 @@ Si usas el paquete deb en cualquier sistema operativo Debian/Ubuntu como Linux, 
 
 * Datos de usuario y datos de programa: En tu carpeta de usuario, encontrará una carpeta _jexiftoolgui_data_. Simplemente elimina esa carpeta.
 * Logs: jar/Windows exe/appImage: En la misma carpeta donde se ejecuta la aplicación encontrarás una carpeta de registros. Simplemente elimínala.
-Para los paquetes de MacOS y el jexiftoolgui.deb, los registros se escriben en registros de carpeta dentro de su carpeta de [/Users/mrtn_grsbch] Simplemente borra la carpeta de registros.
+Para los paquetes de MacOS y el jexiftoolgui.deb, los registros se escriben en registros de carpeta dentro de su carpeta de "/Users/(usuario)" Simplemente elimina la carpeta de registros.
 
 ## 3 Quick Start
-The program consists of a left pane containing your photos, and a right pane which consists of a set of tabs. One of these tabs ("Edit") contains a subset of tabs (Some of the sub tabs on the "Edit Data" tab will return in this manual for further explanation).
-Next to the tabs on the right, the program also has several menus which contain more functionalities. A number of buttons and functions will not work, and are disabled, until you have loaded at least one photo. Most actions on your images which you perform in the right tabs or in the menus, only work after having selected at least one, or more of the loaded photos in the left pane.
+El programa consiste en un panel izquierdo que contiene tus fotos y un panel derecho que consiste en un conjunto de pestañas. Una de estas pestañas ("Editar") contiene un subconjunto de pestañas (algunas de las subpestañas de la pestaña "Editar datos” serán tratadas en este manual para una mayor explicación).
+Junto a las pestañas de la derecha, el programa también tiene varios menús que contienen más funcionalidades. Algunos botones y funciones no funcionarán, y están deshabilitados, hasta que no se haya cargado al menos una foto. La mayoría de las acciones sobre las imágenes que se realizan en las pestañas de la derecha o en los menús, sólo funcionan después de haber seleccionado al menos una o más de las fotos cargadas en el panel de la izquierda.
 
 [![](https://hvdwolf.github.io/jExifToolGUI/manual/images/mainscreen-quickstart-01.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/mainscreen-quickstart-01.png)
 
 ### View data
-Select an image and click one of the radiobuttons and select the desired metadata category from the drop-down. The "Common Tags" is not the ExifTool category "common", but what the author considers are "commonly selected categories". The "user defined metadata tags combinations" (see here) are also added to this drop down. If you have multiple images selected, the metadata for the last selected image will be displayed.
+Selecciona una imagen y haga clic en uno de los radiobotones y luego selecciona la categoría de metadatos deseada en el desplegable. Las "Etiquetas comunes" no son la categoría "común" de ExifTool, pero lo que el autor considera son "categorías comúnmente seleccionadas". Las "combinaciones de etiquetas de metadatos definidas por el usuario" (ver sección "4.3 Create and use user defined metadata tag combinations") también se añaden a este desplegable. Si tienes varias imágenes seleccionadas, se mostrarán los metadatos de la última imagen seleccionada.
 
 [![](https://hvdwolf.github.io/jExifToolGUI/manual/images/ViewData.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/ViewData.png)
 
 ### Edit data
-Here as well: All actions in the right "Edit" tab only work after having selected one or more of the loaded photos.
+Aquí también; todas las acciones de la pestaña derecha "Editar" sólo funcionan después de haber seleccionado una o más de las fotos cargadas.
 
-* You can select one image and modify the data for it.
-* You can select multiple images at once and modify the data for all these images at once.
-* You can select one image, copy data from it, then select multiple images, and paste the (copied) data to these multiple images at once.
+* Puedes seleccionar una imagen y modificar los datos de la misma.
+* Puedes seleccionar varias imágenes a la vez y modificar los datos de todas ellas a la vez.
+* Puedes seleccionar una imagen, copiar los datos de la misma, luego seleccionar varias imágenes y pegar los datos (copiados) en estas imágenes a la vez.
 
 [![](https://hvdwolf.github.io/jExifToolGUI/manual/images/EditData.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/EditData.png)
 
-All Edit sub tabs do have a "bottom line" of buttons "copy from", "save to" and "Help"
+Todas las subpestañas de edición tienen una "línea inferior" de botones “Copiar de la imagen seleccionada", “Guardar en las imagenes seleccionadas" y “Ayuda".
 
 [![](https://hvdwolf.github.io/jExifToolGUI/manual/images/CopyFromSaveToHelp.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/CopyFromSaveToHelp.png)
 
-As mentioned in bullet #3: You can copy the relevant information from a selected image. Then you can write this info to many images.
-Note: Under (menu) "Metadata -> SideCar Exports" you can export metadata to a number of format. Especially MIE is an excellent format to export to. You can read the MIE format back in like an image and use it to "Copy from".
+Como se menciona en el punto #3: Puede copiar la información relevante de una imagen seleccionada. Luego puede escribir esta información en muchas imágenes.
+Nota: En (menú) "Metadatos -> Exportar Sidecar" puede exportar los metadatos a varios de formatos. Especialmente MIE es un excelente formato para exportar. Puede leer el formato MIE como una imagen y usarlo para "Copiar desde".
 
-Some of the sub tabs on the "Edit Data" tab will return in this manual for further explanation
+Algunas de las subpestañas de la pestaña "Editar datos” se verán en este manual para una mayor explicación.
 
 ### Copy Data
-This options allows you to copy entire metadata categories from one image to multiple images.
+Esta opción permite copiar categorías enteras de metadatos de una imagen a múltiples imágenes.
 
 [![](https://hvdwolf.github.io/jExifToolGUI/manual/images/CopyData.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/CopyData.png)
 
