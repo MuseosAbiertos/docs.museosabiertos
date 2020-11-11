@@ -170,40 +170,42 @@ La pantalla de creación y mantenimiento
 [![](https://hvdwolf.github.io/jExifToolGUI/manual/images/use_user_defined_metadata_combis.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/use_user_defined_metadata_combis.png)
 The Edit screen where you use your defined metadata sets to write those tags to your images.
 
-The below video shows:
+El siguiente video muestra:
 
-* how to create combinations.
-* how to use this combination on your images.
+* cómo crear combinaciones.
+* cómo usar esta combinación en tus imágenes.
 
-The created combinations in this movie are based om metadata tags already known to Exiftool. These are the standard Exif, XMP, IPTC, etcetera metadata tags. For 99% of the users this is all they will need.
+Las combinaciones creadas en este video se basan en etiquetas de metadatos ya conocidas por ExifTool. Estas son las etiquetas de metadatos estándar de Exif, XMP, IPTC, etc. Para el 99% de los usuarios esto es todo lo que necesitarán.
 
-#### jExifToolGUI #01: Create and use User defined Combinations
+#### jExifToolGUI #01: Crear y utilizar combinaciones definidas por el usuario
 [plugin:youtube](https://youtu.be/FvTN-pMU7yM)
-**Note:** The video is displayed by default in 1024x576 in 480p, but the maximum resolution is 1920x1080. (When playing select the gear icon in the bottom bar to set to 1080P and click the bottom right icon to play fullscreen)
+**Nota:** El video se muestra por defecto en 1024x576 en 480p, pero la resolución máxima es de 1920x1080. (Al reproducirlo, selecciona el icono del engranaje en la barra inferior para ajustarlo a 1080P y haz clic en el icono inferior derecho para reproducirlo a pantalla completa).
 
-This video shows the basis.
-The tag names will not be stored in alphabetical order but in the order you created/saved them.
-You can also cut/copy & paste tags: The second movie shows how to use Copy&Paste from (or to) other apps like spreadsheets (Excel, Google Spreadsheets, etc.) where you define your combinations.
+Este video muestra las bases.
+Los nombres de las etiquetas no se almacenarán en orden alfabético sino en el orden en que los creaste/guardaste.
+También puedes cortar/copiar y pegar etiquetas: El segundo video muestra cómo usar Copiar & Pegar desde (o hacia) otras aplicaciones como hojas de cálculo (Excel, Google Spreadsheets, etc.) donde defines tus combinaciones.
+
 #### jExifToolGUI #02: user combis copy paste
 [plugin:youtube](https://youtu.be/8cXT2Aiy6bI)
-Note: The video is displayed by default in 1024x576 in 480p, but the maximum resolution is 1920x1080. (When playing select the gear icon in the bottom bar to set to 1080P and click the bottom right icon to play fullscreen)
+**Nota:** El video se muestra por defecto en 1024x576 en 480p, pero la resolución máxima es 1920x1080. (Al reproducirlo selecciona el icono del engranaje en la barra inferior para ponerlo en 1080P y haz clic en el icono inferior derecho para reproducirlo a pantalla completa)
 
-##### Creating non-existing tags to add to your images
-Below only gives you a very brief overview what can be done.
+##### Creando etiquetas inexistentes para añadirlas a sus imágenes
+A continuación sólo se ofrece un breve resumen de lo que se puede hacer.
 
-Exiftool allows you to define metadata tags that "do not exist yet". For this you need to create a custom config file where you define those "brand new" metadata tags.
-This is described at the [Exiftool site](https://exiftool.org/config.html)
-Another example is delivered with jExifToolGUI itself. It is called _isadg-struct.cfg_ and is based on the isad(g) archiving standard (based on this xml scheme). The _isadg-struct.cfg_ I created can be found [here online](https://raw.githubusercontent.com/hvdwolf/jExifToolGUI/master/src/main/resources/isadg-struct.cfg), but it is also located in the jexiftoolgui_data folder inside your user home folder. (Just to make sure users do not corrupt this file, it is overwritten on every program start).
-When wanting to use non-existing tags, you first create the cfg file containing these tags. Then you define your combination set in the Tools screen, based on the tagnames in your configuration file. Upon saving this set, you also use the file chooser to select the cfg file you created. jExifToolGUI will then copy the cfg file into the jexiftoolgui_data folder and will store the link between the tags and the configuration file in the database. When you want to use this combination set, jExifToolGUI will also use the configuration file (has to use the file otherwise the tags can't be written).
-**Note:** Exiftool, thereby jExifToolGUI, can read those tags from the images at any time. You only need the config file when wanting to write the tags to your images.
+ExifTool permite definir etiquetas de metadatos que "no existen todavía". Para ello es necesario crear un archivo de configuración personalizado en el que se definen esas etiquetas de metadatos "totalmente nuevas".
+Esto se describe en [Sitio ExifTool](https://exiftool.org/config.html)
+Otro ejemplo se entrega con el propio jExifToolGUI. Se llama _isadg-struct.cfg_ y se basa en el estándar de archivo ISAD(G) (basado en este esquema XML). El _isadg-struct.cfg_ que he creado se puede encontrar [aquí en línea]
+(https://raw.githubusercontent.com/hvdwolf/jExifToolGUI/master/src/main/resources/isadg-struct.cfg), pero también se encuentra en la carpeta jexiftoolgui_data dentro de su carpeta de usuario. (Para asegurarse de que los usuarios no corrompan este archivo, se sobrescribe en cada inicio del programa).
+Cuando se desea utilizar etiquetas inexistentes, primero se crea el archivo cfg que contiene estas etiquetas. A continuación, define su conjunto de combinaciones en la pantalla de Herramientas, basándose en los nombres de las etiquetas en su archivo de configuración. Al guardar este conjunto, también se utiliza el selector de archivos para seleccionar el archivo cfg que se ha creado. jExifToolGUI copiará entonces el archivo cfg en la carpeta jexiftoolgui_data y almacenará el enlace entre las etiquetas y el archivo de configuración en la base de datos. Cuando quiera utilizar este conjunto de combinaciones, jExifToolGUI también utilizará el archivo de configuración (tiene que utilizar el archivo, de lo contrario las etiquetas no se pueden escribir).
+**Nota:** ExifTool, por lo tanto jExifToolGUI, puede leer esas etiquetas de las imágenes en cualquier momento. Sólo necesitas el archivo de configuración cuando quieras escribir las etiquetas en tus imágenes.
 
-## 5 Several menu options
-In this chapter some of the menu options will be explained. Some because they are somewhat more complicated. Some other menus/screens because you might not know what the "usefullnes" is of these options.
+## 5 Varias opciones de menú
+En este capítulo se explicarán algunas de las opciones del menú. Algunas porque son algo más complicadas. Otros menús/pantallas porque puede que no sepas cuál es la "utilidad" de estas opciones.
 
 ### 5.1 Rename photos
-jExifToolGUI gives you many options to rename your photos. These will explained here.
-Inside the "striped" frame you see the options for dropdown boxes 1 and 2.
-Renaming has 4 "subsections": the "prefix", the "suffix", "numbering" and the "extension" which give you for a filename "prefix_suffix_(numbering).extension".
+jExifToolGUI te da muchas opciones para renombrar tus fotos. Esto se explicará aquí.
+Dentro del marco "a rayas" se ven las opciones de los cuadros desplegables 1 y 2.
+El renombramiento tiene 4 "subsecciones": el "prefijo", el "sufijo", la "numeración" y la "extensión" que te dan para un nombre de archivo "prefijo_sufijo_(numeración).extensión".
 
 * prefix: This is the first part of the name. You have 4 basic options to choose from, where the 2 dropboxes options are depicted in the striped frame. The "String" field gives you the option to give it any name you like with spaces (not supported: quotes, double-quotes, forward slashes, backward slashes, question marks, exclamation marks, colons and semicolons (and probably more "strange" characters).
 * suffix: This is the second part of the name. You have (currently) 10 options to choose from where some are based on the metadata in your images (these might later change to a dropdown as well). Only remark here is that "${filename}" is the original filename your camera gives to the image like for example "DSC_1234.NEF" or "P10001234.JPG", etcetera.
