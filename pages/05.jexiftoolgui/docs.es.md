@@ -168,7 +168,7 @@ Debajo de la pantalla de mantenimiento y la pantalla de edición.
 [![](https://hvdwolf.github.io/jExifToolGUI/manual/images/maintain_user_defined_metadata_combis.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/maintain_user_defined_metadata_combis.png)
 La pantalla de creación y mantenimiento
 [![](https://hvdwolf.github.io/jExifToolGUI/manual/images/use_user_defined_metadata_combis.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/use_user_defined_metadata_combis.png)
-The Edit screen where you use your defined metadata sets to write those tags to your images.
+La pantalla de edición en la que se utilizan los conjuntos de metadatos definidos para escribir esas etiquetas en las imágenes.
 
 El siguiente video muestra:
 
