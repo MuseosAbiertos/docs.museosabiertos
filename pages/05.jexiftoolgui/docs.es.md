@@ -218,32 +218,33 @@ El renombramiento tiene 4 "subsecciones": el "prefijo", el "sufijo", la "numerac
 Los metadatos de las imágenes y otros tipos de archivos pueden almacenarse en (exportados a) archivos de metadatos separados. ExifTool soporta y puede crear varios de estos archivos de metadatos. El archivo "sidecar" XMP es probablemente el formato más conocido. Otros tipos de archivos de metadatos soportados son EXIF, XMP, MIE ("El único formato que no apesta") y EXV. jExifToolGUI puede exportar todos los metadatos contenidos en las imágenes y otros archivos que ExifTool soporta, y esto se puede usar a través de (Menú) "Metadata-> Exportar metadatos". Los formatos soportados son TXT, TAB, XML, HTML y CSV.
 
 Las exportaciones de Sidecar se pueden encontrar en (menú) "Metadatos -> Exportaciones de Sidecar". Las exportaciones del Sidecar son ligeramente diferentes.
+
 [![](https://hvdwolf.github.io/jExifToolGUI/manual/images/metadatasidecar.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/metadatasidecar.png)
 
 Todos los archivos de Sidecar pueden ser leídos como "imágenes". Esto hace posible leer (por ejemplo) un archivo .mie junto con un número de imágenes. El archivo de metadatos .mie se utiliza como "Copiar de la imagen seleccionada" y se usa para rellenar una o más imágenes. Por esta razón no existe una función de importación para estos archivos de Sidecar, ya que puede utilizarlos como se acaba de describir.
 
-## 6 Preferences
-The Preferences can be found under the menu "File -> Preferences"
-Currently the Preferences screen has 3 tabs: General (Linux LXDE), Language (Windows), System (MacOS). See below (reduced size) images.
+## 6 Preferencias
+Las preferencias se encuentran en el menú "Archivo -> Preferencias"
+Actualmente la pantalla de Preferencias tiene 3 pestañas: General (Linux LXDE), Idioma (Windows), Sistema (MacOS).
 [![](https://hvdwolf.github.io/jExifToolGUI/manual/images/01-preferences-general-500.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/01-preferences-general-500.png)
 
-### The "General" tab (left):
+### La pestaña "General" (izquierda):
 
-* W.r.t. the "Raw Image viewer". jExiftoolGUI can show quite a lot of images like jpg/png/tif/bmp/pgm, but not Raw Images (it can convert some to jpg thumbnails for viewing in the left pane), and neither can most operating systems show Raw Images. So if you have Raw Images and you want to see them full screen, you need to install a Raw Image Viewer.
-* Values to always add to your images: These are 3 input fields writing to multiple metadata tags. The xmp and iptc tags are used by Google Photos and many professional photographers. The somewhat older exif tags are meant for the same purposes but slightly outdated.
+* Respecto al "Visor de Imágenes RAW". jExiftoolGUI puede mostrar una gran cantidad de imágenes como jpg/png/tif/bmp/pgm, pero no Imágenes en bruto (puede convertir algunas en miniaturas jpg para verlas en el panel izquierdo), y tampoco la mayoría de los sistemas operativos pueden mostrar imágenes RAW. Así que si tienes imágenes sin procesar y quieres verlas a pantalla completa, necesitas instalar un visor de imágenes sin procesar.
+* Valores a añadir siempre a tus imágenes: Estos son 3 campos de entrada que escriben en múltiples etiquetas de metadatos. Las etiquetas XMP e IPTC son usadas por Google Photos y muchos fotógrafos profesionales. Las etiquetas EXIF, algo más antiguas, tienen el mismo propósito pero están un poco desactualizadas.
 
-### The "Language" tab (top right):
+### La pestaña "Idioma" (arriba a la derecha):
 
-* jExifToolGUI can be translated. jExifToolGUI will try to start in the operating system language, but only if that is available as translated "property language". It is currently translated in (American) English (default), Spanish, German and Dutch. On this tab you can select one of those languages if you prefer that over your system language, or in case your system language is not supported but your American English is not as good as your Spanish or German.
-* Many Exiftool users have helped to translate the desciption of metadata tags in Exiftool. (This has nothing to do with jExifToolGUI, but with ExifTool). You can select a number of languages and if the tag is translated you will see the tag in that language.
+* jExifToolGUI puede ser traducido. jExifToolGUI intentará iniciar en el idioma del sistema operativo, pero sólo si está disponible como "idioma de propiedad" traducido. Actualmente está traducido en inglés (americano), español, alemán y holandés. En esta pestaña puedes seleccionar uno de esos idiomas si lo prefieres sobre el idioma de tu sistema, o en caso de que el idioma de tu sistema no esté soportado pero tu inglés americano no sea tan bueno como tu español o alemán.
+* Muchos usuarios de ExifTool han ayudado a traducir la descipción de etiquetas de metadatos en Exiftool. (Esto no tiene nada que ver con jExifToolGUI, sino con ExifTool). Puedes seleccionar un número de idiomas y si la etiqueta está traducida verás la etiqueta en ese idioma.
 
-Translating the application in your language is a volunteers/community effort. [Please help in translating this application](https://hvdwolf.github.io/jExifToolGUI/translate.html).
+La traducción de la aplicación en su idioma es un esfuerzo de voluntarios y de la comunidad. [Por favor, ayudanos a traducir esta aplicación](https://hvdwolf.github.io/jExifToolGUI/translate.html).
 
-* The "System" tab (bottom right): W.r.t. the log level: Do not set it too high. That will create huge files and slow down the application (due to all the logging). The author or someone else might ask you to put it to the highest level for trobleshooting.
+* La pestaña "Sistema" (abajo a la derecha): Respecto el nivel de registro: No lo pongas muy alto. Eso creará archivos enormes y ralentizará la aplicación (debido a todo el registro). El autor o alguien que te de soporte técnico podría pedirte que lo pongas en el nivel más alto para la búsqueda de problemas.
 
-The "Check for new jExifToolGUI version on program start" is useful as you will automatically be informed of a new release on startup.
+El "Comprobar si hay una nueva versión de jExifToolGUI al inicio del programa" es útil ya que te informará automáticamente de una nueva versión al inicio.
 
-## Appendix A GNU Free Documentation License
+## Apéndice A Licencia de Documentación Libre de GNU (en Inglés)
 [https://www.gnu.org/licenses/old-licenses/fdl-1.2.html#]
 
 Version 1.2, November 2002
