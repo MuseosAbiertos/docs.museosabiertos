@@ -244,5 +244,5 @@ La traducción de la aplicación en su idioma es un esfuerzo de voluntarios y de
 
 El "Comprobar si hay una nueva versión de jExifToolGUI al inicio del programa" es útil ya que te informará automáticamente de una nueva versión al inicio.
 
-## Apéndice A Licencia de Documentación Libre de GNU (en Inglés)
+## Apéndice A. Licencia de Documentación Libre de GNU (en Inglés)
 [https://www.gnu.org/licenses/old-licenses/fdl-1.2.html](https://www.gnu.org/licenses/old-licenses/fdl-1.2.html)
