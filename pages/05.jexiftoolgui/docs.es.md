@@ -1,5 +1,5 @@
 ---
-title: jExifToolGUI
+title: 'jExifToolGUI (en Español)'
 external_links:
     no_follow: true
 metadata:
