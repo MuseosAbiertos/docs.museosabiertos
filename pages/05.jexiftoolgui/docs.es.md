@@ -102,57 +102,57 @@ Esta opción permite copiar categorías enteras de metadatos de una imagen a mú
 [![](https://hvdwolf.github.io/jExifToolGUI/manual/images/CopyData.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/CopyData.png)
 
 ### Your Commands
-This program has quite a lot of functionality and flexibility in how you can read/write date from and to your images. In case that is not sufficient you can simply create your own command and run that on your images. Next to that you can also save your commands as "favorites" for later, repeated use.
+Este programa tiene muchas funcionalidades y flexibilidad en la forma en que puede leer/escribir la fecha desde y hacia sus imágenes. En caso de que eso no sea suficiente, puedes simplemente crear tu propio comando y ejecutarlo en tus imágenes. Además, puedes guardar tus comandos como "favoritos" para usarlos repetidamente más tarde.
 
 [![](https://hvdwolf.github.io/jExifToolGUI/manual/images/YourCommands.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/YourCommands.png)
 
 ### ExifTool Database
-This tab does nothing with your images. It is simply a tool to query through all the metadata categories and tags that ExifTool supports. The number of tags is dependent on your ExifTool version. The tab mentions on which version the retrieved information is based (this doesn't have to be the version you have installed on your laptop/pc). Also here you can save your SQL queries as favorites.
+Esta pestaña no hace nada con sus imágenes. Es simplemente una herramienta para consultar a través de todas las categorías de metadatos y etiquetas que ExifTool soporta. El número de etiquetas depende de la versión de ExifTool. La pestaña menciona en qué versión se basa la información recuperada (no tiene que ser la versión que tiene instalada en su equipo). También aquí puede guardar sus consultas SQL como favoritas.
 
 [![](https://hvdwolf.github.io/jExifToolGUI/manual/images/ExiftoolDatabase.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/ExiftoolDatabase.png)
 
 ## 4 Some Edit sub tabs further explained
-In this chapter some of the edit tabs will be further explained. Others like Exif, XMP and GPS/locaion are too straight-forward to say something about them.
+En este capítulo se explicarán con más detalle algunas de las pestañas de edición. Otras como Exif, XMP y GPS/localización son demasiado directas para decir algo sobre ellas.
 
 ### 4.1 Geotagging
-Geotagging adds GPS data to your images based on data from a GPS track log file.
-This GPS track file can be used from your phone, gps device, navigation device, or whatever you have providing such a GPS track.
-The GPS track log file is loaded, and linear interpolation is used to determine the GPS position at the time of the image, then the relevant tags are written to the image (if the corresponding information is available). It means that your camera needs to be set correctly with regard to the date/time of the location where you are.
+El geoetiquetado añade datos GPS a las imágenes basándose en los datos de un archivo de registro de seguimiento de GPS.
+Este archivo de rastreo de GPS se puede usar desde el teléfono, el dispositivo gps, el dispositivo de navegación o cualquier otro dispositivo que proporcione dicho rastreo de GPS.
+Se carga el archivo de registro de rastreo del GPS y se utiliza la interpolación lineal para determinar la posición del GPS en el momento de la imagen, luego se escriben las etiquetas pertinentes en la imagen (si se dispone de la información correspondiente). Esto significa que la cámara debe estar correctamente ajustada con respecto a la fecha/hora del lugar en el que se encuentra.
 
-jExifToolGUI also supports the "Geosync" feature of ExifTool. The Geosync tag is only needed when the image timestamps are not properly synchronized with GPS time.
-For example, a value of "+1:20" specifies that 1 minute and 20 seconds is added to the Geotime value before checking with the GPS track file. This is for a camera running 1 minute 20 seconds slower than the GPS clock.
-The Geosync time is specified as "SS", "MM:SS", "HH:MM:SS" or "DD HH:MM:SS" (where SS=seconds, MM=minutes, HH=hours and DD=days), and a leading "+" or "-" may be added for positive or negative differences.
-**Note:** Do not use (double) quotes around the geosync time in jExifToolGUI. Simply use something like -25 or +1:20
+jExifToolGUI también soporta la función "Geosync" de ExifTool. La etiqueta Geosync sólo es necesaria cuando las marcas de tiempo de la imagen no están correctamente sincronizadas con la hora del GPS.
+Por ejemplo, un valor de "+1:20" especifica que se añade 1 minuto y 20 segundos al valor de geotiempo antes de comprobarlo con el archivo de seguimiento del GPS. Esto es para una cámara que funciona 1 minuto 20 segundos más lento que el reloj del GPS.
+El tiempo de Geosync se especifica como "SS", "MM:SS", "HH:MM:SS" o "DD HH:MM:SS" (donde SS=segundos, MM=minutos, HH=horas y DD=días), y se puede añadir un "+" o "-" para las diferencias positivas o negativas.
+**Nota:** No uses (dobles) citas alrededor del tiempo de geosincronización en jExifToolGUI. Simplemente usa algo como -25 o +1:20
 
-In jExifToolGUI you have 2 options:
+**En jExifToolGUI tienes 2 opciones:**
 
-* Use (a selection of) the images you loaded in the left images pane.
-* Specify a folder containing a set of images to be tagged.
+* Utiliza (una selección de) las imágenes que has cargado en el panel de imágenes de la izquierda.
+* Especifique una carpeta que contenga un conjunto de imágenes a etiquetar.
 
-In case of the first option you need to leave the folder empty. If the "Folder containing the images:" is not left empty, it will always use the second option being the folder.
+En el caso de la primera opción es necesario dejar la carpeta vacía. Si la "Carpeta que contiene las imágenes:" no se deja vacía, siempre utilizará la segunda opción que es la carpeta.
 
-"The "Make backup of Originals" checkbox can make backups when selected. When selected new images will be created and the original images will get the extension ".original".
-**Note:** that jExifToolGUI will write both the EXIF GPS tags as well as the XMP GPS tags.
+"Hacer copia de seguridad de los originales" puede hacer copias de seguridad cuando se selecciona. Cuando se selecciona, se crearán nuevas imágenes y las imágenes originales obtendrán la extensión” .original".
+**Nota:** jExifToolGUI escribirá tanto las etiquetas GPS EXIF como las etiquetas GPS XMP.
 
 [![](https://hvdwolf.github.io/jExifToolGUI/manual/images/geotaggingtab.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/geotaggingtab.png)
 
-### 4.2 Use Lenses and create lens templates for your lenses
-This screen has two purposes:
+### 4.2 Usar lentes y crear 'plantillas de lentes' para sus lentes
+Esta pantalla tiene dos propósitos:
 
-* Add/remove lens data to your photos (first row of buttons)
-* Create/Modify a lens configuration (second row of buttons enclosed inside lined framework), and in this manual within the red frame.
+* Agregar/quitar datos de la lente en tus fotos (primera fila de botones)
+* Crear/Modificar la configuración de una lente (segunda fila de botones encerrada dentro del marco rayado), y en este manual dentro del marco rojo.
   
-Both options can be used to add lens data to your image if it is not complete.
+Ambas opciones se pueden usar para añadir datos de la lente a su imagen si no está completa.
 
-Next to that: Still some add-on lenses are not completely recognized by the camera and therefore the info is not added to the image. For these cases you can create lens configs and save and load them for your images taken with that specific lens.
+Al margen de esto: Aún así, algunas lentes adicionales no son reconocidas completamente por la cámara y por lo tanto la información no se agrega a la imagen. Para estos casos puedes crear configuraciones de lentes y guardarlas y cargarlas para tus imágenes tomadas con esa lente específica.
 
 [![](https://hvdwolf.github.io/jExifToolGUI/manual/images/lenses.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/lenses.png)
 
-When you click the button "Save this lens configuration", the following popup will be displayed.
+Al hacer clic en el botón "Guardar esta configuración de lentes", aparecerá la siguiente ventana emergente.
 [![](https://hvdwolf.github.io/jExifToolGUI/manual/images/createsavelens.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/createsavelens.png)
-The "Load a lens configuration" is almost identical.
+La configuración de "Cargar una lente" es casi idéntica.
 
-### 4.3 Create and use user defined metadata tag combinations
+### 4.3 Crear y utilizar combinaciones de etiquetas de metadatos definidas por el usuario
 Version 1.6 of jExifToolGUI gives you the option to define your own set of metadata tags that you want to add to your images. You can even define multiple metadata combination sets for different purposes: landscapes, sport, archiving, wildlife, family, etcetera. The Maintenance screen can be found in the menu "Tools -> User defined Metadata combis".
 The edit screen can be found under the "Edit Data" tab inside "User defined combinations".
 Currently three metadata sets are "pre-installed":
