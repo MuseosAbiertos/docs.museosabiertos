@@ -58,7 +58,7 @@ Usa `sudo dpkg -i jexiftoolgui-<versión>.deb` para instalar. A partir de ese mo
 Simplemente haz un `chmod +x jExifToolGUI-<version>-x86_64.AppImage` y ejecuta `./jExifToolGUI-<version>-x86_64.AppImage &.`
 
 
-## 2.1 Desinstalar
+### 2.1 Desinstalar
 
 Si usas el paquete deb en cualquier sistema operativo Debian/Ubuntu como Linux, puedes usar apt-get o dpkg para desinstalarlo.
 **Nota**: Todas las demás versiones, ya sean los paquetes de MacOS, o los de Windows .exes o linux appImage pueden ser simplemente borrados.
