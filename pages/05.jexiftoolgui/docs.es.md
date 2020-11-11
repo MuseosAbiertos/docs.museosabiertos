@@ -153,18 +153,20 @@ Al hacer clic en el botón "Guardar esta configuración de lentes", aparecerá l
 La configuración de "Cargar una lente" es casi idéntica.
 
 ### 4.3 Crear y utilizar combinaciones de etiquetas de metadatos definidas por el usuario
-Version 1.6 of jExifToolGUI gives you the option to define your own set of metadata tags that you want to add to your images. You can even define multiple metadata combination sets for different purposes: landscapes, sport, archiving, wildlife, family, etcetera. The Maintenance screen can be found in the menu "Tools -> User defined Metadata combis".
-The edit screen can be found under the "Edit Data" tab inside "User defined combinations".
-Currently three metadata sets are "pre-installed":
+Desde la versión 1.6 de jExifToolGUI le da la opción de definir su propio conjunto de etiquetas de metadatos que quiere añadir a sus imágenes. Incluso puedes definir múltiples conjuntos de combinación de metadatos para diferentes propósitos: paisajes, deportes, archivos, vida salvaje, familia, etcétera. 
+La pantalla de mantenimiento se encuentra en el menú "Herramientas -> "Conjuntos de metadatos definidos por el usuario".
+La pantalla de edición se encuentra en la pestaña "Editar Datos" dentro de “Combinaciones definidas por el usuario".
 
-* isadg: ISAD(G) data will be added to the XMP set as new category xmp-isadg. (ISAD(G) is General International Standard Archival Description)
-* gps_location: All gps and location tags in the 3 categories EXIF,XMP and IPTC.
-* Google Photos: All tags that Google Photos uses or recognizes.
+Actualmente hay tres conjuntos de metadatos "preinstalados":
 
-Below the maintenance screen and edit screen.
-Click the images to see a full-size version in a separate tab.
+* isadg: Los datos de ISAD(G) se añadirán al conjunto de XMP como nueva categoría xmp-isadg. (ISAD(G) es General International Standard Archival Description)
+* gps_location: Todos los gps y etiquetas de localización en las 3 categorías EXIF, XMP e IPTC.
+* Google Photos: Todas las etiquetas que Google Photos usa o reconoce.
+
+Debajo de la pantalla de mantenimiento y la pantalla de edición.
+
 [![](https://hvdwolf.github.io/jExifToolGUI/manual/images/maintain_user_defined_metadata_combis.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/maintain_user_defined_metadata_combis.png)
-The maintenance and create screen	
+La pantalla de creación y mantenimiento
 [![](https://hvdwolf.github.io/jExifToolGUI/manual/images/use_user_defined_metadata_combis.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/use_user_defined_metadata_combis.png)
 The Edit screen where you use your defined metadata sets to write those tags to your images.
 
