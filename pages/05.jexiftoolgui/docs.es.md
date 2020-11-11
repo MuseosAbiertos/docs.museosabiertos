@@ -13,7 +13,7 @@ page-toc:
 
 # jExifToolGUI: una GUI multiplataforma [Java Swing] para ExifTool
 
-## 1 Visión general
+## 1. Visión general
 **jExifToolGUI** es un programa Java Swing que lee y escribe metadatos de archivos, predominantemente archivos de imágenes. Tiene algunas pantallas preformateadas para Exif, GPS/ Localización, XMP, GPano (y un conjunto muy limitado de etiquetas IPTC) para leer/escribir desde/hacia archivos de imagen usando ExifTool y también soporta geo-etiquetado. Además, puedes definir tu propia combinación de etiquetas de metadatos para escribir en tus imágenes. 
 Esto te da la opción de usar cualquier etiqueta que ExifTool soporte. Además, también puedes definir etiquetas "totalmente nuevas" no existentes que pueden ser añadidas a sus archivos utilizando un archivo de configuración 'definido por el usuario' y una combinación de etiquetas definidas por el usuario. 
 jExifToolGUI: '**j**' por Java, ‘**GUI**' por interfaz gráfica de usuario de ExifTool.
@@ -28,7 +28,7 @@ Ten en cuenta también que verás capturas de pantalla de varios sistemas operat
 
 ! Este manual se trabajará y se ampliará lentamente. Actualmente se encuentra en su infancia.
 
-## 2 Versiones e "Instalación"
+## 2. Versiones e "Instalación"
 Esta herramienta está escrita en Linux, se usa en Linux y se prueba principalmente en Linux. Sin embargo, como es un programa multiplataforma de Java Swing debería funcionar bien en MacOS, Windows y teóricamente en todas las plataformas que soportan Java.
 
 **Nota:** jExifToolGUI viene sin ExifTool, el cual debes descargar tú mismo del [sitio de ExifTool de Phil Harvey](http://www.sno.phy.queensu.ca/~phil/exiftool/) si quieres la última versión. En Linux también puedes usar la versión perteneciente a tu distribución.
@@ -67,7 +67,7 @@ Si usas el paquete deb en cualquier sistema operativo Debian/Ubuntu como Linux, 
 * Logs: jar/Windows exe/appImage: En la misma carpeta donde se ejecuta la aplicación encontrarás una carpeta de registros. Simplemente elimínala.
 Para los paquetes de MacOS y el jexiftoolgui.deb, los registros se escriben en registros de carpeta dentro de su carpeta de "/Users/(usuario)" Simplemente elimina la carpeta de registros.
 
-## 3 Inicio rápido
+## 3. Inicio rápido
 El programa consiste en un panel izquierdo que contiene tus fotos y un panel derecho que consiste en un conjunto de pestañas. Una de estas pestañas ("Editar") contiene un subconjunto de pestañas (algunas de las subpestañas de la pestaña "Editar datos” serán tratadas en este manual para una mayor explicación).
 Junto a las pestañas de la derecha, el programa también tiene varios menús que contienen más funcionalidades. Algunos botones y funciones no funcionarán, y están deshabilitados, hasta que no se haya cargado al menos una foto. La mayoría de las acciones sobre las imágenes que se realizan en las pestañas de la derecha o en los menús, sólo funcionan después de haber seleccionado al menos una o más de las fotos cargadas en el panel de la izquierda.
 
@@ -111,7 +111,7 @@ Esta pestaña no hace nada con sus imágenes. Es simplemente una herramienta par
 
 [![](https://hvdwolf.github.io/jExifToolGUI/manual/images/ExiftoolDatabase.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/ExiftoolDatabase.png)
 
-## 4 Algunas subpestañas de edición explicadas con más detalle
+## 4. Algunas subpestañas de edición explicadas con más detalle
 En este capítulo se explicarán con más detalle algunas de las pestañas de edición. Otras como Exif, XMP y GPS/localización son demasiado directas para decir algo sobre ellas.
 
 ### 4.1 Geotagging
@@ -199,7 +199,7 @@ Otro ejemplo se entrega con el propio jExifToolGUI. Se llama _isadg-struct.cfg_ 
 Cuando se desea utilizar etiquetas inexistentes, primero se crea el archivo cfg que contiene estas etiquetas. A continuación, define su conjunto de combinaciones en la pantalla de Herramientas, basándose en los nombres de las etiquetas en su archivo de configuración. Al guardar este conjunto, también se utiliza el selector de archivos para seleccionar el archivo cfg que se ha creado. jExifToolGUI copiará entonces el archivo cfg en la carpeta jexiftoolgui_data y almacenará el enlace entre las etiquetas y el archivo de configuración en la base de datos. Cuando quiera utilizar este conjunto de combinaciones, jExifToolGUI también utilizará el archivo de configuración (tiene que utilizar el archivo, de lo contrario las etiquetas no se pueden escribir).
 **Nota:** ExifTool, por lo tanto jExifToolGUI, puede leer esas etiquetas de las imágenes en cualquier momento. Sólo necesitas el archivo de configuración cuando quieras escribir las etiquetas en tus imágenes.
 
-## 5 Varias opciones de menú
+## 5. Varias opciones de menú
 En este capítulo se explicarán algunas de las opciones del menú. Algunas porque son algo más complicadas. Otros menús/pantallas porque puede que no sepas cuál es la "utilidad" de estas opciones.
 
 ### 5.1 Renombrar fotos
@@ -223,7 +223,7 @@ Las exportaciones de Sidecar se pueden encontrar en (menú) "Metadatos -> Export
 
 Todos los archivos de Sidecar pueden ser leídos como "imágenes". Esto hace posible leer (por ejemplo) un archivo .mie junto con un número de imágenes. El archivo de metadatos .mie se utiliza como "Copiar de la imagen seleccionada" y se usa para rellenar una o más imágenes. Por esta razón no existe una función de importación para estos archivos de Sidecar, ya que puede utilizarlos como se acaba de describir.
 
-## 6 Preferencias
+## 6. Preferencias
 Las preferencias se encuentran en el menú "Archivo -> Preferencias"
 Actualmente la pantalla de Preferencias tiene 3 pestañas: General (Linux LXDE), Idioma (Windows), Sistema (MacOS).
 [![](https://hvdwolf.github.io/jExifToolGUI/manual/images/01-preferences-general-500.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/01-preferences-general-500.png)
