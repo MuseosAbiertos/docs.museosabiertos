@@ -217,10 +217,10 @@ El renombramiento tiene 4 "subsecciones": el "prefijo", el "sufijo", la "numerac
 ### 5.2 Sidecar exports
 Los metadatos de las imágenes y otros tipos de archivos pueden almacenarse en (exportados a) archivos de metadatos separados. ExifTool soporta y puede crear varios de estos archivos de metadatos. El archivo "sidecar" XMP es probablemente el formato más conocido. Otros tipos de archivos de metadatos soportados son EXIF, XMP, MIE ("El único formato que no apesta") y EXV. jExifToolGUI puede exportar todos los metadatos contenidos en las imágenes y otros archivos que ExifTool soporta, y esto se puede usar a través de (Menú) "Metadata-> Exportar metadatos". Los formatos soportados son TXT, TAB, XML, HTML y CSV.
 
-The Sidecar exports can be found via (menu) "Metadata -> Sidecar exports". The Sidecar exports are slighly different.
+Las exportaciones de Sidecar se pueden encontrar en (menú) "Metadatos -> Exportaciones de Sidecar". Las exportaciones del Sidecar son ligeramente diferentes.
 [![](https://hvdwolf.github.io/jExifToolGUI/manual/images/metadatasidecar.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/metadatasidecar.png)
 
-All Sidecar files can be read as "images". This makes it possible to read (for example) a .mie file together with a number of images. You use the .mie metadata file as "Copy from selected image" and use it to populate one or more images. For this reason there is no import function for these Sidecar files as you can use them as just described.
+Todos los archivos de Sidecar pueden ser leídos como "imágenes". Esto hace posible leer (por ejemplo) un archivo .mie junto con un número de imágenes. El archivo de metadatos .mie se utiliza como "Copiar de la imagen seleccionada" y se usa para rellenar una o más imágenes. Por esta razón no existe una función de importación para estos archivos de Sidecar, ya que puede utilizarlos como se acaba de describir.
 
 ## 6 Preferences
 The Preferences can be found under the menu "File -> Preferences"
