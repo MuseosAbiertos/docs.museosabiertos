@@ -58,7 +58,7 @@ Usa `sudo dpkg -i jexiftoolgui-<versión>.deb` para instalar. A partir de ese mo
 Simplemente haz un `chmod +x jExifToolGUI-<version>-x86_64.AppImage` y ejecuta `./jExifToolGUI-<version>-x86_64.AppImage &.`
 
 
-## 2.1 Uninstall
+## 2.1 Desinstalar
 
 Si usas el paquete deb en cualquier sistema operativo Debian/Ubuntu como Linux, puedes usar apt-get o dpkg para desinstalarlo.
 **Nota**: Todas las demás versiones, ya sean los paquetes de MacOS, o los de Windows .exes o linux appImage pueden ser simplemente borrados.
@@ -67,18 +67,18 @@ Si usas el paquete deb en cualquier sistema operativo Debian/Ubuntu como Linux, 
 * Logs: jar/Windows exe/appImage: En la misma carpeta donde se ejecuta la aplicación encontrarás una carpeta de registros. Simplemente elimínala.
 Para los paquetes de MacOS y el jexiftoolgui.deb, los registros se escriben en registros de carpeta dentro de su carpeta de "/Users/(usuario)" Simplemente elimina la carpeta de registros.
 
-## 3 Quick Start
+## 3 Inicio rápido
 El programa consiste en un panel izquierdo que contiene tus fotos y un panel derecho que consiste en un conjunto de pestañas. Una de estas pestañas ("Editar") contiene un subconjunto de pestañas (algunas de las subpestañas de la pestaña "Editar datos” serán tratadas en este manual para una mayor explicación).
 Junto a las pestañas de la derecha, el programa también tiene varios menús que contienen más funcionalidades. Algunos botones y funciones no funcionarán, y están deshabilitados, hasta que no se haya cargado al menos una foto. La mayoría de las acciones sobre las imágenes que se realizan en las pestañas de la derecha o en los menús, sólo funcionan después de haber seleccionado al menos una o más de las fotos cargadas en el panel de la izquierda.
 
 [![](https://hvdwolf.github.io/jExifToolGUI/manual/images/mainscreen-quickstart-01.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/mainscreen-quickstart-01.png)
 
-### View data
+### Ver datos
 Selecciona una imagen y haga clic en uno de los radiobotones y luego selecciona la categoría de metadatos deseada en el desplegable. Las "Etiquetas comunes" no son la categoría "común" de ExifTool, pero lo que el autor considera son "categorías comúnmente seleccionadas". Las "combinaciones de etiquetas de metadatos definidas por el usuario" (ver sección "4.3 Create and use user defined metadata tag combinations") también se añaden a este desplegable. Si tienes varias imágenes seleccionadas, se mostrarán los metadatos de la última imagen seleccionada.
 
 [![](https://hvdwolf.github.io/jExifToolGUI/manual/images/ViewData.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/ViewData.png)
 
-### Edit data
+### Editar datos
 Aquí también; todas las acciones de la pestaña derecha "Editar" sólo funcionan después de haber seleccionado una o más de las fotos cargadas.
 
 * Puedes seleccionar una imagen y modificar los datos de la misma.
@@ -96,22 +96,22 @@ Nota: En (menú) "Metadatos -> Exportar Sidecar" puede exportar los metadatos a 
 
 Algunas de las subpestañas de la pestaña "Editar datos” se verán en este manual para una mayor explicación.
 
-### Copy Data
+### Copiar datos
 Esta opción permite copiar categorías enteras de metadatos de una imagen a múltiples imágenes.
 
 [![](https://hvdwolf.github.io/jExifToolGUI/manual/images/CopyData.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/CopyData.png)
 
-### Your Commands
+### Commandos ExifTool
 Este programa tiene muchas funcionalidades y flexibilidad en la forma en que puede leer/escribir la fecha desde y hacia sus imágenes. En caso de que eso no sea suficiente, puedes simplemente crear tu propio comando y ejecutarlo en tus imágenes. Además, puedes guardar tus comandos como "favoritos" para usarlos repetidamente más tarde.
 
 [![](https://hvdwolf.github.io/jExifToolGUI/manual/images/YourCommands.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/YourCommands.png)
 
-### ExifTool Database
+### Base de datos de ExifTool
 Esta pestaña no hace nada con sus imágenes. Es simplemente una herramienta para consultar a través de todas las categorías de metadatos y etiquetas que ExifTool soporta. El número de etiquetas depende de la versión de ExifTool. La pestaña menciona en qué versión se basa la información recuperada (no tiene que ser la versión que tiene instalada en su equipo). También aquí puede guardar sus consultas SQL como favoritas.
 
 [![](https://hvdwolf.github.io/jExifToolGUI/manual/images/ExiftoolDatabase.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/ExiftoolDatabase.png)
 
-## 4 Some Edit sub tabs further explained
+## 4 Algunas subpestañas de edición explicadas con más detalle
 En este capítulo se explicarán con más detalle algunas de las pestañas de edición. Otras como Exif, XMP y GPS/localización son demasiado directas para decir algo sobre ellas.
 
 ### 4.1 Geotagging
@@ -185,7 +185,7 @@ Este video muestra las bases.
 Los nombres de las etiquetas no se almacenarán en orden alfabético sino en el orden en que los creaste/guardaste.
 También puedes cortar/copiar y pegar etiquetas: El segundo video muestra cómo usar Copiar & Pegar desde (o hacia) otras aplicaciones como hojas de cálculo (Excel, Google Spreadsheets, etc.) donde defines tus combinaciones.
 
-#### jExifToolGUI #02: user combis copy paste
+#### jExifToolGUI #02: Copiar y pagar combinaciones de usuario
 [plugin:youtube](https://youtu.be/8cXT2Aiy6bI)
 **Nota:** El video se muestra por defecto en 1024x576 en 480p, pero la resolución máxima es 1920x1080. (Al reproducirlo selecciona el icono del engranaje en la barra inferior para ponerlo en 1080P y haz clic en el icono inferior derecho para reproducirlo a pantalla completa)
 
@@ -202,7 +202,7 @@ Cuando se desea utilizar etiquetas inexistentes, primero se crea el archivo cfg 
 ## 5 Varias opciones de menú
 En este capítulo se explicarán algunas de las opciones del menú. Algunas porque son algo más complicadas. Otros menús/pantallas porque puede que no sepas cuál es la "utilidad" de estas opciones.
 
-### 5.1 Rename photos
+### 5.1 Renombrar fotos
 jExifToolGUI te da muchas opciones para renombrar tus fotos. Esto se explicará aquí.
 Dentro del marco "a rayas" se ven las opciones de los cuadros desplegables 1 y 2.
 El renombramiento tiene 4 "subsecciones": el "prefijo", el "sufijo", la "numeración" y la "extensión" que te dan para un nombre de archivo "prefijo_sufijo_(numeración).extensión".
@@ -214,7 +214,7 @@ El renombramiento tiene 4 "subsecciones": el "prefijo", el "sufijo", la "numerac
 
 [![](https://hvdwolf.github.io/jExifToolGUI/manual/images/renamephotos.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/renamephotos.png)
 
-### 5.2 Sidecar exports
+### 5.2 Exportar sidecar
 Los metadatos de las imágenes y otros tipos de archivos pueden almacenarse en (exportados a) archivos de metadatos separados. ExifTool soporta y puede crear varios de estos archivos de metadatos. El archivo "sidecar" XMP es probablemente el formato más conocido. Otros tipos de archivos de metadatos soportados son EXIF, XMP, MIE ("El único formato que no apesta") y EXV. jExifToolGUI puede exportar todos los metadatos contenidos en las imágenes y otros archivos que ExifTool soporta, y esto se puede usar a través de (Menú) "Metadata-> Exportar metadatos". Los formatos soportados son TXT, TAB, XML, HTML y CSV.
 
 Las exportaciones de Sidecar se pueden encontrar en (menú) "Metadatos -> Exportaciones de Sidecar". Las exportaciones del Sidecar son ligeramente diferentes.
