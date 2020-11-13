@@ -9,7 +9,7 @@ taxonomy:
         - docs
 page-toc:
     active: true
-media_order: 'jExifToolGUI_3-inicio-rapido.png,jExifToolGUI_3-ver-datos.png'
+media_order: 'jExifToolGUI_3-inicio-rapido.png,jExifToolGUI_3-ver-datos.png,jExifToolGUI_3-editar-datos.png,jExifToolGUI_3-editar-datos2.png,jExifToolGUI_3-copiar-datos.png,jExifToolGUI_3-comandos-exiftool.png,jExifToolGUI_3-basededatos-exiftool.png,jExifToolGUI_4-editar-geotag.png,jExifToolGUI_4-editar-lentes.png'
 ---
 
 # jExifToolGUI: una GUI multiplataforma [Java Swing] para ExifTool
@@ -88,11 +88,11 @@ Aquí también; todas las acciones de la pestaña derecha "Editar" sólo funcion
 * Puedes seleccionar varias imágenes a la vez y modificar los datos de todas ellas a la vez.
 * Puedes seleccionar una imagen, copiar los datos de la misma, luego seleccionar varias imágenes y pegar los datos (copiados) en estas imágenes a la vez.
 
-[![](https://hvdwolf.github.io/jExifToolGUI/manual/images/EditData.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/EditData.png)
+![](jExifToolGUI_3-editar-datos.png)
 
 Todas las subpestañas de edición tienen una "línea inferior" de botones “Copiar de la imagen seleccionada", “Guardar en las imagenes seleccionadas" y “Ayuda".
 
-[![](https://hvdwolf.github.io/jExifToolGUI/manual/images/CopyFromSaveToHelp.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/CopyFromSaveToHelp.png)
+![](jExifToolGUI_3-editar-datos2.png)
 
 Como se menciona en el punto #3: Puede copiar la información relevante de una imagen seleccionada. Luego puede escribir esta información en muchas imágenes.
 Nota: En (menú) "Metadatos -> Exportar Sidecar" puede exportar los metadatos a varios de formatos. Especialmente MIE es un excelente formato para exportar. Puede leer el formato MIE como una imagen y usarlo para "Copiar desde".
@@ -102,19 +102,19 @@ Algunas de las subpestañas de la pestaña "Editar datos” se verán en este ma
 ### Copiar datos
 Esta opción permite copiar categorías enteras de metadatos de una imagen a múltiples imágenes.
 
-[![](https://hvdwolf.github.io/jExifToolGUI/manual/images/CopyData.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/CopyData.png)
+![](jExifToolGUI_3-copiar-datos.png)
 
 ### Commandos ExifTool
 Este programa tiene muchas funcionalidades y flexibilidad en la forma en que puede leer/escribir la fecha desde y hacia sus imágenes. En caso de que eso no sea suficiente, puedes simplemente crear tu propio comando y ejecutarlo en tus imágenes. Además, puedes guardar tus comandos como "favoritos" para usarlos repetidamente más tarde.
 
-[![](https://hvdwolf.github.io/jExifToolGUI/manual/images/YourCommands.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/YourCommands.png)
+![](jExifToolGUI_3-comandos-exiftool.png)
 
 ### Base de datos de ExifTool
 Esta pestaña no hace nada con sus imágenes. Es simplemente una herramienta para consultar a través de todas las categorías de metadatos y etiquetas que ExifTool soporta. El número de etiquetas depende de la versión de ExifTool. La pestaña menciona en qué versión se basa la información recuperada (no tiene que ser la versión que tiene instalada en su equipo). También aquí puede guardar sus consultas SQL como favoritas.
 
-[![](https://hvdwolf.github.io/jExifToolGUI/manual/images/ExiftoolDatabase.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/ExiftoolDatabase.png)
+![](jExifToolGUI_3-basededatos-exiftool.png)
 
-## 4. Algunas subpestañas de edición explicadas con más detalle
+## 4. Algunas subpestañas de edición explicadas
 En este capítulo se explicarán con más detalle algunas de las pestañas de edición. Otras como Exif, XMP y GPS/localización son demasiado directas para decir algo sobre ellas.
 
 ### 4.1 Geotagging
@@ -137,7 +137,7 @@ En el caso de la primera opción es necesario dejar la carpeta vacía. Si la "Ca
 "Hacer copia de seguridad de los originales" puede hacer copias de seguridad cuando se selecciona. Cuando se selecciona, se crearán nuevas imágenes y las imágenes originales obtendrán la extensión” .original".
 **Nota:** jExifToolGUI escribirá tanto las etiquetas GPS EXIF como las etiquetas GPS XMP.
 
-[![](https://hvdwolf.github.io/jExifToolGUI/manual/images/geotaggingtab.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/geotaggingtab.png)
+![](jExifToolGUI_4-editar-geotag.png)
 
 ### 4.2 Usar lentes y crear 'plantillas de lentes' para sus lentes
 Esta pantalla tiene dos propósitos:
@@ -149,7 +149,7 @@ Ambas opciones se pueden usar para añadir datos de la lente a su imagen si no e
 
 Al margen de esto: Aún así, algunas lentes adicionales no son reconocidas completamente por la cámara y por lo tanto la información no se agrega a la imagen. Para estos casos puedes crear configuraciones de lentes y guardarlas y cargarlas para tus imágenes tomadas con esa lente específica.
 
-[![](https://hvdwolf.github.io/jExifToolGUI/manual/images/lenses.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/lenses.png)
+![](jExifToolGUI_4-editar-lentes.png)
 
 Al hacer clic en el botón "Guardar esta configuración de lentes", aparecerá la siguiente ventana emergente.
 [![](https://hvdwolf.github.io/jExifToolGUI/manual/images/createsavelens.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/createsavelens.png)
