@@ -33,9 +33,12 @@ media_order: DP828365.png
 
 Bienvenido al sito de documentación de [Museos Abiertos](https://museosabiertos.org)
 
-En este sitio encontrarás documentación, proyectos, manuales y software, principalmente relacionados con Museos, Archivos y Bibliotecas.
+Aquí encontrarás documentación, proyectos, manuales y software, principalmente relacionados con Museos, Archivos y Bibliotecas.
 
 ![Destruction of the Tower of Babel: at right men and women flee from the burning tower, at left men and women raise their hands toward two flying angels, from a series of engravings made for the first edition of the 'Liber Genesis'
 ](DP828365.png)
+<cite>Destruction of the Tower of Babel: at right men and women flee from the burning tower, at left men and women raise their hands toward two flying angels, from a series of engravings made for the first edition of the 'Liber Genesis' 1612. Crispijn de Passe the Elder (Netherlandish, Arnemuiden 1564–1637 Utrecht)
+</cite>
 
-!!! Este sitio fué creado en Septiembre del 2020 y se actualiza periódicamente. 
+</br>
+!!! Este sitio fué creado en la primavera meridional del anno domini 2020... y se actualiza periódicamente. 
