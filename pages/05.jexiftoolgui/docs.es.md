@@ -9,7 +9,7 @@ taxonomy:
         - docs
 page-toc:
     active: true
-media_order: 'jExifToolGUI_3-inicio-rapido.png,jExifToolGUI_3-ver-datos.png,jExifToolGUI_3-editar-datos.png,jExifToolGUI_3-editar-datos2.png,jExifToolGUI_3-copiar-datos.png,jExifToolGUI_3-comandos-exiftool.png,jExifToolGUI_3-basededatos-exiftool.png,jExifToolGUI_4-editar-geotag.png,jExifToolGUI_4-editar-lentes.png,jExifToolGUI_4-metadata-combi-set.png,jExifToolGUI_4-metadata-combi-set2.png'
+media_order: 'jExifToolGUI_3-inicio-rapido.png,jExifToolGUI_3-ver-datos.png,jExifToolGUI_3-editar-datos.png,jExifToolGUI_3-editar-datos2.png,jExifToolGUI_3-copiar-datos.png,jExifToolGUI_3-comandos-exiftool.png,jExifToolGUI_3-basededatos-exiftool.png,jExifToolGUI_4-editar-geotag.png,jExifToolGUI_4-editar-lentes.png,jExifToolGUI_4-metadata-combi-set.png,jExifToolGUI_4-metadata-combi-set2.png,jExifToolGUI_5-renombrar-fotos.png,jExifToolGUI_5-exportar-sidecar.png,jExifToolGUI_6-preferencias.png'
 ---
 
 # jExifToolGUI: una GUI multiplataforma [Java Swing] para ExifTool
@@ -152,7 +152,7 @@ Al margen de esto: Aún así, algunas lentes adicionales no son reconocidas comp
 ![](jExifToolGUI_4-editar-lentes.png)
 
 Al hacer clic en el botón "Guardar esta configuración de lentes", aparecerá la siguiente ventana emergente.
-[![](https://hvdwolf.github.io/jExifToolGUI/manual/images/createsavelens.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/createsavelens.png)
+![](jExifToolGUI_4-metadata-combi-set2.png)
 La configuración de "Cargar una lente" es casi idéntica.
 
 ### 4.3 Crear y utilizar combinaciones de etiquetas de metadatos definidas por el usuario
@@ -218,21 +218,22 @@ El renombramiento tiene 4 "subsecciones": el "prefijo", el "sufijo", la "numerac
 * numeración: Si usas un "nombre" (String) o "AñoMesFecha", podrías obtener imágenes con el mismo nombre. Para evitar esto, puede autonumerar las imágenes, dando por ejemplo "exiftool-001.jpg", "exiftool-002.jpg", etc.
 * extensión: No se puede cambiar la extensión como tal (un jpg es siempre un jpg). Algunas cámaras/teléfonos usan extensiones en mayúsculas, otras en minúsculas. Si esto te molesta, puedes cambiarlo aquí.
 
-[![](https://hvdwolf.github.io/jExifToolGUI/manual/images/renamephotos.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/renamephotos.png)
+![](jExifToolGUI_5-renombrar-fotos.png)
 
 ### 5.2 Exportar sidecar
 Los metadatos de las imágenes y otros tipos de archivos pueden almacenarse en (exportados a) archivos de metadatos separados. ExifTool soporta y puede crear varios de estos archivos de metadatos. El archivo "sidecar" XMP es probablemente el formato más conocido. Otros tipos de archivos de metadatos soportados son EXIF, XMP, MIE ("El único formato que no apesta") y EXV. jExifToolGUI puede exportar todos los metadatos contenidos en las imágenes y otros archivos que ExifTool soporta, y esto se puede usar a través de (Menú) "Metadata-> Exportar metadatos". Los formatos soportados son TXT, TAB, XML, HTML y CSV.
 
 Las exportaciones de Sidecar se pueden encontrar en (menú) "Metadatos -> Exportaciones de Sidecar". Las exportaciones del Sidecar son ligeramente diferentes.
 
-[![](https://hvdwolf.github.io/jExifToolGUI/manual/images/metadatasidecar.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/metadatasidecar.png)
+![](jExifToolGUI_5-exportar-sidecar.png)
 
 Todos los archivos de Sidecar pueden ser leídos como "imágenes". Esto hace posible leer (por ejemplo) un archivo .mie junto con un número de imágenes. El archivo de metadatos .mie se utiliza como "Copiar de la imagen seleccionada" y se usa para rellenar una o más imágenes. Por esta razón no existe una función de importación para estos archivos de Sidecar, ya que puede utilizarlos como se acaba de describir.
 
 ## 6. Preferencias
 Las preferencias se encuentran en el menú "Archivo -> Preferencias"
 Actualmente la pantalla de Preferencias tiene 3 pestañas: General (Linux LXDE), Idioma (Windows), Sistema (MacOS).
-[![](https://hvdwolf.github.io/jExifToolGUI/manual/images/01-preferences-general-500.png)](https://hvdwolf.github.io/jExifToolGUI/manual/images/01-preferences-general-500.png)
+
+![](jExifToolGUI_6-preferencias.png)
 
 ### La pestaña "General" (izquierda):
 
