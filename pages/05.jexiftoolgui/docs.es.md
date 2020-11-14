@@ -3,10 +3,12 @@ title: 'Manual jExifToolGUI (en Español)'
 external_links:
     no_follow: true
 metadata:
-    Keywords: 'jexiftoolgui, exiftool'
+    Keywords: 'jexiftoolgui, exiftool, manual'
 taxonomy:
     category:
         - docs
+    tag:
+        - manual
 page-toc:
     active: true
 media_order: 'jExifToolGUI_3-inicio-rapido.png,jExifToolGUI_3-ver-datos.png,jExifToolGUI_3-editar-datos.png,jExifToolGUI_3-editar-datos2.png,jExifToolGUI_3-copiar-datos.png,jExifToolGUI_3-comandos-exiftool.png,jExifToolGUI_3-basededatos-exiftool.png,jExifToolGUI_4-editar-geotag.png,jExifToolGUI_4-editar-lentes.png,jExifToolGUI_4-metadata-combi-set2.png,jExifToolGUI_5-renombrar-fotos.png,jExifToolGUI_5-exportar-sidecar.png,jExifToolGUI_6-preferencias.png,jExifToolGUI_4-metadata-combi-set.png'
