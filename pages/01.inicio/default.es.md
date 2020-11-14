@@ -33,7 +33,7 @@ media_order: DP828365.png
 
 Llegaste al sito de documentación de [Museos Abiertos](https://museosabiertos.org)
 
-Aquí también guardamos documentos, proyectos, manuales y software, de factura propia, principalmente relacionados con Museos, Archivos y Bibliotecas.
+Aquí también guardamos documentos, manuales, proyectos y software, principalmente de factura propia y relacionados con Museos, Archivos y Bibliotecas.
 
 ![Destruction of the Tower of Babel: at right men and women flee from the burning tower, at left men and women raise their hands toward two flying angels, from a series of engravings made for the first edition of the 'Liber Genesis'
 ](DP828365.png)
