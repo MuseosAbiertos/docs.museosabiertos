@@ -35,6 +35,7 @@ Bienvenido al sito de documentación de [Museos Abiertos](https://museosabiertos
 
 En este sitio encontrarás documentación, proyectos, manuales y software, principalmente relacionados con Museos, Archivos y Bibliotecas.
 
-![](DP828365.png)
+![Destruction of the Tower of Babel: at right men and women flee from the burning tower, at left men and women raise their hands toward two flying angels, from a series of engravings made for the first edition of the 'Liber Genesis'
+](DP828365.png)
 
 !!! Este sitio fué creado en Septiembre del 2020 y se actualiza periódicamente. 
