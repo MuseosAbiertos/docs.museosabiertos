@@ -28,12 +28,14 @@ restaurant:
 facebookenable: true
 facebooktitle: 'Docs Museos Abiertos'
 facebookdesc: 'En este sitio encontrarás documentación, proyectos, manuales y software, principalmente relacionados con Museos, Archivos y Bibliotecas.'
+media_order: DP828365.jpg
 ---
 
 Bienvenido al sito de documentación de [Museos Abiertos](https://museosabiertos.org)
 
 En este sitio encontrarás documentación, proyectos, manuales y software, principalmente relacionados con Museos, Archivos y Bibliotecas.
 
+![](DP828365.jpg)
 <br/><br/><br/><br/>
 
 
