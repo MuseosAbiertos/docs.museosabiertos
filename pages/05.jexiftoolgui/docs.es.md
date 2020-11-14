@@ -11,7 +11,7 @@ taxonomy:
         - manual
 page-toc:
     active: true
-media_order: 'jExifToolGUI_3-inicio-rapido.png,jExifToolGUI_3-ver-datos.png,jExifToolGUI_3-editar-datos.png,jExifToolGUI_3-editar-datos2.png,jExifToolGUI_3-copiar-datos.png,jExifToolGUI_3-comandos-exiftool.png,jExifToolGUI_3-basededatos-exiftool.png,jExifToolGUI_4-editar-geotag.png,jExifToolGUI_4-editar-lentes.png,jExifToolGUI_4-metadata-combi-set2.png,jExifToolGUI_5-renombrar-fotos.png,jExifToolGUI_5-exportar-sidecar.png,jExifToolGUI_6-preferencias.png,jExifToolGUI_4-metadata-combi-set.png'
+media_order: 'jExifToolGUI_3-inicio-rapido.png,jExifToolGUI_3-ver-datos.png,jExifToolGUI_3-editar-datos.png,jExifToolGUI_3-editar-datos2.png,jExifToolGUI_3-copiar-datos.png,jExifToolGUI_3-comandos-exiftool.png,jExifToolGUI_3-basededatos-exiftool.png,jExifToolGUI_4-editar-geotag.png,jExifToolGUI_4-metadata-combi-set2.png,jExifToolGUI_5-renombrar-fotos.png,jExifToolGUI_5-exportar-sidecar.png,jExifToolGUI_6-preferencias.png,jExifToolGUI_4-metadata-combi-set.png,jExifToolGUI_4-editar-lentes.png'
 googletitle: 'Manual jExifToolGUI (en Español) | Docs Museos Abiertos'
 googledesc: 'jExifToolGUI es un programa Java Swing que lee y escribe metadatos, predominantemente archivos de imágenes, aunque tambien PDF. Tiene plantillas específicas, como ISAD-G, usada en archivos y museos.'
 twitterenable: true
