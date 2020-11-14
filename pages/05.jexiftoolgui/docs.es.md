@@ -14,7 +14,9 @@ media_order: 'jExifToolGUI_3-inicio-rapido.png,jExifToolGUI_3-ver-datos.png,jExi
 
 # jExifToolGUI: una GUI multiplataforma [Java Swing] para ExifTool
 
-! **Última modificación: 2020-11-11** 
+!!! [See Online Manual (in English)](https://hvdwolf.github.io/jExifToolGUI/manual/)
+
+! Última modificación: 2020-11-13
 
 ## 1. Visión general
 **jExifToolGUI** es un programa Java Swing que lee y escribe metadatos de archivos, predominantemente archivos de imágenes. Tiene algunas pantallas preformateadas para Exif, GPS/ Localización, XMP, GPano (y un conjunto muy limitado de etiquetas IPTC) para leer/escribir desde/hacia archivos de imagen usando ExifTool y también soporta geo-etiquetado. Además, puedes definir tu propia combinación de etiquetas de metadatos para escribir en tus imágenes. 
