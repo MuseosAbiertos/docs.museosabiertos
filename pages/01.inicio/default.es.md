@@ -39,9 +39,7 @@ Aquí también guardamos documentos, proyectos, manuales y software, de factura 
 ](DP828365.png)
 <cite>Destruction of the Tower of Babel: at right men and women flee from the burning tower, at left men and women raise their hands toward two flying angels, from a series of engravings made for the first edition of the 'Liber Genesis' 1612. Crispijn de Passe the Elder (Netherlandish, Arnemuiden 1564–1637 Utrecht)
 </cite>
-
+</br>
+<i class="fa fa-github fa-2x" aria-hidden="true"></i> https://github.com/MuseosAbiertos
 </br>
 !!! Este sitio fué creado en la primavera meridional del anno domini 2020... y se actualiza periódicamente. 
-
-<i class="icon icon-menu">mama</i>
-https://github.com/MuseosAbiertos
