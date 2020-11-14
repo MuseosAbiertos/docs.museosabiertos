@@ -33,6 +33,11 @@ restaurant:
     acceptsReservations: 'yes'
     priceRange: $
 facebookenable: true
+twittershareimg: /jexiftoolgui/jExifToolGUI_3-inicio-rapido.png
+twittertitle: 'Manual jExifToolGUI (en Español) | Docs Museos Abiertos'
+twitterdescription: 'jExifToolGUI es un programa Java Swing que lee y escribe metadatos, predominantemente archivos de imágenes, aunque tambien PDF. Tiene plantillas específicas, como ISAD-G, usada en archivos y museos.'
+facebooktitle: 'Manual jExifToolGUI (en Español) | Docs Museos Abiertos'
+facebookdesc: 'jExifToolGUI es un programa Java Swing que lee y escribe metadatos, predominantemente archivos de imágenes, aunque tambien PDF. Tiene plantillas específicas, como ISAD-G, usada en archivos y museos.'
 ---
 
 # jExifToolGUI: una GUI multiplataforma [Java Swing] para ExifTool
