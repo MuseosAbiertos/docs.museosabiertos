@@ -31,7 +31,7 @@ facebookdesc: 'En este sitio encontrarás documentación, proyectos, manuales y 
 media_order: DP828365.png
 ---
 
-Bienvenido al sito de documentación de [Museos Abiertos](https://museosabiertos.org)
+Llegaste al sito de documentación de [Museos Abiertos](https://museosabiertos.org)
 
 Aquí también guardamos documentos, proyectos, manuales y software, de factura propia, principalmente relacionados con Museos, Archivos y Bibliotecas.
 
