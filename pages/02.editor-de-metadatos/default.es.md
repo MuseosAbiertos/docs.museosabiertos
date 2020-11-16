@@ -102,8 +102,8 @@ Este desarrollo se apoya en estándares y software de código abierto de tercera
 ## Futuro
 ### web semántica
 Este proyecto tiene como objetivo organizar la información de archivo en un entorno web semántico usando el modelo conceptual [CIDOC-CRM](http://www.cidoc-crm.org/). 
-Y asimilando la experiencia de: http://manu47.magtech.com.cn/Jwk3_jdis/article/2020/2096-157X/2096-157X-5-1-68.shtml
-Visto y considerando
+Y asimilando la experiencia de: [http://manu47.magtech.com.cn/Jwk3_jdis/article/2020/2096-157X/2096-157X-5-1-68.shtml](http://manu47.magtech.com.cn/Jwk3_jdis/article/2020/2096-157X/2096-157X-5-1-68.shtml)
+Visto y considerando...
 
 ## Integración del workflow con Drupal
 
