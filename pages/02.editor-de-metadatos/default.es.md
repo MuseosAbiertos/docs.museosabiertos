@@ -37,15 +37,14 @@ Esta herramienta busca ayudar, tanto al archivista iniciado como al experimentad
 La Secretaría de Cultura de la Nación (Argentina), en su resolución 1070, [https://senip.cultura.gob.ar/wp-content/uploads/2016/09/Res-1070.pdf](https://senip.cultura.gob.ar/wp-content/uploads/2016/09/Res-1070.pdf) instruye a los organismos dependientes adoptar una ficha de registro de inventario de unidades documentales de acuerdo a la norma ISAD(G); pero no documenta su adaptación local de la norma, como tampoco regula ni sugiere como implementarla. Muchas otras instituciones o archivos utilizan estas normas y carecen de herramientas apropiadas para el registro de documentos.
 
 ## Características
-* Software multiplataforma (puede ser ejecutado en Windows, OS X y Linux)
-* Edita los metadatos y los 'guarda' dentro de un archivo (ej.: JPG, TIF, PDF) conservando su contexto al viajar a través de software, dispositivos y bases de datos.
+* Software multiplataforma (puede ser ejecutado en Windows, MacOS y Linux)
+* Edita los metadatos y los 'guarda' dentro del archivo (ej.: JPG, TIF, PDF) conservando su contexto al 'viajar' a través de software, dispositivos y bases de datos.
 * Edita metadatos según las normas internacionales Dublin Core, ISAD(G) 2000, EAD 2002
 * No es destructivo (no altera las imágenes)
 * Reduce significativamente las tareas de registro
 * Hace obsoleto el uso de hojas de cálculo independientes para el registros de colecciones
 * Adaptado a un flujo de trabajo para auditoría de datos con [Open Refine](https://openrefine.org/)
-* Exporta los metadatos a un archivo tabulado CSV
-* Exporta los metadatos a un archivo XML para la ingestión en plataformas, como [AtoM](https://accesstomemory.org/), [Archivematica](https://www.archivematica.org/), [DSpace](https://duraspace.org/dspace/), [Fedora Commons](https://duraspace.org/fedora/) o [RODA](https://roda-community.org/).
+* Exporta los metadatos a un archivo tabulado CSV o PDF para facilitar la ingestión en aplicaciones, como [AtoM](https://accesstomemory.org/), [Archivematica](https://www.archivematica.org/), [DSpace](https://duraspace.org/dspace/), [Fedora Commons](https://duraspace.org/fedora/) o [RODA](https://roda-community.org/).
 
 ## Roadmap
 * Importa un CSV o XML y guarda los metadatos en archivos (ej.: JPG, TIF, PDF) 
@@ -99,6 +98,13 @@ Este desarrollo se apoya en estándares y software de código abierto de tercera
 
 
 {% if grav.user.authenticated %}
+
+## Futuro
+### web semántica
+Este proyecto tiene como objetivo organizar la información de archivo en un entorno web semántico usando el modelo conceptual [CIDOC-CRM](http://www.cidoc-crm.org/). 
+Y asimilando la experiencia de: http://manu47.magtech.com.cn/Jwk3_jdis/article/2020/2096-157X/2096-157X-5-1-68.shtml
+Visto y considerando
+
 ## Integración del workflow con Drupal
 
 * [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3964704/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3964704/)
