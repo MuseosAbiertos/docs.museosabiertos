@@ -34,7 +34,7 @@ Esta herramienta busca ayudar, tanto al archivista iniciado como al experimentad
 * Gran parte de los archivos y museos usan planillas de cálculo para guardar los metadatos (ISAD-G, EAD, DC, METS...) de los documentos digitales
 
 ### Contexto en Argentina
-La Secretaría de Cultura de la Nación (Argentina), en su resolución 1070, [https://senip.cultura.gob.ar/wp-content/uploads/2016/09/Res-1070.pdf](https://senip.cultura.gob.ar/wp-content/uploads/2016/09/Res-1070.pdf) instruye a los organismos dependientes adoptar una ficha de registro de inventario de unidades documentales de acuerdo a la norma ISAD(G); pero no documenta su adaptación local de la norma, como tampoco regula ni sugiere como implementarla. Muchas otras instituciones o archivos utilizan estas normas y carecen de herramientas apropiadas para el registro de documentos.
+La Secretaría de Cultura de la Nación (Argentina), en su [resolución 1070](https://senip.cultura.gob.ar/wp-content/uploads/2016/09/Res-1070.pdf), instruye a los organismos dependientes a adoptar una ficha de registro de inventario de unidades documentales de acuerdo a la norma ISAD(G); pero no documenta su adaptación local de la norma, como tampoco regula ni sugiere como implementarla. Muchas otras instituciones o archivos utilizan estas normas y carecen de herramientas apropiadas para el registro de documentos.
 
 ## Características
 * Software multiplataforma (puede ser ejecutado en Windows, MacOS y Linux)
@@ -58,8 +58,8 @@ Aplicación Java/Swing que funciona como frontend gráfico (GUI) para ExifTool. 
 Este desarrollo se apoya en estándares y software de código abierto de terceras partes
 
 * [EXIF](https://docs.fileformat.com/image/exif/) es un estándar creado en el año 1995 para las especificaciones de formatos de imagen y sonido utilizados principalmente por cámaras digitales y escáneres, creado por la [_Asociación de la industria de cámaras de Japón_](https://en.wikipedia.org/wiki/Japan_Electronic_Industries_Development_Association) y hoy cuenta con una total aceptación y soporte.
-* Viendo las limitaciones de EXIF, en el año 2001 Abobe System creó [XMP](https://es.wikipedia.org/wiki/XMP), un modelo de datos extensibles, con el fin de poder registrar metadatos, como [Dublin Core](https://es.wikipedia.org/wiki/Dublin_Core), pero con el objetivo de aplicarlo a loas archivos PDF. Hoy en día puede ser utilizado en prácticamente cualquier formato gráfico y es un framework extensible a otras aplicaciones.
-* [ExifTool by Phil Harvey](https://exiftool.org/) es una biblioteca de Perl (independiente de la plataforma) más una aplicación de línea de comandos para leer, escribir y editar metainformación en una amplia variedad de archivos, que es usada por muchas aplicaciones de código abierto que deban escribir metadatos.
+* Viendo las limitaciones de EXIF, en el año 2001 Abobe System creó [XMP](https://es.wikipedia.org/wiki/XMP), un modelo de datos extensibles, con el fin de poder registrar metadatos, como [Dublin Core](https://es.wikipedia.org/wiki/Dublin_Core), pero con el objetivo de aplicarlo a los archivos PDF. Hoy en día puede ser utilizado en prácticamente cualquier formato gráfico y es un framework extensible a otras aplicaciones.
+* [ExifTool by Phil Harvey](https://exiftool.org/) es una biblioteca de Perl multiplataforma, creada en el año 2003, más una aplicación de línea de comandos para leer y editar metainformación en una amplia variedad de archivos, que es usada por muchas aplicaciones de código abierto que deban escribir metadatos.
 * [ISAD(G) XML Schema](https://gist.github.com/anarchivist/826364)* 
 
 ### Dependencias
@@ -78,7 +78,7 @@ Este desarrollo se apoya en estándares y software de código abierto de tercera
 ![](2.png)
 ![](3.png)
 
-## Otros proyectos
+## Proyectos similares
 * [Tropy](https://tropy.org/)
 
 ## GLAM Metadata standards
