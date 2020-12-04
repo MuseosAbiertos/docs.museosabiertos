@@ -28,7 +28,7 @@ restaurant:
 facebookenable: true
 facebooktitle: 'Docs Museos Abiertos'
 facebookdesc: 'En este sitio encontrarás documentación, proyectos, manuales y software, principalmente relacionados con Museos, Archivos y Bibliotecas.'
-media_order: DP828365.png
+media_order: 'DP828365.png,ScreenShot 2019-04-18 a la(s) 19.13.37.jpg'
 ---
 
 Llegaste al sito de documentación de [Museos Abiertos](https://museosabiertos.org)
@@ -43,3 +43,5 @@ Aquí también guardamos documentos, manuales, proyectos y software, principalme
 <i class="fa fa-github fa-2x" aria-hidden="true"></i> https://github.com/MuseosAbiertos
 </br>
 !!! Este sitio fué creado en la primavera meridional del anno domini 2020... y se actualiza periódicamente. 
+
+![](ScreenShot%202019-04-18%20a%20la%28s%29%2019.13.37.jpg)
