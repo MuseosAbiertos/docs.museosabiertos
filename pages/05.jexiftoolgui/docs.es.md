@@ -284,3 +284,4 @@ El "Comprobar si hay una nueva versión de jExifToolGUI al inicio del programa" 
 ## Apéndice A. Licencia de Documentación Libre de GNU (en Inglés)
 [https://www.gnu.org/licenses/old-licenses/fdl-1.2.html](https://www.gnu.org/licenses/old-licenses/fdl-1.2.html)
 
+![](jExifToolGUI_4-editar-lentes.png)
