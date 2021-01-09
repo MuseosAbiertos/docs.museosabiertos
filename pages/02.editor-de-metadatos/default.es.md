@@ -96,7 +96,7 @@ Este desarrollo se apoya en estándares y software de código abierto de tercera
 |[VRA VRA Core 4.0](http://core.vraweb.org/) | Es un estándar de datos para la comunidad del patrimonio cultural que fue desarrollado por el Comité de Estándares de Datos de la Asociación de Recursos Visuales. El conjunto de elementos proporciona una organización categórica para la descripción de obras de cultura visual así como las imágenes que las documentan.|
 |[SPECTRUM](https://collectionstrust.org.uk/spectrum/) |  Es un estándar de procedimientos y datos para museos, archivos e instituciones de patrimonio cultural principalmente en el Reino Unido.|
 
-![](logo-mecenazgo.jpg)
+![](https://docs.museosabiertos.org/user/pages/02.editor-de-metadatos/logo-mecenazgo.jpg)
 
 {% if grav.user.authenticated %}
 
