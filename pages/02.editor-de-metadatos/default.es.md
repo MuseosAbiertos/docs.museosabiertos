@@ -108,29 +108,3 @@ Quienes tributen el impuesto sobre los Ingresos Brutos pueden destinar parte del
 https://www.buenosaires.gob.ar/cultura/mecenazgo/informacion-para-contribuyentes
 
 
-{% if grav.user.authenticated %}
-
-## Futuro
-### web semántica
-Este proyecto tiene como objetivo organizar la información de archivo en un entorno web semántico usando el modelo conceptual [CIDOC-CRM](http://www.cidoc-crm.org/). 
-Y asimilando la experiencia de: [http://manu47.magtech.com.cn/Jwk3_jdis/article/2020/2096-157X/2096-157X-5-1-68.shtml](http://manu47.magtech.com.cn/Jwk3_jdis/article/2020/2096-157X/2096-157X-5-1-68.shtml)
-Visto y considerando...
-
-## Integración del workflow con Drupal
-
-* [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3964704/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3964704/)
-* [https://www.drupal.org/project/exif](https://www.drupal.org/project/exif)
-* [https://www.drupal.org/project/file_mdm](https://www.drupal.org/project/file_mdm)
-* [https://www.drupal.org/project/file_mdm](https://www.drupal.org/project/file_mdm)
-* [https://www.drupal.org/project/search_file_attachments](https://www.drupal.org/project/search_file_attachments)
-* [https://tika.apache.org/](https://tika.apache.org/)
-
-## LOD
-
-* [Gestión de fondos de archivos con datos enlazados y consultas federadas](http://redc.revistas.csic.es/index.php/redc/article/view/949)
-* [Linked Archival Metadata: A Guidebook](http://infomotions.com/sandbox/liam/tmp/guidebook.pdf)
-* [Successfully Managin Archives in Museums](https://www.aim-museums.co.uk/wp-content/uploads/2017/03/Successfully-Managing-Archives-in-Museums-Basic-Interventive-Conservation-2017.pdf)
-* [An Exploratory Study on Linking ISAD(G) and CIDOC CRM Using KARMA](http://www.koreascience.or.kr/article/JAKO201817840891811.page)
-* [The semantic mapping of archival metadata to the CIDOC CRM ontology](https://www.researchgate.net/publication/232955302_The_semantic_mapping_of_archival_metadata_to_the_CIDOC_CRM_ontology)
-
-{% endif %}
