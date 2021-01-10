@@ -25,9 +25,6 @@ restaurant:
 facebookenable: true
 ---
 
-![](https://docs.museosabiertos.org/user/pages/02.editor-de-metadatos/logo-mecenazgo.jpg)
-
-
 Este editor multiplataforma es una herramienta gráfica para la edición de metadatos de registros de colecciones con las normas [Dublin Core](https://dublincore.org/specifications/dublin-core/), [ISAD(G) 2000](https://www.ica.org/sites/default/files/CBPS_2000_Guidelines_ISAD%28G%29_Second-edition_EN.pdf), [EAD 2002](https://www.loc.gov/ead/index.html)
 
 
@@ -98,6 +95,13 @@ Este desarrollo se apoya en estándares y software de código abierto de tercera
 |[ISAD (G)](http://www.ica.org/?lid=10207) |  Es un estándar de contenido de datos ampliamente utilizado para encontrar ayudas producidas por archivos, bibliotecas, museos y repositorios de manuscritos.|
 |[VRA VRA Core 4.0](http://core.vraweb.org/) | Es un estándar de datos para la comunidad del patrimonio cultural que fue desarrollado por el Comité de Estándares de Datos de la Asociación de Recursos Visuales. El conjunto de elementos proporciona una organización categórica para la descripción de obras de cultura visual así como las imágenes que las documentan.|
 |[SPECTRUM](https://collectionstrust.org.uk/spectrum/) |  Es un estándar de procedimientos y datos para museos, archivos e instituciones de patrimonio cultural principalmente en el Reino Unido.|
+
+
+![](https://docs.museosabiertos.org/user/pages/02.editor-de-metadatos/logo-mecenazgo.jpg)
+
+## Los contribuyentes pueden ser mecenas de la cultura
+Quienes tributen el impuesto sobre los Ingresos Brutos pueden destinar parte del pago de los mismos para financiar proyectos culturales.
+https://www.buenosaires.gob.ar/cultura/mecenazgo/informacion-para-contribuyentes
 
 
 {% if grav.user.authenticated %}
