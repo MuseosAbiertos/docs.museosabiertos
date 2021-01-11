@@ -34,4 +34,4 @@ facebookenable: true
 ![](nathalia-rosa--cU_AOPa9ew-unsplash.png)
 Autor: https://unsplash.com/@nathaliarosa
 
-![](9200520_ark__12148_bpt6k9798333w.jpeg)
+![](https://docs.museosabiertos.org/user/pages/06.recursos/9200520_ark__12148_bpt6k9798333w.jpeg)
