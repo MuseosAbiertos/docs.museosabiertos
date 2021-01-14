@@ -39,7 +39,7 @@ La Secretaría de Cultura de la Nación (Argentina), en su [resolución 1070](ht
 ## Características
 * Software multiplataforma (puede ser ejecutado en Windows, MacOS y Linux)
 * Edita los metadatos y los 'guarda' dentro del archivo sin modificar la imagen (ej.: JPG, TIF, PDF) conservando su contexto al 'viajar' a través de aplicaciones, dispositivos y bases de datos.
-* Edita metadatos según las normas internacionales Dublin Core, ISAD(G) 2000, EAD 2002
+* Edita metadatos según las normas internacionales ISAD(G) 2000, EAD 2002, SPECTRUM
 * No es destructivo (no altera las imágenes)
 * Reduce significativamente las tareas de registro
 * Hace obsoleto el uso de hojas de cálculo independientes para el registros de colecciones
