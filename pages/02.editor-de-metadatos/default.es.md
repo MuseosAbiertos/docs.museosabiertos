@@ -29,21 +29,22 @@ Este editor multiplataforma es una herramienta gráfica para la edición de meta
 
 
 ## Objetivo
-Esta herramienta busca ayudar, tanto al archivista iniciado como al experimentado, a implementar las normas en una única interfase, evitando la dispersión de soluciones y colaborando con la estandarización de los procesos y la aplicación de las normas.
+Esta herramienta busca ayudar, tanto al archivista iniciado como al experimentado, a implementar las normas archivísticas en una única interfase, evitando la dispersión de soluciones y colaborando con la estandarización de los procesos y la aplicación de las normas.
 
-* Gran parte de los archivos y museos usan planillas de cálculo para guardar los metadatos (ISAD-G, EAD, SPECTRUM, DC...) de los documentos digitales
+* Muchos archivos y museos usan planillas de cálculo para guardar los metadatos (ISAD-G, EAD, SPECTRUM, DC...) de los documentos digitales
 
 ### Contexto en Argentina
 La Secretaría de Cultura de la Nación (Argentina), en su [resolución 1070](https://senip.cultura.gob.ar/wp-content/uploads/2016/09/Res-1070.pdf), instruye a los organismos dependientes a adoptar una ficha de registro de inventario de unidades documentales de acuerdo a la norma ISAD(G); pero no documenta su adaptación local de la norma, como tampoco regula ni sugiere como implementarla. Muchas otras instituciones o archivos utilizan estas normas y carecen de herramientas apropiadas para el registro de documentos.
 
 ## Características
-* Software multiplataforma (puede ser ejecutado en Windows, MacOS y Linux)
+* Software de código abierto con licencia GNU
+* Software multiplataforma (puede ser ejecutado en Windows XP, 7, 10, MacOS, Linux y Raspberry pi)
 * Edita los metadatos y los 'guarda' dentro del archivo sin modificar la imagen (ej.: JPG, TIF, PDF) conservando su contexto al 'viajar' a través de aplicaciones, dispositivos y bases de datos.
 * Edita metadatos según las normas internacionales ISAD(G) 2000, EAD 2002, SPECTRUM
 * No es destructivo (no altera las imágenes)
 * Reduce significativamente las tareas de registro
-* Hace obsoleto el uso de hojas de cálculo independientes para el registros de colecciones
-* Adaptado a un flujo de trabajo para auditoría de datos con [Open Refine](https://openrefine.org/)
+* Aunque lo permite, hace obsoleto el uso de hojas de cálculo independientes para el registros de colecciones
+* Diseñado para adaptarse a un flujo de trabajo para auditoría de datos con [Open Refine](https://openrefine.org/)
 * Exporta los metadatos a un archivo tabulado CSV o PDF para facilitar la ingestión en aplicaciones, como [AtoM](https://accesstomemory.org/), [Archivematica](https://www.archivematica.org/), [DSpace](https://duraspace.org/dspace/), [Fedora Commons](https://duraspace.org/fedora/) o [RODA](https://roda-community.org/).
 
 ## Roadmap
