@@ -32,7 +32,7 @@ Este editor multiplataforma es una herramienta gráfica para la edición de meta
 
 ## Objetivo
 Esta herramienta de edición de metadatos ayuda a implementar las normas archivísticas en una única interfase, donde los metadatos quedan 'grabados' en los documentos, evitando así la dispersión de soluciones y colaborando con la estandarización de los procesos y la aplicación de las normas. 
-Este proyecto -libre y abierto- está orientado a todas las instituciones -públicas como privadas- donde se resguardan documentos y archivos patrimoniales que busquen implementar las normas internacionales.
+Este proyecto -libre y abierto- está orientado a todas las instituciones -públicas como privadas- donde se resguardan documentos y archivos patrimoniales y que busquen implementar las normas internacionales.
 
 * Muchos archivos y museos usan planillas de cálculo para guardar los metadatos (ISAD-G, EAD, SPECTRUM, DC...) de los documentos digitales
 
