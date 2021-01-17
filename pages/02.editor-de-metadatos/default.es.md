@@ -30,14 +30,8 @@ facebookenable: true
 Este editor multiplataforma es una herramienta gráfica para la edición de metadatos de registros de colecciones con las normas [Dublin Core](https://dublincore.org/specifications/dublin-core/), [ISAD(G) 2000](https://www.ica.org/sites/default/files/CBPS_2000_Guidelines_ISAD%28G%29_Second-edition_EN.pdf), [EAD 2002](https://www.loc.gov/ead/index.html)
 
 
-## Objetivo
-Esta herramienta de edición de metadatos ayuda a implementar las normas archivísticas en una única interfase, donde los metadatos quedan 'grabados' en los documentos, evitando así la dispersión de soluciones y colaborando con la estandarización de los procesos y la aplicación de las normas. 
-Este proyecto -libre y abierto- está orientado a todas las instituciones -públicas como privadas- donde se resguardan documentos y archivos patrimoniales y que busquen implementar las normas internacionales.
+## Web de Proyecto: https://museosabiertos.org/proyectos/editor-metadatos-archivo
 
-* Muchos archivos y museos usan planillas de cálculo para guardar los metadatos (ISAD-G, EAD, SPECTRUM, DC...) de los documentos digitales
-
-### Contexto en Argentina
-La Secretaría de Cultura de la Nación (Argentina), en su [resolución 1070](https://senip.cultura.gob.ar/wp-content/uploads/2016/09/Res-1070.pdf), instruye a los organismos dependientes a adoptar una ficha de registro de inventario de unidades documentales de acuerdo a la norma ISAD(G); pero no documenta su adaptación local de la norma, como tampoco regula ni sugiere como implementarla. Muchas otras instituciones o archivos utilizan estas normas y carecen de herramientas apropiadas para el registro de documentos.
 
 ## Características
 * Software de código abierto con licencia GNU
