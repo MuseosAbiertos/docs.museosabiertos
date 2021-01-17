@@ -31,7 +31,7 @@ Este editor multiplataforma es una interfase gráfica (basada en Java) para la e
 
 
 ## Web de Proyecto: 
-### https://museosabiertos.org/proyectos/editor-metadatos-archivo
+### [https://museosabiertos.org/proyectos/editor-metadatos-glam](https://museosabiertos.org/proyectos/editor-metadatos-glam)
 
 
 ## Características
