@@ -30,7 +30,8 @@ facebookenable: true
 Este editor multiplataforma es una herramienta gráfica para la edición de metadatos de registros de colecciones con las normas [Dublin Core](https://dublincore.org/specifications/dublin-core/), [ISAD(G) 2000](https://www.ica.org/sites/default/files/CBPS_2000_Guidelines_ISAD%28G%29_Second-edition_EN.pdf), [EAD 2002](https://www.loc.gov/ead/index.html)
 
 
-## Web de Proyecto: https://museosabiertos.org/proyectos/editor-metadatos-archivo
+## Web de Proyecto: 
+### https://museosabiertos.org/proyectos/editor-metadatos-archivo
 
 
 ## Características
