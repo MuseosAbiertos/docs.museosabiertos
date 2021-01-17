@@ -65,11 +65,6 @@ Este desarrollo se apoya en estándares y software de código abierto de tercera
 * [JRE (Java Runtime Environment)](https://adoptopenjdk.net/releases.html)
 * [ExifTool by Phil Harvey](https://exiftool.org/) 
 
-### Ejemplo de archivo con ISAD-G incrustado en XMP
-
-1. Descarga el archivo: [https://docs.museosabiertos.org/editor-de-metadatos/DemoImage_ISADG-XMP-Metadata.png](https://docs.museosabiertos.org/editor-de-metadatos/DemoImage_ISADG-XMP-Metadata.png)
-2. Abre una ventana de terminal en su carpeta y ejecuta:
-<code>exiftool -xmp-isadg:all DemoImage_ISADG-XMP-Metadata.png</code>
 
 ## Mockups
 
