@@ -46,7 +46,7 @@ Este editor multiplataforma es una interfase gráfica (basada en Java) para la e
 * Exporta los metadatos a un archivo tabulado CSV o PDF para facilitar la ingestión en aplicaciones, como [AtoM](https://accesstomemory.org/), [Archivematica](https://www.archivematica.org/), [DSpace](https://duraspace.org/dspace/), [Fedora Commons](https://duraspace.org/fedora/) o [RODA](https://roda-community.org/).
 
 ## Roadmap
-* Importa un CSV o XML y guarda los metadatos en archivos (ej.: JPG, TIF, PDF) 
+* Importa un CSV o XML y guarda los metadatos en archivos (ej.: JPG, TIFF, PDF) 
 * Lectura/escritura de metadatos en un archivo XML externo (sidecar)
 * Guarda un histórico de ediciones
 * Soporte para EAD3 (2015)
