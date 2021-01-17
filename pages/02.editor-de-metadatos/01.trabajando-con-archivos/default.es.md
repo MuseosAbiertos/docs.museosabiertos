@@ -24,9 +24,8 @@ facebookenable: true
 ### Ejemplo de archivo con ISAD-G incrustado en XMP
 
 1. Descarga un archivo a elección: 
-  2. TIFF: [https://docs.museosabiertos.org/editor-de-metadatos/MA-sample-id-556343.tif](https://docs.museosabiertos.org/editor-de-metadatos/MA-sample-id-556343.tif)
-  3. JPG: [https://docs.museosabiertos.org/editor-de-metadatos/MA-sample-id-2498680.jpg](https://docs.museosabiertos.org/editor-de-metadatos/MA-sample-id-2498680.jpg)
+*     TIFF: [https://docs.museosabiertos.org/editor-de-metadatos/MA-sample-id-556343.tif](https://docs.museosabiertos.org/editor-de-metadatos/MA-sample-id-556343.tif)
+*     JPG: [https://docs.museosabiertos.org/editor-de-metadatos/MA-sample-id-2498680.jpg](https://docs.museosabiertos.org/editor-de-metadatos/MA-sample-id-2498680.jpg)
 3. Abre una ventana de terminal en su carpeta y ejecuta:
-<code>exiftool -xmp-isadg:all MA-sample-id-556343.tif</code>
-o
-<code>exiftool -xmp-isadg:all MA-sample-id-2498680.jpg</code>
+*   TIFF: <code>exiftool -xmp-isadg:all MA-sample-id-556343.tif</code>
+*   JPG: <code>exiftool -xmp-isadg:all MA-sample-id-2498680.jpg</code>
