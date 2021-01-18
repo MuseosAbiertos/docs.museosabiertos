@@ -29,7 +29,7 @@ media_order: Metadata_requirements_for_digital_museum.pdf
 
 ## Papers
 * [Manjula Patel, Martin White, Nicholaos Mourkoussis, Krzysztof Walczak, Rafal Wojciechowski, Jacek Chmielewski. **Metadata Requirements for Digital Museum Environments**. International Journal on Digital Libraries, 2005](Metadata_requirements_for_digital_museum.pdf)
-* Mapping VRA Core 4.0 to the CIDOC CRM ontology. First Workshop onDigital InformationManagement, 2011
+* [Panorea Gaitanou. **Mapping VRA Core 4.0 to the CIDOC CRM ontology**. First Workshop on Digital Information Management, 2011](https://www.academia.edu/2144276/Mapping_VRA_Core_4_0_to_the_CIDOC_CRM_ontology)
 
 
 ## Varios
