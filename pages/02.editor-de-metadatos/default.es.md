@@ -38,7 +38,7 @@ Este editor multiplataforma es una interfase gráfica (basada en Java) para la e
 * Software de código abierto con licencia GNU
 * Software multiplataforma (puede ser ejecutado en Windows XP, 7, 10, MacOS, Linux y Raspberry pi)
 * Edita los metadatos y los 'guarda' dentro del archivo sin modificar la imagen (ej.: JPG, TIF, PDF) conservando su contexto al 'viajar' a través de aplicaciones, dispositivos y bases de datos.
-* Edita metadatos según las normas internacionales ISAD(G) 2000, EAD 2002, SPECTRUM
+* Edita metadatos según las normas internacionales ISAD(G) 2000, EAD 2002, DC
 * No es destructivo (no altera las imágenes)
 * Reduce significativamente las tareas de registro
 * Aunque lo permite, hace obsoleto el uso de hojas de cálculo independientes para el registros de colecciones
@@ -49,7 +49,8 @@ Este editor multiplataforma es una interfase gráfica (basada en Java) para la e
 * Importa un CSV o XML y guarda los metadatos en archivos (ej.: JPG, TIFF, PDF) 
 * Lectura/escritura de metadatos en un archivo XML externo (sidecar)
 * Guarda un histórico de ediciones
-* Soporte para EAD3 (2015)
+* Soporte para [VRA Core 4](https://core.vraweb.org/)
+* Soporte para [EAD3 (2015)](https://www.loc.gov/ead/index.html)
 
 ## Software
 Aplicación Java/Swing que funciona como frontend gráfico (GUI) para ExifTool. La UI está diseñada con GUI Designer from IntelliJ IDEA. Licencia abierta, GNU General Public License.
