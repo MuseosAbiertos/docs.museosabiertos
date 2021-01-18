@@ -39,9 +39,7 @@ _Ejemplo para crear copias reducidas de todos los jpg en otra carpeta:_ <code>ma
 
 ### Extraer metadatos de un archivo que contiene metadatos ISAD-G 
 
-1. Descarga un archivo a elección: 
-*     TIFF: [https://docs.museosabiertos.org/editor-de-metadatos/MA-sample-id-556343.tif](https://docs.museosabiertos.org/editor-de-metadatos/MA-sample-id-556343.tif)
+1. Descarga el archivo: 
 *     JPG: [https://docs.museosabiertos.org/editor-de-metadatos/MA-sample-id-2498680.jpg](https://docs.museosabiertos.org/editor-de-metadatos/MA-sample-id-2498680.jpg)
-3. Abre una ventana de terminal en su carpeta y ejecuta:
-*   TIFF: <code>exiftool -xmp-isadg:all MA-sample-id-556343.tif</code>
+2. Abre una ventana de terminal en su carpeta y ejecuta:
 *   JPG: <code>exiftool -xmp-isadg:all MA-sample-id-2498680.jpg</code>
