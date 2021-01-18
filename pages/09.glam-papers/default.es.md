@@ -30,7 +30,7 @@ media_order: Metadata_requirements_for_digital_museum.pdf
 * 
 
 
-## Papers, Manuals, Docs
+## Aprender (Papers, Manuals, Docs...)
 * [Manjula Patel, Martin White, Nicholaos Mourkoussis, Krzysztof Walczak, Rafal Wojciechowski, Jacek Chmielewski. **Metadata Requirements for Digital Museum Environments**. International Journal on Digital Libraries, 2005](Metadata_requirements_for_digital_museum.pdf)
 * [Panorea Gaitanou. **Mapping VRA Core 4.0 to the CIDOC CRM ontology**. First Workshop on Digital Information Management, 2011](https://www.academia.edu/2144276/Mapping_VRA_Core_4_0_to_the_CIDOC_CRM_ontology)
 * [Ignacio Soloaga, Esteban Cristian Fernández, Marisa Raquel De Giusti. **Cómo crear paquetes de información para repositorios digitales**. Comisión de Investigaciones Científicas, 2020](https://digital.cic.gba.gob.ar/handle/11746/10750)
