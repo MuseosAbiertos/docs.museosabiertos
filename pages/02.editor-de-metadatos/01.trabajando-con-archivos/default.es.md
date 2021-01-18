@@ -21,6 +21,19 @@ restaurant:
 facebookenable: true
 ---
 
+### Herramientas varias para trabajar con archivos de imágenes
+
+**[ExifTool by Phil Harvey](https://exiftool.org/)**
+ExifTool es una biblioteca de Perl independiente de la plataforma más una aplicación de línea de comandos para leer, escribir y editar metainformación en una amplia variedad de archivos.
+
+**[ImageMagick](https://imagemagick.org/)**
+ImageMagick es un conjunto de utilidades de código abierto1​ para mostrar, manipular y convertir imágenes, capaz de leer y escribir más de 200 formatos.2
+
+Ejemplo: <code>magick mogrify -resize 50% rose.jpg</code>
+
+
+
+
 ### Ejemplo de archivo con ISAD-G incrustado en XMP
 
 1. Descarga un archivo a elección: 
