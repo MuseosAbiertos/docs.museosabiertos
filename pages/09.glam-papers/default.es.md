@@ -29,7 +29,8 @@ media_order: Metadata_requirements_for_digital_museum.pdf
 
 ## Papers
 * [Manjula Patel, Martin White, Nicholaos Mourkoussis, Krzysztof Walczak, Rafal Wojciechowski, Jacek Chmielewski. **Metadata Requirements for Digital Museum Environments**. International Journal on Digital Libraries, 2005](Metadata_requirements_for_digital_museum.pdf)
-*
+* Mapping VRA Core 4.0 to the CIDOC CRM ontology. First Workshop onDigital InformationManagement, 2011
+
 
 ## Varios
 * [Situación de los museos en Chile. Diagnóstico 2019](http://www.rmiberoamericanos.org/Documentos/63ecb9c4-e6f9-6d7c-8355-8b0a1725cd5a.pdf) Diagnóstico del estado actual de los museos en Chile en 2019
