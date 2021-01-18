@@ -19,5 +19,11 @@ restaurant:
     acceptsReservations: 'yes'
     priceRange: $
 facebookenable: true
+media_order: Metadata_requirements_for_digital_museum.pdf
 ---
+
+
+
+* [Manjula Patel, Martin White, Nicholaos Mourkoussis, Krzysztof Walczak, Rafal Wojciechowski, Jacek Chmielewski. **Metadata Requirements for Digital Museum Environments**. International Journal on Digital Libraries, 2005](Metadata_requirements_for_digital_museum.pdf)
+*
 
