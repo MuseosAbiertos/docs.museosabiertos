@@ -1,5 +1,5 @@
 ---
-title: 'Docs !'
+title: 'Open By Default!'
 body_classes: 'title-center title-h1h2'
 menu: Inicio
 visible: false
