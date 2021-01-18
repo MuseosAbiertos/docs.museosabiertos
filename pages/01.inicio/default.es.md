@@ -31,15 +31,21 @@ facebookdesc: 'En este sitio encontrarás documentación, proyectos, manuales y 
 media_order: DP828365.png
 ---
 
-Llegaste al sito de documentación de [Museos Abiertos](https://museosabiertos.org)
+Sito de documentación de [Museos Abiertos](https://museosabiertos.org)
 
-Aquí también guardamos documentos, manuales, proyectos y software, principalmente de factura propia y relacionados con Museos, Archivos y Bibliotecas.
+Aquí conservamos documentos, manuales, proyectos y software, principalmente de factura propia y relacionados con Museos, Archivos y Bibliotecas.
+<cite>El verdadero museo probablemente sea sólo virtual, es decir, enteramente imaginario
+Bernard Deloche</cite>
 
 ![Destruction of the Tower of Babel: at right men and women flee from the burning tower, at left men and women raise their hands toward two flying angels, from a series of engravings made for the first edition of the 'Liber Genesis'
 ](DP828365.png)
 <cite>Destruction of the Tower of Babel: at right men and women flee from the burning tower, at left men and women raise their hands toward two flying angels, from a series of engravings made for the first edition of the 'Liber Genesis' 1612. Crispijn de Passe the Elder (Netherlandish, Arnemuiden 1564–1637 Utrecht)
 </cite>
+
+
+
+
+!!! website online desde agosto 2020 -y se actualiza periódicamente-. 
 </br>
 <i class="fa fa-github fa-2x" aria-hidden="true"></i> https://github.com/MuseosAbiertos
 </br>
-!!! Este sitio fué creado en la primavera meridional del anno domini 2020... y se actualiza periódicamente. 
