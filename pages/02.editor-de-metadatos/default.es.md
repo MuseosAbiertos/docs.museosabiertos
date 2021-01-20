@@ -51,6 +51,8 @@ Este editor multiplataforma es una interfase gráfica (basada en Java) para la e
 * Guarda un histórico de ediciones
 * Soporte para [VRA Core 4](https://core.vraweb.org/)
 * Soporte para [EAD3 (2015)](https://www.loc.gov/ead/index.html)
+* Soporte para [DACS](https://www.dcc.ac.uk/guidance/standards/diffuse/show?standard_id=146&sort=title)
+* Soporte para [SPECTRUM](https://collectionstrust.org.uk/spectrum/)
 
 ## Software
 Aplicación Java/Swing que funciona como frontend gráfico (GUI) para ExifTool. La UI está diseñada con GUI Designer from IntelliJ IDEA. Licencia abierta, GNU General Public License.
