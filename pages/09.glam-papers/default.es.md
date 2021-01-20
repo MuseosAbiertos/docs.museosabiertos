@@ -38,7 +38,9 @@ media_order: Metadata_requirements_for_digital_museum.pdf
 * [Marcelo de la Puente. EAD y EAC: **Aplicación de metadatos en la descripción de colecciones archivísticas**. University of CEMA 2018](https://www.researchgate.net/publication/322869915_EAD_y_EAC_Aplicacion_de_metadatos_en_la_descripcion_de_colecciones_archivisticas)
 * [José Ramón Cruz Mundet, Carmen Díez Carrera. **Sistema de Información de Archivo Abierto (OAIS): luces y sombras de un modelo de referencia**. 2016](https://www.sciencedirect.com/science/article/pii/S0187358X16300545)
 * [Patricia Harpring. **Cataloging Museum and Special Collections Works: Documentation, Indexing, Access with CDWA, CCO, and the Getty Vocabularies for museums and for visual resources professionals**. Getty Vocabulary Program, 2019](https://www.getty.edu/research/tools/vocabularies/cco_cdwa_for_museums.pdf)
+* **Embedded Metadata and VRA** [CEPIC] https://www.slideshare.net/gregreser/cepic-reser-5182012
 * 
+
 
 
 
