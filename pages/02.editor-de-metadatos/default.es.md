@@ -27,7 +27,7 @@ facebookenable: true
 
 ![Editor de metadatos para la descripción archivística](logo-editor.png?resize=400,200) 
 
-Este editor multiplataforma es una interfase gráfica (basada en Java) para la edición de metadatos de registros de colecciones con las normas [EXIF](https://docs.fileformat.com/image/exif/), [IPTC](https://iptc.org/standards/photo-metadata/), [XMP](https://www.adobe.com/products/xmp.html), GPS y extendido a [Dublin Core](https://dublincore.org/specifications/dublin-core/), [ISAD(G) 2000](https://www.ica.org/sites/default/files/CBPS_2000_Guidelines_ISAD%28G%29_Second-edition_EN.pdf), [EAD 2002](https://www.loc.gov/ead/index.html)
+Este editor multiplataforma es una interfase gráfica (basada en Java) para la edición de metadatos de registros de colecciones con las normas [EXIF](https://docs.fileformat.com/image/exif/), [IPTC](https://iptc.org/standards/photo-metadata/), [XMP](https://www.adobe.com/products/xmp.html), GPS y extendido a [Dublin Core](https://dublincore.org/specifications/dublin-core/) y [ISAD(G) 2000](https://www.ica.org/sites/default/files/CBPS_2000_Guidelines_ISAD%28G%29_Second-edition_EN.pdf).
 
 
 ## Web de Proyecto: 
@@ -38,7 +38,7 @@ Este editor multiplataforma es una interfase gráfica (basada en Java) para la e
 * Software de código abierto con licencia GNU
 * Software multiplataforma (puede ser ejecutado en Windows XP, 7, 10, MacOS, Linux y Raspberry pi)
 * Edita los metadatos y los 'guarda' dentro del archivo sin modificar la imagen (ej.: JPG, TIF, PDF) conservando su contexto al 'viajar' a través de aplicaciones, dispositivos y bases de datos.
-* Edita metadatos según las normas internacionales ISAD(G) 2000, EAD 2002, DC
+* Edita metadatos según las normas internacionales ISAD(G) 2000 y DC
 * No es destructivo (no altera las imágenes)
 * Reduce significativamente las tareas de registro
 * Aunque lo permite, hace obsoleto el uso de hojas de cálculo independientes para el registros de colecciones
@@ -50,6 +50,7 @@ Este editor multiplataforma es una interfase gráfica (basada en Java) para la e
 * Lectura/escritura de metadatos en un archivo XML externo (sidecar)
 * Guarda un histórico de ediciones
 * Soporte para [VRA Core 4](https://core.vraweb.org/)
+* Soporte para [EAD 2002](https://www.loc.gov/ead/index.html)
 * Soporte para [EAD3 (2015)](https://www.loc.gov/ead/index.html)
 * Soporte para [DACS](https://www.dcc.ac.uk/guidance/standards/diffuse/show?standard_id=146&sort=title)
 * Soporte para [SPECTRUM](https://collectionstrust.org.uk/spectrum/)
