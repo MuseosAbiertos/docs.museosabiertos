@@ -19,7 +19,6 @@ restaurant:
     acceptsReservations: 'yes'
     priceRange: $
 facebookenable: true
-media_order: Metadata_requirements_for_digital_museum.pdf
 ---
 
 ## Referencias
@@ -31,7 +30,7 @@ media_order: Metadata_requirements_for_digital_museum.pdf
 
 
 ## Aprender (Papers, Manuals, Docs...)
-* [Manjula Patel, Martin White, Nicholaos Mourkoussis, Krzysztof Walczak, Rafal Wojciechowski, Jacek Chmielewski. **Metadata Requirements for Digital Museum Environments**. International Journal on Digital Libraries, 2005](Metadata_requirements_for_digital_museum.pdf)
+* [Manjula Patel, Martin White, Nicholaos Mourkoussis, Krzysztof Walczak, Rafal Wojciechowski, Jacek Chmielewski. **Metadata Requirements for Digital Museum Environments**. International Journal on Digital Libraries, 2005](https://drive.google.com/open?id=15XRMGdrIPYrMxVUc2L2rB3VW-g1W6aUL&authuser=mg%40museosabiertos.org&usp=drive_fs)
 * [Panorea Gaitanou. **Mapping VRA Core 4.0 to the CIDOC CRM ontology**. First Workshop on Digital Information Management, 2011](https://www.academia.edu/2144276/Mapping_VRA_Core_4_0_to_the_CIDOC_CRM_ontology)
 * [Ignacio Soloaga, Esteban Cristian Fernández, Marisa Raquel De Giusti. **Cómo crear paquetes de información para repositorios digitales**. Comisión de Investigaciones Científicas, 2020](https://digital.cic.gba.gob.ar/handle/11746/10750)
 * [Ziyoung Park, Hosin Lee, Seungchon Kim, Sungjae Park. **Improving Archival Records and Service of Traditional Korean Performing Arts in a Semantic Web Environment**. Journal of Data and Information Science of Korea, 2020](http://manu47.magtech.com.cn/Jwk3_jdis/article/2020/2096-157X/2096-157X-5-1-68.shtml)
@@ -39,9 +38,7 @@ media_order: Metadata_requirements_for_digital_museum.pdf
 * [José Ramón Cruz Mundet, Carmen Díez Carrera. **Sistema de Información de Archivo Abierto (OAIS): luces y sombras de un modelo de referencia**. 2016](https://www.sciencedirect.com/science/article/pii/S0187358X16300545)
 * [Patricia Harpring. **Cataloging Museum and Special Collections Works: Documentation, Indexing, Access with CDWA, CCO, and the Getty Vocabularies for museums and for visual resources professionals**. Getty Vocabulary Program, 2019](https://www.getty.edu/research/tools/vocabularies/cco_cdwa_for_museums.pdf)
 * **Embedded Metadata and VRA** [CEPIC] https://www.slideshare.net/gregreser/cepic-reser-5182012
-* 
-
-
+* [**Conceptos claves de museología**. Armand Colin, 2010](https://drive.google.com/file/d/1rALeerFHIiWvK1fDTE5D5k8spFr3LrpW/view?usp=sharing)* 
 
 
 
