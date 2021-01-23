@@ -45,7 +45,6 @@ facebookenable: true
 ## Repositorios, Catálogos
 * [Kringla](http://www.kringla.nu/) es un servicio de la "Junta del Patrimonio Nacional de Suecia" de búsqueda conjunto que busca y muestra información de museos, archivos y registros suecos.
 * [The National Archive Discovery](http://discovery.nationalarchives.gov.uk/). Contiene más de 32 millones de descripciones de registros que se encuentran en los Archivos Nacionales del reino Unido y más de 2.500 archivos en todo el país. Más de 9 millones de registros están disponibles para ser descargados.
-* 
 
 
 
