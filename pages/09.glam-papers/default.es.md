@@ -1,5 +1,5 @@
 ---
-title: 'GLAM Papers & Referencias'
+title: 'Papers, Referencias & Links'
 twitterenable: true
 twittercardoptions: summary
 articleenabled: false
