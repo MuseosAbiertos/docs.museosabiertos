@@ -30,9 +30,12 @@ facebookenable: true
 Este editor multiplataforma es una interfaz gráfica (basada en Java) para la edición de metadatos de registros de colecciones con las normas [EXIF](https://docs.fileformat.com/image/exif/), [IPTC](https://iptc.org/standards/photo-metadata/), [XMP](https://www.adobe.com/products/xmp.html), GPS y extendido a [Dublin Core](https://dublincore.org/specifications/dublin-core/) y [ISAD(G) 2000](https://www.ica.org/sites/default/files/CBPS_2000_Guidelines_ISAD%28G%29_Second-edition_EN.pdf).
 
 
-## Web de Proyecto: 
-### [https://museosabiertos.org/proyectos/editor-metadatos-glam](https://museosabiertos.org/proyectos/editor-metadatos-glam)
+### Web de Proyecto:  [https://museosabiertos.org/proyectos/editor-metadatos-glam](https://museosabiertos.org/proyectos/editor-metadatos-glam)
 
+## Objetivo
+Esta herramienta de edición de metadatos ayuda a implementar las normas archivísticas -dentro del modelo conceptual OAIS [http://www.oais.info].- en una única interfase, donde los metadatos quedan 'grabados' en los documentos, evitando así la dispersión de soluciones y colaborando con la estandarización de los procesos y la aplicación de las normas y acelerando los procesos de registro de colecciones incorporando metodologías normalizadas.
+
+Este proyecto -libre y abierto- está orientado a todas las instituciones -públicas como privadas- donde se resguardan documentos y archivos patrimoniales que y busquen implementar las normas internacionales.
 
 ## Características
 * Software de código abierto con licencia GNU
@@ -77,7 +80,9 @@ Este desarrollo se apoya en estándares y software de código abierto de tercera
 ![](3.png)
 
 ## Proyectos similares
+* [jExifToolGUI](https://github.com/hvdwolf/jExifToolGUI)
 * [Tropy](https://tropy.org/)
+* [Custom Metadata Panel for Bridge](https://github.com/adobe-dmeservices/custom-metadata)
 
 ## GLAM Metadata standards
 
