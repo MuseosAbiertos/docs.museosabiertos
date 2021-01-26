@@ -1,7 +1,7 @@
 ---
 title: 'Editor de metadatos para la descripción archivística'
 menu: 'Editor de metadatos GLAM'
-media_order: '1.png,2.png,3.png,logo-mecenazgo.jpg,logo-editor.png,MA-sample-id-2498680.jpg,MA-sample-id-556343.zip,MA-sample-DP119115.tiff'
+media_order: '1.png,2.png,3.png,logo-mecenazgo.jpg,logo-editor.png,MA-sample-id-2498680.jpg,MA-sample-id-556343.zip,Survey of GLAM open access policy and practice (Douglas McCarthy and Dr. Andrea Wallace, 2018 to present) - GLAM open access policies.csv'
 sitemap:
     ignore: false
 twitterenable: true
@@ -110,5 +110,4 @@ https://www.buenosaires.gob.ar/mecenazgo
 Quienes tributen el impuesto sobre los Ingresos Brutos pueden destinar parte del pago de los mismos para financiar proyectos culturales.
 https://www.buenosaires.gob.ar/cultura/mecenazgo/informacion-para-contribuyentes
 
-
-[MA-sample-DP119115.tiff](MA-sample-DP119115.tiff)
+[Survey of GLAM open access policy and practice (Douglas McCarthy and Dr. Andrea Wallace, 2018 to present) - GLAM open access policies.csv](Survey%20of%20GLAM%20open%20access%20policy%20and%20practice%20%28Douglas%20McCarthy%20and%20Dr.%20Andrea%20Wallace,%202018%20to%20present%29%20-%20GLAM%20open%20access%20policies.csv)
