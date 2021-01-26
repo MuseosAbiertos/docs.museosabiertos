@@ -1,7 +1,7 @@
 ---
 title: 'Editor de metadatos para la descripción archivística'
 menu: 'Editor de metadatos GLAM'
-media_order: '1.png,2.png,3.png,DemoImage_ISADG-XMP-Metadata.png,logo-mecenazgo.jpg,logo-editor.png'
+media_order: '1.png,2.png,3.png,logo-mecenazgo.jpg,logo-editor.png,MA-sample-id-2498680.jpg,MA-sample-id-556343.zip,MA-sample-DP119115.tiff'
 sitemap:
     ignore: false
 twitterenable: true
@@ -111,3 +111,4 @@ Quienes tributen el impuesto sobre los Ingresos Brutos pueden destinar parte del
 https://www.buenosaires.gob.ar/cultura/mecenazgo/informacion-para-contribuyentes
 
 
+[MA-sample-DP119115.tiff](MA-sample-DP119115.tiff)
