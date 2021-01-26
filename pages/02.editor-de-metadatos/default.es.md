@@ -1,7 +1,7 @@
 ---
 title: 'Editor de metadatos para la descripción archivística'
 menu: 'Editor de metadatos GLAM'
-media_order: '1.png,2.png,3.png,logo-mecenazgo.jpg,logo-editor.png,MA-sample-id-2498680.jpg,MA-sample-id-556343.zip'
+media_order: '1.png,2.png,3.png,logo-mecenazgo.jpg,logo-editor.png,MA-sample-id-2498680.jpg'
 sitemap:
     ignore: false
 twitterenable: true
@@ -110,4 +110,3 @@ https://www.buenosaires.gob.ar/mecenazgo
 Quienes tributen el impuesto sobre los Ingresos Brutos pueden destinar parte del pago de los mismos para financiar proyectos culturales.
 https://www.buenosaires.gob.ar/cultura/mecenazgo/informacion-para-contribuyentes
 
-[MA-sample-id-556343.zip](MA-sample-id-556343.zip)
