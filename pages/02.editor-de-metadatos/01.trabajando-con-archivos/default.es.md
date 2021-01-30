@@ -45,6 +45,8 @@ ImageMagick es un conjunto de utilidades de código abierto, para mostrar, manip
 2. Abre una ventana de terminal en tu carpeta y ejecuta:
 *  <code>exiftool -xmp-isadg:all MA-sample-id-2498680.jpg</code>
 
+A continuación, se imprimirá en la pantalla lo siguiente:
+
 | Etiqueta XPM ISAD(G) | Valor   |
 |---|---|
 |_Alliedmaterials Existencelocationcopies_    |Digital reproductions of the Christie family Civil War correspondence [...]   |
