@@ -49,16 +49,6 @@ Este proyecto -libre y abierto- está orientado a todas las personas e instituci
 * Diseñado para adaptarse a un flujo de trabajo para auditoría de datos con [Open Refine](https://openrefine.org/)
 * Exporta los metadatos a un archivo tabulado CSV o PDF para facilitar la ingestión en aplicaciones, como [AtoM](https://accesstomemory.org/), [Archivematica](https://www.archivematica.org/), [DSpace](https://duraspace.org/dspace/), [Fedora Commons](https://duraspace.org/fedora/) o [RODA](https://roda-community.org/).
 
-## Roadmap
-* Importa un CSV o XML y guarda los metadatos en archivos (ej.: JPG, TIFF, PDF) 
-* Lectura/escritura de metadatos en un archivo XML externo (sidecar)
-* Guarda un histórico de ediciones
-* Soporte para [VRA Core 4](https://core.vraweb.org/)
-* Soporte para [EAD 2002](https://www.loc.gov/ead/index.html)
-* Soporte para [EAD3 (2015)](https://www.loc.gov/ead/index.html)
-* Soporte para [DACS](https://www.dcc.ac.uk/guidance/standards/diffuse/show?standard_id=146&sort=title)
-* Soporte para [SPECTRUM](https://collectionstrust.org.uk/spectrum/)
-
 ## Software
 Aplicación Java/Swing que funciona como frontend gráfico (GUI) para ExifTool. La UI está diseñada con GUI Designer from IntelliJ IDEA. Licencia abierta, GNU General Public License.
 
@@ -79,6 +69,16 @@ Este desarrollo se apoya en estándares y software de código abierto de tercera
 ![](1.png)
 ![](2.png)
 ![](3.png)
+
+## Roadmap
+* Importa un CSV o XML y guarda los metadatos en archivos (ej.: JPG, TIFF, PDF) 
+* Lectura/escritura de metadatos en un archivo XML externo (sidecar)
+* Guarda un histórico de ediciones
+* Soporte para [VRA Core 4](https://core.vraweb.org/)
+* Soporte para [EAD 2002](https://www.loc.gov/ead/index.html)
+* Soporte para [EAD3 (2015)](https://www.loc.gov/ead/index.html)
+* Soporte para [DACS](https://www.dcc.ac.uk/guidance/standards/diffuse/show?standard_id=146&sort=title)
+* Soporte para [SPECTRUM](https://collectionstrust.org.uk/spectrum/)
 
 ## Proyectos similares
 * [jExifToolGUI](https://github.com/hvdwolf/jExifToolGUI)
