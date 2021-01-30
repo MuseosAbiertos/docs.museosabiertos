@@ -19,6 +19,7 @@ restaurant:
     acceptsReservations: 'yes'
     priceRange: $
 facebookenable: true
+hide_hypothesis: false
 ---
 
 ### Herramientas varias para trabajar con archivos de imágenes
@@ -29,9 +30,10 @@ ExifTool es una biblioteca de Perl independiente de la plataforma más una aplic
 _Ejemplo para extraer todos los metadatos de una imagen:_ <code>exiftool -a MA-sample-id-556343.tif</code>
 
 **[ImageMagick](https://imagemagick.org/)**
-ImageMagick es un conjunto de utilidades de código abierto1​ para mostrar, manipular y convertir imágenes, capaz de leer y escribir más de 200 formatos.2
+ImageMagick es un conjunto de utilidades de código abierto, para mostrar, manipular y convertir imágenes, capaz de leer y escribir más de 200 formatos.
 
 _Ejemplo para reducir al 50% una imagen:_ <code>magick mogrify -resize 50% rose.jpg</code>
+
 _Ejemplo para crear copias reducidas de todos los jpg en otra carpeta:_ <code>magick mogrify -resize 200x200 -path ch *.jpg</code>
 
 !!! **Porque usar aplicaciones de línea de comandos?**
