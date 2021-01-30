@@ -44,3 +44,32 @@ ImageMagick es un conjunto de utilidades de código abierto, para mostrar, manip
 *  [MA-sample-id-2498680.jpg](https://docs.museosabiertos.org/editor-de-metadatos/MA-sample-id-2498680.jpg)
 2. Abre una ventana de terminal en tu carpeta y ejecuta:
 *  <code>exiftool -xmp-isadg:all MA-sample-id-2498680.jpg</code>
+
+| Etiqueta XPM ISAD(G) | Valor   |
+|---|---|
+|Alliedmaterials Existencelocationcopies:    |Digital reproductions of the Christie family Civil War correspondence [...]   |
+|Alliedmaterials Existencelocationoriginals: |Following sampling in 1985, the remaining case files were destroyed. [...]   |
+|Alliedmaterials Publication:                |The entire calendar has been published in 12 volumes from the set of cards held [...]   |
+|Alliedmaterials Relatedunits:               |Earlier files of a similar nature (1959-1968) are catalogued as Minnesota.[...]   |
+|Conditionsaccessuse Accessrestrictions:     |Unrestricted access, including display rights and consultation rights [...]   |
+|Conditionsaccessuse Findingaids:            |Series level descriptions available with associated box lists (Fonds) Canada [...]   |
+|Conditionsaccessuse Languagescripts:        |In Dakota, with partial English translation (File) U.S., Minnesota Historical [...]   |
+|Conditionsaccessuse Phystech:               |Videotapes are in ½ inch helical open reel-to-reel format. (Sub-series) U.S.,  [...]   |
+|Conditionsaccessuse Reprorestrictions:      |Copyright is retained by the artist (Fonds) Canada, York University Archives   |
+|Contentstructure Accruals:                  |Further accruals are expected (Fonds) Canada, York University Archives   |
+|Contentstructure Appraisaldestruction:      |An inventory to the former RG 43 (July 1998) is available. File lists  [...] |
+|Contentstructure Arrangement:               |The fonds is arranged into nine series: Railway Branch, Canal Branch, Legal records [...] |
+|Contentstructure Scopecontent:              |Consists of records created by the Department and received from its predecessor,  [...] |
+|Context Acqinfo:                            |Gift of Herbert Whittaker on 22 April 1994. (Fonds) Canada, York University Archives [...] |
+|Context Adminbiohistory:                    |The Department of Railways and Canals existed from 1879 to 1936. It was established on  [...] |
+|Context Archivalhistory:                    |Letters written by Herbert Whittaker and mailed to Sydney Johnson remained in the [...] |
+|Context Creator:                            |Canada. Dept. of Railways and Canals |
+|Descriptioncontrol Archivistsnote:          |Description prepared by S. Dubeau in October 1997; revised in April1999 (Fonds) Canada [...] |
+|Descriptioncontrol Descriptionsdate:        |Series registered, 24 September 1987. Description updated, 10 November 1999.  [...] |
+|Descriptioncontrol Rulesconventions:        |Rules for Archival Description (RAD), Bureau of Canadian Archivists, 1990. |
+|Identity Date:                              |1900 |
+|Identity Description Level:                 |File |
+|Identity Extent:                            |46 maps |
+|Identity Reference:                         |MET 19.164 |
+|Identity Title:                             |Sleeping Cat |
+|Notes Note:                                 |test notes |
