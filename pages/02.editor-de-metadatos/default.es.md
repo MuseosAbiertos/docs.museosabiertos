@@ -34,9 +34,9 @@ Este editor multiplataforma es una interfaz gráfica (basada en Java) para la ed
 !!! ##### Web de Proyecto:  [https://museosabiertos.org/proyectos/editor-metadatos-glam](https://museosabiertos.org/proyectos/editor-metadatos-glam)
 
 ## Objetivo
-Esta herramienta de edición de metadatos ayuda a implementar las normas archivísticas -dentro del modelo conceptual OAIS [http://www.oais.info].- en una única interfase, donde los metadatos quedan 'grabados' en los documentos, evitando así la dispersión de soluciones y colaborando con la estandarización de los procesos y la aplicación de las normas y acelerando los procesos de registro de colecciones incorporando metodologías normalizadas.
+Esta herramienta de edición de metadatos ayuda a implementar las normas archivísticas -dentro del modelo conceptual OAIS [http://www.oais.info].- en una única interfase, donde los metadatos quedan 'grabados' en los documentos, evitando así la dispersión de soluciones y colaborando con la estandarización y aceleración de los procesos de registro de colecciones, incorporando metodologías normalizadas.
 
-Este proyecto -libre y abierto- está orientado a todas las instituciones donde se resguardan documentos y archivos patrimoniales, que procuren implementar las normas internacionales.
+Este proyecto -libre y abierto- está orientado a todas las personas e instituciones que resguardan documentos y archivos patrimoniales, que procuren implementar las normas internacionales.
 
 ## Características
 * Software de código abierto con licencia GNU
