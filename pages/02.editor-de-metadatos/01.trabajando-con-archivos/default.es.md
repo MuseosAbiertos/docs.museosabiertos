@@ -36,7 +36,7 @@ ImageMagick es un conjunto de utilidades de código abierto, para mostrar, manip
 * _Ejemplo para crear copias reducidas de todos los jpg en otra carpeta:_ <code>magick mogrify -resize 200x200 -path ch *.jpg</code>
 
 !!! **Porque usar aplicaciones de línea de comandos?**<br>
-!!! Principalmente porque, a diferencia de las aplicaciones gráficas, la línea de comandos consume muy pocos recursos y ejecuta las tareas mucho (mucho) más rápido. Eso se traduce en productividad a la hora de crear y ejecutar comandos en nuestra máquina o en un servidor remoto.
+!!! Principalmente porque, a diferencia de las aplicaciones gráficas, la línea de comandos consume muy pocos recursos y ejecuta las tareas mucho más rápido. Eso se traduce en productividad a la hora de crear y ejecutar comandos en nuestra máquina o en un servidor remoto.
 
 ### Extraer metadatos de un archivo que contiene metadatos ISAD-G 
 
