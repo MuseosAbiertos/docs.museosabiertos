@@ -36,7 +36,7 @@ Este editor multiplataforma es una interfaz gráfica (basada en Java) para la ed
 ## Objetivo
 Esta herramienta de edición de metadatos ayuda a implementar las normas archivísticas -dentro del modelo conceptual OAIS [http://www.oais.info].- en una única interfase, donde los metadatos quedan 'grabados' en los documentos, evitando así la dispersión de soluciones y colaborando con la estandarización de los procesos y la aplicación de las normas y acelerando los procesos de registro de colecciones incorporando metodologías normalizadas.
 
-Este proyecto -libre y abierto- está orientado a todas las instituciones -públicas como privadas- donde se resguardan documentos y archivos patrimoniales que y busquen implementar las normas internacionales.
+Este proyecto -libre y abierto- está orientado a todas las instituciones donde se resguardan documentos y archivos patrimoniales, que procuren implementar las normas internacionales.
 
 ## Características
 * Software de código abierto con licencia GNU
