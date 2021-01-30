@@ -41,6 +41,6 @@ ImageMagick es un conjunto de utilidades de código abierto, para mostrar, manip
 ### Extraer metadatos de un archivo que contiene metadatos ISAD-G 
 
 1. Descarga el archivo: 
-*  [https://docs.museosabiertos.org/editor-de-metadatos/MA-sample-id-2498680.jpg](MA-sample-id-2498680.jpg)
+*  [MA-sample-id-2498680.jpg](https://docs.museosabiertos.org/editor-de-metadatos/MA-sample-id-2498680.jpg)
 2. Abre una ventana de terminal en tu carpeta y ejecuta:
 *  <code>exiftool -xmp-isadg:all MA-sample-id-2498680.jpg</code>
