@@ -22,8 +22,6 @@ restaurant:
 facebookenable: true
 ---
 
-## GLAM Metadata standards
-
 | Standard                        | Descripción                         | 
 | :-------------------------- | :---------------------------: | 
 | [Dublin Core](https://www.dublincore.org/) | El formato de "mínimo común denominador" adecuado para quienes experimentan con estrategias de catalogación o con requisitos simples de catalogación.|
