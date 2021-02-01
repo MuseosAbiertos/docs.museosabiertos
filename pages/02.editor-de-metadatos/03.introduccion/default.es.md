@@ -26,7 +26,7 @@ Los museos se encuentran entre los pocas instituciones que intentan preservar lo
 En el mundo científico de hoy, preservar el patrimonio material y espiritual y los métodos de exhibir y clasificar obras en museos es de suma importancia. Los Museos Virtuales son responsables de esta importante tarea. Haciendo que los recursos de información sean accesibles en formas digitales, los museos logran cumplir con sus roles tradicionales. 
 Por tanto, la gestión de la información en estos museos, para acceder a los recursos de datos digitales de forma más rápida, sencilla y sin peligros de manipulación, y mediante el uso de diseños de metadatos estándar, es significativo.
 
-[You can use numbers for reference-style link definitions][1]
+[I'm a reference-style link][Arbitrary case-insensitive reference text]
 
 
 Styliani et al.[1] definen los museos virtuales como <cite>"colecciones de objetos digitales que se colocan en varios medios y que, debido a su
@@ -82,4 +82,5 @@ asd
 
 
 asd
-[1]: http://slashdot.org
+
+[arbitrary case-insensitive reference text]: https://www.mozilla.org
