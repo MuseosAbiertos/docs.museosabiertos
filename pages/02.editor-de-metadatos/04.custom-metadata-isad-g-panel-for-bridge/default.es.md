@@ -23,9 +23,9 @@ facebookenable: true
 media_order: ScreenShotYoutube_2021-02-01.jpg
 ---
 
-Creamos un panel de metadatos ISAD(G) para el popular gestor de activos digitales [Adobe Bridge](https://www.adobe.com/la/products/bridge.html) 2020. (Windows y macOS)
+Para facilitar el acceso a la edición de metadatos archivísticos, hemos publicado un panel de metadatos ISAD(G), junto a otros espacios de nombre, como DC y VRA para el popular gestor de activos digitales [Adobe Bridge](https://www.adobe.com/la/products/bridge.html) 2020. (Windows y macOS)
 
-Este panel permite ver y editar los metadatos de archivos gráficos que soportan metadatos como de archivos PDF.
+Este panel permite ver y editar los metadatos de archivos gráficos que soportan metadatos (TIFF; JPG, etc.) como también archivos PDF.
 
 ## Overview
 
