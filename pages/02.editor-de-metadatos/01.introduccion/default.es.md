@@ -42,6 +42,6 @@ Deegan, M. y Tanner, S. (2003). Futuros digitales: estrategias para la era de la
 
 Podemos considerar los metadatos como datos que describen el contenido, la forma o las características de un registro de datos de una fuente de información y se puede utilizar en la descripción de recursos totalmente estructurados o información no estructurada como documentos escritos. Los metadatos se pueden utilizar en recursos digitales, datos numéricos (incluidas imágenes numéricas) y documentos impresos como libros, revistas e informes. Los metadatos se pueden colocar en la fuente de información (como el código web) o <u>pueden mantenerse por separado en una base de datos de información</u>.
 
-<mark>Es precisamente éste el estado actual de la mayor parte de los museos y origen de la propuesta de este desarrollo: un "**Editor de metadatos para la descripción archivística**".</mark> que, utilizando tecnologías existentes y probadas, inscrusta en los documentos los metadatos descriptivos.
+<mark>Es precisamente éste el estado actual de la mayor parte de los museos y origen de la propuesta de este desarrollo: un "**Editor de metadatos para la descripción archivística**".</mark> que, utilizando tecnologías probadas y estándares internacionales, inscrusta en los documentos los metadatos descriptivos.
 
 
