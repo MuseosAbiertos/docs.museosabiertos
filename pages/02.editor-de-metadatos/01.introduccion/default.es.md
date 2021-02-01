@@ -34,3 +34,14 @@ espacio para soportar diferentes puntos de acceso se adaptan a los medios de com
 
 La idea de los museos virtuales fue presentada por primera vez por André Malrux en 1974. La idea de museo virtual en Internet se propuso por primera vez en 1968 en la conferencia sobre "el ordenador y su aplicación en museos", que fue aceptada por el museo Metropolitan de Nueva York. La utilización de ordenadores como bases de datos de diferentes formas ha sido gradualmente muy notable después de la década de 1980. Los museos virtuales llegaron a Internet en 1991 y en 1995 se distribuyeron públicamente.
 
+## Metadatos
+
+La definición más simple de metadatos que se menciona en la mayoría de los recursos es "datos sobre datos", que significa datos que describen otros datos. 
+Podede decirse, también, que <cite>"Los metadatos se refieren a una descripción estructurada que se almacena como datos informáticos y desea explicar las características fundamentales de otros datos y datos sintéticos informáticos".
+Deegan, M. y Tanner, S. (2003). Futuros digitales: estrategias para la era de la información.</cite>
+
+Podemos considerar los metadatos como datos que describen el contenido, la forma o las características de un registro de datos de una fuente de información y se puede utilizar en la descripción de recursos totalmente estructurados o información no estructurada como documentos escritos. Los metadatos se pueden utilizar en recursos digitales, datos numéricos (incluidas imágenes numéricas) y documentos impresos como libros, revistas e informes. Los metadatos se pueden colocar en la fuente de información (como el código web) o <u>pueden mantenerse por separado en una base de datos de información</u>.
+
+<mark>Es precisamente este el estado actual de gran parte de los museos y origen de la propuesta de est desarrollo: un "Editor de metadatos para la descripción archivística".</mark>
+
+
