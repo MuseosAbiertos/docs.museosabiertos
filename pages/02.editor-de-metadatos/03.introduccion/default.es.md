@@ -20,14 +20,12 @@ restaurant:
     acceptsReservations: 'yes'
     priceRange: $
 facebookenable: true
+published: false
 ---
 
 Los museos se encuentran entre los pocas instituciones que intentan preservar los momentos de generaciones pasadas. Son, de hecho, hijos del arte y la historia. 
 En el mundo científico de hoy, preservar el patrimonio material y espiritual y los métodos de exhibir y clasificar obras en museos es de suma importancia. Los Museos Virtuales son responsables de esta importante tarea. Haciendo que los recursos de información sean accesibles en formas digitales, los museos logran cumplir con sus roles tradicionales. 
 Por tanto, la gestión de la información en estos museos, para acceder a los recursos de datos digitales de forma más rápida, sencilla y sin peligros de manipulación, y mediante el uso de diseños de metadatos estándar, es significativo.
-
-[I'm a reference-style link][Arbitrary case-insensitive reference text]
-
 
 Styliani et al.[1] definen los museos virtuales como <cite>"colecciones de objetos digitales que se colocan en varios medios y que, debido a su
 espacio para soportar diferentes puntos de acceso se adaptan a los medios de comunicación tradicionales y son, por tanto, flexibles a la hora de tratar las necesidades e intereses de los visitantes. El museo virtual no posee un lugar o espacio real espacio y sus objetos o la información relacionada con ellos pueden distribuirse por todo el mundo". </cite>
@@ -49,38 +47,3 @@ por una empresa americana en forma de museo Guggenheim.
 [1] Styliani, S., Fotis, L., Kostas, K., & Petros, P. (2009). Virtual Museums, a Survey and Some Issues for Consideration. Journal of Cultural
 Heritage, 10, 520–528. 
 
-
-asd
-a
-das
-d
-asd
-as
-da
-das
-d
-asd
-as
-d
-asd
-as
-d
-asd
-as
-d
-asd
-as
-d
-asd
-as
-d
-
-
-
-asd
-
-
-
-asd
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
