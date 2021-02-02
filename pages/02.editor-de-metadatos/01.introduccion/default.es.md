@@ -44,4 +44,4 @@ Podemos considerar los metadatos como datos que describen el contenido, la forma
 
 <mark>Es precisamente éste el estado actual de la mayor parte de los museos y origen de la propuesta de este desarrollo: un "**Editor de metadatos para la descripción archivística**".</mark> que, utilizando tecnologías probadas y estándares internacionales, inscrusta en los documentos los metadatos descriptivos.
 
-
+Los estándares y diseños de metadatos han sido el resultado de los intentos realizados por diferentes sociedades profesionales para satisfacer las crecientes necesidades del entorno digital. Algunos de los logros más importantes de este tipo son Dublin Core, MARC XML, MODS, METS, PREMIS y EAD. 
