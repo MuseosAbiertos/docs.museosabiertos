@@ -20,7 +20,7 @@ restaurant:
     acceptsReservations: 'yes'
     priceRange: $
 facebookenable: true
-media_order: EtPdiJhWgAQmppq.jpeg
+media_order: 'ETyMDxnXgAYda5v.jpg large.jpeg'
 ---
 
-![](EtPdiJhWgAQmppq.jpeg)
+![](ETyMDxnXgAYda5v.jpg%20large.jpeg)
