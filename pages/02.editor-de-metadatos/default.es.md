@@ -96,7 +96,3 @@ https://www.buenosaires.gob.ar/mecenazgo
 Quienes tributen el impuesto sobre los Ingresos Brutos pueden destinar parte del pago de los mismos para financiar proyectos culturales.
 https://www.buenosaires.gob.ar/cultura/mecenazgo/informacion-para-contribuyentes
 
-
-
-## TEST para Jairo
-![](MuseosNacioanlesCatalogoOnline.jpg)
