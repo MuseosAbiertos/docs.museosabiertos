@@ -1,7 +1,7 @@
 ---
 title: 'Editor de metadatos para la descripción archivística'
 menu: 'Editor de metadatos GLAM'
-media_order: '1.png,2.png,3.png,logo-mecenazgo.jpg,logo-editor.png,MA-sample-id-2498680.jpg,MuseosNacioanlesCatalogoOnline.jpg'
+media_order: '1.png,2.png,3.png,logo-mecenazgo.jpg,logo-editor.png,MA-sample-id-2498680.jpg'
 sitemap:
     ignore: false
 twitterenable: true
