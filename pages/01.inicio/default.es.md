@@ -28,7 +28,8 @@ restaurant:
 facebookenable: true
 facebooktitle: 'Docs Museos Abiertos'
 facebookdesc: 'En este sitio encontrarás documentación, proyectos, manuales y software, principalmente relacionados con Museos, Archivos y Bibliotecas.'
-media_order: DP828365.png
+media_order: DP828365.jpg
+hide_hypothesis: false
 ---
 
 Sito de documentación de [Museos Abiertos](https://museosabiertos.org)
@@ -38,7 +39,8 @@ Aquí conservamos documentos, manuales, proyectos y software, principalmente de 
 Bernard Deloche</cite>
 
 ![Destruction of the Tower of Babel: at right men and women flee from the burning tower, at left men and women raise their hands toward two flying angels, from a series of engravings made for the first edition of the 'Liber Genesis'
-](DP828365.png)
+](DP828365.jpg)
+
 <cite>Destruction of the Tower of Babel: at right men and women flee from the burning tower, at left men and women raise their hands toward two flying angels, from a series of engravings made for the first edition of the 'Liber Genesis' 1612. Crispijn de Passe the Elder (Netherlandish, Arnemuiden 1564–1637 Utrecht)
 </cite>
 
