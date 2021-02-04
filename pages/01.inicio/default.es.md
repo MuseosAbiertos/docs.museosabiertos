@@ -49,5 +49,5 @@ Bernard Deloche</cite>
 
 !!! website online desde agosto 2020 -y se actualiza periódicamente-. 
 </br>
-<i class="fa fa-github fa-2x" aria-hidden="true"></i> https://github.com/MuseosAbiertos
+<i class="fa fa-github fa-2x" aria-hidden="true"></i> [https://github.com/MuseosAbiertos] (https://github.com/MuseosAbiertos?target=_blank&rel=norefferer,noopener)
 </br>
