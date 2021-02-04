@@ -1,8 +1,27 @@
 ---
-title: 'Mapas de Museos'
+title: 'Mapas de Museos de Argentina'
 permissions: {  }
 sitemap:
     ignore: false
+twitterenable: true
+twittercardoptions: summary
+articleenabled: false
+musiceventenabled: false
+orgaenabled: false
+orga:
+    ratingValue: 2.5
+orgaratingenabled: false
+eventenabled: false
+personenabled: false
+musicalbumenabled: false
+productenabled: false
+product:
+    ratingValue: 2.5
+restaurantenabled: false
+restaurant:
+    acceptsReservations: 'yes'
+    priceRange: $
+facebookenable: true
 ---
 
 Este proyecto abierto, propone desarrollar los metadatos del dominio patrimonial y tiene como objeto inicial el patrimonio cultural de la Ciudad de Buenos Aires y Argentina, para el cual convenimos comenzar el desarrollo sobre un mapa, donde en su primera fase se procederá a ubicar espacialmente los museos en OpenStreetMap, con vinculaciones a Wikidata y Wikipedia. Este proyecto es el primero en su tipo dado que propone una edición comunitaria con una licencia abierta de Creative Commons, permitiendo así su libre uso y modificación. También es, al día de la fecha, el que tiene todos los datos actualizados y validados.

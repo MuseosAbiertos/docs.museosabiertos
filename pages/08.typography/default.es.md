@@ -11,10 +11,33 @@ access:
     admin.super: true
     admin.login: true
 visible: false
+twitterenable: true
+twittercardoptions: summary
+articleenabled: false
+musiceventenabled: false
+orgaenabled: false
+orga:
+    ratingValue: 2.5
+orgaratingenabled: false
+eventenabled: false
+personenabled: false
+musicalbumenabled: false
+productenabled: false
+product:
+    ratingValue: 2.5
+restaurantenabled: false
+restaurant:
+    acceptsReservations: 'yes'
+    priceRange: $
+facebookenable: true
+hide_hypothesis: false
 ---
 
-! Details on the full capabilities of Spectre.css can be found in the [Official Spectre Documentation](https://picturepan2.github.io/spectre/elements.html)
+!  [Learn2 with Git Sync](https://demo.hibbittsdesign.org/grav-learn2-git-sync/)
 
+! [GitHub Markdown-Cheatsheet] (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+<hr>
 The [Quark theme](https://github.com/getgrav/grav-theme-quark) is the new default theme for Grav built with [Spectre.css](https://picturepan2.github.io/spectre/) the lightweight, responsive and modern CSS framework. Spectre provides  basic styles for typography, elements, and a responsive layout system that utilizes best practices and consistent language design.
 
 ### Headings
