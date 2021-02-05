@@ -37,11 +37,13 @@ page-toc:
 <div class="page-toc">
     {% set table_of_contents = toc(page.content) %}
     {% if table_of_contents is not empty %}
+    <h4>Table of Contents</h4>
     {{ table_of_contents|raw }}
     {% endif %}
 </div>
 {% endif %}
-{% set table_of_contents = toc(page.content, 3, 3) %}
+{% set table_of_contents = toc(page.content, 2, 2) %}
+
 
 ![Editor de metadatos para la descripción archivística](logo-editor.png?resize=400,200) 
 
