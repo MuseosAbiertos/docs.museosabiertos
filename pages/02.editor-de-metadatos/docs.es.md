@@ -24,6 +24,8 @@ restaurant:
     priceRange: $
 facebookenable: true
 hide_hypothesis: false
+taxonomy:
+    category: docs
 ---
 
 ![Editor de metadatos para la descripción archivística](logo-editor.png?resize=400,200) 
