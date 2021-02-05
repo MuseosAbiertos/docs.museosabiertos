@@ -19,14 +19,14 @@ restaurant:
     acceptsReservations: 'yes'
     priceRange: $
 facebookenable: true
+hide_hypothesis: false
 ---
 
 ## Referencias
 
-* [Getty Vocabularies as Linked Open Data](http://www.getty.edu/research/tools/vocabularies/lod/index.html)
 * [Introducción a las normas de metadatos para museos de Canadá](https://www.canada.ca/fr/reseau-information-patrimoine/services/normes-documentation-collections/guide-rcip-normes-musees/metadonnees-mormes-structure-donnees.html#a2g)
-* [Getty Vocabularies](http://www.getty.edu/research/tools/vocabularies/)
-* 
+* [Getty Vocabularies](http://www.getty.edu/research/tools/vocabularies/)* 
+* [Getty Vocabularies as Linked Open Data](http://www.getty.edu/research/tools/vocabularies/lod/index.html)
 
 
 ## Aprender (Papers, Manuals, Docs...)
@@ -54,6 +54,5 @@ facebookenable: true
 * [graphicsatlas.org](http://www.graphicsatlas.org/) Es un recurso sofisticado que presenta un enfoque único, basado en objetos, para la identificación y caracterización de impresiones y fotografías.
 * [Digital Meets Culture Magaine](https://www.digitalmeetsculture.net/)
 * [Carta internacional de Datos Abiertos de la ODC](https://opendatacharter.net/principles-es/)
-* [Recomendación de la Comisión Europea sobre la digitalización y accesibilidad en línea del material cultural y la conservación digital. 2011](https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:32011H0711&from=EN)
-* 
+* [Recomendación de la Comisión Europea sobre la digitalización y accesibilidad en línea del material cultural y la conservación digital. 2011](https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:32011H0711&from=EN)* 
 
