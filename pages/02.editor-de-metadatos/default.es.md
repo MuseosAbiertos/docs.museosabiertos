@@ -42,7 +42,7 @@ page-toc:
     {% endif %}
 </div>
 {% endif %}
-{% set table_of_contents = toc(page.content, 2, 2) %}
+{% set table_of_contents = toc(page.content, 2, 1) %}
 
 
 ![Editor de metadatos para la descripción archivística](logo-editor.png?resize=400,200) 
