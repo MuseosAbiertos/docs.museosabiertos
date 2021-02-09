@@ -33,18 +33,6 @@ page-toc:
     active: true
 ---
 
-{% if config.get('plugins.page-toc.active') or attribute(page.header, 'page-toc').active %}
-<div class="page-toc">
-    {% set table_of_contents = toc(page.content) %}
-    {% if table_of_contents is not empty %}
-    <h4>Table of Contents</h4>
-    {{ table_of_contents|raw }}
-    {% endif %}
-</div>
-{% endif %}
-{% set table_of_contents = toc(page.content, 2, 2) %}
-
-
 ![Editor de metadatos para la descripción archivística](logo-editor.png?resize=400,200) 
 
 Este editor multiplataforma es una interfaz gráfica (basada en Java) para la edición de metadatos de registros de colecciones con las normas [EXIF](https://docs.fileformat.com/image/exif/), [IPTC](https://iptc.org/standards/photo-metadata/), [XMP](https://www.adobe.com/products/xmp.html), GPS y extendido a [Dublin Core](https://dublincore.org/specifications/dublin-core/) y [ISAD(G) 2000](https://www.ica.org/sites/default/files/CBPS_2000_Guidelines_ISAD%28G%29_Second-edition_EN.pdf).
