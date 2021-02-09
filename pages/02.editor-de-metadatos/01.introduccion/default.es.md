@@ -50,7 +50,7 @@ Los metadatos con una inversión que, si se gestiona sabiamente, puede generar u
 
 La digitalización no es igual al acceso. El mero hecho de crear copias digitales de los materiales de la colección no hace que esos materiales se puedan encontrar, comprender o utilizar para nuestra audiencia en constante expansión de usuarios en línea. Pero la digitalización combinada con la creación de metadatos cuidadosamente elaborados puede mejorar significativamente el acceso del usuario final, y nuestros usuarios son la razón principal por la que creamos recursos digitales.
 
----
+## Algunos hechos poco conocidos sobre los metadatos
 
 Los metadatos no tienen por qué ser digitales. Los profesionales del patrimonio cultural y de la información llevan creando metadatos desde que gestionan colecciones. Cada vez más, estos metadatos se incorporan a los sistemas de información digital, pero también se pueden registrar en formatos analógicos como catálogos de tarjetas, archivos verticales y etiquetas de archivos.
 
