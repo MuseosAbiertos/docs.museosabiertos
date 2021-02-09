@@ -61,3 +61,7 @@ Los metadatos pueden provenir de diversas fuentes. Estos pueden ser suministrado
 Los metadatos continúan acumulándose durante la vida de un objeto o sistema de información. Los metadatos se crean, modifican y, a veces, incluso se eliminan en muchos momentos durante la vida de un recurso.
 
 Los metadatos de un objeto de información pueden ser simultáneamente los datos de otro objeto de información, según los tipos de agregaciones y dependencias entre los objetos y sistemas de información. Las distinciones entre lo que constituyen datos y lo que constituyen metadatos a menudo pueden ser muy fluidas y pueden depender de cómo se desee utilizar un determinado objeto de información.
+
+## Conclusión
+
+Los metadatos son como el interés: se acumulan con el tiempo. Para extender aún más la metáfora, las inversiones inteligentes en metadatos generan el mejor rendimiento del capital intelectual. Los metadatos cuidadosamente elaborados dan como resultado la mejor gestión de la información y el mejor acceso para el usuario final, tanto a corto como a largo plazo. Si se han creado metadatos completos y consistentes, es posible concebir que se utilicen en un número casi infinito de formas nuevas e incluso actualmente imprevistas para satisfacer las necesidades de los usuarios tradicionales y no tradicionales para la multiversión y para el mapeo y minería de datos.
