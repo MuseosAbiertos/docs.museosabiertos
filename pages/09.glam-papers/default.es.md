@@ -24,7 +24,7 @@ hide_hypothesis: false
 
 ## Referencias
 
-* [**Métadonnées (normes pour la structure des données)**](https://www.canada.ca/fr/reseau-information-patrimoine/services/normes-documentation-collections/guide-rcip-normes-musees/metadonnees-mormes-structure-donnees.html#a2g)
+* [**Métadonnées (normes pour la structure des données).** Canada.ca](https://www.canada.ca/fr/reseau-information-patrimoine/services/normes-documentation-collections/guide-rcip-normes-musees/metadonnees-mormes-structure-donnees.html#a2g)
 * [**Introduction to Metadata.** Getty Research Institute. Edited by Murtha Baca](https://www.getty.edu/publications/intrometadata/)
 * [Getty Vocabularies](http://www.getty.edu/research/tools/vocabularies/)* 
 * [Getty Vocabularies as Linked Open Data](http://www.getty.edu/research/tools/vocabularies/lod/index.html)
