@@ -1,7 +1,7 @@
 ---
 title: 'Editor de metadatos para la descripción archivística'
 menu: 'Editor de metadatos GLAM'
-media_order: '1.png,2.png,3.png,logo-mecenazgo.jpg,logo-editor.png,MA-sample-id-2498680.jpg'
+media_order: '1.png,2.png,3.png,logo-mecenazgo.jpg,logo-editor.png,MA-sample-id-2498680.jpg,logo-mecenazgo-web.jpg'
 sitemap:
     ignore: false
 twitterenable: true
@@ -104,12 +104,10 @@ Este desarrollo se apoya en estándares y software de código abierto de tercera
 * [Tropy](https://tropy.org/)
 * [Custom Metadata Panel for Bridge](https://github.com/adobe-dmeservices/custom-metadata)
 
+---
 
-![](https://docs.museosabiertos.org/user/pages/02.editor-de-metadatos/logo-mecenazgo.jpg)
+[![](logo-mecenazgo-web.jpg)](https://www.buenosaires.gob.ar/mecenazgo)
 
-https://www.buenosaires.gob.ar/mecenazgo
-
-## [¡Conocé los proyectos seleccionados!](https://www.buenosaires.gob.ar/cultura/mecenazgo/proyectosaprobados)
 
 ## Los contribuyentes pueden ser mecenas de la cultura
 Quienes tributen el impuesto sobre los Ingresos Brutos pueden destinar parte del pago de los mismos para financiar proyectos culturales.
