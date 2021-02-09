@@ -49,3 +49,15 @@ Los estándares y diseños de metadatos han sido el resultado de los intentos re
 Los metadatos con una inversión que, si se gestiona sabiamente, puede generar un rendimiento significativo del capital intelectual. Podría decirse que los metadatos son uno de nuestros activos más importantes. El hardware y el software van y vienen, a veces se vuelven obsoletos con una rapidez alarmante, pero los metadatos de alta calidad, basados en estándares e independientes del sistema se pueden usar, reutilizar, migrar y diseminar de muchas formas, incluso de formas que no podemos anticipar en este momento (como en el caso de los datos abiertos vinculados, que es un concepto relativamente reciente).
 
 La digitalización no es igual al acceso. El mero hecho de crear copias digitales de los materiales de la colección no hace que esos materiales se puedan encontrar, comprender o utilizar para nuestra audiencia en constante expansión de usuarios en línea. Pero la digitalización combinada con la creación de metadatos cuidadosamente elaborados puede mejorar significativamente el acceso del usuario final, y nuestros usuarios son la razón principal por la que creamos recursos digitales.
+
+---
+
+Los metadatos no tienen por qué ser digitales. Los profesionales del patrimonio cultural y de la información llevan creando metadatos desde que gestionan colecciones. Cada vez más, estos metadatos se incorporan a los sistemas de información digital, pero también se pueden registrar en formatos analógicos como catálogos de tarjetas, archivos verticales y etiquetas de archivos.
+
+Los metadatos se relacionan con más que la descripción de un objeto. Si bien los profesionales de museos, archivos y bibliotecas pueden estar más familiarizados con el término en asociación con la descripción o la catalogación, los metadatos también pueden indicar el contexto, la gestión, el procesamiento, la preservación y el uso de los recursos que se describen.
+
+Los metadatos pueden provenir de diversas fuentes. Estos pueden ser suministrados por un humano (por el creador del archivo digital, por un profesional de la información y/o por un usuario experto o no experto). También se puede generar automáticamente mediante un algoritmo informático o inferir a través de una relación con otro recurso, como un hipervínculo.
+
+Los metadatos continúan acumulándose durante la vida de un objeto o sistema de información. Los metadatos se crean, modifican y, a veces, incluso se eliminan en muchos momentos durante la vida de un recurso.
+
+Los metadatos de un objeto de información pueden ser simultáneamente los datos de otro objeto de información, según los tipos de agregaciones y dependencias entre los objetos y sistemas de información. Las distinciones entre lo que constituyen datos y lo que constituyen metadatos a menudo pueden ser muy fluidas y pueden depender de cómo se desee utilizar un determinado objeto de información.
