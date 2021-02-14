@@ -32,7 +32,6 @@ hide_hypothesis: false
 
 ## Aprender (Papers, Manuals, Docs...)
 * [Manjula Patel, Martin White, Nicholaos Mourkoussis, Krzysztof Walczak, Rafal Wojciechowski, Jacek Chmielewski. **Metadata Requirements for Digital Museum Environments**. International Journal on Digital Libraries, 2005](https://drive.google.com/open?id=15XRMGdrIPYrMxVUc2L2rB3VW-g1W6aUL&authuser=mg%40museosabiertos.org&usp=drive_fs)
-* [Panorea Gaitanou. **Mapping VRA Core 4.0 to the CIDOC CRM ontology**. First Workshop on Digital Information Management, 2011](https://www.academia.edu/2144276/Mapping_VRA_Core_4_0_to_the_CIDOC_CRM_ontology)
 * [Ignacio Soloaga, Esteban Cristian Fernández, Marisa Raquel De Giusti. **Cómo crear paquetes de información para repositorios digitales**. Comisión de Investigaciones Científicas, 2020](https://digital.cic.gba.gob.ar/handle/11746/10750)
 * [Ziyoung Park, Hosin Lee, Seungchon Kim, Sungjae Park. **Improving Archival Records and Service of Traditional Korean Performing Arts in a Semantic Web Environment**. Journal of Data and Information Science of Korea, 2020](http://manu47.magtech.com.cn/Jwk3_jdis/article/2020/2096-157X/2096-157X-5-1-68.shtml)
 * [Marcelo de la Puente. EAD y EAC: **Aplicación de metadatos en la descripción de colecciones archivísticas**. University of CEMA 2018](https://www.researchgate.net/publication/322869915_EAD_y_EAC_Aplicacion_de_metadatos_en_la_descripcion_de_colecciones_archivisticas)
