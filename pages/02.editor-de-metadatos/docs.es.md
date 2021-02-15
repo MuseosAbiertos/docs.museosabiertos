@@ -92,6 +92,7 @@ Este desarrollo se apoya en estándares y software de código abierto de tercera
 * Soporte para [DACS](https://github.com/saa-ts-dacs/dacs)
 * Soporte para [SPECTRUM](https://collectionstrust.org.uk/spectrum/)
 * Integración con los vocabularios Getty [AAT](https://www.getty.edu/research/tools/vocabularies/aat/), [TGN](http://www.getty.edu/research/tools/vocabularies/tgn/index.html) y [ULAN](https://www.getty.edu/research/tools/vocabularies/ulan/) 
+* * ej.: http://vocab.getty.edu/page/ulan/500085616
 
 ## Proyectos similares
 * [jExifToolGUI](https://github.com/hvdwolf/jExifToolGUI)
