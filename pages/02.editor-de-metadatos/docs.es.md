@@ -54,7 +54,7 @@ Este proyecto -libre y abierto- está orientado a todas las personas e instituci
 * Software de código abierto con licencia GNU
 * Software multiplataforma (puede ser ejecutado en Windows XP, 7, 10, MacOS, Linux y Raspberry pi)
 * Edita los metadatos y los 'guarda' dentro del archivo sin modificar la imagen (ej.: JPG, TIF, PDF) conservando su contexto al 'viajar' a través de aplicaciones, dispositivos y bases de datos.
-* Edita metadatos según las normas internacionales ISAD(G) 2000 y DC
+* Edita metadatos según las normas internacionales EXIF, IPTC, DC, ISAD(G) 2000, VRA Essential XMP
 * No es destructivo (no altera las imágenes)
 * Reduce significativamente las tareas de registro
 * Aunque lo permite, hace obsoleto el uso de hojas de cálculo independientes para el registros de colecciones
@@ -89,8 +89,9 @@ Este desarrollo se apoya en estándares y software de código abierto de tercera
 * Soporte para [VRA Core 4](https://core.vraweb.org/)
 * Soporte para [EAD 2002](https://www.loc.gov/ead/index.html)
 * Soporte para [EAD3 (2015)](https://www.loc.gov/ead/index.html)
-* Soporte para [DACS](https://www.dcc.ac.uk/guidance/standards/diffuse/show?standard_id=146&sort=title)
+* Soporte para [DACS](https://github.com/saa-ts-dacs/dacs)
 * Soporte para [SPECTRUM](https://collectionstrust.org.uk/spectrum/)
+* Integración con los vocabularios Getty [AAT](https://www.getty.edu/research/tools/vocabularies/aat/), [TGN](http://www.getty.edu/research/tools/vocabularies/tgn/index.html) y [ULAN](https://www.getty.edu/research/tools/vocabularies/ulan/) 
 
 ## Proyectos similares
 * [jExifToolGUI](https://github.com/hvdwolf/jExifToolGUI)
