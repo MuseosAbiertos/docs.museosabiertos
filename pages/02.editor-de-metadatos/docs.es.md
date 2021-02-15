@@ -43,6 +43,11 @@ Este editor multiplataforma es una interfaz gráfica (basada en Java) para la ed
 ## Objetivo
 Esta herramienta de edición de metadatos ayuda a implementar las normas archivísticas -dentro del modelo conceptual OAIS [http://www.oais.info].- en una única interfase, donde los metadatos se incrustan en los documentos, evitando así la dispersión de soluciones y colaborando con la estandarización y aceleración de los procesos de registro de colecciones, incorporando metodologías normalizadas.
 
+Es especialmente útil para organizaciones pequeñas sin sistemas de administración de activos digitales y organizaciones grandes con muchos contribuyentes individuales, todos los cuales pueden ingresar metadatos
+Los metadatos pueden luego transferirse al sistema de gestión de activos digitales.
+
+También ayuda a incorporar a más personas en los flujos de trabajo, como los fotógrafos independientes, que de otro modo no tendrían acceso al sistema de gestión de activos digitales de una organización.
+
 Este proyecto -libre y abierto- está orientado a todas las personas e instituciones que resguardan documentos y archivos patrimoniales, que procuren implementar las normas internacionales.
 
 ## Características
@@ -89,6 +94,7 @@ Este desarrollo se apoya en estándares y software de código abierto de tercera
 
 ## Proyectos similares
 * [jExifToolGUI](https://github.com/hvdwolf/jExifToolGUI)
+* [IPTC Releases Cultural Heritage Panel for Metadata Management](https://iptc.org/news/culturalheritagepanel/)
 * [Tropy](https://tropy.org/)
 * [Custom Metadata Panel for Bridge](https://github.com/adobe-dmeservices/custom-metadata)
 
