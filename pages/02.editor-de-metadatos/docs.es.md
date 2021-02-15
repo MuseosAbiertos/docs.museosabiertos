@@ -93,6 +93,10 @@ Este desarrollo se apoya en estándares y software de código abierto de tercera
 * Soporte para [SPECTRUM](https://collectionstrust.org.uk/spectrum/)
 * Integración con los vocabularios Getty [AAT](https://www.getty.edu/research/tools/vocabularies/aat/), [TGN](http://www.getty.edu/research/tools/vocabularies/tgn/index.html) y [ULAN](https://www.getty.edu/research/tools/vocabularies/ulan/) 
 * * ej.: http://vocab.getty.edu/page/ulan/500085616
+* Integracíon con VIAF
+* * ej.: [http://viaf.org/viaf/96299826/#Lamelas,_David,_1946]
+* Integracíon con WikiData
+* * ej.: https://www.wikidata.org/wiki/Q829004
 
 ## Proyectos similares
 * [jExifToolGUI](https://github.com/hvdwolf/jExifToolGUI)
