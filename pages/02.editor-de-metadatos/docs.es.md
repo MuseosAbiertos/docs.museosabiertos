@@ -104,6 +104,8 @@ Este desarrollo se apoya en estándares y software de código abierto de tercera
 * [Tropy](https://tropy.org/)
 * [Custom Metadata Panel for Bridge](https://github.com/adobe-dmeservices/custom-metadata)
 
+## Proyectos relacionados
+* [Metadata Extraction Tool](http://meta-extractor.sourceforge.net/)
 ---
 
 [![](logo-mecenazgo-web.jpg)](https://www.buenosaires.gob.ar/mecenazgo)
