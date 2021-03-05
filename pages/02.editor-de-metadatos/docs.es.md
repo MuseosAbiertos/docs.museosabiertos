@@ -87,6 +87,7 @@ Este desarrollo se apoya en estándares y software de código abierto de tercera
 * Lectura/escritura de metadatos en un archivo XML externo (sidecar)
 * Guarda un histórico de ediciones
 * Soporte para [VRA Core 4](https://core.vraweb.org/)
+* Soporte para [ISAAR (CPF) 2ªed](https://www.ica.org/es/isaar-cpf-norma-internacional-sobre-los-registros-de-autoridad-de-archivos-relativos-a-instituciones)
 * Soporte para [EAD 2002](https://www.loc.gov/ead/index.html)
 * Soporte para [EAD3 (2015)](https://www.loc.gov/ead/index.html)
 * Soporte para [DACS](https://github.com/saa-ts-dacs/dacs)
