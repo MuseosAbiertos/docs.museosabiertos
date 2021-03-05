@@ -75,12 +75,9 @@ Este desarrollo se apoya en estándares y software de código abierto de tercera
 * [JRE (Java Runtime Environment)](https://adoptopenjdk.net/releases.html)
 * [ExifTool by Phil Harvey](https://exiftool.org/) 
 
-
-## Mockups
-
-![](1.png)
-![](2.png)
-![](3.png)
+### Documentación
+* [Planilla de documentación de estándares](https://docs.google.com/spreadsheets/d/1lgJ7bgF3YWYn6RpQe6xPpc2lPtMmsKxhdoTDaipEz4M/edit#gid=1070734913)
+* [Issues](https://app.asana.com/0/1199531865244213/board)
 
 ## Roadmap
 * Importa un CSV o XML y guarda los metadatos en archivos (ej.: JPG, TIFF, PDF) 
@@ -98,6 +95,13 @@ Este desarrollo se apoya en estándares y software de código abierto de tercera
 * * ej.: [http://viaf.org/viaf/96299826/#Lamelas,_David,_1946]
 * Integracíon con WikiData
 * * ej.: https://www.wikidata.org/wiki/Q829004
+
+## Mockups
+
+![](1.png)
+![](2.png)
+![](3.png)
+
 
 ## Proyectos similares
 * [jExifToolGUI](https://github.com/hvdwolf/jExifToolGUI)
