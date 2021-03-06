@@ -20,7 +20,6 @@ restaurant:
     priceRange: $
 facebookenable: true
 hide_hypothesis: false
-media_order: MuseosNacioanlesCatalogoOnline.jpg
 ---
 
 ### Herramientas varias para trabajar con archivos de imágenes
@@ -77,6 +76,3 @@ A continuación, se imprimirá en la pantalla lo siguiente:
 |_Identity Title_                             |Sleeping Cat |
 |_Notes Note_                                 |test notes |
 
-
-
-![](MuseosNacioanlesCatalogoOnline.jpg)
