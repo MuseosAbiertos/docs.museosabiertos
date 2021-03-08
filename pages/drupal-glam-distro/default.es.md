@@ -22,5 +22,6 @@ restaurant:
 facebookenable: true
 ---
 
-
-ver: [Museum Online Expression Research](https://docs.google.com/spreadsheets/d/1gDQ27gr23j5_8dMBHzkrXwhpf121rz9JvauTEBf1pTU/edit#gid=0)
+ver:
+* [Museum Online Expression Research](https://docs.google.com/spreadsheets/d/1gDQ27gr23j5_8dMBHzkrXwhpf121rz9JvauTEBf1pTU/edit#gid=0)
+* [GLAM Website Redesigns SHARED](https://docs.google.com/spreadsheets/d/1D_mIrbxtYcVmabUz_SWJtgDDKcIlC9OxQqqRPS4Jf1Q/edit#gid=0) 
