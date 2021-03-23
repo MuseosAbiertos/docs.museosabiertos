@@ -5,7 +5,7 @@ permissions:
     authors:
         - marting
         - ''
-    inherit: true
+    inherit: false
 access:
     admin: true
     admin.super: true
