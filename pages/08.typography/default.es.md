@@ -10,8 +10,8 @@ access:
     admin: true
     admin.super: true
     admin.login: true
-visible: false
-twitterenable: true
+visible: true
+twitterenable: false
 twittercardoptions: summary
 articleenabled: false
 musiceventenabled: false
@@ -29,7 +29,7 @@ restaurantenabled: false
 restaurant:
     acceptsReservations: 'yes'
     priceRange: $
-facebookenable: true
+facebookenable: false
 hide_hypothesis: false
 ---
 
