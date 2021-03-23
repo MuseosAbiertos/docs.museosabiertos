@@ -51,6 +51,5 @@ Aquí conservamos documentos, manuales, proyectos y software, principalmente de 
 <i class="fa fa-github fa-2x" aria-hidden="true"></i> [https://github.com/MuseosAbiertos](https://github.com/MuseosAbiertos?target=blank&rel=norefferer,noopener)
 </br>
 
-<i class="fas fa-heart"></i>
 
 
