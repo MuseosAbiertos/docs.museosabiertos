@@ -48,8 +48,8 @@ Aquí conservamos documentos, manuales, proyectos y software, principalmente de 
 
 !!! website online desde agosto 2020 -y se actualiza periódicamente-. 
 </br>
-<i class="fa fa-github fa-2x" aria-hidden="true"></i> [https://github.com/MuseosAbiertos](https://github.com/MuseosAbiertos?target=blank&rel=norefferer,noopener)
+<i class="fa fa-envelope fa-2x" aria-hidden="true"></i> [envíanos un mail](mailto:docs@museosabiertos.org)
 </br>
-<i class="fa fa-envelope fa-1x" aria-hidden="true"></i> [envíanos un mail](mailto:docs@museosabiertos.org)
+<i class="fa fa-github fa-2x" aria-hidden="true"></i> [https://github.com/MuseosAbiertos](https://github.com/MuseosAbiertos?target=blank&rel=norefferer,noopener)
 
 
