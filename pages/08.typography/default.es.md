@@ -10,7 +10,7 @@ access:
     admin: true
     admin.super: true
     admin.login: true
-visible: true
+visible: false
 twitterenable: false
 twittercardoptions: summary
 articleenabled: false
