@@ -118,6 +118,7 @@ Este desarrollo se apoya en estándares y software de código abierto de tercera
 
 [![](logo-mecenazgo-web.jpg)](https://www.buenosaires.gob.ar/mecenazgo)
 
+Expediente: 19029867
 
 ## Los contribuyentes pueden ser mecenas de la cultura
 Quienes tributen el impuesto sobre los Ingresos Brutos pueden destinar parte del pago de los mismos para financiar proyectos culturales.
