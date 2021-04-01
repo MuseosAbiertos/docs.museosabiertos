@@ -33,7 +33,9 @@ Puede convertir, por ejemplo, títulos de resultados de búsqueda y fragmentos e
 eTools.ch es un motor de metabúsqueda o búsqueda federada, que busca simultáneamente en los principales motores de búsqueda suizos e internacionales, fusiona sus resultados y los muestra ordenados por relevancia de forma concisa.
 - https://www.etools.ch/
 
-
+## WikiYarn
+WikiYarn es una aplicación para explorar el vasto conocimiento de Wikipedia de forma rápida y eficiente. Funciona como una herramienta de investigación y como un motor de recomendación de conocimientos diseñado para el uso diario y para el público en general.
+- https://www.wikiyarn.com/#
 
 ***
 
