@@ -22,6 +22,8 @@ restaurant:
 facebookenable: true
 ---
 
+Una pequeña lista de buscadores alternativos para encontrar lo que buscamos
+
 ## Carrot2:
 Carrot2 es una biblioteca de programación para agrupar texto. Puede descubrir automáticamente grupos de documentos relacionados y etiquetarlos con términos o frases clave breves.
 Puede convertir, por ejemplo, títulos de resultados de búsqueda y fragmentos en grupos.
