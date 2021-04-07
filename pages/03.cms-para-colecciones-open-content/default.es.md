@@ -20,6 +20,7 @@ restaurant:
     acceptsReservations: 'yes'
     priceRange: $
 facebookenable: true
+media_order: undraw_Process_re_gws7.svg
 ---
 
 **“Ofrecer la vía más rápida y simple para publicar colecciones abiertas”**
@@ -36,7 +37,11 @@ El proceso de edición de metadatos y publicación está compuesto de dos herram
 
 ---
 
+
 ## Workflow
+
+![undraw_Process_re_gws7](undraw_Process_re_gws7.svg "undraw_Process_re_gws7")
+
 
 ### Normalización de datos de archivo/colecciones
 Esta fase consta de la recolección de datos de la colección para su normalización. Para ello utilizamos diferentes técnicas y herramientas de [data scraping](https://en.wikipedia.org/wiki/Data_scraping) que nos devuelven datos crudos y que posteriormente son 'formateados' según las necesidades específicas.
