@@ -25,20 +25,10 @@ external_links:
 menu: 'Arte Contemporáneo Argentino'
 ---
 
-“Ofrecer la vía más rápida y simple para publicar colecciones con sus metadatos”
-_-Lightweight & Fast Drupal Distro for implementing web GLAM Collections-_
+Este repositorio tiene como función ofrecer un espacio donde poder consultar todos los datos relativos a la obra de artistas contemporáneos. En el se podrá consultar la obra, la biografía, las fechas y los sitios donde se han expuesto.
 
-Existen numerosas herramientas para la catalogación de colecciones, pero la implementación de ellas es costosa y requiere de personal experto tanto para la catalogación, como para el desarrollo y mantenimiento de la infraestructura técnica. 
-Emprender la catalogación de una colección y posteriormente ofrecerla online, con estándares internacionales, es una tarea compleja que requiere de varios actores, dejando fuera de partido a numerosas instituciones y a la gran parte de las colecciones.
-Nuestro objetivo es acortar los tiempos y lograr en el menor tiempo posible, estén accesibles online el mayor número de colecciones.
+Ofrecerá una interfaz SPARQL, que permitirá realizar consultas sobre datos almacenados en RDF mediante el lenguaje SPARQL, ofreciendo así una red de [datos abiertos vinculados](https://www.w3c.es/Eventos/2013/Uruguay/Presentaciones/W3CdayMVD_LOD_LorenaEtcheverry2013.pdf) (LOD).
 
+Las fuentes utilizadas son la "Colección Bruzzone" y "la [Revista Ramona](http://ramona.org.ar/)"
 
-* Normalización de datos de archivo/colecciones
-* Publicación de datasets como Datos Abiertos Vinculados
-* Publicación de un webesite para la consulta de datos
-* Implementación de un SPARQL Endpoint. 
-* Se recolectarán los siguientes datos: (autor, obra, muestras, galerías, fecha, coordenadas geográficas) 
-
-
-Colección Bruzzone
-Revista Ramona
+Este repositorio es, en efecto, el [Producto Viable Mínimo](https://es.wikipedia.org/wiki/Producto_viable_m%C3%ADnimo) del [CMS para Colecciones Open Content](https://docs.museosabiertos.org/cms-para-colecciones-open-content)
