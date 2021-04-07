@@ -40,6 +40,8 @@ El proceso de edición de metadatos y publicación está compuesto de dos herram
 Esta fase consta de la recolección de datos de la colección para su normalización. Para ello utilizamos diferentes técnicas y herramientas de [data scraping](https://en.wikipedia.org/wiki/Data_scraping) que nos devuelven datos crudos y que posteriormente son 'formateados' según las necesidades específicas.
 
 ### Edición de metadatos de archivos documentales
+En esta fase se escriben los metadatos en las imágenes de los objetos mediante scripts automatizados o manualmente con varias herramientas como [jExifToolGUI](https://github.com/hvdwolf/jExifToolGUI) o [presets GLAM específicos](https://github.com/MuseosAbiertos/Adobe-Bridge-Custom-Metadata-JSON-Presets) para [Custom Metadata Panel for Adobe Bridge](https://github.com/adobe-dmeservices/custom-metadata).
+
 * Publicación de datasets como Datos Abiertos Vinculados
 * Publicación de un webesite para la consulta de datos
 * Implementación de un SPARQL Endpoint. 
