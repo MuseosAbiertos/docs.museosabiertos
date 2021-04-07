@@ -22,7 +22,7 @@ restaurant:
 facebookenable: true
 ---
 
-“Ofrecer la vía más rápida y simple para publicar colecciones abiertas”
+**“Ofrecer la vía más rápida y simple para publicar colecciones abiertas”**
 _-Lightweight & Fast Drupal Distro for implementing web GLAM Collections-_
 
 Existen numerosas herramientas para la catalogación de colecciones, pero la implementación de ellas es costosa y requiere de personal experto tanto para la catalogación, como para el desarrollo y mantenimiento de la infraestructura técnica. 
