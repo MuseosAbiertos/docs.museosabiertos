@@ -25,7 +25,7 @@ external_links:
 menu: 'Arte Contemporáneo Argentino'
 routes:
     aliases:
-        - repositorio-de-artistas-contemporaneos-argentinos
+        - 'https://docs.museosabiertos.org/repositorio-de-artistas-contemporaneos-argentinos'
 ---
 
 Este repositorio tiene como función ofrecer un espacio donde poder consultar todos los datos relativos a la obra de artistas contemporáneos. En el se podrá consultar la obra, la biografía, las fechas y los sitios donde se han expuesto.
