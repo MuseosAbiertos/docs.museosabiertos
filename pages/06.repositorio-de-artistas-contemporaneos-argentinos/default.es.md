@@ -1,5 +1,5 @@
 ---
-title: 'Repositorio de Artistas Contemporáneos Argentinos'
+title: 'Repositorio de Arte Contemporáneo Argentino'
 hide_hypothesis: false
 twitterenable: true
 twittercardoptions: summary
