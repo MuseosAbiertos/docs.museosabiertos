@@ -23,7 +23,7 @@ facebookenable: true
 ---
 
 **“Ofrecer la vía más rápida y simple para publicar colecciones abiertas”**
-Op title: _-Lightweight & Fast Drupal Distro for implementing web GLAM Collections-_
+_Opt title: _-Lightweight & Fast Drupal Distro for implementing web GLAM Collections-_
 
 Existen numerosas herramientas para la catalogación de colecciones, pero la implementación de ellas es costosa y requiere de personal experto tanto para la catalogación, como para el desarrollo y mantenimiento de la infraestructura técnica. 
 
@@ -32,13 +32,14 @@ Nuestro objetivo es acortar los tiempos y lograr en el menor tiempo posible, est
 
 El proceso de edición de metadatos y publicación está compuesto de dos herramientas principales: Un '[Editor de metdatos GLAM](https://docs.museosabiertos.org/editor-de-metadatos)' y este [CMS para Colecciones Open Content](https://docs.museosabiertos.org/cms-para-colecciones-open-content).
 
+!!! Nuestra meta es obtener las [5 estrellas de datos abiertos vinculados](https://5stardata.info/es/) 
+
 ## Workflow
 
 ### Normalización de datos de archivo/colecciones
-Esta fase consta de la recolección de datos de la colección para su normalización. Para ello utilizamos diferentes técnicas y herramientas de [data scraping](https://en.wikipedia.org/wiki/Data_scraping) que nos devuelven datos crudos, que posteriormente son 'formateados' según las necesidades específicas.
+Esta fase consta de la recolección de datos de la colección para su normalización. Para ello utilizamos diferentes técnicas y herramientas de [data scraping](https://en.wikipedia.org/wiki/Data_scraping) que nos devuelven datos crudos y que posteriormente son 'formateados' según las necesidades específicas.
 
 ### Edición de metadatos de archivos documentales
-
 * Publicación de datasets como Datos Abiertos Vinculados
 * Publicación de un webesite para la consulta de datos
 * Implementación de un SPARQL Endpoint. 
