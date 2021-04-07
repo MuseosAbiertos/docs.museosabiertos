@@ -2,9 +2,6 @@
 title: Typography
 visibility_requires_access: true
 permissions:
-    authors:
-        - marting
-        - ''
     inherit: false
 access:
     admin: true
