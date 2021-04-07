@@ -20,6 +20,9 @@ restaurant:
     acceptsReservations: 'yes'
     priceRange: $
 facebookenable: true
+external_links:
+    no_follow: true
+menu: 'Arte Contemporáneo Argentino'
 ---
 
 “Ofrecer la vía más rápida y simple para publicar colecciones con sus metadatos”
