@@ -35,12 +35,11 @@ El proceso de edición de metadatos y publicación está compuesto de dos herram
 
 !!! Nuestra meta es obtener las [5 estrellas de datos abiertos vinculados](https://5stardata.info/es/) 
 
-![5-star-steps](5-star-steps.png "5-star-steps")
+[![5-star-steps](5-star-steps.png "5-star-steps")](https://5stardata.info/es/)
 
 ---
 
-
-## Workflow
+## Workflow !
 
 ![undraw_Process_re_gws7](undraw_Process_re_gws7.svg "undraw_Process_re_gws7")
 
