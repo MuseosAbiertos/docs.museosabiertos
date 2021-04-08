@@ -20,7 +20,7 @@ restaurant:
     acceptsReservations: 'yes'
     priceRange: $
 facebookenable: true
-media_order: undraw_Process_re_gws7.svg
+media_order: 'undraw_Process_re_gws7.svg,5-star-steps.png'
 ---
 
 **“Ofrecer la vía más rápida y simple para publicar colecciones abiertas”**
@@ -34,6 +34,8 @@ Nuestro objetivo es acortar los tiempos y lograr en el menor tiempo posible, est
 El proceso de edición de metadatos y publicación está compuesto de dos herramientas principales: Un '[Editor de metdatos GLAM](https://docs.museosabiertos.org/editor-de-metadatos)' y este [CMS para Colecciones Open Content](https://docs.museosabiertos.org/cms-para-colecciones-open-content).
 
 !!! Nuestra meta es obtener las [5 estrellas de datos abiertos vinculados](https://5stardata.info/es/) 
+
+![5-star-steps](5-star-steps.png "5-star-steps")
 
 ---
 
