@@ -37,6 +37,9 @@ El proceso de edición de metadatos y publicación está compuesto de dos herram
 
 [![5-star-steps](5-star-steps.png "5-star-steps")](https://5stardata.info/es/)
 
+!!! [¿Qué es esto de Linked Open Data?](https://www.w3c.es/Eventos/2013/Uruguay/Presentaciones/W3CdayMVD_LOD_LorenaEtcheverry2013.pdf)
+
+
 ---
 
 ## Workflow !
