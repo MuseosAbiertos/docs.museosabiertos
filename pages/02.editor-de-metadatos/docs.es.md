@@ -84,9 +84,7 @@ Este desarrollo se apoya en estándares y software de código abierto de tercera
 * Lectura/escritura de metadatos en un archivo XML externo (sidecar)
 * Soporte para [VRA Core 4](https://core.vraweb.org/)
 * Integración con los vocabularios Getty [AAT en Español](https://www.aatespanol.cl/), [TGN](http://www.getty.edu/research/tools/vocabularies/tgn/index.html) y [ULAN](https://www.getty.edu/research/tools/vocabularies/ulan/) 
-* * ej.: http://vocab.getty.edu/page/ulan/500085616
-* Integracíon con WikiData
-* * ej.: https://www.wikidata.org/wiki/Q829004
+* Integracíon con [WikiData](https://www.wikidata.org/)
 * Soporte para [EAD 2002](https://www.loc.gov/ead/index.html)
 * Soporte para [EAD3 (2015)](https://www.loc.gov/ead/index.html)
 * Soporte para [DACS](https://github.com/saa-ts-dacs/dacs)
