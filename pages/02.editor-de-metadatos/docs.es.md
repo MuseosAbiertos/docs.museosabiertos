@@ -82,19 +82,17 @@ Este desarrollo se apoya en estándares y software de código abierto de tercera
 ## Roadmap
 * Importa un CSV o XML y guarda los metadatos en archivos (ej.: JPG, TIFF, PDF) 
 * Lectura/escritura de metadatos en un archivo XML externo (sidecar)
-* Guarda un histórico de ediciones
 * Soporte para [VRA Core 4](https://core.vraweb.org/)
-* Soporte para [ISAAR (CPF) 2ªed](https://www.ica.org/es/isaar-cpf-norma-internacional-sobre-los-registros-de-autoridad-de-archivos-relativos-a-instituciones)
+* Integración con los vocabularios Getty [AAT en Español](https://www.aatespanol.cl/), [TGN](http://www.getty.edu/research/tools/vocabularies/tgn/index.html) y [ULAN](https://www.getty.edu/research/tools/vocabularies/ulan/) 
+* * ej.: http://vocab.getty.edu/page/ulan/500085616
+* Integracíon con WikiData
+* * ej.: https://www.wikidata.org/wiki/Q829004
 * Soporte para [EAD 2002](https://www.loc.gov/ead/index.html)
 * Soporte para [EAD3 (2015)](https://www.loc.gov/ead/index.html)
 * Soporte para [DACS](https://github.com/saa-ts-dacs/dacs)
 * Soporte para [SPECTRUM](https://collectionstrust.org.uk/spectrum/)
-* Integración con los vocabularios Getty [AAT](https://www.getty.edu/research/tools/vocabularies/aat/), [TGN](http://www.getty.edu/research/tools/vocabularies/tgn/index.html) y [ULAN](https://www.getty.edu/research/tools/vocabularies/ulan/) 
-* * ej.: http://vocab.getty.edu/page/ulan/500085616
-* Integracíon con VIAF
-* * ej.: [http://viaf.org/viaf/96299826/#Lamelas,_David,_1946]
-* Integracíon con WikiData
-* * ej.: https://www.wikidata.org/wiki/Q829004
+Soporte para [ISAAR (CPF) 2ªed](https://www.ica.org/es/isaar-cpf-norma-internacional-sobre-los-registros-de-autoridad-de-archivos-relativos-a-instituciones)
+* Guarda un histórico de ediciones
 
 ## Mockups
 
