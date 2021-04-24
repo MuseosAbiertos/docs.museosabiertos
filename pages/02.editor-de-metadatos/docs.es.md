@@ -41,7 +41,7 @@ Este editor multiplataforma es una interfaz gráfica (basada en Java) para la ed
 !!!  Web de Proyecto:  [https://museosabiertos.org/proyectos/editor-metadatos-glam](https://museosabiertos.org/proyectos/editor-metadatos-glam)
 
 ## Objetivo
-Esta herramienta de edición de metadatos -de unidades documentales- ayuda a implementar las normas archivísticas -dentro del modelo conceptual OAIS [http://www.oais.info].- en una única interfase, donde los metadatos se 'incrustan' en los documentos, evitando así la dispersión de soluciones y colaborando con la estandarización y aceleración de los procesos de registro de colecciones, incorporando metodologías normalizadas.
+Esta herramienta de edición de metadatos -de unidades documentales- ayuda a implementar las normas archivísticas -dentro del modelo conceptual OAIS [http://www.oais.info].- en una única interfase, donde los metadatos se 'embeben' en los documentos, evitando así la dispersión de soluciones y colaborando con la estandarización y aceleración de los procesos de registro de colecciones, incorporando metodologías normalizadas.
 
 Es especialmente útil para organizaciones pequeñas sin sistemas de administración de activos digitales y organizaciones grandes con muchos contribuyentes individuales, todos los cuales pueden ingresar metadatos
 Los metadatos pueden luego transferirse al sistema de gestión de activos digitales.
@@ -49,6 +49,9 @@ Los metadatos pueden luego transferirse al sistema de gestión de activos digita
 También ayuda a incorporar a más personas en los flujos de trabajo, como los fotógrafos independientes, que de otro modo no tendrían acceso al sistema de gestión de activos digitales de una organización.
 
 Este proyecto -libre y abierto- está orientado a todas las personas e instituciones que resguardan documentos y archivos patrimoniales, que procuren implementar las normas internacionales.
+
+En este video, Greg Reser explica con más detalles este concepto: [Greg Reser (VRA) About Cultural Heritage Metadata](https://youtu.be/qoIilcir88Q) 
+
 
 ## Características
 * Software de código abierto con licencia GNU
