@@ -1,7 +1,7 @@
 ---
 title: 'Editor de metadatos para la descripción archivística'
 menu: 'Editor de metadatos GLAM'
-media_order: '1.png,2.png,3.png,logo-mecenazgo.jpg,logo-editor.png,MA-sample-id-2498680.jpg,logo-mecenazgo-web.jpg'
+media_order: '1.png,2.png,3.png,logo-mecenazgo.jpg,logo-editor.png,MA-sample-id-2498680.jpg,logo-mecenazgo-web.jpg,emm-button-large.jpg'
 sitemap:
     ignore: false
 twitterenable: true
@@ -64,6 +64,11 @@ Este proyecto -libre y abierto- está orientado a todas las personas e instituci
 ## Tags
 Embedded Metadata, Long-Term Maintenance of and Access to Digital Image Files, Metadata editor, Heritage
 
+## Historia
+
+[Embedded Metadata Manifesto](http://www.embeddedmetadata.org/) 
+
+
 ## Software
 Aplicación Java/Swing que funciona como frontend gráfico (GUI) para ExifTool. La UI está diseñada con GUI Designer from IntelliJ IDEA. Licencia abierta, GNU General Public License.
 
@@ -111,6 +116,10 @@ Soporte para [ISAAR (CPF) 2ªed](https://www.ica.org/es/isaar-cpf-norma-internac
 ## Proyectos relacionados
 * [Metadata Extraction Tool](http://meta-extractor.sourceforge.net/)
 * [JHOVE](http://jhove.openpreservation.org/)
+
+
+[![emm-button-large](emm-button-large.jpg "emm-button-large")
+](http://www.embeddedmetadata.org/goto?supportsemm)
 
 
 ---
