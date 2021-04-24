@@ -61,6 +61,9 @@ Este proyecto -libre y abierto- está orientado a todas las personas e instituci
 * Diseñado para adaptarse a un flujo de trabajo para auditoría de datos con [Open Refine](https://openrefine.org/)
 * Exporta los metadatos a un archivo tabulado CSV o PDF para facilitar la ingestión en aplicaciones, como [AtoM](https://accesstomemory.org/), [Archivematica](https://www.archivematica.org/), [DSpace](https://duraspace.org/dspace/), [Fedora Commons](https://duraspace.org/fedora/) o [RODA](https://roda-community.org/).
 
+## Tags
+Embedded Metadata, Long-Term Maintenance of and Access to Digital Image Files, Metadata editor, Heritage
+
 ## Software
 Aplicación Java/Swing que funciona como frontend gráfico (GUI) para ExifTool. La UI está diseñada con GUI Designer from IntelliJ IDEA. Licencia abierta, GNU General Public License.
 
