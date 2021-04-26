@@ -67,10 +67,6 @@ En este video, Greg Reser explica con más detalles este concepto: [Greg Reser (
 ## Tags
 Embedded Metadata, Long-Term Maintenance of and Access to Digital Image Files, Metadata editor, Heritage
 
-## Historia
-
-[Embedded Metadata Manifesto](http://www.embeddedmetadata.org/) 
-
 
 ## Software
 Aplicación Java/Swing que funciona como frontend gráfico (GUI) para ExifTool. La UI está diseñada con GUI Designer from IntelliJ IDEA. Licencia abierta, GNU General Public License.
