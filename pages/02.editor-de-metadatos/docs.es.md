@@ -107,7 +107,7 @@ Soporte para [ISAAR (CPF) 2ªed](https://www.ica.org/es/isaar-cpf-norma-internac
 
 ## Agradecimientos
 * A [Jairo Enrique Serrano Castañeda](https://scholar.google.com/citations?user=rW2nV5cAAAAJ&hl), amigo y estimado DevOps, por su oído siempre atento a mis caprichos y a toda su paciencia y dedicación con mis issues
-* A [María Laura Caliusco](https://www.conicet.gov.ar/new_scp/detalle.php?keywords=&id=24195&datos_academicos=yes), por su pasión académica y por haber aceptado mi propusta de descripción patrimonial y como colaborador en el paper "[Hacia un modelo semántico para la descripción del patrimonio](http://dx.doi.org/10.5281/zenodo.3338005)" 
+* A [María Laura Caliusco](https://bit.ly/3nwKVGN), por su pasión académica y por haber aceptado mi propusta de descripción patrimonial y como colaborador en el paper "[Hacia un modelo semántico para la descripción del patrimonio](http://dx.doi.org/10.5281/zenodo.3338005)" 
 * A Harry van der Wolf, desarrollador principal de [jExifToolGUI](https://github.com/hvdwolf/jExifToolGUI), por permitirme 'montarme' sobre su proyecto sin tener que crear mi propio fork y aceptar que su proyecto acepte otros espacios de nombres
 * A Greg Reser, presidente del [subcomité de metadatos integrados de VRA](http://metadatadeluxe.pbworks.com/w/page/20792294/VRA%20Embedded%20Metadata%20Subcommittee), y creador de las herramientas [VRA para Adobe Bridge](http://metadatadeluxe.pbworks.com/w/page/108523528/VRA%20Bridge%20Metadata%20Tools)
 * A Phil Harvey, autor de [ExifTool](https://exiftool.org/), por integrar ISAD(G) y VRA Core a la nueva versión
