@@ -113,7 +113,7 @@ Soporte para [ISAAR (CPF) 2ªed](https://www.ica.org/es/isaar-cpf-norma-internac
 * A [Jairo Enrique Serrano Castañeda](https://scholar.google.com/citations?user=rW2nV5cAAAAJ&hl), amigo y estimado DevOps, por su oído siempre atento a mis caprichos y a toda su paciencia y dedicación con mis issues
 * A Harry van der Wolf, desarrollador principal de [jExifToolGUI](https://github.com/hvdwolf/jExifToolGUI), por permitirme 'montarme' sobre su proyecto sin tener que crear mi propio fork y aceptar que su proyecto acepte otros espacios de nombres
 * A Greg Reser, presidente del [subcomité de metadatos integrados de VRA](http://metadatadeluxe.pbworks.com/w/page/20792294/VRA%20Embedded%20Metadata%20Subcommittee), y creador de las herramientas [VRA para Adobe Bridge](http://metadatadeluxe.pbworks.com/w/page/108523528/VRA%20Bridge%20Metadata%20Tools)
-* A Phil Harvey, autor de [ExifTool](https://exiftool.org/), por haber integrado VRA Core a la nueva versión
+* A Phil Harvey, autor de [ExifTool](https://exiftool.org/), por integrar ISAD(G) y VRA Core a la nueva versión
 
 ## Proyectos similares
 * [jExifToolGUI](https://github.com/hvdwolf/jExifToolGUI)
