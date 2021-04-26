@@ -65,7 +65,7 @@ En este video, Greg Reser explica con más detalles este concepto: [Greg Reser (
 * Exporta los metadatos a un archivo tabulado CSV o PDF para facilitar la ingestión en aplicaciones, como [AtoM](https://accesstomemory.org/), [Archivematica](https://www.archivematica.org/), [DSpace](https://duraspace.org/dspace/), [Fedora Commons](https://duraspace.org/fedora/) o [RODA](https://roda-community.org/).
 
 ## Tags
-Embedded Metadata, Long-Term Maintenance of and Access to Digital Image Files, Metadata editor, Heritage
+Embedded Metadata, Access to Digital Image Files, Metadata editor, Heritage
 
 
 ## Software
