@@ -76,6 +76,7 @@ restaurant:
     acceptsReservations: 'yes'
     priceRange: $
 facebookenable: true
+published: false
 ---
 
 # Contacto
