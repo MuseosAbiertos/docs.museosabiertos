@@ -30,8 +30,8 @@ routes:
 
 Este repositorio tiene como función ofrecer un espacio donde poder consultar todos los datos relativos a la obra de artistas contemporáneos. En el se podrá consultar la obra, la biografía, las fechas y los sitios donde se han expuesto.
 
-Ofrecerá una interfaz SPARQL, que permitirá realizar consultas sobre datos almacenados en RDF mediante el lenguaje SPARQL, ofreciendo así una red de [datos abiertos vinculados](https://www.w3c.es/Eventos/2013/Uruguay/Presentaciones/W3CdayMVD_LOD_LorenaEtcheverry2013.pdf) (LOD).
+Las fuentes utilizadas serán la "Colección Bruzzone" y "la [Revista Ramona](https://ramona.org.ar/)"
 
-Las fuentes utilizadas son la "Colección Bruzzone" y "la [Revista Ramona](http://ramona.org.ar/)"
+En un futuro, ofrecerá una interfaz SPARQL, que permitirá realizar consultas sobre datos almacenados en RDF mediante el lenguaje SPARQL, ofreciendo así una red de [datos abiertos vinculados](https://www.w3c.es/Eventos/2013/Uruguay/Presentaciones/W3CdayMVD_LOD_LorenaEtcheverry2013.pdf) (LOD).
 
 Este repositorio es, en efecto, el [Producto Viable Mínimo](https://es.wikipedia.org/wiki/Producto_viable_m%C3%ADnimo) del [CMS para Colecciones Open Content](https://docs.museosabiertos.org/cms-para-colecciones-open-content)
