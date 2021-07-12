@@ -114,9 +114,9 @@ Soporte para [ISAAR (CPF) 2ªed](https://www.ica.org/es/isaar-cpf-norma-internac
 
 ## Proyectos similares
 * [jExifToolGUI](https://github.com/hvdwolf/jExifToolGUI)
+* [Custom Metadata Panel for Bridge](https://github.com/adobe-dmeservices/custom-metadata)
 * [IPTC Releases Cultural Heritage Panel for Metadata Management](https://iptc.org/news/culturalheritagepanel/)
 * [Tropy](https://tropy.org/)
-* [Custom Metadata Panel for Bridge](https://github.com/adobe-dmeservices/custom-metadata)
 
 ## Proyectos relacionados
 * [Metadata Extraction Tool](http://meta-extractor.sourceforge.net/)
@@ -125,7 +125,6 @@ Soporte para [ISAAR (CPF) 2ªed](https://www.ica.org/es/isaar-cpf-norma-internac
 
 [![emm-button-large](emm-button-large.jpg "emm-button-large")
 ](http://www.embeddedmetadata.org/goto?supportsemm)
-
 
 ---
 
