@@ -28,6 +28,7 @@ restaurant:
     priceRange: $
 facebookenable: false
 hide_hypothesis: false
+published: true
 ---
 
 !  [Learn2 with Git Sync](https://demo.hibbittsdesign.org/grav-learn2-git-sync/)
