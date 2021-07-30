@@ -38,5 +38,13 @@ Con este modelo, varios usuarios pueden editar los metadatos y sincronizarlos a 
 ** A Durante la etapa de edición local, solo hacer un sincronización al final del día o tarea
 ** B Editar los metadatos en un archivo XMP externo durante el período de trabajo y al final de este, inyectarlo en el/los archivos
  
+ * list item 1
+* list item 2
+    * list item 2.1
+    * list item 2.2
+    * list item 2.3
+* list item 3
+
+
 Adicionalmente conservamos los documentos en [IFPS](https://ipfs.io/) y [Filecoin](https://filecoin.io/) que también nos sirve para diseminar y versionar los documentos en una blockchain.
 Ejemplo: https://slate.host/museosabiertos/palais-de-glace-fotografia
