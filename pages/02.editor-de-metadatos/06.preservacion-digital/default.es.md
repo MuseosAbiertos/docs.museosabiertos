@@ -31,12 +31,12 @@ Actualmente, el -simplísimo- modelo de edición de metadatos colaborativa + pre
 - Carpetas compartidas en [Box](https://www.box.com/), con gestión de usuarios y versionado de archivos
 - 'Cold' backup en [Amazon S3 Glacier Deep Archive](https://aws.amazon.com/es/s3/glacier/)
 
-Con este modelo, varios usuarios pueden editar metadatos y sincronizarlos a la nube por lotes, al mismo tiempo que se guarda una copia semanal en el backup frio.
+Con este modelo, varios usuarios pueden editar los metadatos y sincronizarlos a la nube por lotes, al mismo tiempo que se guarda una copia semanal en el backup frio.
 
-* **Desventaja:** Editar los metadatos de un archivo, implica que este se modifica, por lo que la sincronización puede ser lenta/costosa en el caso de archivos de gran tamaño.
-* **Solución:** Existen varias estrategias para mitigar este problema
-** A- Durante la etapa de edición local, solo hacer un sincronización al final del día o tarea
-** B- Editar los metadatos en un archivo XMP externo durante el período de trabajo y al final de este, inyectarlo en el/los archivos
+* Desventaja: Editar los metadatos de un archivo, implica que este se modifica, por lo que la sincronización puede ser lenta/costosa en el caso de archivos de gran tamaño.
+* Solución: Existen varias estrategias para mitigar este problema
+** A Durante la etapa de edición local, solo hacer un sincronización al final del día o tarea
+** B Editar los metadatos en un archivo XMP externo durante el período de trabajo y al final de este, inyectarlo en el/los archivos
  
 Adicionalmente conservamos los documentos en [IFPS](https://ipfs.io/) y [Filecoin](https://filecoin.io/) que también nos sirve para diseminar y versionar los documentos en una blockchain.
 Ejemplo: https://slate.host/museosabiertos/palais-de-glace-fotografia
