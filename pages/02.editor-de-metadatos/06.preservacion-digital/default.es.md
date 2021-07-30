@@ -33,18 +33,13 @@ Actualmente, el -simplísimo- modelo de edición de metadatos colaborativa + pre
 
 Con este modelo, varios usuarios pueden editar los metadatos y sincronizarlos a la nube por lotes, al mismo tiempo que se guarda una copia semanal en el backup frio.
 
-* Desventaja: Editar los metadatos de un archivo, implica que este se modifica, por lo que la sincronización puede ser lenta/costosa en el caso de archivos de gran tamaño.
+* Desventaja
+    * Editar los metadatos de un archivo, implica que este se modifica, por lo que la sincronización puede ser lenta/costosa en el caso de archivos de gran tamaño.
 * Solución: Existen varias estrategias para mitigar este problema
-** A Durante la etapa de edición local, solo hacer un sincronización al final del día o tarea
-** B Editar los metadatos en un archivo XMP externo durante el período de trabajo y al final de este, inyectarlo en el/los archivos
+    * A: Durante la etapa de edición local, solo hacer un sincronización al final del día o tarea
+    * B Editar los metadatos en un archivo XMP externo durante el período de trabajo y al final de este, inyectarlo en el/los archivos
  
- * list item 1
-* list item 2
-    * list item 2.1
-    * list item 2.2
-    * list item 2.3
-* list item 3
-
 
 Adicionalmente conservamos los documentos en [IFPS](https://ipfs.io/) y [Filecoin](https://filecoin.io/) que también nos sirve para diseminar y versionar los documentos en una blockchain.
-Ejemplo: https://slate.host/museosabiertos/palais-de-glace-fotografia
+
+* Ejemplo: https://slate.host/museosabiertos/palais-de-glace-fotografia
