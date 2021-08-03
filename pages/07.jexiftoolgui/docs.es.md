@@ -38,6 +38,7 @@ twittertitle: 'Manual jExifToolGUI (en Español) | Docs Museos Abiertos'
 twitterdescription: 'jExifToolGUI es un programa Java Swing que lee y escribe metadatos, predominantemente archivos de imágenes, aunque tambien PDF. Tiene plantillas específicas, como ISAD-G, usada en archivos y museos.'
 facebooktitle: 'Manual jExifToolGUI (en Español) | Docs Museos Abiertos'
 facebookdesc: 'jExifToolGUI es un programa Java Swing que lee y escribe metadatos, predominantemente archivos de imágenes, aunque tambien PDF. Tiene plantillas específicas, como ISAD-G, usada en archivos y museos.'
+hide_hypothesis: false
 ---
 
 # jExifToolGUI: una GUI multiplataforma [Java Swing] para ExifTool
@@ -47,16 +48,16 @@ facebookdesc: 'jExifToolGUI es un programa Java Swing que lee y escribe metadato
 ! Última modificación: 2020-11-13
 
 ## 1. Visión general
-**jExifToolGUI** es un programa Java Swing que lee y escribe metadatos de archivos, predominantemente archivos de imágenes. Tiene algunas pantallas preformateadas para Exif, GPS/ Localización, XMP, GPano (y un conjunto muy limitado de etiquetas IPTC) para leer/escribir desde/hacia archivos de imagen usando ExifTool y también soporta geo-etiquetado. Además, puedes definir tu propia combinación de etiquetas de metadatos para escribir en tus imágenes. 
-Esto te da la opción de usar cualquier etiqueta que ExifTool soporte. Además, también puedes definir etiquetas "totalmente nuevas" no existentes que pueden ser añadidas a sus archivos utilizando un archivo de configuración 'definido por el usuario' y una combinación de etiquetas definidas por el usuario. 
-jExifToolGUI: '**j**' por Java, ‘**GUI**' por interfaz gráfica de usuario de ExifTool.
+**[jExifToolGUI](https://hvdwolf.github.io/jExifToolGUI/)** es un programa Java Swing que lee y escribe metadatos de archivos, predominantemente archivos de imágenes. Tiene algunas pantallas preformateadas para Exif, GPS/ Localización, XMP, GPano (y un conjunto muy limitado de etiquetas IPTC) para leer/escribir desde/hacia archivos de imagen usando [ExifTool](https://exiftool.org/) y también soporta geo-etiquetado. Además, puedes definir tu propia combinación de etiquetas de metadatos para escribir en tus imágenes. 
+Esto te da la opción de usar cualquier etiqueta que [ExifTool](https://exiftool.org/) soporte. Además, también puedes definir etiquetas "totalmente nuevas" no existentes que pueden ser añadidas a sus archivos utilizando un archivo de configuración 'definido por el usuario' y una combinación de etiquetas definidas por el usuario. 
+[jExifToolGUI](https://hvdwolf.github.io/jExifToolGUI/): '**j**' por Java, ‘**GUI**' por interfaz gráfica de usuario de [ExifTool](https://exiftool.org/).
 
-jExifToolGUI es sólo una interfaz gráfica para la excelente aplicaciñon de línea de comandos de código abierto en Perl, ExifTool de Phil Harvey. ExifTool es el verdadero "motor", pero como es una herramienta de línea de comandos es para algunos usuarios menos amigable. jExifToolGUI está construido alrededor de ExifTool e intenta dar muchas funcionalidades y flexibilidad sin tener que recordar cada parámetro de la línea de comandos. jExifToolGUI sólo implementa parte de la funcionalidad de ExifTool. Definitivamente no es un GUI completo para ExifTool y ciertamente no puede reemplazarlo (ExifTool es el motor "bajo el capó").
+[jExifToolGUI](https://hvdwolf.github.io/jExifToolGUI/) es sólo una interfaz gráfica para la excelente aplicación, de línea de comandos de código abierto en Perl, [ExifTool by Phil Harvey](https://exiftool.org/). [ExifTool](https://exiftool.org/) es el verdadero "motor", pero como es una herramienta de línea de comandos es para algunos usuarios menos amigable. [jExifToolGUI](https://hvdwolf.github.io/jExifToolGUI/) está construido alrededor de [ExifTool]() e intehttps://exiftool.org/nta dar muchas funcionalidades y flexibilidad sin tener que recordar cada parámetro de la línea de comandos. [jExifToolGUI](https://hvdwolf.github.io/jExifToolGUI/) sólo implementa parte de la funcionalidad de [ExifTool](https://exiftool.org/). Definitivamente no es un GUI completo para [ExifTool](https://exiftool.org/) y ciertamente no puede reemplazarlo (ExifTool es el motor "bajo el capó").
 
 Este programa es de código abierto y completamente gratuito y siempre se mantendrá así, pero puedes donarme cualquier cantidad para mostrar tu agradecimiento si continúas usándolo (después de todo, me llevó muchas horas/días escribirlo). Mira el menú de Ayuda en el programa o [haz clic aquí](https://hvdwolf.github.io/jExifToolGUI/donate.html).
-Y cuando se trata de la donación, lo mismo es válido, por supuesto, para la propia ExifTool. Para la donación a Exiftool (Phil Harvey), [ver aquí](https://exiftool.org/#donate).
+Y cuando se trata de la donación, lo mismo es válido, por supuesto, para la propia [ExifTool](https://exiftool.org/). Para la donación a Exiftool (Phil Harvey), [ver aquí](https://exiftool.org/#donate).
 
-Este manual y la versión de jExifToolGUI no siempre funcionan sincrónicamente. Si se añade una nueva funcionalidad al programa que requiera un nuevo capítulo o párrafo, el manual se actualizará para esa nueva sección. Sin embargo, no todas las partes del manual serán/podrán ser actualizadas, lo que podría llevar a pantallas de programas más antiguos en el manual que podrían desviarse ligeramente de la versión del programa con el que se está trabajando.
+Este manual y la versión de [jExifToolGUI](https://hvdwolf.github.io/jExifToolGUI/) no siempre funcionan sincrónicamente. Si se añade una nueva funcionalidad al programa que requiera un nuevo capítulo o párrafo, el manual se actualizará para esa nueva sección. Sin embargo, no todas las partes del manual serán/podrán ser actualizadas, lo que podría llevar a pantallas de programas más antiguos en el manual que podrían desviarse ligeramente de la versión del programa con el que se está trabajando.
 Ten en cuenta también que verás capturas de pantalla de varios sistemas operativos (Linux/Windows/MacOS) y/o gestores de ventanas (en Linux).
 
 ! Este manual se trabajará y se ampliará lentamente. Actualmente se encuentra en su infancia.
