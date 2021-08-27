@@ -42,5 +42,3 @@ Este repositorio es, en efecto, el [Producto Viable Mínimo](https://es.wikipedi
 * A Harry van der Wolf, desarrollador principal de [jExifToolGUI](https://github.com/hvdwolf/jExifToolGUI), por permitirme 'montarme' sobre su proyecto sin tener que crear mi propio fork y aceptar que su proyecto acepte otros espacios de nombres
 * A Greg Reser, presidente del [subcomité de metadatos integrados de VRA](http://metadatadeluxe.pbworks.com/w/page/20792294/VRA%20Embedded%20Metadata%20Subcommittee), y desarrollador de las herramientas [VRA para Adobe Bridge](http://metadatadeluxe.pbworks.com/w/page/108523528/VRA%20Bridge%20Metadata%20Tools)
 [greser@ucsd.edu](mailto:greser@ucsd.edu) Visual Resources Association
-* A Phil Harvey, autor de [ExifTool](https://exiftool.org/)
-
