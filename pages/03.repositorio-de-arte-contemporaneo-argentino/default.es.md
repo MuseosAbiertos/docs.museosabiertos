@@ -40,5 +40,4 @@ Este repositorio es, en efecto, el [Producto Viable Mínimo](https://es.wikipedi
 ## Agradecimientos
 * A [Jairo Enrique Serrano Castañeda](https://scholar.google.com/citations?user=rW2nV5cAAAAJ&hl), estimado DevOps, por su oído siempre atento a los caprichos y a toda su paciencia y dedicación con las issues
 * A [Harry van der Wolf](https://github.com/hvdwolf), desarrollador principal de [jExifToolGUI](https://github.com/hvdwolf/jExifToolGUI), por permitirme 'montarme' sobre su proyecto sin tener que crear mi propio fork y aceptar que su proyecto acepte otros espacios de nombres
-* A Greg Reser, presidente del [subcomité de metadatos integrados de VRA](http://metadatadeluxe.pbworks.com/w/page/20792294/VRA%20Embedded%20Metadata%20Subcommittee), y desarrollador de las herramientas [VRA para Adobe Bridge](http://metadatadeluxe.pbworks.com/w/page/108523528/VRA%20Bridge%20Metadata%20Tools)
-[greser@ucsd.edu](mailto:greser@ucsd.edu) Visual Resources Association
+* A [Greg Reser](mailto:greser@ucsd.edu), Visual Resources Association. Presidente del [subcomité de metadatos integrados de VRA](http://metadatadeluxe.pbworks.com/w/page/20792294/VRA%20Embedded%20Metadata%20Subcommittee), y desarrollador de las herramientas [VRA para Adobe Bridge](http://metadatadeluxe.pbworks.com/w/page/108523528/VRA%20Bridge%20Metadata%20Tools). 
