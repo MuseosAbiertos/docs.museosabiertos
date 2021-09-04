@@ -35,6 +35,7 @@ hide_hypothesis: false
 Sito de documentación de [Museos Abiertos](https://museosabiertos.org)
 
 Aquí conservamos documentos, manuales, proyectos y software, principalmente de factura propia y relacionados con Museos, Archivos y Bibliotecas.
+
 <cite>El verdadero museo probablemente sea sólo virtual, es decir, enteramente imaginario. Bernard Deloche</cite>
 
 ![Destruction of the Tower of Babel: at right men and women flee from the burning tower, at left men and women raise their hands toward two flying angels, from a series of engravings made for the first edition of the 'Liber Genesis'
