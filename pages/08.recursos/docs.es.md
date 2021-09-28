@@ -26,12 +26,13 @@ restaurant:
     acceptsReservations: 'yes'
     priceRange: $
 facebookenable: true
+hide_hypothesis: false
 ---
 
 ### Quizá encuentres aquí algún material que te interese ;-)
 
 * [OCR y traducción con Scan Tailor + Tesseract + Translate Shell](/recursos/ocr-y-traduccion)
-* [ISAD-G > XMP](recursos/isadg)
+* [ISAD-G > XMP](isadg)
 * [Survey of GLAM open access policy and practice](/recursos/survey-of-glam-open-access-policy-and-practice)
 * [Mapas de Museos de Argentina](recursos/mapas)
 * [Publica tu dataset en Google](/recursos/publica-tu-dataset-en-google)
