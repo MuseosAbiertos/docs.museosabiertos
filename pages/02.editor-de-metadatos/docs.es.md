@@ -35,16 +35,15 @@ page-toc:
 
 ![Editor de metadatos para la descripción archivística](logo-editor.png?resize=400,200) 
 
-Este editor multiplataforma es una interfaz gráfica (basada en Java) para la edición de metadatos de registros de colecciones con las normas [EXIF](https://docs.fileformat.com/image/exif/), [IPTC](https://iptc.org/standards/photo-metadata/), [XMP](https://www.adobe.com/products/xmp.html), GPS y extendido a [Dublin Core](https://dublincore.org/specifications/dublin-core/) y [ISAD(G) 2000](https://www.ica.org/sites/default/files/CBPS_2000_Guidelines_ISAD%28G%29_Second-edition_EN.pdf).
+Este editor multiplataforma es una interfaz gráfica para la edición de metadatos de registros de colecciones con las normas [EXIF](https://docs.fileformat.com/image/exif/), [IPTC](https://iptc.org/standards/photo-metadata/), [XMP](https://www.adobe.com/products/xmp.html), GPS y extendido a [Dublin Core](https://dublincore.org/specifications/dublin-core/) y [ISAD(G) 2000](https://www.ica.org/sites/default/files/CBPS_2000_Guidelines_ISAD%28G%29_Second-edition_EN.pdf).
 
 
 !!!  Web de Proyecto:  [https://museosabiertos.org/proyectos/editor-metadatos-glam](https://museosabiertos.org/proyectos/editor-metadatos-glam)
 
 ## Objetivo
-Esta herramienta de edición de metadatos -de unidades documentales- ayuda a implementar las normas archivísticas -dentro del modelo conceptual OAIS [http://www.oais.info].- en una única interfase, donde los metadatos se 'embeben' en los documentos, evitando así la dispersión de soluciones y colaborando con la estandarización y aceleración de los procesos de registro de colecciones, incorporando metodologías normalizadas.
+Esta herramienta de edición de metadatos -de unidades documentales- ayuda a implementar los normas internacionales -dentro del modelo conceptual OAIS [http://www.oais.info].- en una única interfase, donde los metadatos se 'embeben' en los documentos, evitando así la dispersión de soluciones y colaborando con la estandarización y aceleración de los procesos de registro de colecciones.
 
-Es especialmente útil para organizaciones pequeñas sin sistemas de administración de activos digitales y organizaciones grandes con muchos contribuyentes individuales, todos los cuales pueden ingresar metadatos
-Los metadatos pueden luego transferirse al sistema de gestión de activos digitales.
+Es especialmente útil para pequeñas organizaciones sin sistemas de administración de activos digitales y organizaciones grandes con muchos contribuyentes individuales. Los metadatos pueden luego transferirse al sistema de gestión de activos digitales.
 
 También ayuda a incorporar a más personas en los flujos de trabajo, como los fotógrafos independientes, que de otro modo no tendrían acceso al sistema de gestión de activos digitales de una organización.
 
@@ -57,7 +56,7 @@ En este video, Greg Reser explica con más detalles este concepto: [Greg Reser (
 * Software de código abierto con licencia GNU
 * Software multiplataforma (puede ser ejecutado en Windows XP, 7, 10, MacOS, Linux y Raspberry pi)
 * Edita los metadatos y los 'guarda' dentro del archivo sin modificar la imagen (ej.: JPG, TIF, PDF) conservando su contexto al 'viajar' a través de aplicaciones, dispositivos y bases de datos.
-* Edita metadatos según las normas internacionales EXIF, IPTC, DC, ISAD(G) 2000, VRA Essential XMP
+* Edita metadatos según las normas internacionales EXIF, IPTC, Dublin Core, ISAD(G), VRA Core y muchos otros
 * No es destructivo (no altera las imágenes)
 * Reduce significativamente las tareas de registro
 * Aunque lo permite, hace obsoleto el uso de hojas de cálculo independientes para el registros de colecciones
