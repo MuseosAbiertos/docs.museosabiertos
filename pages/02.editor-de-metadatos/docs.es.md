@@ -61,7 +61,7 @@ En este video, Greg Reser explica con más detalles este concepto: [Greg Reser (
 * Reduce significativamente las tareas de registro
 * Aunque lo permite, hace obsoleto el uso de hojas de cálculo independientes para el registros de colecciones
 * Diseñado para adaptarse a un flujo de trabajo para auditoría de datos con [Open Refine](https://openrefine.org/)
-* Exporta los metadatos a un archivo tabulado CSV o PDF para facilitar la ingestión en aplicaciones, como [AtoM](https://accesstomemory.org/), [Archivematica](https://www.archivematica.org/), [DSpace](https://duraspace.org/dspace/), [Fedora Commons](https://duraspace.org/fedora/) o [RODA](https://roda-community.org/).
+* Exporta los metadatos a un archivo tabulado CSV para facilitar la ingestión en aplicaciones, como [AtoM](https://accesstomemory.org/), [Archivematica](https://www.archivematica.org/), [DSpace](https://duraspace.org/dspace/), [Fedora Commons](https://duraspace.org/fedora/) o [RODA](https://roda-community.org/).
 
 ## Tags
 Embedded Metadata, Access to Digital Image Files, Metadata editor, Heritage
