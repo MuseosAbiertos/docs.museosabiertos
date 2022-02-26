@@ -28,7 +28,13 @@ routes:
         - /repositorio-de-artistas-contemporaneos-argentinos
 ---
 
-Este repositorio tiene como objetivo ofrecer un espacio donde poder consultar todos los datos relativos a la obra de artistas contemporáneos. En el se podrá consultar la obra, la biografía, las fechas y los sitios donde se han expuesto.
+Este repositorio abierto tiene como objetivo ofrecer una plataforma donde poder consultar todos los datos relativos a la obra de artistas contemporáneos. En el se podrá consultar la obra, la biografía, las fechas y los sitios donde se han expuesto.
+
+Actualmente cuenta con:
+
+* 10.850 Artistas (538 Artistas con 2060 obras)
+* 2.700 Galerías
+* 28.800 Muestras (desde el año 2003)
 
 Las fuentes principales utilizadas son la "Colección Bruzzone" y la "[Revista Ramona](https://ramona.org.ar/)"
 
