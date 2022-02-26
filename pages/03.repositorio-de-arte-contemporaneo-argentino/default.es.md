@@ -28,9 +28,9 @@ routes:
         - /repositorio-de-artistas-contemporaneos-argentinos
 ---
 
-Este repositorio tiene como función ofrecer un espacio donde poder consultar todos los datos relativos a la obra de artistas contemporáneos. En el se podrá consultar la obra, la biografía, las fechas y los sitios donde se han expuesto.
+Este repositorio tiene como objetivo ofrecer un espacio donde poder consultar todos los datos relativos a la obra de artistas contemporáneos. En el se podrá consultar la obra, la biografía, las fechas y los sitios donde se han expuesto.
 
-Las fuentes utilizadas serán la "Colección Bruzzone" y "la [Revista Ramona](https://ramona.org.ar/)"
+Las fuentes principales utilizadas son la "Colección Bruzzone" y la "[Revista Ramona](https://ramona.org.ar/)"
 
 En un futuro, ofrecerá una interfaz SPARQL, que permitirá realizar consultas sobre datos almacenados en RDF mediante el lenguaje SPARQL, ofreciendo así una red de [datos abiertos vinculados](https://www.w3c.es/Eventos/2013/Uruguay/Presentaciones/W3CdayMVD_LOD_LorenaEtcheverry2013.pdf) (LOD).
 
