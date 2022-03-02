@@ -7,6 +7,26 @@ menu: ' Datos Vinculados GLAM'
 child_type: docs
 sitemap:
     ignore: false
+hide_hypothesis: false
+twitterenable: true
+twittercardoptions: summary
+articleenabled: false
+musiceventenabled: false
+orgaenabled: false
+orga:
+    ratingValue: 2.5
+orgaratingenabled: false
+eventenabled: false
+personenabled: false
+musicalbumenabled: false
+productenabled: false
+product:
+    ratingValue: 2.5
+restaurantenabled: false
+restaurant:
+    acceptsReservations: 'yes'
+    priceRange: $
+facebookenable: true
 ---
 
 ### [Como limpiar, vincular y publicar tus metadatos]
@@ -48,7 +68,7 @@ Smithsonian Cooper-Hewitt, Museo Nacional de Diseño, Nueva York
 
 ## Índice
 
-1. Introducción
+1. [Introducción](/datos-vinculados/modelado/1-introduccion)
     1. Metadatos en la encrucijada
     2. Definición y alcance de los conceptos clave
     3. Posición y originalidad del manual
