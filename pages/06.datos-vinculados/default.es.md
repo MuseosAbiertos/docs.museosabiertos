@@ -77,10 +77,10 @@ Smithsonian Cooper-Hewitt, Museo Nacional de Diseño, Nueva York
     6. Notas
     7. Referencias
 2. [Modelado](modelado)
-    1. Introducción
-    2. Datos tabulados
-    3. Modelo relacional
-    4. Lenguajes de meta-marcado
+    1. [Introducción](modelado/1-introduccion)
+    2. [Datos tabulados](modelado/2-datos-tabulares)
+    3. [Modelo relacional](modelado/3-modelo-relacional)
+    4. [Lenguajes de meta-marcado](modelado/4-lenguajes-de-metamarcado)
     5. Datos vinculados
     6. Conclusión
     7. Notas
