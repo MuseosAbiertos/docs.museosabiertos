@@ -80,7 +80,7 @@ Smithsonian Cooper-Hewitt, Museo Nacional de Diseño, Nueva York
     1. Introducción
     2. Datos tabulados
     3. Modelo relacional
-    4. Lenguaje de meta-marcado
+    4. Lenguajes de meta-marcado
     5. Datos vinculados
     6. Conclusión
     7. Notas
