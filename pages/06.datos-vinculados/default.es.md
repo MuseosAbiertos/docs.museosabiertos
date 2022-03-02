@@ -68,7 +68,7 @@ Smithsonian Cooper-Hewitt, Museo Nacional de Diseño, Nueva York
 
 ## Índice
 
-1. [Introducción](/datos-vinculados/modelado/1-introduccion)
+1. [Introducción](modelado/1-introduccion)
     1. Metadatos en la encrucijada
     2. Definición y alcance de los conceptos clave
     3. Posición y originalidad del manual
