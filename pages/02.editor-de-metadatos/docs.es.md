@@ -31,6 +31,8 @@ taxonomy:
         - metadata
 page-toc:
     active: true
+external_links:
+    no_follow: false
 ---
 
 ![Editor de metadatos para la descripción archivística](logo-editor.png?resize=400,200) 
@@ -39,6 +41,7 @@ Este editor multiplataforma es una interfaz gráfica para la edición de metadat
 
 
 !!!  Web de Proyecto:  [https://museosabiertos.org/proyectos/editor-metadatos-glam](https://museosabiertos.org/proyectos/editor-metadatos-glam)
+
 
 ## Objetivo
 Esta herramienta de edición de metadatos -de unidades documentales- ayuda a implementar los normas internacionales -dentro del modelo conceptual OAIS [http://www.oais.info].- en una única interfase, donde los metadatos se 'embeben' en los documentos, evitando así la dispersión de soluciones y colaborando con la estandarización y aceleración de los procesos de registro de colecciones.
