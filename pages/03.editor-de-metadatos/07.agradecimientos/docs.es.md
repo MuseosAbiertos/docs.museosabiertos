@@ -38,7 +38,7 @@ published: true
 
 ![Editor de metadatos para la descripción archivística](logo-editor.png?resize=400,200) 
 
-Este editor multiplataforma es una interfaz gráfica para la edición de metadatos de registros de colecciones con las normas [EXIF](https://docs.fileformat.com/image/exif/), [IPTC](https://iptc.org/standards/photo-metadata/), [XMP](https://www.adobe.com/products/xmp.html), GPS y extendido a [Dublin Core](https://dublincore.org/specifications/dublin-core/) y [ISAD(G) 2000](https://www.ica.org/sites/default/files/CBPS_2000_Guidelines_ISAD%28G%29_Second-edition_EN.pdf).
+Este editor multiplataforma es una interfaz gráfica para la edición de metadatos de registros de colecciones con las normas [EXIF](https://docs.fileformat.com/image/exif/), [IPTC](https://iptc.org/standards/photo-metadata/), [XMP](https://www.adobe.com/products/xmp.html), GPS [Dublin Core](https://dublincore.org/specifications/dublin-core/), [ISAD(G) 2000] (https://www.ica.org/sites/default/files/CBPS_2000_Guidelines_ISAD%28G%29_Second-edition_EN.pdf) y [VRA Core 4](https://core.vraweb.org/index.html).
 
 
 !!!  Web de Proyecto:  [https://museosabiertos.org/proyectos/editor-metadatos-glam](https://museosabiertos.org/proyectos/editor-metadatos-glam)
@@ -61,15 +61,19 @@ Este editor multiplataforma es una interfaz gráfica para la edición de metadat
 * [Metadata Extraction Tool](http://meta-extractor.sourceforge.net/)
 * [JHOVE](http://jhove.openpreservation.org/)
 
-
-[![emm-button-large](emm-button-large.jpg "emm-button-large")
-](http://www.embeddedmetadata.org/goto?supportsemm)
-
 ## Documento de proyecto
 [Proyecto-Mecenazgo-2020-Ex19029867.pdf](Proyecto-Mecenazgo-2020-Ex19029867.pdf)
 
 ---
-
 [![](logo-mecenazgo-web.jpg)](https://www.buenosaires.gob.ar/mecenazgo)
-Expediente: 19029867
+
+## Mecenas
+
+* Banco Hipotecario https://www.hipotecario.com.ar
+* Techniques & Supplies https://www.techniques.com.ar
+* Digital Ocean https://www.digitalocean.com
+
+|                                                                                                                                |                                                                                                                         |                                                                                                                                 |
+| ------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| ![Logo Banco Hipotecario](https://user-images.githubusercontent.com/693328/175657136-2524d56b-a0a8-493d-b96c-d84c7c5ef468.jpg) | ![Logo Techniques](https://user-images.githubusercontent.com/693328/175666054-1ca8f020-2c31-448e-8e9d-b6f2e26811e6.jpg) | ![DO_Logo_Horizontal_Blue](https://user-images.githubusercontent.com/693328/176058383-2fa26c85-a67b-4065-8707-451a0e4daa45.png) |
 
