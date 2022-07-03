@@ -52,15 +52,6 @@ Este editor multiplataforma es una interfaz gráfica para la edición de metadat
 * A [Jairo Enrique Serrano Castañeda](https://scholar.google.com/citations?user=rW2nV5cAAAAJ&hl), estimado DevOps, que logra que todo funcione sin romperse y lo repara cuando se rompe]
 * A [María Laura Caliusco](https://bit.ly/3nwKVGN), por su pasión académica y por haber aceptado la propuesta de 'descripción patrimonial' y también como colaborador en el paper final "[Hacia un modelo semántico para la descripción del patrimonio](http://dx.doi.org/10.5281/zenodo.3338005)" 
 
-## Proyectos similares
-* [Custom Metadata Panel for Bridge](https://github.com/adobe-dmeservices/custom-metadata)
-* [IPTC Releases Cultural Heritage Panel for Metadata Management](https://iptc.org/news/culturalheritagepanel/)
-* [Tropy](https://tropy.org/)
-
-## Proyectos relacionados
-* [Metadata Extraction Tool](http://meta-extractor.sourceforge.net/)
-* [JHOVE](http://jhove.openpreservation.org/)
-
 ## Documento de proyecto
 [Proyecto-Mecenazgo-2020-Ex19029867.pdf](Proyecto-Mecenazgo-2020-Ex19029867.pdf)
 
