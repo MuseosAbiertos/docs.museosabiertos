@@ -1,6 +1,6 @@
 ---
 title: 'Proyecto Mecenazgo'
-menu: 'Editor de metadatos GLAM'
+menu: 'Proyecto Mecenazgo'
 media_order: '1.png,2.png,3.png,logo-mecenazgo.jpg,logo-editor.png,MA-sample-id-2498680.jpg,logo-mecenazgo-web.jpg,emm-button-large.jpg'
 sitemap:
     ignore: false
