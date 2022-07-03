@@ -24,7 +24,7 @@ facebookenable: true
 published: false
 ---
 
-MME (Museum Metadata Embedder) escribe (embebe) metadatos -Dublin Core, VRA Core, ISAD(G), IPTC, Photoshop y otros más- en [todo tipo de imágenes](https://exiftool.org/#supported) y archivos PDF a partir de un CSV normalizado.
+**MME** (Museum Metadata Embedder) escribe (incrusta) metadatos -[Dublin Core](https://dublincore.org/specifications/dublin-core/), [VRA Core](https://core.vraweb.org/), [XMP](https://www.adobe.com/products/xmp.html), [ISAD(G)](https://www.ica.org/sites/default/files/CBPS_2000_Guidelines_ISAD(G)_Second-edition_EN.pdf), [IPTC](https://iptc.org/standards/photo-metadata/), Photoshop, [EXIF](https://docs.fileformat.com/image/exif/) y otros más- en [todo tipo de imágenes](https://exiftool.org/#supported) y archivos PDF a partir de un CSV normalizado.
 
 
 A veces, los donantes tienen hojas de cálculo que enumeran el contenido de sus colecciones. En lugar de volver a teclear todo esto en una herramienta como [Archivists' Toolkit](http://www.archiviststoolkit.org/) o en un editor XML, ¿no sería bueno generar automáticamente un documento XML de EAD a partir de la hoja de cálculo?
