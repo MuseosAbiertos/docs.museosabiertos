@@ -1,7 +1,7 @@
 ---
 title: 'Museum Metadata Embedder'
 hide_hypothesis: false
-menu: 'museum metadata embedder'
+menu: 'Museum Metadata Embedder'
 twitterenable: true
 twittercardoptions: summary
 articleenabled: false
@@ -21,9 +21,13 @@ restaurant:
     acceptsReservations: 'yes'
     priceRange: $
 facebookenable: true
+published: false
 ---
 
-A veces, los donantes tienen hojas de cálculo que enumeran el contenido de sus colecciones. En lugar de volver a teclear todo esto en una herramienta como Archivists' Toolkit o en un editor XML, ¿no sería bueno generar automáticamente un documento XML de EAD a partir de la hoja de cálculo?
+MME (Museum Metadata Embedder) escribe (embebe) metadatos -Dublin Core, VRA Core, ISAD(G), IPTC, Photoshop y otros más- en [todo tipo de imágenes](https://exiftool.org/#supported) y archivos PDF a partir de un CSV normalizado.
+
+
+A veces, los donantes tienen hojas de cálculo que enumeran el contenido de sus colecciones. En lugar de volver a teclear todo esto en una herramienta como [Archivists' Toolkit](http://www.archiviststoolkit.org/) o en un editor XML, ¿no sería bueno generar automáticamente un documento XML de EAD a partir de la hoja de cálculo?
 
 Con Stead puede hacerlo. Sólo hay que editar las cabeceras (primera fila de la hoja de cálculo) para que se ajusten al esquema de Stead. Esto puede implicar la división de algunas columnas para ajustarse al esquema, la adición de columnas y otras ediciones. Todo esto es probablemente más fácil, más rápido y más preciso de hacer en una hoja de cálculo que tratar de hacerlo en otro lugar volviendo a escribir todo.
 
