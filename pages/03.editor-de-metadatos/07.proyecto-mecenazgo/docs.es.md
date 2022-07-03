@@ -33,6 +33,7 @@ page-toc:
     active: true
 external_links:
     no_follow: false
+published: true
 ---
 
 ![Editor de metadatos para la descripción archivística](logo-editor.png?resize=400,200) 
