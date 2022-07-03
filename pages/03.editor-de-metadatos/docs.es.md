@@ -62,13 +62,12 @@ En este video, Greg Reser explica con más detalles este concepto: [Greg Reser (
 * Edita metadatos según las normas internacionales EXIF, IPTC, Dublin Core, ISAD(G), VRA Core y muchos otros
 * No es destructivo (no altera las imágenes)
 * Reduce significativamente las tareas de registro
-* Aunque lo permite, hace obsoleto el uso de hojas de cálculo independientes para el registros de colecciones
+* Ofrece una alternativa al uso de hojas de cálculo independientes para el registros de colecciones
 * Diseñado para adaptarse a un flujo de trabajo para auditoría de datos con [Open Refine](https://openrefine.org/)
-* Exporta los metadatos a un archivo tabulado CSV para facilitar la ingestión en aplicaciones, como [AtoM](https://accesstomemory.org/), [Archivematica](https://www.archivematica.org/), [DSpace](https://duraspace.org/dspace/), [Fedora Commons](https://duraspace.org/fedora/) o [RODA](https://roda-community.org/).
+* Exporta los metadatos a un archivo CSV para facilitar la ingestión en otras aplicaciones, como [AtoM](https://accesstomemory.org/), [Archivematica](https://www.archivematica.org/), [DSpace](https://duraspace.org/dspace/), [Fedora Commons](https://duraspace.org/fedora/) o [RODA](https://roda-community.org/).
 
 ## Tags
-Embedded Metadata, Access to Digital Image Files, Metadata editor, Heritage
-
+Embedded Metadata, Access to Digital Image Files, Open Content, Open Data, Metadata editor, Heritage
 
 ## Software
 Aplicación Java/Swing que funciona como frontend gráfico (GUI) para ExifTool. La UI está diseñada con GUI Designer from IntelliJ IDEA. Licencia abierta, GNU General Public License.
