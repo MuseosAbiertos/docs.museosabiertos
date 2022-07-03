@@ -20,6 +20,7 @@ restaurant:
     acceptsReservations: 'yes'
     priceRange: $
 facebookenable: true
+published: false
 ---
 
 Este nuevo enfoque pretende colaborar con OAIS y PREMIS anticipándose a su implementación al ofrecer una capa previa, con simpleza y costes mínimos para los gestores e instituciones.
