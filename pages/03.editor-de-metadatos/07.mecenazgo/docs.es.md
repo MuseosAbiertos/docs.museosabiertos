@@ -1,7 +1,7 @@
 ---
-title: 'Proyecto Mecenazgo'
+title: 'Expediente: 19029867'
 menu: Mecenazgo
-media_order: '1.png,2.png,3.png,logo-mecenazgo.jpg,logo-editor.png,MA-sample-id-2498680.jpg,logo-mecenazgo-web.jpg,emm-button-large.jpg'
+media_order: '1.png,2.png,3.png,logo-mecenazgo.jpg,logo-editor.png,MA-sample-id-2498680.jpg,logo-mecenazgo-web.jpg,emm-button-large.jpg,Proyecto-Mecenazgo-2020-Ex19029867.pdf'
 sitemap:
     ignore: false
 twitterenable: true
@@ -56,57 +56,6 @@ Este proyecto -libre y abierto- está orientado a todas las personas e instituci
 En este video, Greg Reser explica con más detalles este concepto: [Greg Reser (VRA) About Cultural Heritage Metadata](https://youtu.be/qoIilcir88Q) 
 
 
-## Características
-* Software de código abierto con licencia GNU
-* Software multiplataforma (puede ser ejecutado en Windows XP, 7, 10, MacOS, Linux y Raspberry pi)
-* Edita los metadatos y los 'guarda' dentro del archivo sin modificar la imagen (ej.: JPG, TIF, PDF) conservando su contexto al 'viajar' a través de aplicaciones, dispositivos y bases de datos.
-* Edita metadatos según las normas internacionales EXIF, IPTC, Dublin Core, ISAD(G), VRA Core y muchos otros
-* No es destructivo (no altera las imágenes)
-* Reduce significativamente las tareas de registro
-* Aunque lo permite, hace obsoleto el uso de hojas de cálculo independientes para el registros de colecciones
-* Diseñado para adaptarse a un flujo de trabajo para auditoría de datos con [Open Refine](https://openrefine.org/)
-* Exporta los metadatos a un archivo tabulado CSV para facilitar la ingestión en aplicaciones, como [AtoM](https://accesstomemory.org/), [Archivematica](https://www.archivematica.org/), [DSpace](https://duraspace.org/dspace/), [Fedora Commons](https://duraspace.org/fedora/) o [RODA](https://roda-community.org/).
-
-## Tags
-Embedded Metadata, Access to Digital Image Files, Metadata editor, Heritage
-
-
-## Software
-Aplicación Java/Swing que funciona como frontend gráfico (GUI) para ExifTool. La UI está diseñada con GUI Designer from IntelliJ IDEA. Licencia abierta, GNU General Public License.
-
-Este desarrollo se apoya en estándares y software de código abierto de terceras partes
-
-* [EXIF](https://docs.fileformat.com/image/exif/) es un estándar creado en el año 1995 para las especificaciones de formatos de imagen y sonido utilizados principalmente por cámaras digitales y escáneres, creado por la [_Asociación de la industria de cámaras de Japón_](https://en.wikipedia.org/wiki/Japan_Electronic_Industries_Development_Association) y hoy cuenta con una total aceptación y soporte.
-* Viendo las limitaciones de EXIF, en el año 2001 Abobe System creó [XMP](https://es.wikipedia.org/wiki/XMP), un modelo de datos extensibles, con el fin de poder registrar metadatos, como [Dublin Core](https://es.wikipedia.org/wiki/Dublin_Core), pero con el objetivo de aplicarlo a los archivos PDF. Hoy en día puede ser utilizado en prácticamente cualquier formato gráfico y es un framework extensible a otras aplicaciones.
-* [ExifTool by Phil Harvey](https://exiftool.org/) es una biblioteca de Perl multiplataforma, creada en el año 2003, más una aplicación de línea de comandos para leer y editar metainformación en una amplia variedad de archivos, que es usada por muchas aplicaciones de código abierto que deban escribir metadatos.
-* [ISAD(G) XML Schema](https://gist.github.com/anarchivist/826364)* 
-
-### Dependencias
-* [JRE (Java Runtime Environment)](https://adoptopenjdk.net/releases.html)
-* [ExifTool by Phil Harvey](https://exiftool.org/) 
-
-### Documentación
-* [Planilla de documentación de estándares](https://docs.google.com/spreadsheets/d/1lgJ7bgF3YWYn6RpQe6xPpc2lPtMmsKxhdoTDaipEz4M/edit#gid=1070734913)
-* [Issues](https://app.asana.com/0/1199531865244213/board)
-
-## Roadmap
-* Importa un CSV o XML y guarda los metadatos en archivos (ej.: JPG, TIFF, PDF) 
-* Lectura/escritura de metadatos en un archivo XML externo (sidecar)
-* Soporte para [VRA Core 4](https://core.vraweb.org/)
-* Integración con los vocabularios Getty [AAT en Español](https://www.aatespanol.cl/), [TGN](http://www.getty.edu/research/tools/vocabularies/tgn/index.html) y [ULAN](https://www.getty.edu/research/tools/vocabularies/ulan/) 
-* Integracíon con [WikiData](https://www.wikidata.org/)
-* Soporte para [EAD 2002](https://www.loc.gov/ead/index.html)
-* Soporte para [EAD3 (2015)](https://www.loc.gov/ead/index.html)
-* Soporte para [DACS](https://github.com/saa-ts-dacs/dacs)
-* Soporte para [SPECTRUM](https://collectionstrust.org.uk/spectrum/)
-Soporte para [ISAAR (CPF) 2ªed](https://www.ica.org/es/isaar-cpf-norma-internacional-sobre-los-registros-de-autoridad-de-archivos-relativos-a-instituciones)
-* Guarda un histórico de ediciones
-
-## Mockups
-
-![](1.png)
-![](2.png)
-![](3.png)
 
 ## Agradecimientos
 * A [Jairo Enrique Serrano Castañeda](https://scholar.google.com/citations?user=rW2nV5cAAAAJ&hl), amigo y estimado DevOps, por su oído siempre atento y dedicación en las incidencias
@@ -129,13 +78,12 @@ Soporte para [ISAAR (CPF) 2ªed](https://www.ica.org/es/isaar-cpf-norma-internac
 [![emm-button-large](emm-button-large.jpg "emm-button-large")
 ](http://www.embeddedmetadata.org/goto?supportsemm)
 
+## Documento de proyecto
+[Proyecto-Mecenazgo-2020-Ex19029867.pdf](Proyecto-Mecenazgo-2020-Ex19029867.pdf)
+
 ---
 
 [![](logo-mecenazgo-web.jpg)](https://www.buenosaires.gob.ar/mecenazgo)
 
 Expediente: 19029867
-
-## Los contribuyentes pueden ser mecenas de la cultura
-Quienes tributen el impuesto sobre los Ingresos Brutos pueden destinar parte del pago de los mismos para financiar proyectos culturales.
-https://www.buenosaires.gob.ar/cultura/mecenazgo/informacion-para-contribuyentes
 
