@@ -34,8 +34,10 @@ Mayormente, las colecciones de objetos se encuentran en hojas de cálculo que en
 
 Para leer los metadatos detallados de una imagen o un archivo PDF solo es necesario ejecutar:
 <code># exiftool -a -G1 -s <file></code>
-o utilizar los varios servicios online disponibles, como: https://jimpl.com/, https://www.metadata2go.com/, 
-
+o utilizar [Adobe Bridge Custom Metadata Panel](https://github.com/adobe-dmeservices/custom-metadata) o un servicio online, como [The Exifer](https://www.thexifer.net/)
+ 
+    
+===    
 En lugar de volver a teclear todo esto en una herramienta como [Archivists' Toolkit](http://www.archiviststoolkit.org/) o en un editor XML, ¿no sería bueno generar automáticamente un documento XML de EAD a partir de la hoja de cálculo?
 
 Con Stead puede hacerlo. Sólo hay que editar las cabeceras (primera fila de la hoja de cálculo) para que se ajusten al esquema de Stead. Esto puede implicar la división de algunas columnas para ajustarse al esquema, la adición de columnas y otras ediciones. Todo esto es probablemente más fácil, más rápido y más preciso de hacer en una hoja de cálculo que tratar de hacerlo en otro lugar volviendo a escribir todo.
