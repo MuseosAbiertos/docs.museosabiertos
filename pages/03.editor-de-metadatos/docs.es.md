@@ -1,7 +1,7 @@
 ---
 title: 'Editor de metadatos para la descripción archivística'
 menu: 'Editor de metadatos GLAM'
-media_order: '1.png,2.png,3.png,logo-mecenazgo.jpg,logo-editor.png,MA-sample-id-2498680.jpg,logo-mecenazgo-web.jpg,emm-button-large.jpg'
+media_order: 'logo-mecenazgo.jpg,logo-editor.png,MA-sample-id-2498680.jpg,logo-mecenazgo-web.jpg,emm-button-large.jpg'
 sitemap:
     ignore: false
 twitterenable: true
@@ -87,31 +87,6 @@ Este desarrollo se apoya en estándares y software de código abierto de tercera
 ### Documentación
 * [Planilla de documentación de estándares](https://docs.google.com/spreadsheets/d/1lgJ7bgF3YWYn6RpQe6xPpc2lPtMmsKxhdoTDaipEz4M/edit#gid=1070734913)
 * [Issues](https://app.asana.com/0/1199531865244213/board)
-
-## Roadmap
-* Importa un CSV o XML y guarda los metadatos en archivos (ej.: JPG, TIFF, PDF) 
-* Lectura/escritura de metadatos en un archivo XML externo (sidecar)
-* Soporte para [VRA Core 4](https://core.vraweb.org/)
-* Integración con los vocabularios Getty [AAT en Español](https://www.aatespanol.cl/), [TGN](http://www.getty.edu/research/tools/vocabularies/tgn/index.html) y [ULAN](https://www.getty.edu/research/tools/vocabularies/ulan/) 
-* Integracíon con [WikiData](https://www.wikidata.org/)
-* Soporte para [EAD 2002](https://www.loc.gov/ead/index.html)
-* Soporte para [EAD3 (2015)](https://www.loc.gov/ead/index.html)
-* Soporte para [DACS](https://github.com/saa-ts-dacs/dacs)
-* Soporte para [SPECTRUM](https://collectionstrust.org.uk/spectrum/)
-Soporte para [ISAAR (CPF) 2ªed](https://www.ica.org/es/isaar-cpf-norma-internacional-sobre-los-registros-de-autoridad-de-archivos-relativos-a-instituciones)
-* Guarda un histórico de ediciones
-
-## Mockups
-
-![](1.png)
-![](2.png)
-![](3.png)
-
-## Agradecimientos
-* A [Jairo Enrique Serrano Castañeda](https://scholar.google.com/citations?user=rW2nV5cAAAAJ&hl), amigo y estimado DevOps, por su oído siempre atento y dedicación en las incidencias
-* A [María Laura Caliusco](https://bit.ly/3nwKVGN), por su pasión académica y por haber aceptado la propuesta de 'descripción patrimonial' y también como colaborador en el paper final "[Hacia un modelo semántico para la descripción del patrimonio](http://dx.doi.org/10.5281/zenodo.3338005)" 
-* A Harry van der Wolf, desarrollador principal de [jExifToolGUI](https://github.com/hvdwolf/jExifToolGUI), por permitirme 'montarme' sobre su proyecto sin tener que crear mi propio fork y aceptar que su proyecto acepte otros espacios de nombres
-* A [Greg Reser](mailto:greser@ucsd.edu), Visual Resources Association. Presidente del [subcomité de metadatos integrados de VRA](http://metadatadeluxe.pbworks.com/w/page/20792294/VRA%20Embedded%20Metadata%20Subcommittee), y desarrollador de las herramientas [VRA para Adobe Bridge](http://metadatadeluxe.pbworks.com/w/page/108523528/VRA%20Bridge%20Metadata%20Tools). 
 
 
 ## Proyectos similares
