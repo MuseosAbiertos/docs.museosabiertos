@@ -1,7 +1,7 @@
 ---
 title: 'Mecenas y colaboradores'
 menu: Agradecimientos
-media_order: '1.png,2.png,3.png,logo-mecenazgo.jpg,logo-editor.png,MA-sample-id-2498680.jpg,logo-mecenazgo-web.jpg,emm-button-large.jpg,Proyecto-Mecenazgo-2020-Ex19029867.pdf'
+media_order: 'logo-editor.png,logo-mecenazgo-web.jpg,Proyecto-Mecenazgo-2020-Ex19029867.pdf'
 sitemap:
     ignore: false
 twitterenable: true
