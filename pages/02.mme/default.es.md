@@ -35,7 +35,7 @@ Mayormente, las colecciones de objetos se encuentran en hojas de cálculo que en
 **MME** incrusta los metadatos de modo que ellos siempre se encuentren 'dentro' de la imagen, facilitando la ingestión por otras herramientas y simplificando los procesos de registro y difusión.
 
 Para leer los metadatos detallados de una imagen o un archivo PDF solo es necesario ejecutar:
-<code># exiftool -a -G1 -s <file></code>
+<code>exiftool -a -G1 -s <file></code>
 o utilizar [Adobe Bridge Custom Metadata Panel](https://github.com/adobe-dmeservices/custom-metadata) o un servicio online, como [The Exifer](https://www.thexifer.net/)
  
     
