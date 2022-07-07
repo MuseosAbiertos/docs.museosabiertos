@@ -24,15 +24,14 @@ facebookenable: true
 published: true
 ---
 
-**MME** (Museum Metadata Embedder) escribe (incrusta) metadatos -[Dublin Core](https://dublincore.org/specifications/dublin-core/), [VRA Core](https://core.vraweb.org/), [XMP](https://www.adobe.com/products/xmp.html), [ISAD(G)](https://www.ica.org/sites/default/files/CBPS_2000_Guidelines_ISAD(G)_Second-edition_EN.pdf), [IPTC](https://iptc.org/standards/photo-metadata/), [EXIF](https://docs.fileformat.com/image/exif/) y otros más- en [todo tipo de imágenes](https://exiftool.org/#supported) y archivos PDF a partir de un CSV normalizado.
+**MME** (Museum Metadata Embedder) -anteriormente 'csv2exif'- escribe (incrusta) metadatos -[Dublin Core](https://dublincore.org/specifications/dublin-core/), [VRA Core](https://core.vraweb.org/), [XMP](https://www.adobe.com/products/xmp.html), [ISAD(G)](https://www.ica.org/sites/default/files/CBPS_2000_Guidelines_ISAD(G)_Second-edition_EN.pdf), [IPTC](https://iptc.org/standards/photo-metadata/), [EXIF](https://docs.fileformat.com/image/exif/) y otros más- en [todo tipo de imágenes](https://exiftool.org/#supported) y archivos PDF a partir de un CSV normalizado.
 
 **MME** es una aplicación de línea de comandos Python 3, que utiliza [ExifTool](https://exiftool.org/) (de Phil Harvey) y también tiene una interfaz gráfica, ejecutable en Linux, MacOS y Windows.
 
 ## Uso
 <code>python csv2exif.py RUTA_CSV RUTA_IMAGES</code>
-Ejemplo: <code> python3 csv2exif.py csv/test.csv images/</code>
-
 argumentos posicionales: CSV_PATH ruta para el archivo CSV a procesar. JPGS_PATH ruta de acceso a los archivos JPG.
+Ejemplo: <code> python3 csv2exif.py csv/test.csv images/</code>
 
 ### Opciones
 -h, --help mostrar este mensaje de ayuda y salir
@@ -57,5 +56,5 @@ Mayormente, las colecciones de objetos se encuentran en hojas de cálculo que li
 **MME** incrusta los metadatos de modo que ellos siempre se encuentren 'dentro' de la imagen, facilitando la ingestión por otras herramientas y simplificando los procesos de registro y difusión.
 
 Para leer los metadatos 'detallados' de una imagen o un archivo PDF, solo es necesario ejecutar:
-<code>exiftool -a -G1 -s <file></code>
+<code>exiftool -a -G1 -s [archivo] </code>
 o utilizar [Adobe Bridge Custom Metadata Panel](https://github.com/adobe-dmeservices/custom-metadata) o un servicio online, como [The Exifer](https://www.thexifer.net/)
