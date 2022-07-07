@@ -22,6 +22,7 @@ restaurant:
     priceRange: $
 facebookenable: true
 published: true
+media_order: 'Logo Banco Hipotecario.jpg,Logo Techniques.jpg,Logo Mecenazgo 2021 negro ch.png,DO_Logo_Horizontal_Blue.png'
 ---
 
 **MME** (Museum Metadata Embedder) -anteriormente 'csv2exif'- escribe (incrusta) metadatos -[Dublin Core](https://dublincore.org/specifications/dublin-core/), [VRA Core](https://core.vraweb.org/), [XMP](https://www.adobe.com/products/xmp.html), [ISAD(G)](https://www.ica.org/sites/default/files/CBPS_2000_Guidelines_ISAD(G)_Second-edition_EN.pdf), [IPTC](https://iptc.org/standards/photo-metadata/), [EXIF](https://docs.fileformat.com/image/exif/) y otros más- en [todo tipo de imágenes](https://exiftool.org/#supported) y archivos PDF a partir de un CSV normalizado.
@@ -76,11 +77,14 @@ o utilizar [Adobe Bridge Custom Metadata Panel](https://github.com/adobe-dmeserv
 ## Sponsors/Mecenas
 Esta aplicación ha sido posible gracias al programa de Mecenazgo Cultural de la Ciudad Autónoma de Buenos Aires, Argentina
 
-
-https://www.buenosaires.gob.ar/mecenazgo
+![Logo%20Mecenazgo%202021%20negro%20ch](Logo%20Mecenazgo%202021%20negro%20ch.png "Logo%20Mecenazgo%202021%20negro%20ch")
 
 y especialmente a nuestros mecenas
 
 Banco Hipotecario https://www.hipotecario.com.ar
 Techniques & Supplies https://www.techniques.com.ar
 Digital Ocean https://www.digitalocean.com
+
+![Logo%20Banco%20Hipotecario](Logo%20Banco%20Hipotecario.jpg "Logo%20Banco%20Hipotecario")
+![Logo%20Techniques](Logo%20Techniques.jpg "Logo%20Techniques")
+![DO_Logo_Horizontal_Blue](DO_Logo_Horizontal_Blue.png "DO_Logo_Horizontal_Blue")
