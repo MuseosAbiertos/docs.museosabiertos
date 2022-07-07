@@ -51,6 +51,12 @@ Este archivo se puede editar para agregar nuevas etiquetas.
 
 Sólo es necesario editar las cabeceras (primera fila de la hoja de cálculo) para que se ajusten al esquema. Esto puede implicar la división de algunas columnas para ajustarse al esquema, la adición de columnas y otras ediciones. Todo esto es probablemente más fácil, más rápido y más preciso de hacer en una hoja de cálculo.
 
+### GMME (Interfaz gráfica)
+'gmme' es la versión gráfica de mme.py. Es un script de python3 (solamente). No acepta argumentos.
+
+Uso:
+<code>python3 gmme.py & </code>
+
 ### Historia
 Mayormente, las colecciones de objetos se encuentran en hojas de cálculo que listan el contenido de sus colecciones, acompañado por las imágenes que los representan. Es decir que para ver los metadatos de una imagen, se debe contar con una aplicación para hojas de cálculo; si quieres enviarla por email, debes enviar ambos archivos, donde el CSV o XLSX contiene normalmente la totalidad de la colección.
 **MME** incrusta los metadatos de modo que ellos siempre se encuentren 'dentro' de la imagen, facilitando la ingestión por otras herramientas y simplificando los procesos de registro y difusión.
@@ -58,3 +64,23 @@ Mayormente, las colecciones de objetos se encuentran en hojas de cálculo que li
 Para leer los metadatos 'detallados' de una imagen o un archivo PDF, solo es necesario ejecutar:
 <code>exiftool -a -G1 -s [archivo] </code>
 o utilizar [Adobe Bridge Custom Metadata Panel](https://github.com/adobe-dmeservices/custom-metadata) o un servicio online, como [The Exifer](https://www.thexifer.net/)
+
+
+## Acknowledgments/Agradecimientos
+* Harry van der Wolf [Por su inestimable colaboración y la creación de la interfaz gráfica (GUI) y sus ejecutables multiplataforma]
+* Greg Reser [Por todo su apoyo y colaboración en esta implementacion de VRA Core]
+* Phil Harvey [Por su maravilloso ExifTool, que pronto cumplirá 30 años!]
+* Jairo Serrano [Amigo y estimado SysOp que logra que todo funcione sin romperse y lo repara cuando se rompe]
+* Sebastián Gersbach [Por el diseño del logo y el paquete de iconos]
+
+## Sponsors/Mecenas
+Esta aplicación ha sido posible gracias al programa de Mecenazgo Cultural de la Ciudad Autónoma de Buenos Aires, Argentina
+
+
+https://www.buenosaires.gob.ar/mecenazgo
+
+y especialmente a nuestros mecenas
+
+Banco Hipotecario https://www.hipotecario.com.ar
+Techniques & Supplies https://www.techniques.com.ar
+Digital Ocean https://www.digitalocean.com
