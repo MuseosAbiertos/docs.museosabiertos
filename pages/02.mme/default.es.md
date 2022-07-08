@@ -66,6 +66,8 @@ Para leer los metadatos 'detallados' de una imagen o un archivo PDF, solo es nec
 <code>exiftool -a -G1 -s [archivo] </code>
 o utilizar [Adobe Bridge Custom Metadata Panel](https://github.com/adobe-dmeservices/custom-metadata) o un servicio online, como [The Exifer](https://www.thexifer.net/)
 
+## Descarga
+https://github.com/MuseosAbiertos/Museum-Metadata-Embedder
 
 ## Acknowledgments/Agradecimientos
 * Harry van der Wolf [Por su inestimable colaboración y la creación de la interfaz gráfica (GUI) y sus ejecutables multiplataforma]
