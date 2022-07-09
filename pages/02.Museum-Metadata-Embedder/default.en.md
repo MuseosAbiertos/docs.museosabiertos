@@ -29,14 +29,14 @@ metadata:
 
 [[versión en español]](https://docs.museosabiertos.org/es/museum-metadata-embedder)
 
-EN **MME** (Museum Metadata Embedder) -anteriormente 'csv2exif'- escribe (incrusta) metadatos -[Dublin Core](https://dublincore.org/specifications/dublin-core/), [VRA Core](https://core.vraweb.org/), [XMP](https://www.adobe.com/products/xmp.html), [ISAD(G)](https://www.ica.org/sites/default/files/CBPS_2000_Guidelines_ISAD(G)_Second-edition_EN.pdf), [IPTC](https://iptc.org/standards/photo-metadata/), [EXIF](https://docs.fileformat.com/image/exif/) y otros más- en [todo tipo de imágenes](https://exiftool.org/#supported) y archivos PDF a partir de un CSV normalizado.
+EN **MME** (Museum Metadata Embedder) -formerly 'csv2exif'- write (embed) metadata -[Dublin Core](https://dublincore.org/specifications/dublin-core/), [VRA Core](https://core.vraweb.org/), [XMP](https://www.adobe.com/products/xmp.html), [ISAD(G)](https://www.ica.org/sites/default/files/CBPS_2000_Guidelines_ISAD(G)_Second-edition_EN.pdf), [IPTC](https://iptc.org/standards/photo-metadata/), [EXIF](https://docs.fileformat.com/image/exif/) y otros más- en [todo tipo de imágenes](https://exiftool.org/#supported) and PDF files from a standardised CSV.
 
-**MME** es una aplicación de línea de comandos Python 3, que utiliza [ExifTool](https://exiftool.org/) (de Phil Harvey) y también tiene una interfaz gráfica, ejecutable en Linux, MacOS y Windows.
+**MME** is a Python 3 command line application, which uses [ExifTool](https://exiftool.org/) (by Phil Harvey) and also has a graphical interface, executable on Linux, MacOS and Windows.
 
 ## Uso
-<code>python mmepy RUTA_CSV RUTA_IMAGES</code>
-argumentos posicionales: CSV_PATH ruta para el archivo CSV a procesar. JPGS_PATH ruta de acceso a los archivos JPG.
-Ejemplo: <code> python3 mme.py csv/test.csv images/</code>
+<code>python mme.py PATH_CSV PATH_IMAGES</code>
+positional arguments: CSV_PATH path to the CSV file to be processed. JPGS_PATH path to the JPG files.
+Example: <code> python3 mme.py csv/test.csv images/</code>
 
 ### Opciones
 -h, --help mostrar este mensaje de ayuda y salir
