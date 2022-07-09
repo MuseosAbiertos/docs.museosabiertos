@@ -59,13 +59,13 @@ Uso:
 ### Archivos del repositorio
 | Path                              | Descripción                                                       |
 | :-------------------------------- | :---------------------------------------------------------------- |
-| csv                               | Carpeta sugerida para alojar los archivos CSV                     |
+| csv/                               | Carpeta sugerida para alojar los archivos CSV                     |
 | csv/test.csv                      | Archivo CSV de prueba para la primera ejecución y test            |
-| exiftool                          | Ejecutable exiftool                                               |
-| data/exiftool_configs             | Archivos de configuración para ExifTool                           |
-| data/notion_maps_txts             | Carpeta interna de trabajo -no es obligatoria-                    |
+| exiftool/                          | Ejecutable exiftool                                               |
+| data/exiftool_configs/             | Archivos de configuración para ExifTool                           |
+| data/notion_maps_txts/             | Carpeta interna de trabajo -no es obligatoria-                    |
 | data/maps.json                    | Mapa de relacion entre cabeceras del CSV y las etiquetas ExifTool |
-| images                            | Archivos de prueba para la primera ejecución y test               |
+| images/                            | Archivos de prueba para la primera ejecución y test               |
 | images/vrae_exiftool_example.tiff | Archivo de ejemplo VRA Core                                       |
 |                                   |                                                                   |
 
