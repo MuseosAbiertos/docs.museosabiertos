@@ -39,27 +39,27 @@ positional arguments: CSV_PATH path to the CSV file to be processed. JPGS_PATH p
 Example: <code> python3 mme.py csv/test.csv images/</code>
 
 ### Opciones
--h, --help mostrar este mensaje de ayuda y salir
+-h, --help show this help message and exit
 
 --row-progress-notify ROW_PROGRESS_NOTIFY, -r ROW_PROGRESS_NOTIFY
-el número de filas entre las notificaciones de progreso. 100 por defecto
+the number of rows between progress notifications. 100 by default
 
 --notify-broken-keys NOTIFY_BROKEN_KEYS, -n NOTIFY_BROKEN_KEYS
-Notificar sobre claves rotas/faltantes en el CSV. Falso por defecto.
+Notify about broken/missing keys in the CSV. False by default
 
 --max-depth MAX_DEPTH, -m MAX_DEPTH
-Profundidad máxima de las subcarpetas para buscar JPGS. 3 por defecto
+Maximum depth of subfolders to search for JPGS. 3 by default
 
 ### Configuración personalizada
-**MME** utiliza un mapa JSON para mapear el _"Nombre de pantalla" (Encabezado de la columna CSV) <-> "Nombre de etiqueta"_, para cada uno de los estándares. El archivo debe encontrarse dentro del directorio 'data', en un archivo JSON llamado 'maps.json'.
-Este archivo se puede editar para agregar nuevas etiquetas.
+**MME** uses a JSON map to map the _"Display Name" (CSV Column Header) <-> "Label Name"_, for each of the standards. The file must be located inside the 'data' directory, in a JSON file named 'maps.json'.
+This file can be edited to add new tags.
 
-Sólo es necesario editar las cabeceras (primera fila de la hoja de cálculo) para que se ajusten al esquema. Esto puede implicar la división de algunas columnas para ajustarse al esquema, la adición de columnas y otras ediciones. Todo esto es probablemente más fácil, más rápido y más preciso de hacer en una hoja de cálculo.
+Only the headers (first row of the spreadsheet) need to be edited to fit the schema. This may involve splitting some columns to fit the schema, adding columns, and other edits. All of this is probably easier, faster and more accurate to do in a spreadsheet.
 
 ### GMME (Interfaz gráfica)
-'gmme' es la versión gráfica de mme.py. Es un script de python3 (solamente). No acepta argumentos.
+gmme' is the graphical version of mme.py. It's a python3 script (only). Does not accept arguments.
 
-Uso:
+Use:
 <code>python3 gmme.py & </code>
 
 ### Historia
