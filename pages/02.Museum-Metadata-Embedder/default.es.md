@@ -29,12 +29,12 @@ metadata:
 
 [[english version]](https://docs.museosabiertos.org/en/museum-metadata-embedder)
 
-**MME** (Museum Metadata Embedder) -anteriormente 'csv2exif'- escribe (incrusta) metadatos -[Dublin Core](https://dublincore.org/specifications/dublin-core/), [VRA Core](https://core.vraweb.org/), [XMP](https://www.adobe.com/products/xmp.html), [ISAD(G)](https://www.ica.org/sites/default/files/CBPS_2000_Guidelines_ISAD(G)_Second-edition_EN.pdf), [IPTC](https://iptc.org/standards/photo-metadata/), [EXIF](https://docs.fileformat.com/image/exif/) y otros más- en [todo tipo de imágenes](https://exiftool.org/#supported) y archivos PDF a partir de un CSV normalizado.
+Escribe (incrusta) metadatos -[Dublin Core](https://dublincore.org/specifications/dublin-core/), [VRA Core](https://core.vraweb.org/), [XMP](https://www.adobe.com/products/xmp.html), [ISAD(G)](https://www.ica.org/sites/default/files/CBPS_2000_Guidelines_ISAD(G)_Second-edition_EN.pdf), [IPTC](https://iptc.org/standards/photo-metadata/), [EXIF](https://docs.fileformat.com/image/exif/) y otros más- en [todo tipo de imágenes](https://exiftool.org/#supported) y archivos PDF a partir de un CSV normalizado.
 
 **MME** es una aplicación de línea de comandos Python 3, que utiliza [ExifTool](https://exiftool.org/) (de Phil Harvey) y también tiene una interfaz gráfica, ejecutable en Linux, MacOS y Windows.
 
 ## Uso
-<code>python mmepy RUTA_CSV RUTA_IMAGES</code>
+<code>python mme.py RUTA_CSV RUTA_IMAGES</code>
 Argumentos posicionales: RUTA_CSV ruta para el archivo CSV a procesar. JPGS_PATH ruta de acceso a los archivos JPG.
 Ejemplo: <code> python3 mme.py csv/test.csv images/</code>
 
@@ -50,19 +50,25 @@ Notificar sobre claves rotas/faltantes en el CSV. Falso por defecto.
 --max-depth MAX_DEPTH, -m MAX_DEPTH
 Profundidad máxima de las subcarpetas para buscar JPGS. 3 por defecto
 
+### GMME (Interfaz gráfica)
+'gmme' es la versión gráfica de mme.py. Es un script de python3 (solamente). No acepta argumentos.
+
+Uso:
+<code>python3 gmme.py & </code>
+
 ### Archivos del repositorio
-| Path                             | Descripción                                                       |
-| -------------------------------- | ----------------------------------------------------------------- |
-| csv                              | Carpeta sugerida para alojar los archivos CSV                     |
-| csv/test.csv                     | Archivo CSV de prueba para la primera ejecución y test            |
-| exiftool                         | Ejecutable exiftool                                               |
-| data                             |                                                                   |
-| data/exiftool_configs            | Archivos de configuración para ExifTool                           |
-| data/notion_maps_txts            | Carpeta interna de trabajo -no es obligatoria-                    |
-| data/maps.json                   | Mapa de relacion entre cabeceras del CSV y las etiquetas ExifTool |
-| images                           | Archivos de prueba para la primera ejecución y test               |
+| Path                              | Descripción                                                       |
+| :-------------------------------- | :---------------------------------------------------------------- |
+| csv                               | Carpeta sugerida para alojar los archivos CSV                     |
+| csv/test.csv                      | Archivo CSV de prueba para la primera ejecución y test            |
+| exiftool                          | Ejecutable exiftool                                               |
+| data                              |                                                                   |
+| data/exiftool_configs             | Archivos de configuración para ExifTool                           |
+| data/notion_maps_txts             | Carpeta interna de trabajo -no es obligatoria-                    |
+| data/maps.json                    | Mapa de relacion entre cabeceras del CSV y las etiquetas ExifTool |
+| images                            | Archivos de prueba para la primera ejecución y test               |
 | images/vrae_exiftool_example.tiff | Archivo de ejemplo VRA Core                                       |
-|                                  |                                                                   |
+|                                   |                                                                   |
 
 ### Configuración personalizada
 **MME** utiliza un mapa JSON para mapear el _"Nombre de pantalla" (Encabezado de la columna CSV) <-> "Nombre de etiqueta"_, para cada uno de los estándares. El archivo debe encontrarse dentro del directorio 'data', en un archivo JSON llamado 'maps.json'.
@@ -70,11 +76,6 @@ Este archivo se puede editar para agregar nuevas etiquetas.
 
 Sólo es necesario editar las cabeceras (primera fila de la hoja de cálculo) para que se ajusten al esquema. Esto puede implicar la división de algunas columnas para ajustarse al esquema, la adición de columnas y otras ediciones. Todo esto es probablemente más fácil, más rápido y más preciso de hacer en una hoja de cálculo.
 
-### GMME (Interfaz gráfica)
-'gmme' es la versión gráfica de mme.py. Es un script de python3 (solamente). No acepta argumentos.
-
-Uso:
-<code>python3 gmme.py & </code>
 
 ### Requerimientos
 |          |                                             |
