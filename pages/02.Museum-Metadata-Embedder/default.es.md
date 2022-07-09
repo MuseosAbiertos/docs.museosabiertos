@@ -35,7 +35,7 @@ metadata:
 
 ## Uso
 <code>python mmepy RUTA_CSV RUTA_IMAGES</code>
-argumentos posicionales: RUTA_CSV ruta para el archivo CSV a procesar. JPGS_PATH ruta de acceso a los archivos JPG.
+Argumentos posicionales: RUTA_CSV ruta para el archivo CSV a procesar. JPGS_PATH ruta de acceso a los archivos JPG.
 Ejemplo: <code> python3 mme.py csv/test.csv images/</code>
 
 ### Opciones
@@ -50,6 +50,20 @@ Notificar sobre claves rotas/faltantes en el CSV. Falso por defecto.
 --max-depth MAX_DEPTH, -m MAX_DEPTH
 Profundidad máxima de las subcarpetas para buscar JPGS. 3 por defecto
 
+### Archivos del repositorio
+| Path                             | Descripción                                                       |
+| -------------------------------- | ----------------------------------------------------------------- |
+| csv                              | Carpeta sugerida para alojar los archivos CSV                     |
+| csv/test.csv                     | Archivo CSV de prueba para la primera ejecución y test            |
+| exiftool                         | Ejecutable exiftool                                               |
+| data                             |                                                                   |
+| data/exiftool_configs            | Archivos de configuración para ExifTool                           |
+| data/notion_maps_txts            | Carpeta interna de trabajo -no es obligatoria-                    |
+| data/maps.json                   | Mapa de relacion entre cabeceras del CSV y las etiquetas ExifTool |
+| images                           | Archivos de prueba para la primera ejecución y test               |
+| images/vrae_exiftool_example.tiff | Archivo de ejemplo VRA Core                                       |
+|                                  |                                                                   |
+
 ### Configuración personalizada
 **MME** utiliza un mapa JSON para mapear el _"Nombre de pantalla" (Encabezado de la columna CSV) <-> "Nombre de etiqueta"_, para cada uno de los estándares. El archivo debe encontrarse dentro del directorio 'data', en un archivo JSON llamado 'maps.json'.
 Este archivo se puede editar para agregar nuevas etiquetas.
@@ -62,6 +76,13 @@ Sólo es necesario editar las cabeceras (primera fila de la hoja de cálculo) pa
 Uso:
 <code>python3 gmme.py & </code>
 
+### Requerimientos
+|          |                                             |
+| -------- | ------------------------------------------- |
+| Perl     | https://www.activestate.com/products/perl/  |
+| Python 3 | https://www.python.org/downloads/ |
+
+
 ### Historia
 Mayormente, las colecciones de objetos se encuentran en hojas de cálculo que listan el contenido de sus colecciones, acompañado por las imágenes que los representan. Es decir que para ver los metadatos de una imagen, se debe contar con una aplicación para hojas de cálculo; si quieres enviarla por email, debes enviar ambos archivos, donde el CSV o XLSX contiene normalmente la totalidad de la colección.
 **MME** incrusta los metadatos de modo que ellos siempre se encuentren 'dentro' de la imagen, facilitando la ingestión por otras herramientas y simplificando los procesos de registro y difusión.
@@ -73,7 +94,7 @@ o utilizar [Adobe Bridge Custom Metadata Panel](https://github.com/adobe-dmeserv
 ## Descarga
 https://github.com/MuseosAbiertos/Museum-Metadata-Embedder
 
-## Acknowledgments/Agradecimientos
+## Agradecimientos
 * Harry van der Wolf [Por su inestimable colaboración y la creación de la interfaz gráfica (GUI) y sus ejecutables multiplataforma]
 * Greg Reser [Por todo su apoyo y colaboración en esta implementacion de VRA Core]
 * Phil Harvey [Por su maravilloso ExifTool, que pronto cumplirá 30 años!]
