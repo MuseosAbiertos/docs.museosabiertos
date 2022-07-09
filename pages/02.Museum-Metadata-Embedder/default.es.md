@@ -95,11 +95,12 @@ o utilizar [Adobe Bridge Custom Metadata Panel](https://github.com/adobe-dmeserv
 https://github.com/MuseosAbiertos/Museum-Metadata-Embedder
 
 ## Agradecimientos
-* Harry van der Wolf [Por su inestimable colaboración y la creación de la interfaz gráfica (GUI) y sus ejecutables multiplataforma]
-* Greg Reser [Por todo su apoyo y colaboración en esta implementacion de VRA Core]
-* Phil Harvey [Por su maravilloso ExifTool, que pronto cumplirá 30 años!]
-* Jairo Serrano [Amigo y estimado SysOp que logra que todo funcione sin romperse y lo repara cuando se rompe]
-* Sebastián Gersbach [Por el diseño del logo y el paquete de iconos]
+* **Harry van der Wolf**, por su inestimable colaboración y la creación de la interfaz gráfica (GUI) y sus ejecutables multiplataforma
+* **Greg Reser**, por todo su apoyo y colaboración en esta implementación de VRA Core
+* **Phil Harvey**, por su maravilloso ExifTool, que pronto cumplirá 30 años!
+* **Jairo Serrano**, amigo y estimado SysOp que logra que todo funcione sin romperse y lo repara cuando se rompe
+* **Sebastián Gersbach**, por el diseño del logo y el paquete de iconos
+* **Centro de Documentación de Bienes Patrimoniales de Chile** [https://www.aatespanol.cl/]
 
 ## Sponsors/Mecenas
 Esta aplicación ha sido posible gracias al programa de Mecenazgo Cultural de la Ciudad Autónoma de Buenos Aires, Argentina
