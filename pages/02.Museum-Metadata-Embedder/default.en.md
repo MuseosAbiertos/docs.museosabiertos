@@ -33,6 +33,10 @@ EN **MME** (Museum Metadata Embedder) -formerly 'csv2exif'- write (embed) metada
 
 **MME** is a Python 3 command line application, which uses [ExifTool](https://exiftool.org/) (by Phil Harvey) and also has a graphical interface, executable on Linux, MacOS and Windows.
 
+## Requerimientos
+* Perl
+* Python 3
+
 ## Uso
 <code>python mme.py PATH_CSV PATH_IMAGES</code>
 positional arguments: CSV_PATH path to the CSV file to be processed. JPGS_PATH path to the JPG files.
@@ -49,6 +53,19 @@ Notify about broken/missing keys in the CSV. False by default
 
 --max-depth MAX_DEPTH, -m MAX_DEPTH
 Maximum depth of subfolders to search for JPGS. 3 by default
+
+### Archivos del repositorio
+| Path                             | Descripción                                                       |
+| -------------------------------- | ----------------------------------------------------------------- |
+| csv                              | Carpeta sugerida para alojar los archivos CSV                     |
+| csv/test.csv                     | Archivo CSV de prueba para la primera ejecución y test            |
+| exiftool                         | Ejecutable exiftool                                               |
+| data                             |                                                                   |
+| data/exiftool_configs            | Archivos de configuración para ExifTool                           |
+| data/notion_maps_txts            | Carpeta interna de trabajo -no es obligatoria-                    |
+| data/maps.json                   | Mapa de relacion entre cabeceras del CSV y las etiquetas ExifTool |
+| images                           | Archivos de prueba para la primera ejecución y test               |
+| images/vrae_exiftool_example.tiff | Archivo de ejemplo                                                |
 
 ### Configuración personalizada
 **MME** uses a JSON map to map the _"Display Name" (CSV Column Header) <-> "Label Name"_, for each of the standards. The file must be located inside the 'data' directory, in a JSON file named 'maps.json'.
