@@ -22,10 +22,12 @@ restaurant:
     priceRange: $
 facebookenable: true
 published: true
-media_order: 'Logo Banco Hipotecario.jpg,Logo Techniques.jpg,Logo Mecenazgo 2021 negro ch.png,DO_Logo_Horizontal_Blue.png'
+media_order: 'Logo Banco Hipotecario.jpg,Logo Techniques.jpg,Logo Mecenazgo 2021 negro ch.png,DO_Logo_Horizontal_Blue.png,mme-logo-300.jpg'
 metadata:
     'metadata, exiftool, vra core, dublin core, embedder': ''
 ---
+
+![mme-logo-300](mme-logo-300.jpg "mme-logo-300")
 
 [[english version]](https://docs.museosabiertos.org/en/museum-metadata-embedder)
 
