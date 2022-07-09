@@ -35,7 +35,7 @@ metadata:
 
 ## Uso
 <code>python mmepy RUTA_CSV RUTA_IMAGES</code>
-argumentos posicionales: CSV_PATH ruta para el archivo CSV a procesar. JPGS_PATH ruta de acceso a los archivos JPG.
+argumentos posicionales: RUTA_CSV ruta para el archivo CSV a procesar. JPGS_PATH ruta de acceso a los archivos JPG.
 Ejemplo: <code> python3 mme.py csv/test.csv images/</code>
 
 ### Opciones
