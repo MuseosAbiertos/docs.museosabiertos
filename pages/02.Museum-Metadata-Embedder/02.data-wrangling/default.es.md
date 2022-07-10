@@ -27,8 +27,9 @@ Los datos, en su forma natural (lo que llamamos “Raw Data”), suelen tener er
 
 Al momento de hacer un análisis de esos datos, todos esos registros tienen que preprocesarse. Es decir, se tiene que limpiar, unificar, consolidar y normalizar los datos para que se puedan utilizar y lograr extraer información de valor. De esto se trata el Data Wrangling, de preparar los datos para poder ser aprovechados.
 
-Para esta tarea es que hemos realizado esta 'hoja de cálculo':
-https://docs.google.com/spreadsheets/d/1k9P2fkDYwJ8bVRJMhavEeiJyV-49ZRujuFBtLyGAjdg/edit?usp=sharing, la cual contiene varias formulas y hojas de soporte.
-Los permisos de comentarios están habilitados; comparte o comenta cuando precises.
+Para esta tarea es que hemos creado una 'hoja de cálculo' con un conjunto de tags 'VRA Core' y 'Dublin Core' y datos, provenientes de la 'Colección Bruzzone' que nos servirán de guía: [Museum Metadata Embedder dataset](https://docs.google.com/spreadsheets/d/1k9P2fkDYwJ8bVRJMhavEeiJyV-49ZRujuFBtLyGAjdg/), la cual contiene varias formulas y hojas de soporte.
+_Los permisos de comentarios están habilitados; comparte o comenta cuando precises._
+
+
 
 
