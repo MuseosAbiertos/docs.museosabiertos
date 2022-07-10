@@ -34,6 +34,11 @@ Para esta tarea utilizamos principalmente dos herramientas:
 * [Google Sheets](https://www.google.com/intl/es_ar/sheets/about/), [Libre Office](https://es.libreoffice.org/), [Microsoft Excel](https://www.microsoft.com/es-ww/microsoft-365/excel) u otros.
 
 ## OpenRefine
+* [Limpieza de datos con OpenRefine; Seth van Hooland, Ruben Verborgh, y Max De Wilde](https://programminghistorian.org/es/lecciones/limpieza-de-datos-con-OpenRefine)
+* [Guía para la limpieza de datos sobre biodiversidad con OpenRefine; Paula F. Zermoglio, Camila A. Plata Corredor, John R. Wieczorek, Ricardo Ortiz Gallego, Leonardo Buitrago. Versión 3.0](https://docs.gbif.org/openrefine-guide/3.0/es/)
+* [Limpieza de bases de datos con OpenRefine; Claudia Báez – CdR-LAB](https://fundacionperiodismo.org/formacion-dual/wp-content/uploads/2018/10/Limpieza-de-datos-con-Open-Refine.pdf)
+* [Funcionalidades Open Refine; Ministerio TIC Colombia](https://youtu.be/tzXExfZCA1w)
+
 
 ## Google Sheets
 Para este manual hemos creado una 'hoja de cálculo' con un conjunto de tags 'VRA Core' y 'Dublin Core' y datos, provenientes de la 'Colección Bruzzone' que nos servirán de guía: [Museum Metadata Embedder dataset](https://docs.google.com/spreadsheets/d/1k9P2fkDYwJ8bVRJMhavEeiJyV-49ZRujuFBtLyGAjdg/), la cual contiene varias formulas y hojas de soporte.
