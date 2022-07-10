@@ -48,15 +48,20 @@ _Los permisos de comentarios están habilitados; eres libre de descargarla o com
 
 ## Convención de nombres de archivos / Convenciones de nomenclatura de archivos
 
-1. Pais
-2. Institución
-3. Colección
-4. Artista
-5. Nombre obra
-6. Numeración objeto
-7. Idioma
-
 AR-MA-Bruzzone-Agesta-Antonella-Je-suis-la-2014-00-EN.jpg
+
+1. Pais: AR
+2. Institución: MA
+3. Colección: Bruzzone
+4. Artista: Agerta Antonella
+5. Nombre obra: Je suis la
+6. ID objeto: 2014
+7. Numeración objeto: 00
+8. Idioma: EN
+
+De utilizar una fecha, esta debe ser en formato [ISO 8601](https://es.wikipedia.org/wiki/ISO_8601)
+
+
 
 Comience con información general (a la izquierda) y sea más específico a medida que avanza por el nombre de su archivo, al igual que lo hace en su estructura de carpetas. Esto ayuda a que sus archivos se ordenen de forma lógica, de arriba hacia abajo.
 Considere incluir un prefijo general (cliente, producto) y/o un sufijo específico (número de versión, color).
@@ -69,3 +74,12 @@ Al aplicar versiones de archivos, utilice el designador "V" y un número, por ej
 Evite los caracteres especiales (< > | [ ] & $ + \ / : * ? “) para que sus nombres de archivo sean utilizables en la web y compatibles entre plataformas
 Evite los nombres de archivo demasiado largos. Por ejemplo, la API de Windows impone una longitud máxima de nombre de archivo tal que un nombre de archivo, incluida la ruta de acceso al archivo, no puede exceder entre 255 y 260 caracteres.
 
+* [Developing a file naming convention, University of Glasgow](https://edshare.gla.ac.uk/807/1/File_Naming_v2_20200608.pdf)
+* [Best Practice for Naming Electronic Files, The J. Paul Getty Trust](https://files.archivists.org/groups/museum/standards/3.%20Records%20Management/Getty%20Records%20Management%20User%20Guides.pdf)
+* [Controlled Vocabulary. “Recommendations for Limitations on Image Filenaming.”](http://www.controlledvocabulary.com/imagedatabases/filename_limits.html)
+
+
+### Otros recursos
+
+* [PhotoMetadata.org](https://www.photometadata.org/META-Resources)
+* 
