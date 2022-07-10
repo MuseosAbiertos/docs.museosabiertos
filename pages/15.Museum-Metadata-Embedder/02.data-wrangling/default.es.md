@@ -73,6 +73,8 @@ _Ejemplo: AR-MA-Bruzzone-Agesta-Antonella-Je-suis-la-2014-00-EN.jpg_
 * Evita los nombres de archivo demasiado largos. Por ejemplo, la API de Windows impone una longitud máxima de nombre de archivo tal que un nombre de archivo, incluida la ruta de acceso al archivo, no puede exceder entre 255 y 260 caracteres.
 * De utilizar una fecha, esta debe ser en formato [ISO 8601](https://es.wikipedia.org/wiki/ISO_8601). Ejemplo: 2022-12-31
 
+a
+
 * [Developing a file naming convention, University of Glasgow](https://edshare.gla.ac.uk/807/1/File_Naming_v2_20200608.pdf)
 * [Best Practice for Naming Electronic Files, The J. Paul Getty Trust](https://files.archivists.org/groups/museum/standards/3.%20Records%20Management/Getty%20Records%20Management%20User%20Guides.pdf)
 * [Controlled Vocabulary. “Recommendations for Limitations on Image Filenaming.”](http://www.controlledvocabulary.com/imagedatabases/filename_limits.html)
