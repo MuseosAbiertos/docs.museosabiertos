@@ -81,7 +81,7 @@ Sólo es necesario editar las cabeceras (primera fila de la hoja de cálculo) pa
 https://docs.google.com/spreadsheets/d/1k9P2fkDYwJ8bVRJMhavEeiJyV-49ZRujuFBtLyGAjdg/edit?usp=sharing
 Los permisos de comentarios están habilitados, comparte o comenta cuando precises.
 
-### Requerimientos
+### Requerimientos del sistema
 |          |                                             |
 | -------- | ------------------------------------------- |
 | Perl     | https://www.activestate.com/products/perl/  |
