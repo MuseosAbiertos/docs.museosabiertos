@@ -59,8 +59,7 @@ El Catálogo de la Colección Bruzzone utiliza la siguiente convención de nombr
 7. Numeración objeto: 00
 8. Idioma: EN
 
-Ejemplo: AR-MA-Bruzzone-Agesta-Antonella-Je-suis-la-2014-00-EN.jpg
-
+_Ejemplo: AR-MA-Bruzzone-Agesta-Antonella-Je-suis-la-2014-00-EN.jpg_
 
 * Comienza con información general (a la izquierda) y sea más específico a medida que avanza por el nombre de su archivo, al igual que lo hace en su estructura de carpetas. Esto ayuda a que sus archivos se ordenen de forma lógica, de arriba hacia abajo.
 * Considera incluir un prefijo general (cliente, producto) y/o un sufijo específico (número de versión, color).
