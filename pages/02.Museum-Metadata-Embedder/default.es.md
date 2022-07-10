@@ -88,7 +88,7 @@ Los permisos de comentarios están habilitados, comparte o comenta cuando precis
 | Python 3 | https://www.python.org/downloads/ |
 
 
-### [Historia](pages/historia/historia)
+### [Historia](pages/museum-metadata-embedder/historia)
 Mayormente, las colecciones de objetos se encuentran en hojas de cálculo que listan el contenido de sus colecciones, acompañado por las imágenes que los representan. Es decir que para ver los metadatos de una imagen, se debe contar con una aplicación para hojas de cálculo; si quieres enviarla por email, debes enviar ambos archivos, donde el CSV o XLSX contiene normalmente la totalidad de la colección.
 **MME** incrusta los metadatos de modo que ellos siempre se encuentren 'dentro' de la imagen, facilitando la ingestión por otras herramientas y simplificando los procesos de registro y difusión.
 
