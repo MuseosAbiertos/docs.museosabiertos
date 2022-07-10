@@ -27,8 +27,17 @@ Los datos, en su forma natural (lo que llamamos “Raw Data”), suelen tener er
 
 Al momento de hacer un análisis de esos datos, todos esos registros tienen que preprocesarse. Es decir, se tiene que limpiar, unificar, consolidar y normalizar los datos para que se puedan utilizar y lograr extraer información de valor. De esto se trata el Data Wrangling, de preparar los datos para poder ser aprovechados.
 
-Para esta tarea es que hemos creado una 'hoja de cálculo' con un conjunto de tags 'VRA Core' y 'Dublin Core' y datos, provenientes de la 'Colección Bruzzone' que nos servirán de guía: [Museum Metadata Embedder dataset](https://docs.google.com/spreadsheets/d/1k9P2fkDYwJ8bVRJMhavEeiJyV-49ZRujuFBtLyGAjdg/), la cual contiene varias formulas y hojas de soporte.
-_Los permisos de comentarios están habilitados; comparte o comenta cuando precises._
+Comúnmente, estos datos los guardamos en archivos separados por comas (CSV), y en menor medida separados por un tabulador (TSV).
+
+Para esta tarea utilizamos principalmente dos herramientas:
+* [Open Refine](https://openrefine.org/)
+* [Google Sheets](https://www.google.com/intl/es_ar/sheets/about/), [Libre Office](https://es.libreoffice.org/), [Microsoft Excel](https://www.microsoft.com/es-ww/microsoft-365/excel) u otros.
+
+## OpenRefine
+
+## Google Sheets
+Para este manual hemos creado una 'hoja de cálculo' con un conjunto de tags 'VRA Core' y 'Dublin Core' y datos, provenientes de la 'Colección Bruzzone' que nos servirán de guía: [Museum Metadata Embedder dataset](https://docs.google.com/spreadsheets/d/1k9P2fkDYwJ8bVRJMhavEeiJyV-49ZRujuFBtLyGAjdg/), la cual contiene varias formulas y hojas de soporte.
+_Los permisos de comentarios están habilitados; eres libre de descargarla o comentar en ella._
 
 
 
