@@ -77,19 +77,11 @@ Este archivo se puede editar para agregar nuevas etiquetas.
 
 Sólo es necesario editar las cabeceras (primera fila de la hoja de cálculo) para que se ajusten al esquema. Esto puede implicar la división de algunas columnas para ajustarse al esquema, la adición de columnas y otras ediciones. Todo esto es probablemente más fácil, más rápido y más preciso de hacer en una hoja de cálculo.
 
-### Dataset/Hoja de cálculo para el tratamiento de los datos
-https://docs.google.com/spreadsheets/d/1k9P2fkDYwJ8bVRJMhavEeiJyV-49ZRujuFBtLyGAjdg/edit?usp=sharing
-Los permisos de comentarios están habilitados, comparte o comenta cuando precises.
-
 ### Requerimientos del sistema
 |          |                                             |
 | -------- | ------------------------------------------- |
 | Perl     | https://www.activestate.com/products/perl/  |
 | Python 3 | https://www.python.org/downloads/ |
-
-
-### [Historia](historia)
-
 
 ## Descarga
 https://github.com/MuseosAbiertos/Museum-Metadata-Embedder
