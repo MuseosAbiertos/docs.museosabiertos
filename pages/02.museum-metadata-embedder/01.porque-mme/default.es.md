@@ -43,7 +43,7 @@ La característica principal de Exif es su capacidad para grabar información de
 
 El estándar Exif fue establecido en 1985 por la JCIA (Japan Camera Industry Association), el predecesor de CIPA (Camera & Imaging Products Association). Hoy en día, [JEITA](https://www.jeita.or.jp/english/) (Japan Electronics and Information Technology Industries Association) gestiona el estándar, mientras que CIPA discute la nueva tecnología y promueve el estándar.
 
-_Leer más:_
+Leer más:
 * [EXIF](https://es.wikipedia.org/wiki/Exchangeable_image_file_format)
 * [EXIF Data Explained](https://photographylife.com/what-is-exif-data)
 
