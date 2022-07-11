@@ -32,7 +32,7 @@ En el universo GLAM, tradicionalmente, se considera que **una imagen de archivo 
 
 Sin embargo, esta presunción es errónea, dado que EXIF o XMP, si bien graban los datos dentro del archivo de imagen, no alteran la imagen, pues los graba dentro de un área de cabecera. Más aún, las aplicaciones apra escribir metadatos no tienen la capacidad para alterar las imágenes.
 
-**MME** sigue una filosofía opuesta e incrusta los metadatos, de modo que ellos siempre se encuentren 'dentro' de la imagen, facilitando la ingestión y simplificando los procesos de registro y difusión, aunque no desaconseja 'también' guardarlos en un archivo CSV. De hecho, **MME** incrusta los metadatos a partir de un archivo CSV.
+**MME** sigue una filosofía opuesta e incrusta los metadatos en un área reservada a ellos, de modo que ellos siempre se encuentren 'dentro' de la imagen, facilitando la ingestión y simplificando los procesos de registro y difusión, aunque no desaconseja 'también' guardarlos en un archivo CSV. De hecho, **MME** incrusta los metadatos a partir de un archivo CSV.
 
 ## Porqué escribir los metadatos en las imágenes ?
 
@@ -43,10 +43,11 @@ La característica principal de Exif es su capacidad para grabar información de
 
 El estándar Exif fue establecido en 1985 por la JCIA (Japan Camera Industry Association), el predecesor de CIPA (Camera & Imaging Products Association). Hoy en día, [JEITA](https://www.jeita.or.jp/english/) (Japan Electronics and Information Technology Industries Association) gestiona el estándar, mientras que CIPA discute la nueva tecnología y promueve el estándar.
 
-_Leer más: [EXIF Data Explained](https://photographylife.com/what-is-exif-data)_
+_Leer más:_
+* [EXIF (Exchangeable image file format)](https://es.wikipedia.org/wiki/Exchangeable_image_file_format)
+* [EXIF Data Explained](https://photographylife.com/what-is-exif-data)
 
-
-### XMP
+### XMP (eXtensible Metadata Plataform)
 
 
 
