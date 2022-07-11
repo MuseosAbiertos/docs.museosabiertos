@@ -54,34 +54,33 @@ Para este manual creamos una 'hoja de cálculo' con un conjunto de tags 'VRA Cor
 _Los permisos de comentarios están habilitados; eres libre de descargarla o comentar en ella._
 
 
-## Convención de nombres de archivos / Convenciones de nomenclatura de archivos
+## Convención de nombres de archivos
 
-El Catálogo de la Colección Bruzzone utiliza la siguiente convención de nombres
+El catálogo de la Colección Bruzzone utiliza la siguiente convención de nombres en el orden establecido
 
-1. Pais: AR
-2. Institución: MA (Museos Abiertos)
-3. Colección: Bruzzone
-4. Artista: Agerta Antonella (Apellido, Nombre)
-5. Nombre obra: Je suis la
-6. ID objeto: 2014
-7. Numeración objeto: 00
-8. Idioma: EN
+1. Pais: _AR_
+2. Institución: _MA (Museos Abiertos)_
+3. Colección: _Bruzzone_
+4. Artista: _Agerta Antonella (Apellido, Nombre)_
+5. Nombre obra: _Je suis la_
+6. ID objeto: _2014_
+7. Numeración objeto: _00_
+8. Idioma: _EN_
 
 Ejemplo: <code>AR-MA-Bruzzone-Agesta-Antonella-Je-suis-la-2014-00-EN.jpg</code>
 
-* Comienza con información general (a la izquierda) y sea más específico a medida que avanza por el nombre de su archivo, al igual que lo hace en su estructura de carpetas. Esto ayuda a que sus archivos se ordenen de forma lógica, de arriba hacia abajo.
+* Comienza con información general (a la izquierda) y sea más específico a medida que avanza por el nombre de su archivo, al igual que lo hace en su estructura de carpetas. Esto ayuda a que tus archivos se ordenen de forma lógica, de arriba hacia abajo.
 * Considera incluir un prefijo general (cliente, producto) y/o un sufijo específico (número de versión, color).
 * Mantén sus abreviaturas cortas pero significativas, 2-3 letras si es posible, siempre que tengan un significado de sentido común.
 * Usa guiones bajos, guiones o letras mayúsculas o minúsculas para ayudar con la legibilidad, y no use espacios.
-* Los puntos solo deben usarse para separar el nombre del archivo de la extensión de formato (por ejemplo, logotipo.jpg), nunca en el nombre del archivo en sí.
-* Las fechas deben ir año-mes-día (con nuestros sin guiones) para que los archivos se ordenen cronológicamente.
-* Si termina con más de un nombre de archivo similar, use 2-3 puntos numéricos al final y comience con ceros (001, 002). Del mismo modo, si usa números al principio del nombre del archivo, use 2-3 puntos numéricos y comience con ceros para que sus archivos se ordenen correctamente.
-* Al aplicar versiones de archivos, utilice el designador "V" y un número, por ejemplo, "V01".
-* Evita los caracteres especiales (< > | [ ] & $ + \ / : * ? “) para que sus nombres de archivo sean utilizables en la web y compatibles entre plataformas
+* Los puntos solo deben usarse para separar el nombre del archivo de la extensión de formato (por ejemplo, logo.jpg), nunca en el nombre del archivo en sí.
+* Las fechas deben ser en formato [ISO 8601](https://es.wikipedia.org/wiki/ISO_8601) 'año-mes-día', para que los archivos se ordenen cronológicamente. Ejemplo: 2022-12-31
+* Al aplicar versiones de archivos, utilice el designador "v" o "V" y un número, por ejemplo, "v01".
+* Evita los caracteres especiales (< > | [ ] & $ + \ / : * ? “) para que sus nombres de archivo sean utilizables en la web y compatibles entre plataformas.
 * Evita los nombres de archivo demasiado largos. Por ejemplo, la API de Windows impone una longitud máxima de nombre de archivo tal que un nombre de archivo, incluida la ruta de acceso al archivo, no puede exceder entre 255 y 260 caracteres.
-* De utilizar una fecha, esta debe ser en formato [ISO 8601](https://es.wikipedia.org/wiki/ISO_8601). Ejemplo: 2022-12-31
 
-### Otros recursos
+
+### Recursos
 
 * [PhotoMetadata.org](https://www.photometadata.org/META-Resources)
 * [Developing a file naming convention, University of Glasgow](https://edshare.gla.ac.uk/807/1/File_Naming_v2_20200608.pdf)
