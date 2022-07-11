@@ -51,10 +51,26 @@ _Leer más:_
 
 Adobe's Extensible Metadata Platform (XMP) es una tecnología de etiquetado creada por 'Adobe Systems Incorporated' en el año 2001. XMP registra o graba metadatos en una sintaxis formada por un subconjunto de la [W3C](https://www.w3.org/), la cual es escrita en [XML](https://www.w3.org/XML/).
 Fue creado para extender el concepto, creado por EXIF a su gama de productos, ampliándolo a otros tipos de archivo con nuevos y más tipos de datos.
+XMP permite crear nuevos conjuntos de datos para diferentes fines.
 
 ![xmpquote](xmpquote.gif "xmpquote")
 
+Así es que hemos creado un repositorio con un conjunto de presets GLAM: [Adobe Bridge Custom Metadata JSON GLAM Presets](https://github.com/MuseosAbiertos/Adobe-Bridge-Custom-Metadata-JSON-Presets) para el [Custom Metadata Panel](https://github.com/adobe-dmeservices/custom-metadata) de Abobe Bridge.
+Estos presets fueron añadidos a Photoshop e Illustrator, así como con Bridge, InDesign y Premiere Pro a principios de 2022.
+Estaremos agradecidos que los uses y compartas tu experiencia con nosotros !
+
+## Qué hace Museum Metadata Embedder ?
+
+**MME** es muy simple; obtiene datos de un archivo CSV y los incrusta en [todo tipo de imágenes](https://exiftool.org/#supported) y archivos PDF gracias a [ExifTool](https://exiftool.org/) (de Phil Harvey).
+Este script de linea de comandos (CLI) está escrito en Python 3 y tiene una interfase gráfica que nombramos **'gmme'**.
+Utiliza un mapa para relacionar el "Nombre de pantalla" (Encabezado de la columna CSV) y "Nombre de etiqueta", para cada uno de los estándares.
+Una vez instalado puedes usarlo sin configuración previa, pero también puedes modificarlo para tus necesidades.
+Puede tratar cientos o miles de archivos y tiene un sistema de registro sumamente detallado que te permite ver el progreso como así también los errores que puedan ir sucediendo.
+
+Es decir, importa los metadatos desde un archivo CSV. También puedes extraerlos de las imágenes a otros CSV, simplemente ejecutando:
+<code>exiftool -csv test.jpg > test.csv</code>
+o extrayendo solo los metadatos VRA Core
+<code>exiftool -csv -xmp-vrae:all test.jpg > test.csv</code>
 
 
 
- 
