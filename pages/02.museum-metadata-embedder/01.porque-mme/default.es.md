@@ -1,5 +1,5 @@
 ---
-title: 'Porqué MME'
+title: 'Porqué MME [DRAFT]'
 hide_hypothesis: false
 twitterenable: true
 twittercardoptions: summary
@@ -21,12 +21,33 @@ restaurant:
     priceRange: $
 facebookenable: true
 menu: 'Porqué MME'
+media_order: 'EXIF Data Configuration.png'
 ---
 
-Mayormente, las colecciones de objetos se encuentran registradas en hojas de cálculo que listan el contenido de sus colecciones, acompañado por las imágenes que los representan. Es decir que para 'ver' los metadatos de una imagen, se debe contar con una aplicación para hojas de cálculo; si quieres enviarla por email, debes enviar ambos archivos, donde el archivo CSV contiene, normalmente, la totalidad de la colección.
+Mayormente, las colecciones de objetos de arte se encuentran registradas en dos archivos, en hojas de cálculo que listan el contenido de sus colecciones y en imágenes, que los representan. 
+Es decir, que para 'ver' los metadatos de una imagen, se debe contar con una aplicación de hojas de cálculo; si quieres enviarla por email, debes enviar ambos archivos, donde el archivo CSV contiene, normalmente, la totalidad de la colección.
 
-**MME** incrusta los metadatos de modo que ellos siempre se encuentren 'dentro' de la imagen, facilitando la ingestión y simplificando los procesos de registro y difusión.
+## Dónde guardar los metadatos ?
+En el universo GLAM, tradicionalmente, se considera que **una imagen de archivo nunca debe alterarse**, por lo que los metadatos se escriben 'fuera de la imagen', así sea en una base de datos o en un archivo externo (XMP, CSV...). Esta filosofía es la que hoy tienen la mayoría de las aplicaciones, por ejemplo, [Tropy](https://tropy.org/).
 
-Para leer los metadatos 'detallados' de una imagen o un archivo PDF, solo es necesario ejecutar:
-<code>exiftool -a -G1 -s [archivo] </code>
-o utilizar [Adobe Bridge Custom Metadata Panel](https://github.com/adobe-dmeservices/custom-metadata) o un servicio online, como [The Exifer](https://www.thexifer.net/)
+**MME** sigue una filosofía opuesta e incrusta los metadatos, de modo que ellos siempre se encuentren 'dentro' de la imagen, facilitando la ingestión y simplificando los procesos de registro y difusión, aunque no desaconseja 'también' guardarlos en un archivo CSV. De hecho, **MME** incrusta los metadatos a partir de un archivo CSV.
+
+## Porqué escribir los metadatos en las imágenes ?
+
+### EXIF
+La característica principal de Exif es su capacidad para grabar información de la cámara en un archivo de imagen en el punto de captura. Algunos campos de datos comunes incluyen la marca y el modelo de la cámara, su número de serie, la fecha y hora de la captura de la imagen, la velocidad de obturación, la apertura, la lente utilizada y la configuración de la velocidad ISO. Los metadatos Exif a menudo incluyen otros detalles técnicos, como el balance de blancos y la distancia al sujeto.
+
+El estándar Exif fue establecido en 1985 por la JCIA (Japan Camera Industry Association), el predecesor de CIPA (Camera & Imaging Products Association). Hoy en día, [JEITA](https://www.jeita.or.jp/english/) (Japan Electronics and Information Technology Industries Association) gestiona el estándar, mientras que CIPA discute la nueva tecnología y promueve el estándar.
+
+_Leer más: [EXIF Data Explained](https://photographylife.com/what-is-exif-data)_
+
+![EXIF%20Data%20Configuration](EXIF%20Data%20Configuration.png "EXIF%20Data%20Configuration")
+
+### XMP
+
+
+
+XMP
+
+
+ 
