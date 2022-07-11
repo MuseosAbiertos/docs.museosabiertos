@@ -27,6 +27,8 @@ metadata:
     'metadata, exiftool, vra core, dublin core, embedder': ''
 ---
 
+![mme-logo-300](mme-logo-300.jpg "mme-logo-300")
+
 [[versión en español]](https://docs.museosabiertos.org/es/museum-metadata-embedder)
 
 next soon
