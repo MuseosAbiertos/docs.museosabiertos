@@ -1,7 +1,6 @@
 ---
 title: 'Museum Metadata Embedder OLD'
 hide_hypothesis: false
-menu: 'Museum Metadata Embedder'
 twitterenable: true
 twittercardoptions: summary
 articleenabled: false
