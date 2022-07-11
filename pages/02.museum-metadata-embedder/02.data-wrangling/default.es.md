@@ -25,16 +25,25 @@ facebookenable: true
 
 Los datos, en su forma natural (lo que llamamos “Raw Data”), suelen tener errores de registro que imposibilitan un análisis. Al ser registrados por distintos sistemas y personas es normal que terminemos con un archivo en el que un mismo valor esté expresado de distintas maneras (por ejemplo, una fecha puede estar registrada como 28 de Junio, o como 28/06), como pueden haber registros en blanco y por supuesto, errores gramaticales.
 
+"Data Wrangling" puede traducirse al Español como "manipulación de datos", "disputa de datos" o "gestión de datos". Es un término que se usa con frecuencia en distintos procesos del Data Science o Ciencia de Datos y se utiliza para definir el procedimiento que consiste en extraer, transformar y mapear la información.
+
 Al momento de hacer un análisis de esos datos, todos esos registros tienen que preprocesarse. Es decir, se tienen que limpiar, unificar, consolidar y normalizar para que se puedan utilizar y lograr extraer información de valor. De esto se trata el Data Wrangling, de preparar los datos para poder ser aprovechados.
 
 Comúnmente los datos de archivos y catálogos se guardan en archivos separados por comas (CSV), y en menor medida separados por un tabulador (TSV).
 
 Para esta tarea utilizamos principalmente tres herramientas:
-* [Open Refine](https://openrefine.org/)
-* Una planilla de cálculo, como [Google Sheets](https://www.google.com/intl/es_ar/sheets/about/), [Libre Office](https://es.libreoffice.org/), [Microsoft Excel](https://www.microsoft.com/es-ww/microsoft-365/excel) u otros.
-* Herramientas para el cambio de nombre de los archivos, como [Transnomio](https://transnomino.bastiaanverreijt.com/), [A Better Finder Rename](https://www.publicspace.net/ABetterFinderRename/index.html), [KRename](https://apps.kde.org/es/krename/), [Bulk Rename Utility](https://www.bulkrenameutility.co.uk/) u otros.
+
+|                        |                                                                                                                                                                                                                                                                 |
+| ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Data Wrangling         | [Open Refine](https://openrefine.org/)                                                                                                                                                                                                                          |
+| Planilla de cálculo    | [Google Sheets](https://www.google.com/intl/es_ar/sheets/about/), [Libre Office](https://es.libreoffice.org/), [Microsoft Excel](https://www.microsoft.com/es-ww/microsoft-365/excel) entre otros.                                                                  |
+| Renombrado de archivos | [Transnomio](https://transnomino.bastiaanverreijt.com/), [A Better Finder Rename](https://www.publicspace.net/ABetterFinderRename/index.html), [KRename](https://apps.kde.org/es/krename/), [Bulk Rename Utility](https://www.bulkrenameutility.co.uk/) entre otros. |
+|                        |                                                                                                                                                                                                                                                                 |
+
+
 
 ## OpenRefine
+### Recursos seleccionados
 * [Limpieza de datos con OpenRefine; Seth van Hooland, Ruben Verborgh, y Max De Wilde](https://programminghistorian.org/es/lecciones/limpieza-de-datos-con-OpenRefine)
 * [Guía para la limpieza de datos sobre biodiversidad con OpenRefine; Paula F. Zermoglio, Camila A. Plata Corredor, John R. Wieczorek, Ricardo Ortiz Gallego, Leonardo Buitrago. Versión 3.0](https://docs.gbif.org/openrefine-guide/3.0/es/)
 * [Limpieza de bases de datos con OpenRefine; Claudia Báez – CdR-LAB](https://fundacionperiodismo.org/formacion-dual/wp-content/uploads/2018/10/Limpieza-de-datos-con-Open-Refine.pdf)
@@ -42,7 +51,7 @@ Para esta tarea utilizamos principalmente tres herramientas:
 
 
 ## Google Sheets
-Para este manual hemos creado una 'hoja de cálculo' con un conjunto de tags 'VRA Core' y 'Dublin Core' y datos, provenientes de la 'Colección Bruzzone' que nos servirán de guía: [Museum Metadata Embedder dataset](https://docs.google.com/spreadsheets/d/1k9P2fkDYwJ8bVRJMhavEeiJyV-49ZRujuFBtLyGAjdg/), la cual contiene varias formulas y hojas de soporte.
+Para este manual creamos una 'hoja de cálculo' con un conjunto de tags 'VRA Core' y 'Dublin Core' y datos, provenientes de la 'Colección Bruzzone' que nos servirán de guía: [Museum Metadata Embedder dataset](https://docs.google.com/spreadsheets/d/1k9P2fkDYwJ8bVRJMhavEeiJyV-49ZRujuFBtLyGAjdg/), la cual no solo es utilizada para contener los datos, sino para aplicar varias formulas y hojas de soporte y traducción de cadenas de texto.
 _Los permisos de comentarios están habilitados; eres libre de descargarla o comentar en ella._
 
 
@@ -59,7 +68,7 @@ El Catálogo de la Colección Bruzzone utiliza la siguiente convención de nombr
 7. Numeración objeto: 00
 8. Idioma: EN
 
-_Ejemplo: AR-MA-Bruzzone-Agesta-Antonella-Je-suis-la-2014-00-EN.jpg_
+Ejemplo: <code>AR-MA-Bruzzone-Agesta-Antonella-Je-suis-la-2014-00-EN.jpg</code>
 
 * Comienza con información general (a la izquierda) y sea más específico a medida que avanza por el nombre de su archivo, al igual que lo hace en su estructura de carpetas. Esto ayuda a que sus archivos se ordenen de forma lógica, de arriba hacia abajo.
 * Considera incluir un prefijo general (cliente, producto) y/o un sufijo específico (número de versión, color).
@@ -73,14 +82,10 @@ _Ejemplo: AR-MA-Bruzzone-Agesta-Antonella-Je-suis-la-2014-00-EN.jpg_
 * Evita los nombres de archivo demasiado largos. Por ejemplo, la API de Windows impone una longitud máxima de nombre de archivo tal que un nombre de archivo, incluida la ruta de acceso al archivo, no puede exceder entre 255 y 260 caracteres.
 * De utilizar una fecha, esta debe ser en formato [ISO 8601](https://es.wikipedia.org/wiki/ISO_8601). Ejemplo: 2022-12-31
 
-a
+### Otros recursos
 
+* [PhotoMetadata.org](https://www.photometadata.org/META-Resources)
 * [Developing a file naming convention, University of Glasgow](https://edshare.gla.ac.uk/807/1/File_Naming_v2_20200608.pdf)
 * [Best Practice for Naming Electronic Files, The J. Paul Getty Trust](https://files.archivists.org/groups/museum/standards/3.%20Records%20Management/Getty%20Records%20Management%20User%20Guides.pdf)
 * [Controlled Vocabulary. “Recommendations for Limitations on Image Filenaming.”](http://www.controlledvocabulary.com/imagedatabases/filename_limits.html)
 
-
-### Otros recursos
-
-* [PhotoMetadata.org](https://www.photometadata.org/META-Resources)
-* 
