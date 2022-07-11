@@ -38,7 +38,6 @@ Para esta tarea utilizamos principalmente tres herramientas:
 | Data Wrangling         | [Open Refine](https://openrefine.org/)                                                                                                                                                                                                                          |
 | Planilla de cálculo    | [Google Sheets](https://www.google.com/intl/es_ar/sheets/about/), [Libre Office](https://es.libreoffice.org/), [Microsoft Excel](https://www.microsoft.com/es-ww/microsoft-365/excel) entre otros.                                                                  |
 | Renombrado de archivos | [Transnomio](https://transnomino.bastiaanverreijt.com/), [A Better Finder Rename](https://www.publicspace.net/ABetterFinderRename/index.html), [KRename](https://apps.kde.org/es/krename/), [Bulk Rename Utility](https://www.bulkrenameutility.co.uk/) entre otros. |
-|                        |                                                                                                                                                                                                                                                                 |
 
 
 
