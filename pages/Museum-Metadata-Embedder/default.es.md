@@ -22,7 +22,7 @@ restaurant:
     priceRange: $
 facebookenable: true
 published: true
-media_order: 'Logo Banco Hipotecario.jpg,Logo Techniques.jpg,Logo Mecenazgo 2021 negro ch.png,DO_Logo_Horizontal_Blue.png,mme-logo-300.jpg'
+media_order: 'Logo Mecenazgo 2021 negro ch.png,Logo Banco Hipotecario.jpg,Logo Techniques.jpg,DO_Logo_Horizontal_Blue.png,mme-logo-300.jpg'
 metadata:
     'metadata, exiftool, vra core, dublin core, embedder': ''
 ---
