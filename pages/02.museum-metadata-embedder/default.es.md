@@ -1,5 +1,5 @@
 ---
-title: 'Museum Metadata Embedder OLD'
+title: 'Museum Metadata Embedder'
 hide_hypothesis: false
 twitterenable: true
 twittercardoptions: summary
