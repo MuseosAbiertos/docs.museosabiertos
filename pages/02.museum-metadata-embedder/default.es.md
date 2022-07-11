@@ -36,7 +36,7 @@ Incrusta (escribe) metadatos -[Dublin Core](https://dublincore.org/specification
 
 ## Uso
 <code>python mme.py RUTA_CSV RUTA_IMAGES</code>
-Argumentos posicionales: RUTA_CSV ruta para el archivo CSV a procesar. JPGS_PATH ruta de acceso a los archivos JPG.
+Argumentos posicionales: RUTA_CSV ruta para el archivo CSV a procesar. RUTA_JPGS ruta de acceso a los archivos JPG.
 Ejemplo: <code> python3 mme.py csv/test.csv images/</code>
 
 ### Opciones
