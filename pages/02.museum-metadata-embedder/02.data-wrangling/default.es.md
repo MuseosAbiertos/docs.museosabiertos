@@ -56,7 +56,7 @@ _Los permisos de comentarios están habilitados; eres libre de descargarla o com
 
 ## Convención de nombres de archivos
 
-El catálogo de la Colección Bruzzone utiliza la siguiente convención de nombres en el orden establecido
+El catálogo de la Colección Bruzzone utiliza la siguiente convención:
 
 1. Pais: _AR_
 2. Institución: _MA (Museos Abiertos)_
