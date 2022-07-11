@@ -1,7 +1,7 @@
 ---
 title: 'Editor de metadatos para la descripción archivística'
 menu: 'Editor de metadatos GLAM'
-media_order: 'logo-mecenazgo.jpg,logo-editor.png,MA-sample-id-2498680.jpg,logo-mecenazgo-web.jpg,emm-button-large.jpg'
+media_order: 'logo-mecenazgo.jpg,logo-editor.png,MA-sample-id-2498680.jpg,logo-mecenazgo-web.jpg,emm-button-large.jpg,jExifToolGUI icon.png'
 sitemap:
     ignore: false
 twitterenable: true
@@ -35,7 +35,7 @@ external_links:
     no_follow: false
 ---
 
-![Editor de metadatos para la descripción archivística](logo-editor.png?resize=400,200) 
+![jExifToolGUI%20icon](jExifToolGUI%20icon.png "jExifToolGUI%20icon")
 
 Este editor multiplataforma es una interfaz gráfica para la edición de metadatos de registros de colecciones con las normas [EXIF](https://docs.fileformat.com/image/exif/), [IPTC](https://iptc.org/standards/photo-metadata/), [XMP](https://www.adobe.com/products/xmp.html), GPS y extendido a [Dublin Core](https://dublincore.org/specifications/dublin-core/), [ISAD(G) 2000](https://www.ica.org/sites/default/files/CBPS_2000_Guidelines_ISAD%28G%29_Second-edition_EN.pdf) y [VRA Core](https://core.vraweb.org/).
 
@@ -44,7 +44,7 @@ Este editor multiplataforma es una interfaz gráfica para la edición de metadat
 
 
 ## Objetivo
-Esta herramienta de edición de metadatos -de unidades documentales- ayuda a implementar los normas internacionales -dentro del modelo conceptual OAIS [http://www.oais.info].- en una única interfase, donde los metadatos se 'embeben' en los documentos, evitando así la dispersión de soluciones y colaborando con la estandarización y aceleración de los procesos de registro de colecciones.
+Esta herramienta de edición de metadatos ayuda a implementar los normas internacionales -dentro del modelo OAIS [http://www.oais.info].- en una única interfase, donde los metadatos se 'incrustan' en los documentos, evitando así la dispersión de soluciones y colaborando con la estandarización y aceleración de los procesos de registro de colecciones.
 
 Es especialmente útil para pequeñas organizaciones sin sistemas de administración de activos digitales y organizaciones grandes con muchos contribuyentes individuales. Los metadatos pueden luego transferirse al sistema de gestión de activos digitales.
 
