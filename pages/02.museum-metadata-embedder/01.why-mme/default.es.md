@@ -37,11 +37,11 @@ Sin embargo, esta presunción es errónea, dado que EXIF o XMP, si bien graban l
 ## Porqué escribir los metadatos en las imágenes ?
 
 ### EXIF (Exchangeable Image File Format)
+El estándar Exif fue establecido en 1985 por la JCIA (Japan Camera Industry Association), el predecesor de CIPA (Camera & Imaging Products Association). Hoy en día, [JEITA](https://www.jeita.or.jp/english/) (Japan Electronics and Information Technology Industries Association) gestiona el estándar, mientras que CIPA discute la nueva tecnología y promueve el estándar.
+
 La característica principal de Exif es su capacidad para grabar información de la cámara en un archivo de imagen en el punto de captura. Algunos campos de datos comunes incluyen la marca y el modelo de la cámara, su número de serie, la fecha y hora de la captura de la imagen, la velocidad de obturación, la apertura, la lente utilizada y la configuración de la velocidad ISO. Los metadatos Exif a menudo incluyen otros detalles técnicos, como el balance de blancos y la distancia al sujeto.
 
 ![EXIF%20Data%20Configuration](EXIF%20Data%20Configuration.png "EXIF%20Data%20Configuration")
-
-El estándar Exif fue establecido en 1985 por la JCIA (Japan Camera Industry Association), el predecesor de CIPA (Camera & Imaging Products Association). Hoy en día, [JEITA](https://www.jeita.or.jp/english/) (Japan Electronics and Information Technology Industries Association) gestiona el estándar, mientras que CIPA discute la nueva tecnología y promueve el estándar.
 
 Leer más:
 * [EXIF](https://es.wikipedia.org/wiki/Exchangeable_image_file_format)
