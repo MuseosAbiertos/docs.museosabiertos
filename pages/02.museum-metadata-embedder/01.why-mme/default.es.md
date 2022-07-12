@@ -1,5 +1,5 @@
 ---
-title: 'Porqué MME [ES]'
+title: 'Porqué MME ?'
 hide_hypothesis: false
 twitterenable: true
 twittercardoptions: summary
