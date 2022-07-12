@@ -42,13 +42,17 @@ Argumentos posicionales: RUTA_CSV ruta para el archivo CSV a procesar. RUTA_JPGS
 Ejemplo: <code> python3 mme.py csv/test.csv images/</code>
 
 ### Opciones
--h, --help mostrar este mensaje de ayuda y salir
+-h, (--help)
+    Mostrar este mensaje de ayuda y salir
 
--r ROW_PROGRESS_NOTIFY, --row-progress-notify ROW_PROGRESS_NOTIFY: mostrar el número de filas entre las notificaciones de progreso. 100 por defecto.
+-r ROW_PROGRESS_NOTIFY (--row-progress-notify ROW_PROGRESS_NOTIFY)
+    Mostrar el número de filas entre las notificaciones de progreso. 100 por defecto.
 
--n NOTIFY_BROKEN_KEYS, --notify-broken-keys NOTIFY_BROKEN_KEYS: Notificar sobre claves rotas/faltantes en el CSV. Falso por defecto.
+-n NOTIFY_BROKEN_KEYS (--notify-broken-keys NOTIFY_BROKEN_KEYS)
+    Notificar sobre claves rotas/faltantes en el CSV. Falso por defecto.
 
--m MAX_DEPTH, --max-depth MAX_DEPTH: Profundidad máxima de las sub-carpetas para buscar JPGS. 3 por defecto.
+-m MAX_DEPTH (--max-depth MAX_DEPTH)
+    Profundidad máxima de las sub-carpetas para buscar JPGS. 3 por defecto.
 
 ### GMME (Interfaz gráfica)
 'gmme' es la versión gráfica de mme.py. Es un script de python3 (solamente). No acepta argumentos.
