@@ -1,5 +1,5 @@
 ---
-title: 'Museum Metadata Embedder EN'
+title: 'Museum Metadata Embedder'
 hide_hypothesis: false
 menu: 'Museum Metadata Embedder'
 twitterenable: true
