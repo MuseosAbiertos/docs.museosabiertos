@@ -1,5 +1,5 @@
 ---
-title: 'Porqué MME [DRAFT]'
+title: 'Porqué MME [EN]'
 hide_hypothesis: false
 twitterenable: true
 twittercardoptions: summary
@@ -24,6 +24,7 @@ menu: 'Porqué MME'
 media_order: 'EXIF Data Configuration.png,xmpquote.gif'
 ---
 
+EN
 Mayormente, las colecciones de objetos de arte se encuentran registradas en dos archivos, en hojas de cálculo que listan el contenido de sus colecciones y en imágenes, que los representan. 
 Es decir, que para 'ver' los metadatos de una imagen, se debe contar con una aplicación de hojas de cálculo; si quieres enviarla por email, debes enviar ambos archivos, donde el archivo CSV contiene, normalmente, la totalidad de la colección.
 
