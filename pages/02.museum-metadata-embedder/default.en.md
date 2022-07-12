@@ -75,7 +75,7 @@ Use:
 **MME** uses a JSON map to map the _"Display Name" (CSV Column Header) <-> "Label Name"_, for each of the standards. The file must be located inside the 'data' directory, in a JSON file named 'maps.json'.
 This file can be edited to add new tags.
 
-Only the headers (first row of the spreadsheet) need to be edited to fit the schema. This may involve splitting some columns to fit the schema, adding columns, and other edits. All of this is probably easier, faster and more accurate to do in a spreadsheet.
+Only the headers (first row of the spreadsheet) needs to be edited to fit the schema. This may involve splitting some columns to fit the schema, adding columns, and other edits. All of this is probably easier, faster and more accurate to do in a spreadsheet.
 
 ### System requirements
 |          |                                             |
@@ -94,7 +94,7 @@ https://github.com/MuseosAbiertos/Museum-Metadata-Embedder
 ** **Sebastián Gersbach**, for the logo design and the icon package
 * **Centro de Documentación de Bienes Patrimoniales de Chile** [https://www.aatespanol.cl/]
 
-## Sponsors/Mecenas
+## Patrons
 This application has been made possible thanks to the Cultural Patronage program of the Autonomous City of Buenos Aires, Argentina.
 
 ![Logo%20Mecenazgo%202021%20negro%20ch](Logo%20Mecenazgo%202021%20negro%20ch.png "Logo%20Mecenazgo%202021%20negro%20ch")
