@@ -20,7 +20,7 @@ restaurant:
     acceptsReservations: 'yes'
     priceRange: $
 facebookenable: true
-menu: 'Porqué MME'
+menu: 'Why MME'
 media_order: 'EXIF Data Configuration.png,xmpquote.gif'
 ---
 
