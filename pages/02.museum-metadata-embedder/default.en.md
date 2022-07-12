@@ -41,16 +41,17 @@ Positional arguments: CSV_PATH path to the CSV file to be processed. JPGS_PATH p
 Example: <code> python3 mme.py csv/test.csv images/</code>
 
 ### Options
--h, --help show this help message and exit.
+-h (--help)
+    Show this help message and exit.
 
---row-progress-notify ROW_PROGRESS_NOTIFY, -r ROW_PROGRESS_NOTIFY
-the number of rows between progress notifications. 100 by default.
+-r ROW_PROGRESS_NOTIFY (--row-progress-notify ROW_PROGRESS_NOTIFY)
+    The number of rows between progress notifications. 100 by default.
 
---notify-broken-keys NOTIFY_BROKEN_KEYS, -n NOTIFY_BROKEN_KEYS
-Notify about broken/missing keys in the CSV. False by default.
+-n NOTIFY_BROKEN_KEYS (--notify-broken-keys NOTIFY_BROKEN_KEYS)
+    Notify about broken/missing keys in the CSV. False by default.
 
---max-depth MAX_DEPTH, -m MAX_DEPTH
-Maximum depth of subfolders to search for JPGS. 3 by default.
+-m MAX_DEPTH (--max-depth MAX_DEPTH)
+    Maximum depth of subfolders to search for JPGS. 3 by default.
 
 ### GMME (GUI)
 gmme' is the graphical version of mme.py. It is a python3 script (only). It does not accept arguments.
