@@ -23,7 +23,7 @@ restaurant:
 facebookenable: true
 ---
 
-Los datos, en su forma natural (lo que llamamos “Raw Data”), suelen tener errores de registro que imposibilitan un análisis. Al ser registrados por distintos sistemas y personas es normal que terminemos con un archivo en el que un mismo valor esté expresado de distintas maneras (por ejemplo, una fecha puede estar registrada como 28 de Junio, o como 28/06), como pueden haber registros en blanco y por supuesto, errores gramaticales.
+Data, in its natural state ("Raw Data"), often have recording errors that make it difficult to analyze. As they are recorded by different systems and people, it is normal that we end up with a file in which the same value is expressed in different ways (for example, a date may be recorded as June 28, or as 28/06), as there may be blank records and of course, grammatical errors.
 
 "Data Wrangling" puede traducirse al Español como "manipulación de datos", "disputa de datos" o "gestión de datos". Es un término que se usa con frecuencia en distintos procesos del Data Science o Ciencia de Datos y se utiliza para definir el procedimiento que consiste en extraer, transformar y mapear la información.
 
