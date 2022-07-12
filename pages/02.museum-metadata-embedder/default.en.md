@@ -71,35 +71,35 @@ Use:
 | images/vrae_exiftool_example.tiff | VRA Core sample file                                       |
 |                                   |                                                                   |
 
-### Configuración personalizada
-**MME** utiliza un mapa JSON para mapear el _"Nombre de pantalla" (Encabezado de la columna CSV) <-> "Nombre de etiqueta"_, para cada uno de los estándares. El archivo debe encontrarse dentro del directorio 'data', en un archivo JSON llamado 'maps.json'.
-Este archivo se puede editar para agregar nuevas etiquetas.
+### Custom configuration
+**MME** uses a JSON map to map the _"Display Name" (CSV Column Header) <-> "Label Name"_, for each of the standards. The file must be located inside the 'data' directory, in a JSON file named 'maps.json'.
+This file can be edited to add new tags.
 
-Sólo es necesario editar las cabeceras (primera fila de la hoja de cálculo) para que se ajusten al esquema. Esto puede implicar la división de algunas columnas para ajustarse al esquema, la adición de columnas y otras ediciones. Todo esto es probablemente más fácil, más rápido y más preciso de hacer en una hoja de cálculo.
+Only the headers (first row of the spreadsheet) need to be edited to fit the schema. This may involve splitting some columns to fit the schema, adding columns, and other edits. All of this is probably easier, faster and more accurate to do in a spreadsheet.
 
-### Requerimientos del sistema
+### System requirements
 |          |                                             |
 | -------- | ------------------------------------------- |
 | Perl     | https://www.activestate.com/products/perl/  |
 | Python 3 | https://www.python.org/downloads/ |
 
-## Descarga
+## Download
 https://github.com/MuseosAbiertos/Museum-Metadata-Embedder
 
-## Agradecimientos
-* **Harry van der Wolf**, por su inestimable colaboración y la creación de la interfaz gráfica (GUI) y sus ejecutables multiplataforma
-* **Greg Reser**, por todo su apoyo y colaboración en esta implementación de VRA Core
-* **Phil Harvey**, por su maravilloso ExifTool, que pronto cumplirá 30 años!
-* **Jairo Serrano**, amigo y estimado SysOp que logra que todo funcione sin romperse y lo repara cuando se rompe
-* **Sebastián Gersbach**, por el diseño del logo y el paquete de iconos
+## Acknowledgments
+* Harry van der Wolf**, for his invaluable collaboration and creation of the graphical user interface (GUI) and its cross-platform executables
+** **Greg Reser**, for all his support and collaboration on this VRA Core implementation
+** **Phil Harvey**, for his marvelous ExifTool, soon to be 30 years old!
+** **Jairo Serrano**, friend and estimated SysOp who makes everything work without breaking and fixes it when it does break
+** **Sebastián Gersbach**, for the logo design and the icon package
 * **Centro de Documentación de Bienes Patrimoniales de Chile** [https://www.aatespanol.cl/]
 
 ## Sponsors/Mecenas
-Esta aplicación ha sido posible gracias al programa de Mecenazgo Cultural de la Ciudad Autónoma de Buenos Aires, Argentina
+This application has been made possible thanks to the Cultural Patronage program of the Autonomous City of Buenos Aires, Argentina.
 
 ![Logo%20Mecenazgo%202021%20negro%20ch](Logo%20Mecenazgo%202021%20negro%20ch.png "Logo%20Mecenazgo%202021%20negro%20ch")
 
-y especialmente a nuestros mecenas
+and especially to our sponsors
 
 Banco Hipotecario https://www.hipotecario.com.ar
 Techniques & Supplies https://www.techniques.com.ar
