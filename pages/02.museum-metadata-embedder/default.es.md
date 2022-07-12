@@ -34,11 +34,6 @@ Incrusta (escribe) metadatos -[Dublin Core](https://dublincore.org/specification
 
 Incrusta (escribe) metadatos de un archivo CSV normalizado a
 
-
-
-
-
-
 **MME** es una aplicación de línea de comandos Python 3, que utiliza [ExifTool](https://exiftool.org/) (de Phil Harvey) y también tiene una interfaz gráfica, ejecutable en Linux, MacOS y Windows.
 
 ## Uso
@@ -49,14 +44,11 @@ Ejemplo: <code> python3 mme.py csv/test.csv images/</code>
 ### Opciones
 -h, --help mostrar este mensaje de ayuda y salir
 
---row-progress-notify ROW_PROGRESS_NOTIFY, -r ROW_PROGRESS_NOTIFY
-el número de filas entre las notificaciones de progreso. 100 por defecto.
+-r ROW_PROGRESS_NOTIFY, --row-progress-notify ROW_PROGRESS_NOTIFY: mostrar el número de filas entre las notificaciones de progreso. 100 por defecto.
 
---notify-broken-keys NOTIFY_BROKEN_KEYS, -n NOTIFY_BROKEN_KEYS
-Notificar sobre claves rotas/faltantes en el CSV. Falso por defecto.
+-n NOTIFY_BROKEN_KEYS, --notify-broken-keys NOTIFY_BROKEN_KEYS: Notificar sobre claves rotas/faltantes en el CSV. Falso por defecto.
 
---max-depth MAX_DEPTH, -m MAX_DEPTH
-Profundidad máxima de las sub-carpetas para buscar JPGS. 3 por defecto.
+-m MAX_DEPTH, --max-depth MAX_DEPTH: Profundidad máxima de las sub-carpetas para buscar JPGS. 3 por defecto.
 
 ### GMME (Interfaz gráfica)
 'gmme' es la versión gráfica de mme.py. Es un script de python3 (solamente). No acepta argumentos.
