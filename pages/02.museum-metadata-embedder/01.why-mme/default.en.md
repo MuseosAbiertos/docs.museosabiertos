@@ -55,7 +55,7 @@ XMP allows the creation of new data sets for different purposes.
 
 ![xmpquote](xmpquote.gif "xmpquote")
 
-So we have created a repository with a set of GLAM presets: [Adobe Bridge Custom Metadata JSON GLAM Presets](https://github.com/MuseosAbiertos/Adobe-Bridge-Custom-Metadata-JSON-Presets) for Abobe Bridge's [Custom Metadata Panel](https://github.com/adobe-dmeservices/custom-metadata).
+In '[Museos Abiertos](http://museosabiertos.org/)' we have created a repository with a set of GLAM presets: [Adobe Bridge Custom Metadata JSON GLAM Presets](https://github.com/MuseosAbiertos/Adobe-Bridge-Custom-Metadata-JSON-Presets) for Abobe Bridge's [Custom Metadata Panel](https://github.com/adobe-dmeservices/custom-metadata).
 These presets were added to Photoshop and Illustrator, as well as with Bridge, InDesign and Premiere Pro in early 2022.
 We will be grateful if you use them and share your experience with us !
 
