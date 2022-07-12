@@ -1,7 +1,7 @@
 ---
-title: 'Data Wrangling'
+title: 'Manipulación de datos'
 hide_hypothesis: false
-menu: 'Data Wrangling'
+menu: 'Manipulación de datos'
 twitterenable: true
 twittercardoptions: summary
 articleenabled: false
