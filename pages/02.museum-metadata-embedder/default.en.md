@@ -40,35 +40,35 @@ Embed (write) metadata - [Dublin Core](https://dublincore.org/specifications/dub
 Positional arguments: CSV_PATH path to the CSV file to be processed. JPGS_PATH path to the JPG files.
 Example: <code> python3 mme.py csv/test.csv images/</code>
 
-### Opciones
--h, --help mostrar este mensaje de ayuda y salir
+### Options
+-h, --help show this help message and exit.
 
 --row-progress-notify ROW_PROGRESS_NOTIFY, -r ROW_PROGRESS_NOTIFY
-el número de filas entre las notificaciones de progreso. 100 por defecto
+the number of rows between progress notifications. 100 by default.
 
 --notify-broken-keys NOTIFY_BROKEN_KEYS, -n NOTIFY_BROKEN_KEYS
-Notificar sobre claves rotas/faltantes en el CSV. Falso por defecto.
+Notify about broken/missing keys in the CSV. False by default.
 
 --max-depth MAX_DEPTH, -m MAX_DEPTH
-Profundidad máxima de las subcarpetas para buscar JPGS. 3 por defecto
+Maximum depth of subfolders to search for JPGS. 3 by default.
 
-### GMME (Interfaz gráfica)
-'gmme' es la versión gráfica de mme.py. Es un script de python3 (solamente). No acepta argumentos.
+### GMME (GUI)
+gmme' is the graphical version of mme.py. It is a python3 script (only). It does not accept arguments.
 
-Uso:
+Use:
 <code>python3 gmme.py & </code>
 
-### Archivos del repositorio
-| Path                              | Descripción                                                       |
+### Repository files
+| Path                              | Description                                                       |
 | :-------------------------------- | :---------------------------------------------------------------- |
-| csv/                               | Carpeta sugerida para alojar los archivos CSV                     |
-| csv/test.csv                      | Archivo CSV de prueba para la primera ejecución y test            |
-| exiftool/                          | Ejecutable exiftool                                               |
-| data/exiftool_configs/             | Archivos de configuración para ExifTool                           |
-| data/notion_maps_txts/             | Carpeta interna de trabajo -no es obligatoria-                    |
-| data/maps.json                    | Mapa de relacion entre cabeceras del CSV y las etiquetas ExifTool |
-| images/                            | Archivos de prueba para la primera ejecución y test               |
-| images/vrae_exiftool_example.tiff | Archivo de ejemplo VRA Core                                       |
+| csv/                               | Suggested folder for hosting CSV files                     |
+| csv/test.csv                      | CSV test file for the first run and test            |
+| exiftool/                          | Exiftool executable                                               |
+| data/exiftool_configs/             | Configuration files for ExifTool                           |
+| data/notion_maps_txts/             | Internal work folder -not mandatory-.                    |
+| data/maps.json                    | Relationship map between CSV headers and ExifTool tags |
+| images/                            | Test files for first run and test               |
+| images/vrae_exiftool_example.tiff | VRA Core sample file                                       |
 |                                   |                                                                   |
 
 ### Configuración personalizada
