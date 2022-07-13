@@ -64,9 +64,9 @@ When a command is not working you can launch it in verbose mode, there are 5 dif
 
 ### 🔥 Ver dónde se almacena la información
 
-```s
+`
 exiftool -a -G1 -s img.tif
-```
+`
 
 ### Extraer absolutamente todos los metadatos de un archivo
 
