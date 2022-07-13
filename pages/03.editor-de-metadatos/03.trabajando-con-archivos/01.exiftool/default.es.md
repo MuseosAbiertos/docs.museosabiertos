@@ -20,6 +20,7 @@ restaurant:
     acceptsReservations: 'yes'
     priceRange: $
 facebookenable: true
+menu: ExifTool
 ---
 
 # Referencias
