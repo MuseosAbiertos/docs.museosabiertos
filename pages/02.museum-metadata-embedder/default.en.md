@@ -59,25 +59,6 @@ gmme' is the graphical version of mme.py. It is a python3 script (only). It does
 Use:
 <code>python3 gmme.py & </code>
 
-### Repository files
-| Path                              | Description                                                       |
-| :-------------------------------- | :---------------------------------------------------------------- |
-| csv/                               | Suggested folder for hosting CSV files                     |
-| csv/test.csv                      | CSV test file for the first run and test            |
-| exiftool/                          | Exiftool executable                                               |
-| data/exiftool_configs/             | Configuration files for ExifTool                           |
-| data/notion_maps_txts/             | Internal work folder -not mandatory-.                    |
-| data/maps.json                    | Relationship map between CSV headers and ExifTool tags |
-| images/                            | Test files for first run and test               |
-| images/vrae_exiftool_example.tiff | VRA Core sample file                                       |
-|                                   |                                                                   |
-
-### Custom configuration
-**MME** uses a JSON map to map the _"Display Name" (CSV Column Header) <-> "Label Name"_, for each of the standards. The file must be located inside the 'data' directory, in a JSON file named 'maps.json'.
-This file can be edited to add new tags.
-
-Only the headers (first row of the spreadsheet) needs to be edited to fit the schema. This may involve splitting some columns to fit the schema, adding columns, and other edits. All of this is probably easier, faster and more accurate to do in a spreadsheet.
-
 ## Download
 https://github.com/MuseosAbiertos/Museum-Metadata-Embedder
 
@@ -94,6 +75,26 @@ https://github.com/MuseosAbiertos/Museum-Metadata-Embedder
 | -------- | ------------------------------------------- |
 | Perl     | https://www.activestate.com/products/perl/  |
 | Python 3 | https://www.python.org/downloads/ |
+
+    
+### Custom configuration
+**MME** uses a JSON map to map the _"Display Name" (CSV Column Header) <-> "Label Name"_, for each of the standards. The file must be located inside the 'data' directory, in a JSON file named 'maps.json'.
+This file can be edited to add new tags.
+
+Only the headers (first row of the spreadsheet) needs to be edited to fit the schema. This may involve splitting some columns to fit the schema, adding columns, and other edits. All of this is probably easier, faster and more accurate to do in a spreadsheet.
+
+### Repository files
+| Path                              | Description                                                       |
+| :-------------------------------- | :---------------------------------------------------------------- |
+| csv/                               | Suggested folder for hosting CSV files                     |
+| csv/test.csv                      | CSV test file for the first run and test            |
+| exiftool/                          | Exiftool executable                                               |
+| data/exiftool_configs/             | Configuration files for ExifTool                           |
+| data/notion_maps_txts/             | Internal work folder -not mandatory-.                    |
+| data/maps.json                    | Relationship map between CSV headers and ExifTool tags |
+| images/                            | Test files for first run and test               |
+| images/vrae_exiftool_example.tiff | VRA Core sample file                                       |
+|                                   |                                                                   |
 
 
 ## Acknowledgments
