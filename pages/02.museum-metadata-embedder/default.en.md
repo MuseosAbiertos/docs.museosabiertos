@@ -59,6 +59,8 @@ gmme' is the graphical version of mme.py. It is a python3 script (only). It does
 Use:
 <code>python3 gmme.py & </code>
 
+## Tags
+Embedded Metadata, Access to Digital Image Files, Open Content, Open Data, Metadata editor, Heritage
 
 ## Acknowledgments
 * Harry van der Wolf**, for his invaluable collaboration and creation of the graphical user interface (GUI) and its cross-platform executables
