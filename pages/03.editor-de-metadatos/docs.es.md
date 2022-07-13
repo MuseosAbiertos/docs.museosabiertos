@@ -83,8 +83,7 @@ Este desarrollo se apoya en estándares y software de código abierto de tercera
 * [JRE (Java Runtime Environment)](https://adoptopenjdk.net/releases.html)
 
 ### Documentación
-* [Planilla de documentación de estándares](https://docs.google.com/spreadsheets/d/1lgJ7bgF3YWYn6RpQe6xPpc2lPtMmsKxhdoTDaipEz4M/edit#gid=1070734913)
-* [Issues](https://app.asana.com/0/1199531865244213/board)
+* [Planilla de documentación de estándares GLAM](https://docs.google.com/spreadsheets/d/1lgJ7bgF3YWYn6RpQe6xPpc2lPtMmsKxhdoTDaipEz4M/edit#gid=1070734913)
 
 ## Proyectos similares
 * [Custom Metadata Panel for Bridge](https://github.com/adobe-dmeservices/custom-metadata)
