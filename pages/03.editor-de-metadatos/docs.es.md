@@ -87,9 +87,7 @@ Este desarrollo se apoya en estándares y software de código abierto de tercera
 * [Planilla de documentación de estándares](https://docs.google.com/spreadsheets/d/1lgJ7bgF3YWYn6RpQe6xPpc2lPtMmsKxhdoTDaipEz4M/edit#gid=1070734913)
 * [Issues](https://app.asana.com/0/1199531865244213/board)
 
-
 ## Proyectos similares
-* [jExifToolGUI](https://github.com/hvdwolf/jExifToolGUI)
 * [Custom Metadata Panel for Bridge](https://github.com/adobe-dmeservices/custom-metadata)
 * [IPTC Releases Cultural Heritage Panel for Metadata Management](https://iptc.org/news/culturalheritagepanel/)
 * [Tropy](https://tropy.org/)
@@ -97,18 +95,13 @@ Este desarrollo se apoya en estándares y software de código abierto de tercera
 ## Proyectos relacionados
 * [Metadata Extraction Tool](http://meta-extractor.sourceforge.net/)
 * [JHOVE](http://jhove.openpreservation.org/)
-
-
-[![emm-button-large](emm-button-large.jpg "emm-button-large")
-](http://www.embeddedmetadata.org/goto?supportsemm)
+* [Embedded Metadata](http://www.embeddedmetadata.org/goto?supportsemm)
 
 ---
-
 [![](logo-mecenazgo-web.jpg)](https://www.buenosaires.gob.ar/mecenazgo)
 
-Expediente: 19029867
+|                                                                                                                                |                                                                                                                         |                                                                                                                                 |
+| ------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| ![Logo Banco Hipotecario](https://user-images.githubusercontent.com/693328/175657136-2524d56b-a0a8-493d-b96c-d84c7c5ef468.jpg) | ![Logo Techniques](https://user-images.githubusercontent.com/693328/175666054-1ca8f020-2c31-448e-8e9d-b6f2e26811e6.jpg) | ![DO_Logo_Horizontal_Blue](https://user-images.githubusercontent.com/693328/176058383-2fa26c85-a67b-4065-8707-451a0e4daa45.png) |
 
-## Los contribuyentes pueden ser mecenas de la cultura
-Quienes tributen el impuesto sobre los Ingresos Brutos pueden destinar parte del pago de los mismos para financiar proyectos culturales.
-https://www.buenosaires.gob.ar/cultura/mecenazgo/informacion-para-contribuyentes
 
