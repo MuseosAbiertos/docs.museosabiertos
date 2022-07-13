@@ -60,44 +60,28 @@ menu: ExifTool
 When a command is not working you can launch it in verbose mode, there are 5 different levels of verbosity, level 0 means no verbosity
 
 ## For more: <https://exiftool.org/Shift.html>
-
-
-### 🔥 Ver dónde se almacena la información
-
-`
-exiftool -a -G1 -s img.tif
-`
-
-### Extraer absolutamente todos los metadatos de un archivo
-
-```s
-exiftool -ee3 -U -G3:1 -api requestall=3 -api largefilesupport ARCHIVO
-```
-
-### 🔥 Validar / repair imagenes
-
-```s
-exiftool -validate -warning -error -a test.jpg
-```
-
-#### 🔥 Validar / repair imagenes recursivo
-```s
-exiftool -validate -warning -error -a  -ext jpg /Users/mrtn/Desktop/csv2exif/images/*
-```
+|                                           |                                                                                         |
+| ----------------------------------------- | --------------------------------------------------------------------------------------- |
+| 🔥 Ver dónde se almacena los metadatos   | `exiftool -a -G1 -s img.tif`                                                            |
+| Extraer todos los metadatos de un archivo | `exiftool -ee3 -U -G3:1 -api requestall=3 -api largefilesupport ARCHIVO`                |
+| 🔥 Validar -reparar- imagenes            | `exiftool -validate -warning -error -a test.jpg`                                        |
+| 🔥 Validar / repair imagenes recursivo   | `exiftool -validate -warning -error -a  -ext jpg /Users/mrtn/Desktop/csv2exif/images/*` |
+|                                           |                                                                                         |
 
 # Metadata Export
 
-### Export all metadata of specified file into a csv file (headers are included)
+|                                                                              |                                                     |
+| ---------------------------------------------------------------------------- | --------------------------------------------------- |
+| Export all metadata of specified file into a csv file (headers are included) | `exiftool -csv photo.jpg > photo.csv`               |
+| Export all VRAE tag of specified file into a csv file (headers are included) | `exiftool -csv -xmp-vrae:all photo.jpg > photo.csv` |
+|                                                                              |                                                     |
+|                                                                              |                                                     |
+|                                                                              |                                                     |
 
-```s
-exiftool -csv photo.jpg > photo.csv
-```
 
-### Export all VRAE tag of specified file into a csv file (headers are included)
 
-```s
-exiftool -csv -xmp-vrae:all photo.jpg > photo.csv
-```
+
+
 
 ### Export all metadata of all jpg file into a csv file (headers are included)
 
