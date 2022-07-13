@@ -57,9 +57,9 @@ En este video, Greg Reser explica con más detalles este concepto: [Greg Reser (
 
 ## Características
 * Software de código abierto con licencia GNU
-* Software multiplataforma (puede ser ejecutado en Windows XP, 7, 10, MacOS, Linux y Raspberry pi)
-* Edita los metadatos y los 'guarda' dentro del archivo sin modificar la imagen (ej.: JPG, TIF, PDF) conservando su contexto al 'viajar' a través de aplicaciones, dispositivos y bases de datos.
-* Edita metadatos según las normas internacionales EXIF, IPTC, Dublin Core, ISAD(G), VRA Core y muchos otros
+* Software multiplataforma (puede ser ejecutado en Windows, MacOS y Linux)
+* Edita los metadatos y los 'incrusta' dentro del archivo sin modificar la imagen (ej.: JPG, TIF, PDF) conservando su contexto al 'viajar' a través de aplicaciones, dispositivos y bases de datos
+* Edita metadatos según las normas internacionales EXIF, IPTC, Dublin Core, ISAD(G), VRA Core y otros
 * No es destructivo (no altera las imágenes)
 * Reduce significativamente las tareas de registro
 * Ofrece una alternativa al uso de hojas de cálculo independientes para el registros de colecciones
