@@ -1,5 +1,5 @@
 ---
-title: 'Custom Metadata ISAD(G) Panel for Bridge'
+title: 'Custom Metadata ISAD(G) Panel para Adobe Bridge'
 hide_hypothesis: false
 twitterenable: true
 twittercardoptions: summary
