@@ -60,6 +60,9 @@ Ejemplo: <code> python3 mme.py csv/test.csv images/</code>
 Uso:
 <code>python3 gmme.py & </code>
 
+## Tags
+Embedded Metadata, Access to Digital Image Files, Open Content, Open Data, Metadata editor, Heritage
+
 ## Agradecimientos
 * **Harry van der Wolf**, por su inestimable colaboración y la creación de la interfaz gráfica (GUI) y sus ejecutables multiplataforma
 * **Greg Reser**, por todo su apoyo y colaboración en esta implementación de VRA Core
