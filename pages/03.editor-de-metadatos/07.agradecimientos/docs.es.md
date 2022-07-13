@@ -47,6 +47,7 @@ Este editor multiplataforma es una interfaz gráfica para la edición de metadat
 
 
 ## Agradecimientos
+* Martin Gersbach, dirección de proyecto
 * A Harry van der Wolf, desarrollador principal de [jExifToolGUI](https://github.com/hvdwolf/jExifToolGUI), por permitirme 'montarme' sobre su proyecto sin tener que crear mi propio fork y permitir que su proyecto acepte otros espacios de nombres
 * A [Greg Reser](mailto:greser@ucsd.edu), Visual Resources Association. Presidente del [subcomité de metadatos integrados de VRA](http://metadatadeluxe.pbworks.com/w/page/20792294/VRA%20Embedded%20Metadata%20Subcommittee) y desarrollador de las herramientas [VRA para Adobe Bridge](http://metadatadeluxe.pbworks.com/w/page/108523528/VRA%20Bridge%20Metadata%20Tools). 
 * A [Jairo Enrique Serrano Castañeda](https://scholar.google.com/citations?user=rW2nV5cAAAAJ&hl), estimado DevOps, que logra que todo funcione sin romperse y lo repara cuando se rompe]
