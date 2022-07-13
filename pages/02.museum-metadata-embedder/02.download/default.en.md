@@ -1,5 +1,5 @@
 ---
-title: Descarga
+title: Download
 hide_hypothesis: false
 twitterenable: true
 twittercardoptions: summary
@@ -20,6 +20,7 @@ restaurant:
     acceptsReservations: 'yes'
     priceRange: $
 facebookenable: true
+menu: Download
 ---
 
 ## GitHub
