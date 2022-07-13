@@ -33,7 +33,7 @@ Este panel permite ver y editar los metadatos de archivos gráficos que soportan
 
 ### Referencias
 
-* [Abobe Bridge](https://www.adobe.com/la/products/bridge.html) 
-* [Custom Metadata Panel for Bridge](https://github.com/adobe-dmeservices/custom-metadata)
 * [Adobe Bridge Custom Metadata JSON GLAM Presets](https://github.com/MuseosAbiertos/Adobe-Bridge-Custom-Metadata-JSON-Presets) 
+* [Custom Metadata Panel for Bridge](https://github.com/adobe-dmeservices/custom-metadata)
+* [Abobe Bridge](https://www.adobe.com/la/products/bridge.html) 
 
