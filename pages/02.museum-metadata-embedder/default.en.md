@@ -78,14 +78,23 @@ This file can be edited to add new tags.
 
 Only the headers (first row of the spreadsheet) needs to be edited to fit the schema. This may involve splitting some columns to fit the schema, adding columns, and other edits. All of this is probably easier, faster and more accurate to do in a spreadsheet.
 
+## Download
+https://github.com/MuseosAbiertos/Museum-Metadata-Embedder
+
+### Instructions
+* Clone the repository or download the .zip file to the folder you want to work in; it is correct to name it 'mme'.
+  * on MacOS, you can use this path: <code>/Users/<user\>/mme</code>
+  * on Windows, you can use this path: <code>C:\Users\<user\>\mme</code>
+* You must keep the file structure inside the .zip file you download.
+* The image files to be processed must be located inside the 'images' folder, inside 'mme'.
+    
 ### System requirements
+    
 |          |                                             |
 | -------- | ------------------------------------------- |
 | Perl     | https://www.activestate.com/products/perl/  |
 | Python 3 | https://www.python.org/downloads/ |
 
-## Download
-https://github.com/MuseosAbiertos/Museum-Metadata-Embedder
 
 ## Acknowledgments
 * Harry van der Wolf**, for his invaluable collaboration and creation of the graphical user interface (GUI) and its cross-platform executables
