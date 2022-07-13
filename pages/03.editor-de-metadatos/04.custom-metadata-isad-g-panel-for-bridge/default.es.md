@@ -27,7 +27,6 @@ Para facilitar el acceso a la edición de metadatos archivísticos, hemos public
 
 Este panel permite ver y editar los metadatos de archivos gráficos que soportan metadatos (TIFF, JPG, etc.) como también archivos PDF.
 
-## Overview
 
 [plugin:youtube](https://youtu.be/h_MMW1qADvA)
 
