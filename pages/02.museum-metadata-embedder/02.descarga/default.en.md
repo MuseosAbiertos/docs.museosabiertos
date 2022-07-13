@@ -25,15 +25,14 @@ facebookenable: true
 ## GitHub
 https://github.com/MuseosAbiertos/Museum-Metadata-Embedder
 
-### Instrucciones 
-* Clona el repositorio o descarga el .zip en la carpeta en la que desees trabajar; es correcto nombrarla 'mme' 
-  * en MacOS, puedes usar esta ruta: <code>/Users/<user\>/mme</code> 
-  * en Windows, puedes usar esta ruta: <code>C:\Users\<user\>\mme</code> 
-* Debes conservar la estructura de archivos dentro del archivo .zip que descargues 
-* Los archivos de imágenes a tratar debes ubicarlos dentro de la carpetas 'images', dentro de 'mme' 
-  
-
-### Requerimientos del sistema
+### Instructions
+* Clone the repository or download the .zip file to the folder you want to work in; it is correct to name it 'mme'.
+  * on MacOS, you can use this path: <code>/Users/<user\>/mme</code>
+  * on Windows, you can use this path: <code>C:\Users\<user\>\mme</code>
+* You must keep the file structure inside the .zip file you download.
+* The image files to be processed must be located inside the 'images' folder, inside 'mme'.
+    
+### System requirements
     
 |          |                                             |
 | -------- | ------------------------------------------- |
@@ -41,22 +40,21 @@ https://github.com/MuseosAbiertos/Museum-Metadata-Embedder
 | Python 3 | https://www.python.org/downloads/ |
 
     
-### Configuración personalizada
-**MME** utiliza un mapa JSON para mapear el _"Nombre de pantalla" (Encabezado de la columna CSV) <-> "Nombre de etiqueta"_, para cada uno de los estándares. El archivo debe encontrarse dentro del directorio 'data', en un archivo JSON llamado 'maps.json'.
-Este archivo se puede editar para agregar nuevas etiquetas.
+### Custom configuration
+**MME** uses a JSON map to map the _"Display Name" (CSV Column Header) <-> "Label Name"_, for each of the standards. The file must be located inside the 'data' directory, in a JSON file named 'maps.json'.
+This file can be edited to add new tags.
 
-Sólo es necesario editar las cabeceras (primera fila de la hoja de cálculo) para que se ajusten al esquema. Esto puede implicar la división de algunas columnas para ajustarse al esquema, la adición de columnas y otras ediciones. Todo esto es probablemente más fácil, más rápido y más preciso de hacer en una hoja de cálculo.
+Only the headers (first row of the spreadsheet) needs to be edited to fit the schema. This may involve splitting some columns to fit the schema, adding columns, and other edits. All of this is probably easier, faster and more accurate to do in a spreadsheet.
 
-### Archivos del repositorio
-| Path                              | Descripción                                                       |
+### Repository files
+| Path                              | Description                                                       |
 | :-------------------------------- | :---------------------------------------------------------------- |
-| csv/                               | Carpeta sugerida para alojar los archivos CSV                     |
-| csv/test.csv                      | Archivo CSV de prueba para la primera ejecución y test            |
-| exiftool/                          | Ejecutable ExifTool                                               |
-| data/exiftool_configs/             | Archivos de configuración para ExifTool                           |
-| data/notion_maps_txts/             | Carpeta interna de trabajo -no es obligatoria-                    |
-| data/maps.json                    | Mapa de relación entre cabeceras del CSV y las etiquetas ExifTool |
-| images/                            | Archivos de prueba para la primera ejecución y test               |
-| images/vrae_exiftool_example.tiff | Archivo de ejemplo VRA Core                                       |
+| csv/                               | Suggested folder for hosting CSV files                     |
+| csv/test.csv                      | CSV test file for the first run and test            |
+| exiftool/                          | Exiftool executable                                               |
+| data/exiftool_configs/             | Configuration files for ExifTool                           |
+| data/notion_maps_txts/             | Internal work folder -not mandatory-.                    |
+| data/maps.json                    | Relationship map between CSV headers and ExifTool tags |
+| images/                            | Test files for first run and test               |
+| images/vrae_exiftool_example.tiff | VRA Core sample file                                       |
 |                                   |                                                                   |
-
