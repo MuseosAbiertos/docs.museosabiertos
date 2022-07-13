@@ -64,6 +64,7 @@ Uso:
 Embedded Metadata, Access to Digital Image Files, Open Content, Open Data, Metadata editor, Heritage
 
 ## Agradecimientos
+* **Martin Gersbach**, dirección de proyecto y desarrollo
 * **Harry van der Wolf**, por su inestimable colaboración y la creación de la interfaz gráfica (GUI) y sus ejecutables multiplataforma
 * **Greg Reser**, por todo su apoyo y colaboración en esta implementación de VRA Core
 * **Phil Harvey**, por su maravilloso ExifTool, que pronto cumplirá 30 años!
