@@ -63,7 +63,8 @@ Use:
 Embedded Metadata, Access to Digital Image Files, Open Content, Open Data, Metadata editor, Heritage
 
 ## Acknowledgments
-* Harry van der Wolf**, for his invaluable collaboration and creation of the graphical user interface (GUI) and its cross-platform executables
+* **Martin Gersbach**, project management and development
+* **Harry van der Wolf**, for his invaluable collaboration and creation of the graphical user interface (GUI) and its cross-platform executables
 ** **Greg Reser**, for all his support and collaboration on this VRA Core implementation
 ** **Phil Harvey**, for his marvelous ExifTool, soon to be 30 years old!
 ** **Jairo Serrano**, friend and estimated SysOp who makes everything work without breaking and fixes it when it does break
