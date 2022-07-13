@@ -71,6 +71,13 @@ https://github.com/MuseosAbiertos/Museum-Metadata-Embedder
 * Debes conservar la estructura de archivos dentro del archivo .zip que descargues 
 * Los archivos de imágenes a tratar debes ubicarlos dentro de la carpetas 'images', dentro de 'mme' 
     
+### Requerimientos del sistema
+    
+|          |                                             |
+| -------- | ------------------------------------------- |
+| Perl     | https://www.activestate.com/products/perl/  |
+| Python 3 | https://www.python.org/downloads/ |
+
     
 ### Configuración personalizada
 **MME** utiliza un mapa JSON para mapear el _"Nombre de pantalla" (Encabezado de la columna CSV) <-> "Nombre de etiqueta"_, para cada uno de los estándares. El archivo debe encontrarse dentro del directorio 'data', en un archivo JSON llamado 'maps.json'.
@@ -90,15 +97,6 @@ Sólo es necesario editar las cabeceras (primera fila de la hoja de cálculo) pa
 | images/                            | Archivos de prueba para la primera ejecución y test               |
 | images/vrae_exiftool_example.tiff | Archivo de ejemplo VRA Core                                       |
 |                                   |                                                                   |
-
-    
-    
-### Requerimientos del sistema
-    
-|          |                                             |
-| -------- | ------------------------------------------- |
-| Perl     | https://www.activestate.com/products/perl/  |
-| Python 3 | https://www.python.org/downloads/ |
 
 
 ## Agradecimientos
