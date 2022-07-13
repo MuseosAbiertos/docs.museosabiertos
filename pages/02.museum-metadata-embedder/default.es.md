@@ -79,14 +79,23 @@ Este archivo se puede editar para agregar nuevas etiquetas.
 
 Sólo es necesario editar las cabeceras (primera fila de la hoja de cálculo) para que se ajusten al esquema. Esto puede implicar la división de algunas columnas para ajustarse al esquema, la adición de columnas y otras ediciones. Todo esto es probablemente más fácil, más rápido y más preciso de hacer en una hoja de cálculo.
 
+## Descarga
+https://github.com/MuseosAbiertos/Museum-Metadata-Embedder
+
+### Instrucciones
+* Clona el repositorio o descarga el .zip en la carpeta en la que desees trabajar; es correcto nombrarla 'mme'
+  * en MacOS, puedes usar esta ruta: <code>/Users/<user\>/mme</code>
+  * en Windows, puedes usar esta ruta: <code>C:\Users\<user\>\mme</code>
+* Debes conservar la estructura de archivos dentro del archivo .zip que descargues
+* Los archivos de imágenes a tratar debes ubicarlos dentro de la carpetas 'images', dentro de 'mme'
+
 ### Requerimientos del sistema
+    
 |          |                                             |
 | -------- | ------------------------------------------- |
 | Perl     | https://www.activestate.com/products/perl/  |
 | Python 3 | https://www.python.org/downloads/ |
 
-## Descarga
-https://github.com/MuseosAbiertos/Museum-Metadata-Embedder
 
 ## Agradecimientos
 * **Harry van der Wolf**, por su inestimable colaboración y la creación de la interfaz gráfica (GUI) y sus ejecutables multiplataforma
