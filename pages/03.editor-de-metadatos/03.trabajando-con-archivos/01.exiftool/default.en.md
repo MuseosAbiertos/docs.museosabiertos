@@ -26,7 +26,7 @@ menu: ExifTool
 **[ExifTool by Phil Harvey](https://exiftool.org/)**
 Es una biblioteca de Perl, independiente de la plataforma, más una aplicación de línea de comandos para leer, escribir y editar metadatos en una amplia variedad de archivos.
 
-# Referencias
+# References
 
 | What to do                                                           | Command                                                          |
 | -------------------------------------------------------------------- | ---------------------------------------------------------------- |
