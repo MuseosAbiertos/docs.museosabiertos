@@ -102,5 +102,6 @@ Cuando un comando no está funcionando puede lanzarlo en modo 'verbose'; hay 5 n
 | Copiar FILENAME a EXIF                                                                          | `exiftool "-iptc:caption-abstract<filename" *.jpg`                                                             |
 
 
-## [ExifTool FAQ](https://exiftool.org/faq.html?classes=button)
+## ExifTool FAQ
+https://exiftool.org/faq.html
 
