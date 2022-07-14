@@ -22,7 +22,7 @@ facebookenable: true
 hide_hypothesis: false
 ---
 
-### Herramientas varias para trabajar con archivos de imágenes
+### Herramientas para trabajar con archivos de imágenes
 
 **[ExifTool by Phil Harvey](https://exiftool.org/)**
 ExifTool es una biblioteca de Perl independiente de la plataforma más una aplicación de línea de comandos para leer, escribir y editar metainformación en una amplia variedad de archivos.
