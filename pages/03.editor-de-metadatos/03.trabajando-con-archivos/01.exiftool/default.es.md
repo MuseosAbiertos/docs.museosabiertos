@@ -75,31 +75,31 @@ Cuando un comando no está funcionando puede lanzarlo en modo 'verbose'; hay 5 n
 
 # Renombrar archivos
 
-| Qué hacer                                                                   | Comando                                                                   |
-| ---------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| Rename using fixed string and same file extension as original                | `exiftool "-FileName<HELLOWORLD.%e" photo.jpg`                            |
-| Rename using fixed string and same *lowercase* file extension as original    | `exiftool "-FileName<HELLOWORLD.%le" photo.jpg`                           |
-| Rename based on date                                                         | `exiftool "-FileName<DateTimeOriginal" -d "%Y%m%dT%H%M%S.%%le" photo.jpg` |
-| Prevent illegal characters to be written in filename (unpredictable results) | `exiftool '-filename<${make;}.%le' -d "%Y%m%dT%H%M%S" photo.jpg`          |
-| Rename files only from Canon Camera                                          | `exiftool '-filename<CANON.%le' -if '$make eq "Canon"' photo.jpg`         |
-| Add 1 hour to the DateTimeOriginal's value                                   | `exiftool "-DateTimeOriginal+=0:0:0 1:0:0" photo.jpg`                     |
+| Qué hacer                                                                                            | Comando                                                                   |
+| ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| Renombrar utilizando una cadena fija y la misma extensión de archivo que el original                 | `exiftool "-FileName<HELLOWORLD.%e" photo.jpg`                            |
+| Renombrar utilizando una cadena fija y la misma extensión de archivo en *minúsculas* que el original | `exiftool "-FileName<HELLOWORLD.%le" photo.jpg`                           |
+| Cambiar el nombre en función de la fecha                                                             | `exiftool "-FileName<DateTimeOriginal" -d "%Y%m%dT%H%M%S.%%le" photo.jpg` |
+| Evitar que se escriban caracteres ilegales en el nombre del archivo (resultados imprevisibles)       | `exiftool '-filename<${make;}.%le' -d "%Y%m%dT%H%M%S" photo.jpg`          |
+| Cambiar el nombre de los archivos sólo desde la cámara Canon                                         | `exiftool '-filename<CANON.%le' -if '$make eq "Canon"' photo.jpg`         |
+| Añade 1 hora al valor de DateTimeOriginal                                                            | `exiftool "-DateTimeOriginal+=0:0:0 1:0:0" photo.jpg`                     |
 
 # Varios
-| Qué hacer                                                                    | Comando                                                                                                        |
-| ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| Escribir XMP en TIF                                                           | `exiftool -tagsfromfile CCA-LAN-02-028.xmp -xmp CCA-LAN-02-028.tif`                                            |
-| Extraer XMP                                                                   | `exiftool -xmp -b FILE.tif > FILE.xmp`                                                                         |
-| Crear los XMP de todos los files                                              | `exiftool -ext TIF -o %d%f.xmp -r /Users/user/workflow`                                                        |
-| Write XMP > JPG en un folder                                                  | `exiftool -tagsfromfile %d%f.xmp -all:all DIR`                                                                 |
-| Create XMP sidecar files for all files with extension EXT in a directory tree | `exiftool -ext TIF -o %d%f.xmp -r /User/xxx/workflow`                                                          |
-| Write multiple tags in TIF                                                    | `exiftool -creator=Creator -title=This title -description=This description -copyright = "Copy" 1.tif`          |
-| Escribir XMP:ISADG en CSV                                                     | `exiftool -csv -xmp-isadg:all *.tif > log.csv`                                                                 |
-| Etiquetas a CSV                                                               | `exiftool -csv -creator -title -copyright -Photoshop:CopyrightFlag -CaptionWriter file.tif > log.csv`          |
-| Listar grupo XMP:ISADG                                                        | `exiftool -xmp-isadg:all`                                                                                      |
-| Listar grupo XMP:VRAE                                                         | `exiftool -xmp-vrae:all`                                                                                       |
-| Ver etiquetas específicas de un archivo                                       | `exiftool -creator -title -description -copyright -Photoshop:CopyrightFlag -CaptionWriter file.tif`            |
-| Exportar etiquetas de TIF a CSV                                               | `exiftool -csv -creator -title -description -copyright -Photoshop:CopyrightFlag -CaptionWriter*.tif > log.csv` |
-| Copiar FILENAME a EXIF                                                        | `exiftool "-iptc:caption-abstract<filename" *.jpg`                                                             |
+| Qué hacer                                                                                       | Comando                                                                                                        |
+| ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| Escribir XMP en TIF                                                                             | `exiftool -tagsfromfile CCA-LAN-02-028.xmp -xmp CCA-LAN-02-028.tif`                                            |
+| Extraer XMP                                                                                     | `exiftool -xmp -b FILE.tif > FILE.xmp`                                                                         |
+| Crear los XMP de todos los files                                                                | `exiftool -ext TIF -o %d%f.xmp -r /Users/user/workflow`                                                        |
+| Escribir XMP > JPG en una carpeta                                                               | `exiftool -tagsfromfile %d%f.xmp -all:all DIR`                                                                 |
+| Crear archivos XMP sidecar para todos los archivos con extensión EXT en un árbol de directorios | `exiftool -ext TIF -o %d%f.xmp -r /User/xxx/workflow`                                                          |
+| Escribir varias etiquetas en TIF                                                                      | `exiftool -creator=Creator -title=This title -description=This description -copyright = "Copy" 1.tif`          |
+| Escribir XMP:ISADG en CSV                                                                       | `exiftool -csv -xmp-isadg:all *.tif > log.csv`                                                                 |
+| Etiquetas a CSV                                                                                 | `exiftool -csv -creator -title -copyright -Photoshop:CopyrightFlag -CaptionWriter file.tif > log.csv`          |
+| Listar grupo XMP:ISADG                                                                          | `exiftool -xmp-isadg:all`                                                                                      |
+| Listar grupo XMP:VRAE                                                                           | `exiftool -xmp-vrae:all`                                                                                       |
+| Ver etiquetas específicas de un archivo                                                         | `exiftool -creator -title -description -copyright -Photoshop:CopyrightFlag -CaptionWriter file.tif`            |
+| Exportar etiquetas de TIF a CSV                                                                 | `exiftool -csv -creator -title -description -copyright -Photoshop:CopyrightFlag -CaptionWriter*.tif > log.csv` |
+| Copiar FILENAME a EXIF                                                                          | `exiftool "-iptc:caption-abstract<filename" *.jpg`                                                             |
 
 
 ## ExifTool FAQ
