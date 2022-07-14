@@ -34,7 +34,7 @@ Es una biblioteca de Perl, independiente de la plataforma, más una aplicación 
 | Metadata Sidecar Files                                               | https://exiftool.org/metafiles.html                              |
 | ExifTool FAQ                                                         | https://exiftool.org/faq.html                                    |
 | ExifTool-Batch-Processor                                             | https://github.com/CarletonArchives/ExifTool-Batch-Processor     |
-| Here is a complete list of metadata TAGS (depending on file format): | http://www.sno.phy.queensu.ca/~phil/exiftool/TagNames/index.html |
+| Here is a complete list of metadata TAGS (depending on file format): | https://exiftool.org/TagNames/index.html |
 
 # Basic Commands
 
