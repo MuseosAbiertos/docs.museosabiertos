@@ -29,7 +29,7 @@ ExifTool (de Phil Harvey) es una biblioteca de Perl independiente de la platafor
 
 * _Ejemplo para extraer todos los metadatos de una imagen:_ <code>exiftool -a imagen.jpg</code>
 
-**[ImageMagick](https://imagemagick.org/)**
+**[ImageMagick](imagemagick)**
 ImageMagick es un conjunto de utilidades de código abierto, para mostrar, manipular y convertir imágenes, capaz de leer y escribir más de 200 formatos y ofrece un amplio conjunto de opciones para manipular imágenes.
 
 * _Ejemplo para reducir una imagen al 50%:_ <code>magick mogrify -resize 50% imagen.jpg</code>
