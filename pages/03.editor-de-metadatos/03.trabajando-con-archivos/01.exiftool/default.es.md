@@ -32,7 +32,6 @@ menu: ExifTool
 | ExifTool FAQ                                                         | https://exiftool.org/faq.html                                    |
 | ExifTool-Batch-Processor                                             | https://github.com/CarletonArchives/ExifTool-Batch-Processor     |
 | Here is a complete list of metadata TAGS (depending on file format): | http://www.sno.phy.queensu.ca/~phil/exiftool/TagNames/index.html |
-|                                                                      |                                                                  |
 
 # Basic Commands
 
@@ -45,7 +44,6 @@ menu: ExifTool
 | Remover todos y preservar algunos tags                                        | `exiftool -All= -TagsFromFile @ -ColorSpaceTags -OverWrite_Original –r` |
 | Process all files of specified file type (case insensitive extension)         | `exiftool -Model -ImageSize -ext jpg <PATH>`                            |
 | Recursively process all jpg files under specified directory and sub-directory | `exiftool -r -Model -ImageSize -ext jpg <PATH>`                         |
-|                                                                               |                                                                         |
 
 # Buscar
 
@@ -86,7 +84,6 @@ When a command is not working you can launch it in verbose mode, there are 5 dif
 | Prevent illegal characters to be written in filename (unpredictable results) | `exiftool '-filename<${make;}.%le' -d "%Y%m%dT%H%M%S" photo.jpg`          |
 | Rename files only from Canon Camera                                          | `exiftool '-filename<CANON.%le' -if '$make eq "Canon"' photo.jpg`         |
 | Add 1 hour to the DateTimeOriginal's value                                   | `exiftool "-DateTimeOriginal+=0:0:0 1:0:0" photo.jpg`                     |
-|                                                                              |                                                                           |
 
 # Varios
 | What to do                                                                    | Command                                                                                                        |
@@ -104,7 +101,6 @@ When a command is not working you can launch it in verbose mode, there are 5 dif
 | Ver etiquetas específicas de un archivo                                       | `exiftool -creator -title -description -copyright -Photoshop:CopyrightFlag -CaptionWriter file.tif`            |
 | Exportar etiquetas de TIF a CSV                                               | `exiftool -csv -creator -title -description -copyright -Photoshop:CopyrightFlag -CaptionWriter*.tif > log.csv` |
 | Copiar FILENAME a EXIF                                                        | `exiftool "-iptc:caption-abstract<filename" *.jpg`                                                             |
-|                                                                               |                                                                                                                |
 
 
 ## ExifTool FAQ
