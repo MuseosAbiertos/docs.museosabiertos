@@ -88,9 +88,7 @@ When a command is not working you can launch it in verbose mode, there are 5 dif
 | Add 1 hour to the DateTimeOriginal's value                                   | `exiftool "-DateTimeOriginal+=0:0:0 1:0:0" photo.jpg`                     |
 |                                                                              |                                                                           |
 
-
-# VARIOS
-
+# Varios
 |                                                                               |                                                                                                                |
 | ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
 | Escribir XMP en TIF                                                           | `exiftool -tagsfromfile CCA-LAN-02-028.xmp -xmp CCA-LAN-02-028.tif`                                            |
