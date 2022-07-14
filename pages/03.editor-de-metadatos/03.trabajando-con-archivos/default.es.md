@@ -24,8 +24,8 @@ hide_hypothesis: false
 
 ### Herramientas para trabajar con archivos de imágenes
 
-**[ExifTool by Phil Harvey](https://exiftool.org/)**
-ExifTool es una biblioteca de Perl independiente de la plataforma más una aplicación de línea de comandos para leer, escribir y editar metainformación en una amplia variedad de archivos.
+**[ExifTool](exiftool)**
+ExifTool (de Phil Harvey) es una biblioteca de Perl independiente de la plataforma más una aplicación de línea de comandos para leer, escribir y editar metainformación en una amplia variedad de archivos.
 
 * _Ejemplo para extraer todos los metadatos de una imagen:_ <code>exiftool -a imagen.jpg</code>
 
