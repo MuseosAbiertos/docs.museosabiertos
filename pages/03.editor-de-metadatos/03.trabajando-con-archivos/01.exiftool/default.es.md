@@ -25,7 +25,7 @@ menu: ExifTool
 
 # Referencias
 
-| Título                                                                  | URL                                                              |
+| What to do                                                           | Command                                                          |
 | -------------------------------------------------------------------- | ---------------------------------------------------------------- |
 | ExifTool Command-Line Examples                                       | https://exiftool.org/examples.html                               |
 | Metadata Sidecar Files                                               | https://exiftool.org/metafiles.html                              |
@@ -49,7 +49,7 @@ menu: ExifTool
 
 # Buscar
 
-| what to do                         | Command                                                                                            |
+| What to do                         | Command                                                                                            |
 | ---------------------------------- | -------------------------------------------------------------------------------------------------- |
 | Buscar imágenes sin metadatos EXIF | `exiftool -p '$filename' -r -if '(not $datetimeoriginal) and $filetype eq "JPEG"' . > nodates.txt` |
 | verificar                          | `cat nodates.txt \| wc -l`                                                                         |
@@ -59,7 +59,7 @@ menu: ExifTool
 
 When a command is not working you can launch it in verbose mode, there are 5 different levels of verbosity, level 0 means no verbosity
 
-|                                                         |                                                                                         |
+| What to do                                              | Command                                                                                 |
 | ------------------------------------------------------- | --------------------------------------------------------------------------------------- |
 | 🔥 Extraer toda la información del archivo             | `exiftool -a -G1 -s img.tif`                                                            |
 | Extraer absolutamente todos los metadatos de un archivo | `exiftool -ee3 -U -G3:1 -api requestall=3 -api largefilesupport ARCHIVO`                |
@@ -68,7 +68,7 @@ When a command is not working you can launch it in verbose mode, there are 5 dif
 
 # Metadata Export
 
-|                                                                                 |                                                                           |
+| What to do                                                                      | Command                                                                   |
 | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
 | Export all metadata of specified file into a csv file (headers are included)    | `exiftool -csv photo.jpg > photo.csv`                                     |
 | Export all VRAE tag of specified file into a csv file (headers are included)    | `exiftool -csv -xmp-vrae:all photo.jpg > photo.csv`                       |
@@ -78,7 +78,7 @@ When a command is not working you can launch it in verbose mode, there are 5 dif
 
 # File renaming
 
-|                                                                              |                                                                           |
+| What to do                                                                   | Command                                                                   |
 | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
 | Rename using fixed string and same file extension as original                | `exiftool "-FileName<HELLOWORLD.%e" photo.jpg`                            |
 | Rename using fixed string and same *lowercase* file extension as original    | `exiftool "-FileName<HELLOWORLD.%le" photo.jpg`                           |
@@ -89,7 +89,7 @@ When a command is not working you can launch it in verbose mode, there are 5 dif
 |                                                                              |                                                                           |
 
 # Varios
-|                                                                               |                                                                                                                |
+| What to do                                                                    | Command                                                                                                        |
 | ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
 | Escribir XMP en TIF                                                           | `exiftool -tagsfromfile CCA-LAN-02-028.xmp -xmp CCA-LAN-02-028.tif`                                            |
 | Extraer XMP                                                                   | `exiftool -xmp -b FILE.tif > FILE.xmp`                                                                         |
