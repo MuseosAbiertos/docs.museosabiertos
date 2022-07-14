@@ -59,171 +59,55 @@ menu: ExifTool
 
 When a command is not working you can launch it in verbose mode, there are 5 different levels of verbosity, level 0 means no verbosity
 
-## For more: <https://exiftool.org/Shift.html>
-|                                           |                                                                                         |
-| ----------------------------------------- | --------------------------------------------------------------------------------------- |
-| 🔥 Ver dónde se almacena los metadatos   | `exiftool -a -G1 -s img.tif`                                                            |
-| Extraer todos los metadatos de un archivo | `exiftool -ee3 -U -G3:1 -api requestall=3 -api largefilesupport ARCHIVO`                |
-| 🔥 Validar -reparar- imagenes            | `exiftool -validate -warning -error -a test.jpg`                                        |
-| 🔥 Validar / repair imagenes recursivo   | `exiftool -validate -warning -error -a  -ext jpg /Users/mrtn/Desktop/csv2exif/images/*` |
-|                                           |                                                                                         |
+|                                                         |                                                                                         |
+| ------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| 🔥 Extraer toda la información del archivo             | `exiftool -a -G1 -s img.tif`                                                            |
+| Extraer absolutamente todos los metadatos de un archivo | `exiftool -ee3 -U -G3:1 -api requestall=3 -api largefilesupport ARCHIVO`                |
+| 🔥 Validar -reparar- imagenes                          | `exiftool -validate -warning -error -a test.jpg`                                        |
+| 🔥 Validar / repair imagenes recursivo                 | `exiftool -validate -warning -error -a  -ext jpg /Users/mrtn/Desktop/csv2exif/images/*` |
 
 # Metadata Export
 
-|                                                                              |                                                     |
-| ---------------------------------------------------------------------------- | --------------------------------------------------- |
-| Export all metadata of specified file into a csv file (headers are included) | `exiftool -csv photo.jpg > photo.csv`               |
-| Export all VRAE tag of specified file into a csv file (headers are included) | `exiftool -csv -xmp-vrae:all photo.jpg > photo.csv` |
-|                                                                              |                                                     |
-|                                                                              |                                                     |
-|                                                                              |                                                     |
-
-
-
-
-
-
-### Export all metadata of all jpg file into a csv file (headers are included)
-
-```s
-exiftool -csv -ext jpg /home/ebah/photo/
-```
-
-### Export selected metadata of all jpg file into a csv file (headers are included)
-
-```s
-exiftool -Make -Model -DateTimeOriginal -csv -ext jpg /home/ebah/photo/
-```
-
+|                                                                                 |                                                                           |
+| ------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| Export all metadata of specified file into a csv file (headers are included)    | `exiftool -csv photo.jpg > photo.csv`                                     |
+| Export all VRAE tag of specified file into a csv file (headers are included)    | `exiftool -csv -xmp-vrae:all photo.jpg > photo.csv`                       |
+| Export all metadata of all jpg file into a csv file (headers are included)      | `exiftool -csv -ext jpg /home/ebah/photo/`                                |
+| Export selected metadata of all jpg file into a csv file (headers are included) | `exiftool -Make -Model -DateTimeOriginal -csv -ext jpg /home/ebah/photo/` |
 
 
 # File renaming
 
-### Rename using fixed string and same file extension as original
+|                                                                              |                                                                           |
+| ---------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| Rename using fixed string and same file extension as original                | `exiftool "-FileName<HELLOWORLD.%e" photo.jpg`                            |
+| Rename using fixed string and same *lowercase* file extension as original    | `exiftool "-FileName<HELLOWORLD.%le" photo.jpg`                           |
+| Rename based on date                                                         | `exiftool "-FileName<DateTimeOriginal" -d "%Y%m%dT%H%M%S.%%le" photo.jpg` |
+| Prevent illegal characters to be written in filename (unpredictable results) | `exiftool '-filename<${make;}.%le' -d "%Y%m%dT%H%M%S" photo.jpg`          |
+| Rename files only from Canon Camera                                          | `exiftool '-filename<CANON.%le' -if '$make eq "Canon"' photo.jpg`         |
+| Add 1 hour to the DateTimeOriginal's value                                   | `exiftool "-DateTimeOriginal+=0:0:0 1:0:0" photo.jpg`                     |
+|                                                                              |                                                                           |
 
-```s
-exiftool "-FileName<HELLOWORLD.%e" photo.JPG
-```
-
-### Rename using fixed string and same *lowercase* file extension as original
-
-```s
-exiftool "-FileName<HELLOWORLD.%le" photo.jpg
-```
-
-### Rename based on date (for the format see: )
-
-```s
-exiftool "-FileName<DateTimeOriginal" -d "%Y%m%dT%H%M%S.%%le" photo.jpg
-```
-
-### Prevent illegal characters to be written in filename (unpredictable results)
-
-```s
-exiftool '-filename<${make;}.%le' -d "%Y%m%dT%H%M%S" photo.jpg
-```
-
-### Replace spaces in tag string
-
-```s
-exiftool -Make photo.jpg
-```
-
-```s
-exiftool '-filename<${make;tr/ /_/;s/__+/_/g}.%le' photo.jpg
-```
-
-### Composite rename: DateTimeOriginal + Make tags
-```s
-exiftool '-filename<${DateTimeOriginal}_${make;tr/ /_/;s/__+/_/g}.%le' -d "%Y%m%dT%H%M%S" photo.jpg
-```
-
-### Add a counter for duplicate images
-```s
-exiftool '-FileName<${DateTimeOriginal}_${Model;tr/ /_/;s/__+/_/g}.%e' -d "%Y%m%dT%H%M%S%%-.c" 20130914T074335_Canon.jpg
-```
-
-### Contitional expression
-
-If condition matches then the file is processed otherwise skipped exiftool -shutterspeed -if '$make eq "Canon"'
-
-### Rename files only from Canon Camera
-```s
-exiftool '-filename<CANON.%le' -if '$make eq "Canon"' photo.jpg
-```
-
-### Time shift
-
-Time shift is very handy when camera's clock is misaligned from real time (say because you are abroad on holiday and forgot to adjust camera's clock)
-
-For more: <http://www.sno.phy.queensu.ca/~phil/exiftool/Shift.html>
-
-### Add 1 hour to the DateTimeOriginal's value
-```s
-exiftool "-DateTimeOriginal+=0:0:0 1:0:0" photo.jpg
-```
 
 # VARIOS
 
-### Extraer XMP
-```s
-exiftool -xmp -b FILE.tif > FILE.xmp
-```
+|                                                                               |                                                                                                                |
+| ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| Escribir XMP en TIF                                                           | `exiftool -tagsfromfile CCA-LAN-02-028.xmp -xmp CCA-LAN-02-028.tif`                                            |
+| Extraer XMP                                                                   | `exiftool -xmp -b FILE.tif > FILE.xmp`                                                                         |
+| Crear los XMP de todos los files                                              | `exiftool -ext TIF -o %d%f.xmp -r /Users/user/workflow`                                                        |
+| Write XMP > JPG en un folder                                                  | `exiftool -tagsfromfile %d%f.xmp -all:all DIR`                                                                 |
+| Create XMP sidecar files for all files with extension EXT in a directory tree | `exiftool -ext TIF -o %d%f.xmp -r /User/xxx/workflow`                                                          |
+| Write multiple tags in TIF                                                    | `exiftool -creator=Creator -title=This title -description=This description -copyright = "Copy" 1.tif`          |
+| Escribir XMP:ISADG en CSV                                                     | `exiftool -csv -xmp-isadg:all *.tif > log.csv`                                                                 |
+| Etiquetas a CSV                                                               | `exiftool -csv -creator -title -copyright -Photoshop:CopyrightFlag -CaptionWriter file.tif > log.csv`          |
+| Listar grupo XMP:ISADG                                                        | `exiftool -xmp-isadg:all`                                                                                      |
+| Listar grupo XMP:VRAE                                                         | `exiftool -xmp-vrae:all`                                                                                       |
+| Ver etiquetas específicas de un archivo                                       | `exiftool -creator -title -description -copyright -Photoshop:CopyrightFlag -CaptionWriter file.tif`            |
+| Exportar etiquetas de TIF a CSV                                               | `exiftool -csv -creator -title -description -copyright -Photoshop:CopyrightFlag -CaptionWriter*.tif > log.csv` |
+| Copiar FILENAME a EXIF                                                        | `exiftool "-iptc:caption-abstract<filename" *.jpg`                                                             |
+|                                                                               |                                                                                                                |
 
-### Write XMP > JPG en un folder
-```s
-exiftool -tagsfromfile %d%f.xmp -all:all DIR
-```
 
-### Create XMP sidecar files for all files with extension EXT in a directory tree
-```s
-exiftool -ext TIF -o %d%f.xmp -r /User/xxx/workflow
-```
-
-### Write multiple tags in TIF
-```s
-exiftool -creator=BIZIOLI\ HOS. -title=AR-CIFHA-CDV-PAN-001 -description=PAREJA\ TOMADA\ DE\ LA\ MANO\ -copyright = "2020 CIFHA" 1.tif
-```
-
-### Escribir XMP en TIF
-```s
-exiftool -tagsfromfile CCA-LAN-02-028.xmp -xmp CCA-LAN-02-028.tif
-```
-### Crear los XMP de todos los files
-```s
-exiftool -ext TIF -o %d%f.xmp -r /Volumes/GoogleDrive/Mi\ unidad/_Clientes/CIFHA/workflow
-```
-
-### Escribir XMP:ISADG en CSV
-```s
-exiftool -csv -xmp-isadg:all *.tif > log.csv
-```
-
-### Listar grupo XMP:ISADG - XMP:VRAE
-```s
-exiftool -xmp-isadg:all
-```
-
-```s
-exiftool -xmp-vrae:all
-```
-
-### Ver etiquetas específicas de un archivo
-```s
-exiftool -creator -title -description -copyright -Photoshop:CopyrightFlag -CaptionWriter AR-CIFHA-CDV-AS-1-001.tif
-```
-
-## Etiquetas a CSV
-```s
-exiftool -csv -creator -title -description -copyright -Photoshop:CopyrightFlag -CaptionWriter AR-CIFHA-CDV-AS-1-001.tif > log.csv
-```
-
-## Ver etiquetas de *TIF a CSV
-```s
-exiftool -csv -creator -title -description -copyright -Photoshop:CopyrightFlag -CaptionWriter*.tif > log.csv
-```
-
-## Copiar FILENAME a EXIF
-```s
-exiftool "-iptc:caption-abstract<filename" *.jpg
-```
+## ExifTool FAQ
+https://exiftool.org/faq.html
