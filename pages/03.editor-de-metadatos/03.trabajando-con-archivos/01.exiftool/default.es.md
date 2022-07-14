@@ -23,6 +23,9 @@ facebookenable: true
 menu: ExifTool
 ---
 
+**[ExifTool by Phil Harvey](https://exiftool.org/)**
+ExifTool es una biblioteca de Perl independiente de la plataforma más una aplicación de línea de comandos para leer, escribir y editar metainformación en una amplia variedad de archivos.
+
 # Referencias
 
 | What to do                                                           | Command                                                          |
