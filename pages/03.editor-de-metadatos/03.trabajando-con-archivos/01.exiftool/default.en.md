@@ -53,8 +53,6 @@ Es una biblioteca de Perl, independiente de la plataforma, más una aplicación 
 | What to do                         | Command                                                                                            |
 | ---------------------------------- | -------------------------------------------------------------------------------------------------- |
 | Buscar imágenes sin metadatos EXIF | `exiftool -p '$filename' -r -if '(not $datetimeoriginal) and $filetype eq "JPEG"' . > nodates.txt` |
-| verificar                          | `cat nodates.txt \| wc -l`                                                                         |
-
 
 # Debugging
 
