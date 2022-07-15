@@ -67,6 +67,6 @@ Este editor multiplataforma es una interfaz gráfica para la edición de metadat
 | ![Logo Banco Hipotecario](https://user-images.githubusercontent.com/693328/175657136-2524d56b-a0a8-493d-b96c-d84c7c5ef468.jpg) | ![Logo Techniques](https://user-images.githubusercontent.com/693328/175666054-1ca8f020-2c31-448e-8e9d-b6f2e26811e6.jpg) | ![DO_Logo_Horizontal_Blue](https://user-images.githubusercontent.com/693328/176058383-2fa26c85-a67b-4065-8707-451a0e4daa45.png) |
 
 
-![IMG_20220706_121853](IMG_20220706_121853.jpeg?cropResize=600 "IMG_20220706_121853")
+![IMG_20220706_121853](IMG_20220706_121853.jpeg?cropResize=400 "IMG_20220706_121853")
 
 
