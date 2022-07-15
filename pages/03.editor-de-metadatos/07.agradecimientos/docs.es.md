@@ -56,10 +56,6 @@ Este editor multiplataforma es una interfaz gráfica para la edición de metadat
 ---
 [![](logo-mecenazgo-web.jpg)](https://www.buenosaires.gob.ar/mecenazgo)
 
-![image](logo-mecenazgo-web.jpg?grayscale)
-
-
-
 ## Mecenas
 
 * Banco Hipotecario https://www.hipotecario.com.ar
