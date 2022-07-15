@@ -43,9 +43,6 @@ Este editor multiplataforma es una interfaz gráfica para la edición de metadat
 
 !!!  Web de Proyecto:  [https://museosabiertos.org/proyectos/editor-metadatos-glam](https://museosabiertos.org/proyectos/editor-metadatos-glam))
 
-
-
-
 ## Agradecimientos
 * Martin Gersbach, dirección de proyecto
 * A Harry van der Wolf, desarrollador principal de [jExifToolGUI](https://github.com/hvdwolf/jExifToolGUI), por permitirme 'montarme' sobre su proyecto sin tener que crear mi propio fork y permitir que su proyecto acepte otros espacios de nombres
@@ -59,7 +56,7 @@ Este editor multiplataforma es una interfaz gráfica para la edición de metadat
 ---
 [![](logo-mecenazgo-web.jpg)](https://www.buenosaires.gob.ar/mecenazgo)
 
-![image](logo-mecenazgo-web.jpg?classes=float-right)
+![image](logo-mecenazgo-web.jpg?grayscale)
 
 
 
