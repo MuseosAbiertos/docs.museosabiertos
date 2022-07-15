@@ -57,7 +57,7 @@ Este editor multiplataforma es una interfaz gráfica para la edición de metadat
 [Proyecto-Mecenazgo-2020-Ex19029867.pdf](Proyecto-Mecenazgo-2020-Ex19029867.pdf)
 
 ---
-[![](logo-mecenazgo-web.jpg)](https://www.buenosaires.gob.ar/mecenazgo?cropResize=200,100)
+[![](logo-mecenazgo-web.jpg)](https://www.buenosaires.gob.ar/mecenazgo?classes=float-left)
 
 ## Mecenas
 
