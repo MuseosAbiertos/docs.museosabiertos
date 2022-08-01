@@ -66,7 +66,7 @@ Embedded Metadata, Access to Digital Image Files, Open Content, Open Data, Metad
 * **Martin Gersbach**, project management and development
 * **Harry van der Wolf**, for his invaluable collaboration and creation of the graphical user interface (GUI) and its cross-platform executables
 * **Greg Reser**, for all his support and collaboration on this VRA Core implementation
-* **Phil Harvey**, for his marvelous ExifTool, soon to be 30 years old!
+* **Phil Harvey**, for his excellent ExifTool, soon to be 30 years old!
 * **Patricia Harpring** (Getty Vocabulary Program)
 * **Robin Johnson** (Getty Vocabulary Program)
 * **Jairo Serrano**, SysOp who makes everything work without breaking and fixes it when it does break
