@@ -52,6 +52,12 @@ Ejemplo: <code> python3 mme.py csv/test.csv images/</code>
 -m MAX_DEPTH (--max-depth MAX_DEPTH)
     Profundidad máxima de las sub-carpetas para buscar JPGS. 3 por defecto.
 
+### Extraer metadatos
+Para extraer metadatos de una imagen debes usar ExifTool, que viene provisto en este repositorio
+Ejemplo:
+a. para extraer metadatos VRA Core: <code> exiftool -xmp-vrae:all imagen.tif</code>
+b. para extraer todos los metadatos: <code> exiftool -a -G1 -s imagen.tif</code>
+
 ### GMME (Interfaz gráfica)
 'gmme' es la versión gráfica de mme.py. Es un script de python3 (solamente). No acepta argumentos.
 
