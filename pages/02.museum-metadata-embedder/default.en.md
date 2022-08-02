@@ -53,6 +53,12 @@ Example: <code> python3 mme.py csv/test.csv images/</code>
 -m MAX_DEPTH (--max-depth MAX_DEPTH)
     Maximum depth of subfolders to search for JPGS. 3 by default.
 
+### Extract metadata
+To extract metadata from an image you must use ExifTool, which is provided in this repository
+Example:
+a. to extract VRA Core metadata: <code> exiftool -xmp-vrae:all image.tif</code>
+b. to extract all metadata: <code> exiftool -a -G1 -s image.tif</code>
+
 ### GMME (GUI)
 gmme' is the graphical version of mme.py. It is a python3 script (only). It does not accept arguments.
 
