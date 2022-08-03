@@ -32,15 +32,15 @@ facebookenable: true
 - **ExifTool** 	https://exiftool.org
   - No download is required. ExifTool is included with **MME**.
 
-- Perl https://www.activestate.com/products/perl/
+- **Perl** https://www.activestate.com/products/perl/
   - Download and place in the same directory as the "mme" folder
 
-- Python 3 https://www.python.org/downloads/
+- **Python 3** https://www.python.org/downloads/
 
-- colorama https://pypi.org/project/colorama/
+- **colorama** https://pypi.org/project/colorama/
   - Command line: <code>pip install colorama</code>
 
-- pysimplegui https://www.pysimplegui.org/en/latest/
+- **pysimplegui** https://www.pysimplegui.org/en/latest/
   - Command line: <code>pip install pysimplegui</code>
 
 ## MacOS
@@ -72,15 +72,15 @@ facebookenable: true
 - **ExifTool** 	https://exiftool.org
   - Download the zip for windows, unzip and copy exiftool(-k).exe inside the "mme" folder and rename it exiftool.exe 
 
-- Perl 
+- **Perl** 
   - **exiftool.exe** is a perl compiled (compressed) executable. You don't need install perl for ExifTool
 
-- Python 3 https://www.python.org/downloads/
+- **Python 3** https://www.python.org/downloads/
 
-- colorama https://pypi.org/project/colorama/
+- **colorama** https://pypi.org/project/colorama/
   - Command line: <code>pip install colorama</code>
 
-- pysimplegui https://www.pysimplegui.org/en/latest/
+- **pysimplegui** https://www.pysimplegui.org/en/latest/
   - Command line: <code>pip install pysimplegui</code>
 
 
