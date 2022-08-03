@@ -1,5 +1,5 @@
 ---
-title: Installation
+title: Instalación
 hide_hypothesis: false
 twitterenable: true
 twittercardoptions: summary
@@ -22,18 +22,18 @@ restaurant:
 facebookenable: true
 ---
 
-# Install MME & GMME
+# Instalar MME y GMME
 
 ## Linux
 
 - **MME & GMME** https://github.com/MuseosAbiertos/Museum-Metadata-Embedder
-  - Clone the repository or download the .zip file to the folder you want to work in and rename it "mme"
+  - Clona el repositorio o descarga el archivo .zip en la carpeta que desees trabajar y renómbrala "mme"
 
 - **ExifTool** 	https://exiftool.org
-  - No download is required. ExifTool is included with **MME**.
+  - No es necesario descargarlo. ExifTool está incluido en **MME**.
 
 - Perl https://www.activestate.com/products/perl/
-  - Download and place in the same directory as the "mme" folder
+  - Descárgalo en la misma carpeta que has nombrado "mme"
 
 - Python 3 https://www.python.org/downloads/
   - [I got an error after installing from https://www.python.org/downloads/
