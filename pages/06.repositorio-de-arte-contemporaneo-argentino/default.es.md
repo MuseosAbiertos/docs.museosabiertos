@@ -28,15 +28,12 @@ routes:
         - /repositorio-de-artistas-contemporaneos-argentinos
 ---
 
-Este repositorio abierto tiene como objetivo ofrecer una plataforma donde poder consultar todos los datos relativos a la obra de artistas contemporáneos. En el se podrá consultar la obra, la biografía, las fechas y los sitios donde se han expuesto.
+Este repositorio abierto tiene por fin ofrecer una plataforma donde conservar a largo plazo las colecciones, catálogos y archivos de obras de arte como también los datos y metadatos normalizados de artistas argentinos según los estándares VRA Core y Dublin Core. 
 
-Actualmente cuenta con:
+Actualmente, menos del 5% de los museos argentinos (y latinoamericanos) tienen su cataálogo online, normalizado y estandarizado de sus obras, en parte debido a la complejidad técnica y los costos relacionados. Este proyecto pretende sentar las bases metodológicas para una rápida y económica implementación permitiendo que pequeñas instituciones publiquen su catálogo online
 
-* 10.850 Artistas (538 Artistas con 2060 obras)
-* 2.700 Galerías
-* 28.800 Muestras (desde el año 2003)
+A agosto de 2022, cuenta con 2060 obras pertenecientes a 538 artistas
 
-Las fuentes principales utilizadas son la "Colección Bruzzone" y la "[Revista Ramona](https://ramona.org.ar/)"
 
 En un futuro, ofrecerá una interfaz SPARQL, que permitirá realizar consultas sobre datos almacenados en RDF mediante el lenguaje SPARQL, ofreciendo así una red de [datos abiertos vinculados](https://www.w3c.es/Eventos/2013/Uruguay/Presentaciones/W3CdayMVD_LOD_LorenaEtcheverry2013.pdf) (LOD).
 
