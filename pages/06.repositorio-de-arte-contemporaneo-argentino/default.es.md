@@ -34,6 +34,10 @@ Actualmente, menos del 5% de los museos argentinos (y latinoamericanos) tienen s
 
 En agosto de 2022 cuenta con 2060 obras pertenecientes a 538 artistas.
 
+Sub tareas:
+* GLAM Master Metadata Spreadsheet
+* GLAM Image Watermark
+* GLAM ETL
 
 En un futuro, ofrecerá una interfaz SPARQL, que permitirá realizar consultas sobre datos almacenados en RDF mediante el lenguaje SPARQL, ofreciendo así una red de [datos abiertos vinculados](https://www.w3c.es/Eventos/2013/Uruguay/Presentaciones/W3CdayMVD_LOD_LorenaEtcheverry2013.pdf) (LOD).
 
