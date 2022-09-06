@@ -31,9 +31,10 @@ media_order: logotipo-do-github.png
 
 Este repositorio abierto tiene por fin ofrecer una plataforma donde conservar a largo plazo las colecciones, catálogos y archivos de obras de arte como también los datos y metadatos normalizados de artistas argentinos según los estándares VRA Core y Dublin Core. 
 
-![logotipo-do-github](logotipo-do-github.png "logotipo-do-github") [https://github.com/MuseosAbiertos/Argentine-Contemporary-Art-Repository/](https://github.com/MuseosAbiertos/Argentine-Contemporary-Art-Repository/)
+Web:
+GitHub: [https://github.com/MuseosAbiertos/Argentine-Contemporary-Art-Repository/](https://github.com/MuseosAbiertos/Argentine-Contemporary-Art-Repository/)
 
-
+Contexto
 Actualmente, menos del 5% de los museos argentinos (y latinoamericanos) tienen su catálogo online, normalizado y estandarizado de sus obras, en parte debido a la complejidad técnica y los costos relacionados. Este proyecto pretende sentar las bases metodológicas para una rápida y económica implementación permitiendo que pequeñas instituciones publiquen su catálogo online
 
 En agosto de 2022 cuenta con 2060 obras pertenecientes a 538 artistas.
@@ -43,9 +44,9 @@ Sub tareas:
 * GLAM Image Watermark
 * GLAM ETL
 
-En un futuro, ofrecerá una interfaz SPARQL, que permitirá realizar consultas sobre datos almacenados en RDF mediante el lenguaje SPARQL, ofreciendo así una red de [datos abiertos vinculados](https://www.w3c.es/Eventos/2013/Uruguay/Presentaciones/W3CdayMVD_LOD_LorenaEtcheverry2013.pdf) (LOD).
+En un futuro se ofrecerá una interfaz SPARQL, que permitirá realizar consultas sobre datos almacenados en RDF mediante el lenguaje SPARQL, ofreciendo así una red de [datos abiertos vinculados](https://www.w3c.es/Eventos/2013/Uruguay/Presentaciones/W3CdayMVD_LOD_LorenaEtcheverry2013.pdf) (LOD).
 
-Este repositorio es, en efecto, el [Producto Viable Mínimo](https://es.wikipedia.org/wiki/Producto_viable_m%C3%ADnimo) del [CMS para Colecciones Open Content](https://docs.museosabiertos.org/cms-para-colecciones-open-content)
+Este repositorio es, en efecto, el Producto Viable Mínimo del [CMS para Colecciones Open Content](https://docs.museosabiertos.org/cms-para-colecciones-open-content)
 
 
 ## Agradecimientos
