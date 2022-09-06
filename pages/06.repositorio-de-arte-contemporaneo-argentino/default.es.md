@@ -26,9 +26,13 @@ menu: 'Arte Contemporáneo Argentino'
 routes:
     aliases:
         - /repositorio-de-artistas-contemporaneos-argentinos
+media_order: logotipo-do-github.png
 ---
 
 Este repositorio abierto tiene por fin ofrecer una plataforma donde conservar a largo plazo las colecciones, catálogos y archivos de obras de arte como también los datos y metadatos normalizados de artistas argentinos según los estándares VRA Core y Dublin Core. 
+
+![logotipo-do-github](logotipo-do-github.png "logotipo-do-github") [https://github.com/MuseosAbiertos/Argentine-Contemporary-Art-Repository/](https://github.com/MuseosAbiertos/Argentine-Contemporary-Art-Repository/)
+
 
 Actualmente, menos del 5% de los museos argentinos (y latinoamericanos) tienen su catálogo online, normalizado y estandarizado de sus obras, en parte debido a la complejidad técnica y los costos relacionados. Este proyecto pretende sentar las bases metodológicas para una rápida y económica implementación permitiendo que pequeñas instituciones publiquen su catálogo online
 
