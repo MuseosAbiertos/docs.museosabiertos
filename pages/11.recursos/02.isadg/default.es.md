@@ -3,6 +3,26 @@ title: 'ISAD-G > XMP'
 media_order: AR-CIFHA-CDV-AS-1-002.jpg
 sitemap:
     ignore: false
+hide_hypothesis: false
+twitterenable: true
+twittercardoptions: summary
+articleenabled: false
+musiceventenabled: false
+orgaenabled: false
+orga:
+    ratingValue: 2.5
+orgaratingenabled: false
+eventenabled: false
+personenabled: false
+musicalbumenabled: false
+productenabled: false
+product:
+    ratingValue: 2.5
+restaurantenabled: false
+restaurant:
+    acceptsReservations: 'yes'
+    priceRange: $
+facebookenable: true
 ---
 
 <table class="table table-bordered table-hover table-condensed">
@@ -184,8 +204,3 @@ sitemap:
 !!! Artículo: 
 !!! [EAD y EAC: Aplicación de metadatos en la descripción de colecciones archivísticas](https://www.researchgate.net/publication/322869915_EAD_y_EAC_Aplicacion_de_metadatos_en_la_descripcion_de_colecciones_archivisticas)
 
-
-
-
-![](AR-CIFHA-CDV-AS-1-002.jpg)
-![](https://docs.museosabiertos.org/user/pages/04.recursos/01.isadg/AR-CIFHA-CDV-AS-1-002.jpg)
