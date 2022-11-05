@@ -6,12 +6,13 @@ twitterenable: true
 twittercardoptions: summary
 articleenabled: false
 musiceventenabled: false
-orgaenabled: false
+orgaenabled: true
 orga:
     ratingValue: 2.5
+    name: 'Museos Abiertos'
 orgaratingenabled: false
 eventenabled: false
-personenabled: false
+personenabled: true
 musicalbumenabled: false
 productenabled: false
 product:
