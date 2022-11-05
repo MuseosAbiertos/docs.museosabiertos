@@ -23,6 +23,8 @@ restaurant:
     priceRange: $
 facebookenable: true
 external_links: {  }
+metadata:
+    metadata: ''
 ---
 
 ## [GLAM Metadata](https://docs.google.com/spreadsheets/d/1lgJ7bgF3YWYn6RpQe6xPpc2lPtMmsKxhdoTDaipEz4M/edit#gid=1070734913)
