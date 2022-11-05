@@ -23,6 +23,11 @@ restaurant:
     priceRange: $
 facebookenable: true
 external_links: {  }
+taxonomy:
+    category:
+        - docs
+    tag:
+        - metadata
 ---
 
 ## [GLAM Metadata](https://docs.google.com/spreadsheets/d/1lgJ7bgF3YWYn6RpQe6xPpc2lPtMmsKxhdoTDaipEz4M/edit#gid=1070734913)
