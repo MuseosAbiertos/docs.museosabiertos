@@ -21,10 +21,12 @@ restaurant:
     acceptsReservations: 'yes'
     priceRange: $
 facebookenable: true
+external_links:
+    no_follow: false
 ---
 
 ## [GLAM Metadata](https://docs.google.com/spreadsheets/d/1lgJ7bgF3YWYn6RpQe6xPpc2lPtMmsKxhdoTDaipEz4M/edit#gid=1070734913)
-Author: [Martin Gersbach](mailto:mg@museosabiertos.org), [Museos Abiertos](http://museosabiertos.org/)
+Author: [Martin Gersbach](mailto:mg@museosabiertos.org), [Museos Abiertos](https://museosabiertos.org/)
 
 ## [A proposed crosswalk between Exif, IPTC, XMP and established Visual Resources schema](http://metadatadeluxe.pbworks.com/w/page/20792227/Crosswalk)
 Author: [Greg Reser](mailto:grese@ucsd.edu) 
