@@ -17,8 +17,6 @@ product:
     ratingValue: 2.5
 restaurantenabled: false
 restaurant:
-    acceptsReservations: 'yes'
-    priceRange: $
 facebookenable: true
 external_links:
     no_follow: true
