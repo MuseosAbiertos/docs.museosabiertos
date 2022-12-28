@@ -27,6 +27,7 @@ restaurant:
     priceRange: $
 facebookenable: true
 hide_hypothesis: false
+published: true
 ---
 
 ### Quizá encuentres aquí algún material que te interese ;-)
