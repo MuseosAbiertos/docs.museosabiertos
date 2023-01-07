@@ -1,7 +1,7 @@
 ---
 title: 'Metadata Crosswalk XXX'
 hide_hypothesis: false
-menu: 'Metadata Crosswalk'
+menu: 'Metadata Crosswalk XXX'
 twitterenable: true
 twittercardoptions: summary
 articleenabled: false
