@@ -21,9 +21,11 @@ restaurant:
     acceptsReservations: 'yes'
     priceRange: $
 facebookenable: true
+media_order: Metadata_Diversity_An_overview_on_Metada.pdf
 ---
 
 Fuente: https://www.photometadata.org/META-Resources-Metadata-History
+Rerferencias: [Metadata_Diversity_An_overview_on_Metada.pdf](Metadata_Diversity_An_overview_on_Metada.pdf)
 
 * Los metadatos son esenciales para identificar y rastrear imágenes digitales.
 * Los metadatos de propiedad nunca deben eliminarse.
