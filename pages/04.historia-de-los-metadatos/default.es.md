@@ -25,7 +25,6 @@ media_order: Metadata_Diversity_An_overview_on_Metada.pdf
 ---
 
 Fuente: https://www.photometadata.org/META-Resources-Metadata-History
-Rerferencias: [Metadata_Diversity_An_overview_on_Metada.pdf](Metadata_Diversity_An_overview_on_Metada.pdf)
 
 * Los metadatos son esenciales para identificar y rastrear imágenes digitales.
 * Los metadatos de propiedad nunca deben eliminarse.
@@ -134,3 +133,6 @@ Al final, los metadatos conectan al creador y al espectador de la imagen, con un
 * Febrero de 2002: La versión 2.2 agregó información a la versión 2.1 para mejorar el acabado de impresión
 * Septiembre de 2003: La versión 2.21 añadió espacio de color opcional (Adobe RGB)
 _Fuente: Hiroshi Maeno, Canon Inc. 7 de junio de 2007, First International Photo Metadata Conference, Florencia, Italia._
+
+**Rerferencias**
+* [Metadata_Diversity_An_overview_on_Metada.pdf](Metadata_Diversity_An_overview_on_Metada.pdf)
